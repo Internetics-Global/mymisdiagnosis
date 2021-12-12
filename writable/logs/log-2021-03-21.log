@@ -1,0 +1,234 @@
+CRITICAL - 2021-03-21 20:42:46 --> Class 'IonAuth\Controllers\Auth' not found
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(562): include_once()
+#1 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('auth')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('auth')
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-21 20:44:19 --> Class 'ThirdParty\IonAuth\Controllers\Auth' not found
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(562): include_once()
+#1 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('auth')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('auth')
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-21 20:45:06 --> syntax error, unexpected '-', expecting '{'
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('auth')
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('auth')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-21 20:45:52 --> Class 'IonAuth\Controllers\Auth' not found
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(562): include_once()
+#1 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('auth')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('auth')
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-21 20:46:52 --> Class 'ThirdParty\IonAuth\Controllers\Auth' not found
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(562): include_once()
+#1 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('auth')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('auth')
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-21 20:47:16 --> Class 'App\Controllers\IonAuth\Controllers\Auth' not found
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(562): include_once()
+#1 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('auth')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('auth')
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-21 20:50:05 --> Class 'IonAuth\Controllers\Auth' not found
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(562): include_once()
+#1 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('auth')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('auth')
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-21 20:50:46 --> Class 'ThirdParty\IonAuth\Controllers\Auth' not found
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(562): include_once()
+#1 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('auth')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('auth')
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-21 20:51:35 --> Class 'ThirdParty\IonAuth\Controllers\Auth' not found
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(562): include_once()
+#1 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('auth')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('auth')
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-21 20:52:22 --> Class 'ThirdParty\IonAuth\Controllers\Auth' not found
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(562): include_once()
+#1 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('auth')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('auth')
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-21 20:52:42 --> Class 'ThirdParty\IonAuth\Controllers\Auth' not found
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(562): include_once()
+#1 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('auth')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('auth')
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-21 20:53:14 --> Class 'IonAuth\Controllers\Auth' not found
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(562): include_once()
+#1 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('auth')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('auth')
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-21 20:59:49 --> Class 'IonAuth\Controllers\Auth' not found
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(562): include_once()
+#1 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('auth')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('auth')
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-21 21:01:03 --> Class 'IonAuth\Controllers\Auth' not found
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(562): include_once()
+#1 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('auth')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('auth')
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-21 21:02:21 --> Class 'IonAuth\Config\IonAuthx' not found
+#0 /home/wwwinte/public_html/screening/system/Autoloader/Autoloader.php(294): include_once()
+#1 /home/wwwinte/public_html/screening/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/home/wwwinte/p...')
+#2 /home/wwwinte/public_html/screening/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\IonAuth')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\IonAuth')
+#4 [internal function]: spl_autoload_call('Config\\IonAuth')
+#5 /home/wwwinte/public_html/screening/system/Config/Factories.php(144): class_exists('Config\\IonAuth')
+#6 /home/wwwinte/public_html/screening/system/Config/Factories.php(109): CodeIgniter\Config\Factories::locateClass(Array, 'IonAuth')
+#7 /home/wwwinte/public_html/screening/system/Common.php(225): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#8 /home/wwwinte/public_html/screening/app/ThirdParty/IonAuth/Libraries/IonAuth.php(60): config('IonAuth')
+#9 /home/wwwinte/public_html/screening/app/ThirdParty/IonAuth/Controllers/Auth.php(73): IonAuth\Libraries\IonAuth->__construct()
+#10 /home/wwwinte/public_html/screening/system/CodeIgniter.php(908): IonAuth\Controllers\Auth->__construct()
+#11 /home/wwwinte/public_html/screening/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#12 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2021-03-21 21:30:53 --> mysqli_sql_exception: Table 'wwwinte_screening.users' doesn't exist in /home/wwwinte/public_html/screening/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/wwwinte/public_html/screening/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT `email`,...')
+#1 /home/wwwinte/public_html/screening/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `email`,...')
+#2 /home/wwwinte/public_html/screening/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `email`,...')
+#3 /home/wwwinte/public_html/screening/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `email`,...', Array, false)
+#4 /home/wwwinte/public_html/screening/app/ThirdParty/IonAuth/Models/IonAuthModel.php(892): CodeIgniter\Database\BaseBuilder->get()
+#5 [internal function]: IonAuth\Models\IonAuthModel->login('dfdsf', 'sdfsdf', false)
+#6 /home/wwwinte/public_html/screening/app/ThirdParty/IonAuth/Libraries/IonAuth.php(104): call_user_func_array(Array, Array)
+#7 /home/wwwinte/public_html/screening/app/ThirdParty/IonAuth/Controllers/Auth.php(138): IonAuth\Libraries\IonAuth->__call('login', Array)
+#8 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): IonAuth\Controllers\Auth->login()
+#9 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-03-21 21:30:53 --> Table 'wwwinte_screening.users' doesn't exist
+#0 /home/wwwinte/public_html/screening/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT `email`,...')
+#1 /home/wwwinte/public_html/screening/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `email`,...')
+#2 /home/wwwinte/public_html/screening/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `email`,...')
+#3 /home/wwwinte/public_html/screening/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `email`,...', Array, false)
+#4 /home/wwwinte/public_html/screening/app/ThirdParty/IonAuth/Models/IonAuthModel.php(892): CodeIgniter\Database\BaseBuilder->get()
+#5 [internal function]: IonAuth\Models\IonAuthModel->login('dfdsf', 'sdfsdf', false)
+#6 /home/wwwinte/public_html/screening/app/ThirdParty/IonAuth/Libraries/IonAuth.php(104): call_user_func_array(Array, Array)
+#7 /home/wwwinte/public_html/screening/app/ThirdParty/IonAuth/Controllers/Auth.php(138): IonAuth\Libraries\IonAuth->__call('login', Array)
+#8 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): IonAuth\Controllers\Auth->login()
+#9 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-03-21 22:19:44 --> syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('examples/custom...')
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('examples/custom...')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-21 22:21:50 --> Undefined property: CodeIgniter\Router\Router::$load
+#0 /home/wwwinte/public_html/screening/app/Controllers/Examples.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/wwwinte/p...', 5, Array)
+#1 /home/wwwinte/public_html/screening/system/Router/Router.php(562): include_once('/home/wwwinte/p...')
+#2 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('examples/custom...')
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('examples/custom...')
+#4 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-21 22:25:48 --> Undefined property: App\Controllers\Examples::$ionAuth
+#0 /home/wwwinte/public_html/screening/app/Controllers/Examples.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/wwwinte/p...', 22, Array)
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Examples->customers_management()
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-21 22:26:12 --> syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('examples/custom...')
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('examples/custom...')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-21 22:36:16 --> syntax error, unexpected '$ionAuth' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('examples/custom...')
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('examples/custom...')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-21 23:28:40 --> Invalid file: auth/login.php
+#0 /home/wwwinte/public_html/screening/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+#1 /home/wwwinte/public_html/screening/system/Common.php(1217): CodeIgniter\View\View->render('auth/login', Array, true)
+#2 /home/wwwinte/public_html/screening/app/ThirdParty/IonAuth/Controllers/Auth.php(923): view('auth/login', Array)
+#3 /home/wwwinte/public_html/screening/app/ThirdParty/IonAuth/Controllers/Auth.php(173): IonAuth\Controllers\Auth->renderPage('auth/login', Array)
+#4 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): IonAuth\Controllers\Auth->login()
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-21 23:28:56 --> Invalid file: example/login.php
+#0 /home/wwwinte/public_html/screening/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('example/login.p...')
+#1 /home/wwwinte/public_html/screening/system/Common.php(1217): CodeIgniter\View\View->render('example/login', Array, true)
+#2 /home/wwwinte/public_html/screening/app/ThirdParty/IonAuth/Controllers/Auth.php(923): view('example/login', Array)
+#3 /home/wwwinte/public_html/screening/app/ThirdParty/IonAuth/Controllers/Auth.php(173): IonAuth\Controllers\Auth->renderPage('example/login', Array)
+#4 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): IonAuth\Controllers\Auth->login()
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-21 23:53:44 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('auth/login')
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('auth/login')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-21 23:54:19 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('auth/login')
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('auth/login')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-21 23:59:18 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('auth/login')
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('auth/login')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

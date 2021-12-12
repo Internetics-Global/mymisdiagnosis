@@ -1,0 +1,29 @@
+ERROR - 2021-04-07 16:41:44 --> mysqli_sql_exception: Unknown column 'not_used' in 'field list' in /home/wwwinte/public_html/screening/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/wwwinte/public_html/screening/system/Database/MySQLi/Connection.php(314): mysqli->query('UPDATE `screeni...')
+#1 /home/wwwinte/public_html/screening/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `screeni...')
+#2 /home/wwwinte/public_html/screening/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `screeni...')
+#3 /home/wwwinte/public_html/screening/system/Database/BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `screeni...', Array, false)
+#4 /home/wwwinte/public_html/screening/app/Models/GroceryCrudModel.php(486): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1102): App\Models\GroceryCrudModel->db_update(Array, '1012')
+#6 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4570): App\Libraries\grocery_CRUD_Model_Driver->db_update(Object(stdClass))
+#7 /home/wwwinte/public_html/screening/app/Controllers/Product.php(263): App\Libraries\GroceryCrud->render()
+#8 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('update', '1012')
+#9 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#10 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-04-07 16:41:44 --> Unknown column 'not_used' in 'field list'
+#0 /home/wwwinte/public_html/screening/system/Database/MySQLi/Connection.php(314): mysqli->query('UPDATE `screeni...')
+#1 /home/wwwinte/public_html/screening/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `screeni...')
+#2 /home/wwwinte/public_html/screening/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `screeni...')
+#3 /home/wwwinte/public_html/screening/system/Database/BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `screeni...', Array, false)
+#4 /home/wwwinte/public_html/screening/app/Models/GroceryCrudModel.php(486): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1102): App\Models\GroceryCrudModel->db_update(Array, '1012')
+#6 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4570): App\Libraries\grocery_CRUD_Model_Driver->db_update(Object(stdClass))
+#7 /home/wwwinte/public_html/screening/app/Controllers/Product.php(263): App\Libraries\GroceryCrud->render()
+#8 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('update', '1012')
+#9 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#10 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}

@@ -3,5 +3,5 @@
   "localPath" : ".",
   "remotePath" : "\/home\/mymisdiagnosis\/public_html",
   "server" : "MyMisdiagnosis",
-  "usesPublishing" : false
+  "usesPublishing" : true
 }

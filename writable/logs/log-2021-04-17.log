@@ -1,0 +1,119 @@
+CRITICAL - 2021-04-17 00:04:46 --> syntax error, unexpected ''){ echo '' (T_CONSTANT_ENCAPSED_STRING)
+#0 /home/interne1/public_html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1850): App\Libraries\grocery_CRUD_Layout->_theme_view('edit.php', Array)
+#1 /home/interne1/public_html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4532): App\Libraries\grocery_CRUD_Layout->showEditForm(Object(stdClass))
+#2 /home/interne1/public_html/mymisdiagnosis/app/Controllers/Product.php(203): App\Libraries\GroceryCrud->render()
+#3 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Product->cards('edit', '5')
+#4 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#5 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/interne1/public_html/mymisdiagnosis/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-17 00:10:08 --> syntax error, unexpected end of file
+#0 /home/interne1/public_html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1850): App\Libraries\grocery_CRUD_Layout->_theme_view('edit.php', Array)
+#1 /home/interne1/public_html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4532): App\Libraries\grocery_CRUD_Layout->showEditForm(Object(stdClass))
+#2 /home/interne1/public_html/mymisdiagnosis/app/Controllers/Product.php(203): App\Libraries\GroceryCrud->render()
+#3 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Product->cards('edit', '5')
+#4 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#5 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/interne1/public_html/mymisdiagnosis/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-17 00:10:41 --> syntax error, unexpected end of file
+#0 /home/interne1/public_html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1850): App\Libraries\grocery_CRUD_Layout->_theme_view('edit.php', Array)
+#1 /home/interne1/public_html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4532): App\Libraries\grocery_CRUD_Layout->showEditForm(Object(stdClass))
+#2 /home/interne1/public_html/mymisdiagnosis/app/Controllers/Product.php(203): App\Libraries\GroceryCrud->render()
+#3 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Product->cards('edit', '5')
+#4 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#5 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/interne1/public_html/mymisdiagnosis/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-17 02:33:05 --> syntax error, unexpected end of file
+#0 /home/interne1/public_html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1850): App\Libraries\grocery_CRUD_Layout->_theme_view('edit.php', Array)
+#1 /home/interne1/public_html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4532): App\Libraries\grocery_CRUD_Layout->showEditForm(Object(stdClass))
+#2 /home/interne1/public_html/mymisdiagnosis/app/Controllers/Product.php(117): App\Libraries\GroceryCrud->render()
+#3 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Product->packs('edit', '1')
+#4 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#5 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/interne1/public_html/mymisdiagnosis/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-17 02:33:49 --> syntax error, unexpected end of file
+#0 /home/interne1/public_html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1850): App\Libraries\grocery_CRUD_Layout->_theme_view('edit.php', Array)
+#1 /home/interne1/public_html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4532): App\Libraries\grocery_CRUD_Layout->showEditForm(Object(stdClass))
+#2 /home/interne1/public_html/mymisdiagnosis/app/Controllers/Product.php(117): App\Libraries\GroceryCrud->render()
+#3 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Product->packs('edit', '1')
+#4 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#5 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/interne1/public_html/mymisdiagnosis/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-17 02:43:04 --> syntax error, unexpected 'if' (T_IF), expecting ',' or ';'
+#0 /home/interne1/public_html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1850): App\Libraries\grocery_CRUD_Layout->_theme_view('edit.php', Array)
+#1 /home/interne1/public_html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4532): App\Libraries\grocery_CRUD_Layout->showEditForm(Object(stdClass))
+#2 /home/interne1/public_html/mymisdiagnosis/app/Controllers/Product.php(117): App\Libraries\GroceryCrud->render()
+#3 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Product->packs('edit', '1')
+#4 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#5 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/interne1/public_html/mymisdiagnosis/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-17 02:43:42 --> syntax error, unexpected end of file
+#0 /home/interne1/public_html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1850): App\Libraries\grocery_CRUD_Layout->_theme_view('edit.php', Array)
+#1 /home/interne1/public_html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4532): App\Libraries\grocery_CRUD_Layout->showEditForm(Object(stdClass))
+#2 /home/interne1/public_html/mymisdiagnosis/app/Controllers/Product.php(117): App\Libraries\GroceryCrud->render()
+#3 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Product->packs('edit', '1')
+#4 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#5 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/interne1/public_html/mymisdiagnosis/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-17 03:15:42 --> Cannot use empty array elements in arrays
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-17 03:16:58 --> Array to string conversion
+#0 /home/interne1/public_html/mymisdiagnosis/public/assets/grocery_crud/themes/internetics/views/edit.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/home/interne1/...', 84, Array)
+#1 /home/interne1/public_html/mymisdiagnosis/app/Libraries/GroceryCrud.php(2801): include('/home/interne1/...')
+#2 /home/interne1/public_html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1850): App\Libraries\grocery_CRUD_Layout->_theme_view('edit.php', Array)
+#3 /home/interne1/public_html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4532): App\Libraries\grocery_CRUD_Layout->showEditForm(Object(stdClass))
+#4 /home/interne1/public_html/mymisdiagnosis/app/Controllers/Product.php(117): App\Libraries\GroceryCrud->render()
+#5 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Product->packs('edit', '1')
+#6 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/interne1/public_html/mymisdiagnosis/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-17 03:18:09 --> syntax error, unexpected 'if' (T_IF), expecting ',' or ';'
+#0 /home/interne1/public_html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1850): App\Libraries\grocery_CRUD_Layout->_theme_view('edit.php', Array)
+#1 /home/interne1/public_html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4532): App\Libraries\grocery_CRUD_Layout->showEditForm(Object(stdClass))
+#2 /home/interne1/public_html/mymisdiagnosis/app/Controllers/Product.php(117): App\Libraries\GroceryCrud->render()
+#3 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Product->packs('edit', '1')
+#4 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#5 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/interne1/public_html/mymisdiagnosis/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-17 03:18:18 --> Undefined offset: 0
+#0 /home/interne1/public_html/mymisdiagnosis/public/assets/grocery_crud/themes/internetics/views/edit.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/interne1/...', 84, Array)
+#1 /home/interne1/public_html/mymisdiagnosis/app/Libraries/GroceryCrud.php(2801): include('/home/interne1/...')
+#2 /home/interne1/public_html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1850): App\Libraries\grocery_CRUD_Layout->_theme_view('edit.php', Array)
+#3 /home/interne1/public_html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4532): App\Libraries\grocery_CRUD_Layout->showEditForm(Object(stdClass))
+#4 /home/interne1/public_html/mymisdiagnosis/app/Controllers/Product.php(117): App\Libraries\GroceryCrud->render()
+#5 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Product->packs('edit', '1')
+#6 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/interne1/public_html/mymisdiagnosis/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-17 03:19:19 --> Use of undefined constant numbers - assumed 'numbers' (this will throw an Error in a future version of PHP)
+#0 /home/interne1/public_html/mymisdiagnosis/public/assets/grocery_crud/themes/internetics/views/edit.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/home/interne1/...', 84, Array)
+#1 /home/interne1/public_html/mymisdiagnosis/app/Libraries/GroceryCrud.php(2801): include('/home/interne1/...')
+#2 /home/interne1/public_html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1850): App\Libraries\grocery_CRUD_Layout->_theme_view('edit.php', Array)
+#3 /home/interne1/public_html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4532): App\Libraries\grocery_CRUD_Layout->showEditForm(Object(stdClass))
+#4 /home/interne1/public_html/mymisdiagnosis/app/Controllers/Product.php(117): App\Libraries\GroceryCrud->render()
+#5 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Product->packs('edit', '1')
+#6 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/interne1/public_html/mymisdiagnosis/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-17 03:21:01 --> Undefined variable: fruits
+#0 /home/interne1/public_html/mymisdiagnosis/public/assets/grocery_crud/themes/internetics/views/edit.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/interne1/...', 103, Array)
+#1 /home/interne1/public_html/mymisdiagnosis/app/Libraries/GroceryCrud.php(2801): include('/home/interne1/...')
+#2 /home/interne1/public_html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1850): App\Libraries\grocery_CRUD_Layout->_theme_view('edit.php', Array)
+#3 /home/interne1/public_html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4532): App\Libraries\grocery_CRUD_Layout->showEditForm(Object(stdClass))
+#4 /home/interne1/public_html/mymisdiagnosis/app/Controllers/Product.php(117): App\Libraries\GroceryCrud->render()
+#5 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Product->packs('edit', '1')
+#6 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/interne1/public_html/mymisdiagnosis/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,595 @@
+CRITICAL - 2021-03-30 01:14:02 --> Invalid argument supplied for foreach()
+#0 /home/wwwinte/public_html/screening/app/Libraries/InterneticsLibrary.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/wwwinte/p...', 106, Array)
+#1 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(231): App\Libraries\InterneticsLibrary->get_relation_n_n_input(Object(stdClass), Array)
+#2 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(2591): App\Libraries\grocery_CRUD_Field_Types->get_field_input(Object(stdClass), Array)
+#3 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1832): App\Libraries\grocery_CRUD_Layout->get_edit_input_fields(Object(stdClass))
+#4 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4532): App\Libraries\grocery_CRUD_Layout->showEditForm(Object(stdClass))
+#5 /home/wwwinte/public_html/screening/app/Controllers/Product.php(189): App\Libraries\GroceryCrud->render()
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('edit', '1001')
+#7 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-03-30 01:21:10 --> Invalid argument supplied for foreach()
+#0 /home/wwwinte/public_html/screening/app/Libraries/InterneticsLibrary.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/wwwinte/p...', 106, Array)
+#1 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(231): App\Libraries\InterneticsLibrary->get_relation_n_n_input(Object(stdClass), Array)
+#2 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(2591): App\Libraries\grocery_CRUD_Field_Types->get_field_input(Object(stdClass), Array)
+#3 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1832): App\Libraries\grocery_CRUD_Layout->get_edit_input_fields(Object(stdClass))
+#4 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4532): App\Libraries\grocery_CRUD_Layout->showEditForm(Object(stdClass))
+#5 /home/wwwinte/public_html/screening/app/Controllers/Product.php(189): App\Libraries\GroceryCrud->render()
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('edit', '1001')
+#7 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-03-30 01:21:40 --> Array to string conversion
+#0 /home/wwwinte/public_html/screening/app/Libraries/InterneticsLibrary.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/home/wwwinte/p...', 106, Array)
+#1 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(231): App\Libraries\InterneticsLibrary->get_relation_n_n_input(Object(stdClass), Array)
+#2 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(2591): App\Libraries\grocery_CRUD_Field_Types->get_field_input(Object(stdClass), Array)
+#3 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1832): App\Libraries\grocery_CRUD_Layout->get_edit_input_fields(Object(stdClass))
+#4 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4532): App\Libraries\grocery_CRUD_Layout->showEditForm(Object(stdClass))
+#5 /home/wwwinte/public_html/screening/app/Controllers/Product.php(189): App\Libraries\GroceryCrud->render()
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('edit', '1001')
+#7 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-03-30 01:33:31 --> The table name does not exist. Please check you database and try again.
+#0 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#1 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#2 /home/wwwinte/public_html/screening/app/Controllers/Product.php(209): App\Libraries\GroceryCrud->render()
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->available_equipment_1()
+#4 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-30 01:40:44 --> Call to undefined method App\Libraries\InterneticsLibrary::setFieldUpload()
+#0 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->items_available_equipment_1('edit', '2')
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-30 01:40:48 --> Call to undefined method App\Libraries\InterneticsLibrary::setFieldUpload()
+#0 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->items_available_equipment_1('edit', '2')
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-30 01:46:43 --> Call to undefined method App\Libraries\InterneticsLibrary::setFieldBlob()
+#0 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->items_available_equipment_1('edit', '2')
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-30 01:48:30 --> syntax error, unexpected 'use' (T_USE)
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('product/items_a...')
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('product/items_a...')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-30 01:49:17 --> Call to undefined method App\Libraries\InterneticsLibrary::setFieldBlob()
+#0 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->items_available_equipment_1('edit', '2')
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-30 14:28:01 --> Undefined variable: mymobilitylevel
+#0 /home/wwwinte/public_html/screening/public/assets/grocery_crud/themes/internetics/views/edit.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/wwwinte/p...', 92, Array)
+#1 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(2801): include('/home/wwwinte/p...')
+#2 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1850): App\Libraries\grocery_CRUD_Layout->_theme_view('edit.php', Array)
+#3 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4532): App\Libraries\grocery_CRUD_Layout->showEditForm(Object(stdClass))
+#4 /home/wwwinte/public_html/screening/app/Controllers/Product.php(189): App\Libraries\GroceryCrud->render()
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('edit', '1001')
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-30 14:29:15 --> Undefined variable: mymobilitylevel
+#0 /home/wwwinte/public_html/screening/public/assets/grocery_crud/themes/internetics/views/edit.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/wwwinte/p...', 92, Array)
+#1 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(2801): include('/home/wwwinte/p...')
+#2 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1850): App\Libraries\grocery_CRUD_Layout->_theme_view('edit.php', Array)
+#3 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4532): App\Libraries\grocery_CRUD_Layout->showEditForm(Object(stdClass))
+#4 /home/wwwinte/public_html/screening/app/Controllers/Product.php(189): App\Libraries\GroceryCrud->render()
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('edit', '1001')
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-30 14:51:55 --> syntax error, unexpected '='
+#0 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1850): App\Libraries\grocery_CRUD_Layout->_theme_view('edit.php', Array)
+#1 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4532): App\Libraries\grocery_CRUD_Layout->showEditForm(Object(stdClass))
+#2 /home/wwwinte/public_html/screening/app/Controllers/Product.php(189): App\Libraries\GroceryCrud->render()
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('edit', '1001')
+#4 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-30 14:52:24 --> syntax error, unexpected '++' (T_INC)
+#0 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1850): App\Libraries\grocery_CRUD_Layout->_theme_view('edit.php', Array)
+#1 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4532): App\Libraries\grocery_CRUD_Layout->showEditForm(Object(stdClass))
+#2 /home/wwwinte/public_html/screening/app/Controllers/Product.php(189): App\Libraries\GroceryCrud->render()
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('edit', '1001')
+#4 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-30 14:55:16 --> syntax error, unexpected '++' (T_INC)
+#0 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1850): App\Libraries\grocery_CRUD_Layout->_theme_view('edit.php', Array)
+#1 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4532): App\Libraries\grocery_CRUD_Layout->showEditForm(Object(stdClass))
+#2 /home/wwwinte/public_html/screening/app/Controllers/Product.php(189): App\Libraries\GroceryCrud->render()
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('edit', '1001')
+#4 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-30 17:42:53 --> Argument 1 passed to App\Libraries\GroceryCrud::callbackBeforeUpdate() must be callable, string given, called in /home/wwwinte/public_html/screening/app/Controllers/Product.php on line 173
+#0 /home/wwwinte/public_html/screening/app/Controllers/Product.php(173): App\Libraries\GroceryCrud->callbackBeforeUpdate('conduct_physica...', Array)
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('edit', '1001')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-30 17:45:48 --> Argument 1 passed to App\Libraries\GroceryCrud::callbackBeforeUpdate() must be callable, string given, called in /home/wwwinte/public_html/screening/app/Controllers/Product.php on line 173
+#0 /home/wwwinte/public_html/screening/app/Controllers/Product.php(173): App\Libraries\GroceryCrud->callbackBeforeUpdate('conduct_physica...', Array)
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('edit', '1001')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-30 18:29:54 --> Argument 1 passed to App\Libraries\GroceryCrud::callbackBeforeUpdate() must be callable, string given, called in /home/wwwinte/public_html/screening/app/Controllers/Product.php on line 173
+#0 /home/wwwinte/public_html/screening/app/Controllers/Product.php(173): App\Libraries\GroceryCrud->callbackBeforeUpdate('conduct_physica...', Array)
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('edit', '1001')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-30 18:48:46 --> Too few arguments to function App\Controllers\Product::conduct_physical_screen_callback(), 1 passed and exactly 2 expected
+#0 [internal function]: App\Controllers\Product->conduct_physical_screen_callback(Object(stdClass))
+#1 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1049): call_user_func(Array, Object(stdClass))
+#2 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4570): App\Libraries\grocery_CRUD_Model_Driver->db_update(Object(stdClass))
+#3 /home/wwwinte/public_html/screening/app/Controllers/Product.php(179): App\Libraries\GroceryCrud->render()
+#4 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('update', '1001')
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-30 18:49:25 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('product/screeni...')
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('product/screeni...')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-30 18:49:53 --> Too few arguments to function App\Controllers\Product::conduct_physical_screen_callback(), 1 passed and exactly 2 expected
+#0 [internal function]: App\Controllers\Product->conduct_physical_screen_callback(Object(stdClass))
+#1 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1049): call_user_func(Array, Object(stdClass))
+#2 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4570): App\Libraries\grocery_CRUD_Model_Driver->db_update(Object(stdClass))
+#3 /home/wwwinte/public_html/screening/app/Controllers/Product.php(179): App\Libraries\GroceryCrud->render()
+#4 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('update', '1001')
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-30 18:50:16 --> Too few arguments to function App\Controllers\Product::conduct_physical_screen_callback(), 1 passed and exactly 2 expected
+#0 [internal function]: App\Controllers\Product->conduct_physical_screen_callback(Object(stdClass))
+#1 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1049): call_user_func(Array, Object(stdClass))
+#2 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4570): App\Libraries\grocery_CRUD_Model_Driver->db_update(Object(stdClass))
+#3 /home/wwwinte/public_html/screening/app/Controllers/Product.php(179): App\Libraries\GroceryCrud->render()
+#4 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('update', '1001')
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-30 18:50:23 --> Too few arguments to function App\Controllers\Product::conduct_physical_screen_callback(), 1 passed and exactly 2 expected
+#0 [internal function]: App\Controllers\Product->conduct_physical_screen_callback(Object(stdClass))
+#1 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1049): call_user_func(Array, Object(stdClass))
+#2 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4570): App\Libraries\grocery_CRUD_Model_Driver->db_update(Object(stdClass))
+#3 /home/wwwinte/public_html/screening/app/Controllers/Product.php(179): App\Libraries\GroceryCrud->render()
+#4 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('update', '1001')
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-30 18:52:23 --> Too few arguments to function App\Controllers\Product::conduct_physical_screen_callback(), 1 passed and exactly 2 expected
+#0 [internal function]: App\Controllers\Product->conduct_physical_screen_callback(Object(stdClass))
+#1 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1049): call_user_func(Array, Object(stdClass))
+#2 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4570): App\Libraries\grocery_CRUD_Model_Driver->db_update(Object(stdClass))
+#3 /home/wwwinte/public_html/screening/app/Controllers/Product.php(179): App\Libraries\GroceryCrud->render()
+#4 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('update', '1001')
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-30 18:52:25 --> Too few arguments to function App\Controllers\Product::conduct_physical_screen_callback(), 1 passed and exactly 2 expected
+#0 [internal function]: App\Controllers\Product->conduct_physical_screen_callback(Object(stdClass))
+#1 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1049): call_user_func(Array, Object(stdClass))
+#2 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4570): App\Libraries\grocery_CRUD_Model_Driver->db_update(Object(stdClass))
+#3 /home/wwwinte/public_html/screening/app/Controllers/Product.php(179): App\Libraries\GroceryCrud->render()
+#4 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('update', '1001')
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-30 18:52:26 --> Too few arguments to function App\Controllers\Product::conduct_physical_screen_callback(), 1 passed and exactly 2 expected
+#0 [internal function]: App\Controllers\Product->conduct_physical_screen_callback(Object(stdClass))
+#1 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1049): call_user_func(Array, Object(stdClass))
+#2 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4570): App\Libraries\grocery_CRUD_Model_Driver->db_update(Object(stdClass))
+#3 /home/wwwinte/public_html/screening/app/Controllers/Product.php(179): App\Libraries\GroceryCrud->render()
+#4 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('update', '1001')
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-30 19:04:50 --> syntax error, unexpected 'return' (T_RETURN)
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('product/screeni...')
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('product/screeni...')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-30 19:06:56 --> syntax error, unexpected 'return' (T_RETURN), expecting ',' or ';'
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('product/screeni...')
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('product/screeni...')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-30 19:09:19 --> Object of class stdClass could not be converted to string
+#0 /home/wwwinte/public_html/screening/app/Controllers/Product.php(206): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/home/wwwinte/p...', 206, Array)
+#1 [internal function]: App\Controllers\Product->conduct_physical_screen_callback(Object(stdClass))
+#2 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1049): call_user_func(Array, Object(stdClass))
+#3 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4570): App\Libraries\grocery_CRUD_Model_Driver->db_update(Object(stdClass))
+#4 /home/wwwinte/public_html/screening/app/Controllers/Product.php(179): App\Libraries\GroceryCrud->render()
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('update', '1001')
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-30 19:15:26 --> Call to undefined function App\Controllers\debug_to_console()
+#0 [internal function]: App\Controllers\Product->conduct_physical_screen_callback(Object(stdClass))
+#1 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1049): call_user_func(Array, Object(stdClass))
+#2 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4570): App\Libraries\grocery_CRUD_Model_Driver->db_update(Object(stdClass))
+#3 /home/wwwinte/public_html/screening/app/Controllers/Product.php(179): App\Libraries\GroceryCrud->render()
+#4 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('update', '1001')
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-30 19:15:28 --> Call to undefined function App\Controllers\debug_to_console()
+#0 [internal function]: App\Controllers\Product->conduct_physical_screen_callback(Object(stdClass))
+#1 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1049): call_user_func(Array, Object(stdClass))
+#2 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4570): App\Libraries\grocery_CRUD_Model_Driver->db_update(Object(stdClass))
+#3 /home/wwwinte/public_html/screening/app/Controllers/Product.php(179): App\Libraries\GroceryCrud->render()
+#4 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('update', '1001')
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-30 19:16:15 --> Undefined variable: output
+#0 /home/wwwinte/public_html/screening/app/Controllers/Product.php(206): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/wwwinte/p...', 206, Array)
+#1 [internal function]: App\Controllers\Product->conduct_physical_screen_callback(Object(stdClass))
+#2 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1049): call_user_func(Array, Object(stdClass))
+#3 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4570): App\Libraries\grocery_CRUD_Model_Driver->db_update(Object(stdClass))
+#4 /home/wwwinte/public_html/screening/app/Controllers/Product.php(179): App\Libraries\GroceryCrud->render()
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('update', '1001')
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-30 19:16:17 --> Undefined variable: output
+#0 /home/wwwinte/public_html/screening/app/Controllers/Product.php(206): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/wwwinte/p...', 206, Array)
+#1 [internal function]: App\Controllers\Product->conduct_physical_screen_callback(Object(stdClass))
+#2 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1049): call_user_func(Array, Object(stdClass))
+#3 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4570): App\Libraries\grocery_CRUD_Model_Driver->db_update(Object(stdClass))
+#4 /home/wwwinte/public_html/screening/app/Controllers/Product.php(179): App\Libraries\GroceryCrud->render()
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('update', '1001')
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-30 19:59:44 --> Object of class stdClass could not be converted to string
+#0 /home/wwwinte/public_html/screening/app/Controllers/Product.php(205): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/home/wwwinte/p...', 205, Array)
+#1 [internal function]: App\Controllers\Product->conduct_physical_screen_callback(Object(stdClass))
+#2 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1130): call_user_func(Array, Object(stdClass))
+#3 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4570): App\Libraries\grocery_CRUD_Model_Driver->db_update(Object(stdClass))
+#4 /home/wwwinte/public_html/screening/app/Controllers/Product.php(179): App\Libraries\GroceryCrud->render()
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('update', '1001')
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-30 19:59:46 --> Object of class stdClass could not be converted to string
+#0 /home/wwwinte/public_html/screening/app/Controllers/Product.php(205): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/home/wwwinte/p...', 205, Array)
+#1 [internal function]: App\Controllers\Product->conduct_physical_screen_callback(Object(stdClass))
+#2 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1130): call_user_func(Array, Object(stdClass))
+#3 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4570): App\Libraries\grocery_CRUD_Model_Driver->db_update(Object(stdClass))
+#4 /home/wwwinte/public_html/screening/app/Controllers/Product.php(179): App\Libraries\GroceryCrud->render()
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('update', '1001')
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-30 20:00:11 --> Object of class stdClass could not be converted to string
+#0 /home/wwwinte/public_html/screening/app/Controllers/Product.php(205): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/home/wwwinte/p...', 205, Array)
+#1 [internal function]: App\Controllers\Product->conduct_physical_screen_callback(Object(stdClass))
+#2 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1130): call_user_func(Array, Object(stdClass))
+#3 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4570): App\Libraries\grocery_CRUD_Model_Driver->db_update(Object(stdClass))
+#4 /home/wwwinte/public_html/screening/app/Controllers/Product.php(179): App\Libraries\GroceryCrud->render()
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('update', '1001')
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-30 20:00:38 --> syntax error, unexpected '}', expecting ';'
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('product/screeni...')
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('product/screeni...')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-30 20:01:08 --> syntax error, unexpected '}', expecting ';'
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('product/screeni...')
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('product/screeni...')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-30 20:01:18 --> syntax error, unexpected '}', expecting ';'
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('product/screeni...')
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('product/screeni...')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-30 20:05:18 --> syntax error, unexpected ';', expecting ')'
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('product/screeni...')
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('product/screeni...')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-30 20:09:18 --> syntax error, unexpected ';', expecting ')'
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('product/screeni...')
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('product/screeni...')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-30 20:09:38 --> syntax error, unexpected ';', expecting ')'
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('product/screeni...')
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('product/screeni...')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-30 20:10:22 --> syntax error, unexpected ';', expecting ')'
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('product/screeni...')
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('product/screeni...')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-30 20:19:03 --> syntax error, unexpected ';', expecting ')'
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('product/screeni...')
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('product/screeni...')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-30 20:19:36 --> syntax error, unexpected ';', expecting ')'
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('product/screeni...')
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('product/screeni...')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-30 20:20:35 --> syntax error, unexpected ';', expecting ')'
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('product/screeni...')
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('product/screeni...')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-30 20:20:38 --> syntax error, unexpected ';', expecting ')'
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('product/screeni...')
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('product/screeni...')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-30 20:23:24 --> syntax error, unexpected ';', expecting ')'
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('product/screeni...')
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('product/screeni...')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-30 20:27:01 --> syntax error, unexpected ']'
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('product/screeni...')
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('product/screeni...')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-30 20:27:06 --> syntax error, unexpected ']'
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('product/screeni...')
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('product/screeni...')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-30 20:27:56 --> syntax error, unexpected ']'
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('product/screeni...')
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('product/screeni...')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-30 20:28:03 --> syntax error, unexpected ']'
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('product/screeni...')
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('product/screeni...')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-30 20:28:21 --> syntax error, unexpected ';', expecting ')'
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('product/screeni...')
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('product/screeni...')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-30 20:29:08 --> syntax error, unexpected ')'
+#0 /home/wwwinte/public_html/screening/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('product/screeni...')
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('product/screeni...')
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-30 20:29:33 --> Undefined property: App\Controllers\Product::$db
+#0 /home/wwwinte/public_html/screening/app/Controllers/Product.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/wwwinte/p...', 176, Array)
+#1 [internal function]: App\Controllers\Product->App\Controllers\{closure}(Object(stdClass))
+#2 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1130): call_user_func(Object(Closure), Object(stdClass))
+#3 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4570): App\Libraries\grocery_CRUD_Model_Driver->db_update(Object(stdClass))
+#4 /home/wwwinte/public_html/screening/app/Controllers/Product.php(197): App\Libraries\GroceryCrud->render()
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('update', '1001')
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-30 20:29:40 --> Undefined property: App\Controllers\Product::$db
+#0 /home/wwwinte/public_html/screening/app/Controllers/Product.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/wwwinte/p...', 176, Array)
+#1 [internal function]: App\Controllers\Product->App\Controllers\{closure}(Object(stdClass))
+#2 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1130): call_user_func(Object(Closure), Object(stdClass))
+#3 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4570): App\Libraries\grocery_CRUD_Model_Driver->db_update(Object(stdClass))
+#4 /home/wwwinte/public_html/screening/app/Controllers/Product.php(197): App\Libraries\GroceryCrud->render()
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('update', '1001')
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-30 20:30:22 --> Undefined property: App\Controllers\Product::$db
+#0 /home/wwwinte/public_html/screening/app/Controllers/Product.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/wwwinte/p...', 176, Array)
+#1 [internal function]: App\Controllers\Product->App\Controllers\{closure}(Object(stdClass))
+#2 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1130): call_user_func(Object(Closure), Object(stdClass))
+#3 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4570): App\Libraries\grocery_CRUD_Model_Driver->db_update(Object(stdClass))
+#4 /home/wwwinte/public_html/screening/app/Controllers/Product.php(197): App\Libraries\GroceryCrud->render()
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('update', '1001')
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-30 20:30:39 --> Too few arguments to function App\Controllers\Product::conduct_physical_screen_callback(), 1 passed and exactly 2 expected
+#0 [internal function]: App\Controllers\Product->conduct_physical_screen_callback(Object(stdClass))
+#1 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1130): call_user_func(Array, Object(stdClass))
+#2 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4570): App\Libraries\grocery_CRUD_Model_Driver->db_update(Object(stdClass))
+#3 /home/wwwinte/public_html/screening/app/Controllers/Product.php(185): App\Libraries\GroceryCrud->render()
+#4 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('update', '1001')
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-30 20:30:52 --> Too few arguments to function App\Controllers\Product::conduct_physical_screen_callback(), 1 passed and exactly 2 expected
+#0 [internal function]: App\Controllers\Product->conduct_physical_screen_callback(Object(stdClass))
+#1 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1130): call_user_func(Array, Object(stdClass))
+#2 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4570): App\Libraries\grocery_CRUD_Model_Driver->db_update(Object(stdClass))
+#3 /home/wwwinte/public_html/screening/app/Controllers/Product.php(185): App\Libraries\GroceryCrud->render()
+#4 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('update', '1001')
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-30 20:39:18 --> Undefined index: city
+#0 /home/wwwinte/public_html/screening/app/Controllers/Product.php(178): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/wwwinte/p...', 178, Array)
+#1 [internal function]: App\Controllers\Product->App\Controllers\{closure}(Object(stdClass))
+#2 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1049): call_user_func(Object(Closure), Object(stdClass))
+#3 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4570): App\Libraries\grocery_CRUD_Model_Driver->db_update(Object(stdClass))
+#4 /home/wwwinte/public_html/screening/app/Controllers/Product.php(196): App\Libraries\GroceryCrud->render()
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('update', '1001')
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-30 20:41:01 --> Undefined index: mobility_lebvel
+#0 /home/wwwinte/public_html/screening/app/Controllers/Product.php(178): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/wwwinte/p...', 178, Array)
+#1 [internal function]: App\Controllers\Product->App\Controllers\{closure}(Object(stdClass))
+#2 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1049): call_user_func(Object(Closure), Object(stdClass))
+#3 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4570): App\Libraries\grocery_CRUD_Model_Driver->db_update(Object(stdClass))
+#4 /home/wwwinte/public_html/screening/app/Controllers/Product.php(196): App\Libraries\GroceryCrud->render()
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('update', '1001')
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-30 20:41:31 --> Undefined index: mobility_level
+#0 /home/wwwinte/public_html/screening/app/Controllers/Product.php(178): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/wwwinte/p...', 178, Array)
+#1 [internal function]: App\Controllers\Product->App\Controllers\{closure}(Object(stdClass))
+#2 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1049): call_user_func(Object(Closure), Object(stdClass))
+#3 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4570): App\Libraries\grocery_CRUD_Model_Driver->db_update(Object(stdClass))
+#4 /home/wwwinte/public_html/screening/app/Controllers/Product.php(196): App\Libraries\GroceryCrud->render()
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('update', '1001')
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-30 20:43:57 --> Undefined index: mobility_level
+#0 /home/wwwinte/public_html/screening/app/Controllers/Product.php(178): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/wwwinte/p...', 178, Array)
+#1 [internal function]: App\Controllers\Product->App\Controllers\{closure}(Object(stdClass))
+#2 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1049): call_user_func(Object(Closure), Object(stdClass))
+#3 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4570): App\Libraries\grocery_CRUD_Model_Driver->db_update(Object(stdClass))
+#4 /home/wwwinte/public_html/screening/app/Controllers/Product.php(196): App\Libraries\GroceryCrud->render()
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('update', '1001')
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-30 20:46:55 --> Too few arguments to function App\Controllers\Product::conduct_physical_screen_callback(), 1 passed and exactly 2 expected
+#0 [internal function]: App\Controllers\Product->conduct_physical_screen_callback(Object(stdClass))
+#1 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1130): call_user_func(Array, Object(stdClass))
+#2 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4570): App\Libraries\grocery_CRUD_Model_Driver->db_update(Object(stdClass))
+#3 /home/wwwinte/public_html/screening/app/Controllers/Product.php(185): App\Libraries\GroceryCrud->render()
+#4 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('update', '1001')
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-30 20:50:07 --> Undefined variable: stateParameters
+#0 /home/wwwinte/public_html/screening/app/Controllers/Product.php(178): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/wwwinte/p...', 178, Array)
+#1 [internal function]: App\Controllers\Product->App\Controllers\{closure}(Object(stdClass))
+#2 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1049): call_user_func(Object(Closure), Object(stdClass))
+#3 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4570): App\Libraries\grocery_CRUD_Model_Driver->db_update(Object(stdClass))
+#4 /home/wwwinte/public_html/screening/app/Controllers/Product.php(196): App\Libraries\GroceryCrud->render()
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('update', '1001')
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-30 20:52:04 --> Undefined variable: testcallback
+#0 /home/wwwinte/public_html/screening/app/Controllers/Product.php(180): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/wwwinte/p...', 180, Array)
+#1 [internal function]: App\Controllers\Product->App\Controllers\{closure}(Object(stdClass))
+#2 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1049): call_user_func(Object(Closure), Object(stdClass))
+#3 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4570): App\Libraries\grocery_CRUD_Model_Driver->db_update(Object(stdClass))
+#4 /home/wwwinte/public_html/screening/app/Controllers/Product.php(198): App\Libraries\GroceryCrud->render()
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('update', '1001')
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-30 20:52:46 --> Undefined variable: test
+#0 /home/wwwinte/public_html/screening/app/Controllers/Product.php(186): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/wwwinte/p...', 186, Array)
+#1 [internal function]: App\Controllers\Product->App\Controllers\{closure}(Object(stdClass))
+#2 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1049): call_user_func(Object(Closure), Object(stdClass))
+#3 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4570): App\Libraries\grocery_CRUD_Model_Driver->db_update(Object(stdClass))
+#4 /home/wwwinte/public_html/screening/app/Controllers/Product.php(198): App\Libraries\GroceryCrud->render()
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('update', '1001')
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-30 20:59:10 --> Cannot redeclare App\Controllers\Product::conduct_physical_screen_callback()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-30 20:59:54 --> Cannot redeclare App\Controllers\Product::conduct_physical_screen_callback()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

@@ -1,0 +1,12 @@
+CRITICAL - 2021-03-22 03:51:45 --> Call to undefined method App\Libraries\GroceryCrud::field_type()
+#0 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Examples->screening_management('edit', '1001')
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-22 03:51:49 --> Call to undefined method App\Libraries\GroceryCrud::field_type()
+#0 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Examples->screening_management('edit', '1001')
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examples))
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

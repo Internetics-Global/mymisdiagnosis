@@ -1,0 +1,91 @@
+CRITICAL - 2021-04-12 00:11:15 --> syntax error, unexpected '}', expecting end of file
+#0 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1777): App\Libraries\grocery_CRUD_Layout->_theme_view('add.php', Array)
+#1 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4513): App\Libraries\grocery_CRUD_Layout->showAddForm()
+#2 /home/wwwinte/public_html/screening/app/Controllers/Product.php(260): App\Libraries\GroceryCrud->render()
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('add')
+#4 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-12 01:16:59 --> On the state "edit" the Primary key cannot be null
+#0 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4471): App\Libraries\grocery_CRUD_States->getStateInfo()
+#1 /home/wwwinte/public_html/screening/app/Controllers/Product.php(260): App\Libraries\GroceryCrud->render()
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('edit')
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#4 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-12 01:55:59 --> Undefined variable: ionAuth
+#0 /home/wwwinte/public_html/screening/app/Controllers/Product.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/wwwinte/p...', 34, Array)
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management()
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-12 02:20:12 --> Undefined variable: css_files
+#0 /home/wwwinte/public_html/screening/app/Views/product_view.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/wwwinte/p...', 7, Array)
+#1 /home/wwwinte/public_html/screening/system/View/View.php(220): include('/home/wwwinte/p...')
+#2 /home/wwwinte/public_html/screening/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/wwwinte/public_html/screening/system/Common.php(1217): CodeIgniter\View\View->render('product_view', Array, true)
+#4 /home/wwwinte/public_html/screening/app/Controllers/Home.php(9): view('product_view')
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-12 02:53:16 --> Call to undefined method App\Libraries\InterneticsLibrary::unsetList()
+#0 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management()
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-12 02:54:53 --> Call to undefined method App\Libraries\InterneticsLibrary::unset_list()
+#0 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management()
+#1 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#2 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-12 17:50:45 --> Creating default object from empty value
+#0 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1397): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating defaul...', '/home/wwwinte/p...', 1397, Array)
+#1 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1825): App\Libraries\grocery_CRUD_Model_Driver->get_edit_values('1008')
+#2 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4532): App\Libraries\grocery_CRUD_Layout->showEditForm(Object(stdClass))
+#3 /home/wwwinte/public_html/screening/app/Controllers/Product.php(151): App\Libraries\GroceryCrud->render()
+#4 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('edit', '1008')
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-04-12 19:20:49 --> Error connecting to the database: Access denied for user '****'@'116.90.54.6' to database 'wwwinte_screening'
+CRITICAL - 2021-04-12 19:20:49 --> Unable to connect to the database.
+#0 /home/interne1/public_html/screening/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/interne1/public_html/screening/system/Database/BaseConnection.php(1532): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#2 /home/interne1/public_html/screening/system/Database/BaseConnection.php(1575): CodeIgniter\Database\BaseConnection->listTables()
+#3 /home/interne1/public_html/screening/app/Models/GroceryCrudModel.php(43): CodeIgniter\Database\BaseConnection->tableExists('screenings')
+#4 /home/interne1/public_html/screening/app/Libraries/GroceryCrud.php(635): App\Models\GroceryCrudModel->db_table_exists('screenings')
+#5 /home/interne1/public_html/screening/app/Libraries/GroceryCrud.php(4970): App\Libraries\grocery_CRUD_Model_Driver->table_exists('screenings')
+#6 /home/interne1/public_html/screening/app/Libraries/GroceryCrud.php(4450): App\Libraries\GroceryCrud->get_table()
+#7 /home/interne1/public_html/screening/app/Libraries/GroceryCrud.php(4467): App\Libraries\GroceryCrud->pre_render()
+#8 /home/interne1/public_html/screening/app/Controllers/Product.php(151): App\Libraries\GroceryCrud->render()
+#9 /home/interne1/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('add')
+#10 /home/interne1/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#11 /home/interne1/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/interne1/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-04-12 19:22:44 --> On the state "edit" the Primary key cannot be null
+#0 /home/interne1/public_html/screening/app/Libraries/GroceryCrud.php(4471): App\Libraries\grocery_CRUD_States->getStateInfo()
+#1 /home/interne1/public_html/screening/app/Controllers/Product.php(151): App\Libraries\GroceryCrud->render()
+#2 /home/interne1/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('edit')
+#3 /home/interne1/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#4 /home/interne1/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/interne1/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-12 19:34:29 --> Creating default object from empty value
+#0 /home/interne1/public_html/screening/app/Libraries/GroceryCrud.php(1397): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating defaul...', '/home/interne1/...', 1397, Array)
+#1 /home/interne1/public_html/screening/app/Libraries/GroceryCrud.php(1825): App\Libraries\grocery_CRUD_Model_Driver->get_edit_values('cxcxzc')
+#2 /home/interne1/public_html/screening/app/Libraries/GroceryCrud.php(4532): App\Libraries\grocery_CRUD_Layout->showEditForm(Object(stdClass))
+#3 /home/interne1/public_html/screening/app/Controllers/Product.php(151): App\Libraries\GroceryCrud->render()
+#4 /home/interne1/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('edit', 'cxcxzc', 'screening', 'public', 'assets', 'grocery_crud', 'themes', 'internetics', 'css', 'bootstrap', 'bootstrap.min.c...')
+#5 /home/interne1/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 /home/interne1/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/interne1/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}

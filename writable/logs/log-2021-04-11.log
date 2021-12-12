@@ -1,0 +1,33 @@
+CRITICAL - 2021-04-11 00:06:34 --> Undefined variable: lang
+#0 /home/wwwinte/public_html/screening/public/assets/grocery_crud/themes/internetics/views/edit.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/wwwinte/p...', 51, Array)
+#1 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(2801): include('/home/wwwinte/p...')
+#2 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1850): App\Libraries\grocery_CRUD_Layout->_theme_view('edit.php', Array)
+#3 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4532): App\Libraries\grocery_CRUD_Layout->showEditForm(Object(stdClass))
+#4 /home/wwwinte/public_html/screening/app/Controllers/Product.php(260): App\Libraries\GroceryCrud->render()
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('edit', '1012')
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-11 23:58:16 --> Undefined variable: css_files
+#0 /home/wwwinte/public_html/screening/app/Views/product_view.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/wwwinte/p...', 7, Array)
+#1 /home/wwwinte/public_html/screening/system/View/View.php(220): include('/home/wwwinte/p...')
+#2 /home/wwwinte/public_html/screening/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/wwwinte/public_html/screening/system/Common.php(1217): CodeIgniter\View\View->render('product_view', Array, true)
+#4 /home/wwwinte/public_html/screening/app/Controllers/Home.php(9): view('product_view')
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-11 23:58:52 --> Undefined variable: update_url
+#0 /home/wwwinte/public_html/screening/public/assets/grocery_crud/themes/internetics/views/add.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/wwwinte/p...', 62, Array)
+#1 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(2801): include('/home/wwwinte/p...')
+#2 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(1777): App\Libraries\grocery_CRUD_Layout->_theme_view('add.php', Array)
+#3 /home/wwwinte/public_html/screening/app/Libraries/GroceryCrud.php(4513): App\Libraries\grocery_CRUD_Layout->showAddForm()
+#4 /home/wwwinte/public_html/screening/app/Controllers/Product.php(260): App\Libraries\GroceryCrud->render()
+#5 /home/wwwinte/public_html/screening/system/CodeIgniter.php(936): App\Controllers\Product->screening_management('add')
+#6 /home/wwwinte/public_html/screening/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 /home/wwwinte/public_html/screening/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/wwwinte/public_html/screening/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

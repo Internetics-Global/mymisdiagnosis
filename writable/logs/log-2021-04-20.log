@@ -1,0 +1,38 @@
+CRITICAL - 2021-04-20 01:27:39 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 /home/interne1/public_html/mymisdiagnosis/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('product/cards/e...')
+#1 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('product/cards/e...')
+#2 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/interne1/public_html/mymisdiagnosis/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-20 01:27:56 --> Undefined variable: test
+#0 /home/interne1/public_html/mymisdiagnosis/app/Controllers/Product.php(275): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/interne1/...', 275, Array)
+#1 [internal function]: App\Controllers\Product->upload_image('/mymisdiagnosis/upload/...', '5', Object(stdClass), Object(stdClass))
+#2 /home/interne1/public_html/mymisdiagnosis/app/Libraries/InterneticsLibrary.php(284): call_user_func(Array, '/mymisdiagnosis/upload/...', '5', Object(stdClass), Object(stdClass))
+#3 /home/interne1/public_html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1832): App\Libraries\InterneticsLibrary->get_edit_input_fields(Object(stdClass))
+#4 /home/interne1/public_html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4532): App\Libraries\grocery_CRUD_Layout->showEditForm(Object(stdClass))
+#5 /home/interne1/public_html/mymisdiagnosis/app/Controllers/Product.php(250): App\Libraries\GroceryCrud->render()
+#6 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Product->cards('edit', '5')
+#7 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/interne1/public_html/mymisdiagnosis/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-20 01:28:14 --> Undefined variable: test
+#0 /home/interne1/public_html/mymisdiagnosis/app/Controllers/Product.php(275): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/interne1/...', 275, Array)
+#1 [internal function]: App\Controllers\Product->upload_image('/mymisdiagnosis/upload/...', '5', Object(stdClass), Object(stdClass))
+#2 /home/interne1/public_html/mymisdiagnosis/app/Libraries/InterneticsLibrary.php(284): call_user_func(Array, '/mymisdiagnosis/upload/...', '5', Object(stdClass), Object(stdClass))
+#3 /home/interne1/public_html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1832): App\Libraries\InterneticsLibrary->get_edit_input_fields(Object(stdClass))
+#4 /home/interne1/public_html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4532): App\Libraries\grocery_CRUD_Layout->showEditForm(Object(stdClass))
+#5 /home/interne1/public_html/mymisdiagnosis/app/Controllers/Product.php(250): App\Libraries\GroceryCrud->render()
+#6 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Product->cards('edit', '5')
+#7 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/interne1/public_html/mymisdiagnosis/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-20 23:43:19 --> syntax error, unexpected 'class' (T_CLASS)
+#0 /home/interne1/public_html/mymisdiagnosis/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('product/cards/e...')
+#1 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('product/cards/e...')
+#2 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/interne1/public_html/mymisdiagnosis/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,6 @@
+_ci_previous_url|s:52:"http://localhost/mymisdiagnosis/auth/forgot_password";__ci_last_regenerate|i:1639288138;identity|s:28:"testerboy@internetics.net.au";email|s:28:"testerboy@internetics.net.au";user_id|s:1:"2";old_last_login|s:10:"1639283717";last_check|i:1639285340;message|s:114:"	<div class="errors" role="alert">
+		<ul>
+					<li>Unable to email the Reset Password link</li>
+				</ul>
+	</div>
+";__ci_vars|a:1:{s:7:"message";s:3:"old";}

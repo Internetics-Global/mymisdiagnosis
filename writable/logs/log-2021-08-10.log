@@ -1,0 +1,14 @@
+CRITICAL - 2021-08-10 23:56:29 --> Undefined index: pack
+#0 /home/interne1/public_html/mymisdiagnosis/app/Controllers/Product.php(233): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/interne1/...', 233, Array)
+#1 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Product->cards('index.php', 'edit', 'Silhouette.PNG')
+#2 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/interne1/public_html/mymisdiagnosis/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-10 23:56:32 --> Undefined index: pack
+#0 /home/interne1/public_html/mymisdiagnosis/app/Controllers/Product.php(233): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/interne1/...', 233, Array)
+#1 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Product->cards('index.php', 'edit', '10')
+#2 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/interne1/public_html/mymisdiagnosis/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

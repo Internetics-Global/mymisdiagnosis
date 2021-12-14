@@ -2,7 +2,8 @@
   "identifier" : "8EF9972D-600A-44E5-8BDE-D38A70C8F44B",
   "ignoredFilePatterns" : [
     ".htaccess",
-    "app\/Config\/App.php"
+    "app\/Config\/App.php",
+    "writable"
   ],
   "localPath" : ".",
   "remotePath" : "\/home\/mymisdiagnosis\/public_html",

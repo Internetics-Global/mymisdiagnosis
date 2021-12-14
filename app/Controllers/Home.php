@@ -1,12 +1,23 @@
-<?php
+<?php namespace App\Controllers;
 
-namespace App\Controllers;
+use App\Libraries\GroceryCrud;
+
+use App\Libraries\InterneticsLibrary;
+
+use App\Models\InterneticsModel;
+
 
 class Home extends BaseController
 {
 	public function index()
+	
+	
 	{
-		return redirect()->to('/product/packs');
+		$this->data['htmltoshow'] = "Welcome to myMisdiagnosis.com";
+		$this->data['title'] = "myMisdiagnosis.com";
+		
+		return view('auth_internetics/template', $this->data);
+		return;
 	}
 }
 

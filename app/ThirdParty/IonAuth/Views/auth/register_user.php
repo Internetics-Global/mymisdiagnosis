@@ -41,9 +41,9 @@
 		  <?php echo form_label(lang('Auth.create_user_password_confirm_label'), 'password_confirm');?> <br />
 		  <?php echo form_input($password_confirm);?>
 	 </p>
-	 
+
 	 <p>
-		  
+
 		 <input type="hidden" name="user_folder" value="<?php echo rand(); ?>" id="user_folder">
 	 </p>
 

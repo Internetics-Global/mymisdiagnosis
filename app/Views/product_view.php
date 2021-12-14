@@ -68,7 +68,7 @@ function endsWith( $haystack, $needle ) {
     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
       <li class="nav-item<?php if (endsWith($uri, "home") !== false){ echo ' active"'; }  ?>">
 		 
-        <a class="nav-link" href="/mymisdiagnosis/public/index.php/product">Home</a>
+        <a class="nav-link" href="<?php echo site_url();?>">Home</a>
 	  
       </li>
       <li class="nav-item<?php if (endsWith($uri, "packs") !== false){ echo ' active"'; }  ?>">
@@ -84,28 +84,13 @@ function endsWith( $haystack, $needle ) {
         <a class="nav-link" href="<?php echo site_url('product/cards/add');?>">Add card</a>
 	 </li>
 
-        <?php
-	        
-	    if ($query->getNumRows()) {
-        ?> 
-	   <li class="nav-item<?php if (strpos($uri, "settings") !== false){ echo ' active"'; }  ?>">
-	   <a class="nav-link" href="<?php echo site_url('product/user_settings/edit/'); echo $row->user_settings_id; ?>">Settings</a> 
-	   </li>
-	   <?php
-    } else {
-        ?> 
-	   <li class="nav-item<?php if (strpos($uri, "settings") !== false){ echo ' active"'; }  ?>">
-	   <a class="nav-link" href="<?php echo site_url('product/user_settings/add/'); ?>">Settings</a><?php
-    }    
-	        
-	    ?>
-	   </li>
+	 <li class="nav-item<?php if (strpos($uri, "settings") !== false){ echo ' active"'; }  ?>">
+	   <a class="nav-link" href="<?php echo site_url('auth/edit_user/'); echo $user->id; ?>">Settings</a>   
+	 </li>
 	   
-	   <li class="nav-item<?php if (strpos($uri, "logout") !== false){ echo ' active"'; }  ?>">
-        
+	 <li class="nav-item<?php if (strpos($uri, "logout") !== false){ echo ' active"'; }  ?>">        
         <a class="nav-link" href="<?php echo site_url('auth/logout');?>">Logout</a>
-	   
-	   </li>
+	 </li>
       
     </ul>
 

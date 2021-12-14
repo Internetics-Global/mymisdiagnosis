@@ -6,6 +6,10 @@ class Home extends BaseController
 {
 	public function index()
 	{
-		return view('product_view');
+		return redirect()->to('/product/packs');
 	}
 }
+
+
+
+

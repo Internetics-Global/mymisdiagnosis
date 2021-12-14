@@ -11,7 +11,7 @@
     <link type="text/css" rel="stylesheet" href="/mymisdiagnosis/public/assets/grocery_crud/themes/internetics/css/general.css"/>
     <link type="text/css" rel="stylesheet" href="/mymisdiagnosis/public/assets/grocery_crud/themes/internetics/css/plugins/animate.min.css"/>
     <link type="text/css" rel="stylesheet" href="/mymisdiagnosis/public/assets/grocery_crud/themes/internetics/css/main.css"/>
-    <link type="text/css" rel="stylesheet" href="/mymisdiagnosis/public/assets/grocery_crud/themes/internetics/css/internetics.css?v=53"/>
+    <link type="text/css" rel="stylesheet" href="/mymisdiagnosis/public/assets/grocery_crud/themes/internetics/css/internetics.css?v=54"/>
     <link type="text/css" rel="stylesheet" href="/mymisdiagnosis/public/assets/grocery_crud/themes/internetics/css/lightbox.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
     
@@ -19,7 +19,26 @@
     
 
 
+
+
+
+
+
+
+
 </head>
+
+
+<?php
+$uri = current_url(true);
+$this->ionAuth    = new \IonAuth\Libraries\IonAuth();
+   $user = $this->ionAuth->user()->row(); 
+
+
+
+
+?>
+
 <body>
   
   <div class="body_inner">
@@ -34,11 +53,36 @@
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="/mymisdiagnosis/public/index.php/product/screening_management">Home</a>
-      </li>
       <li class="nav-item">
-        <a class="nav-link" href="add">Add card</a>
+        <a class="nav-link" href="<?php echo site_url();?>">Home</a>
+      </li>
+      
+      <li class="nav-item<?php if (strpos($uri, "register_user") !== false){ echo ' active"'; }  ?>">
+              
+              <?php if ( $this->ionAuth->loggedIn()) {} else { ?>          
+                <a class="nav-link" href="<?php echo site_url('auth/register_user/'); ?>">Register</a>
+              <?php }	?>
+              
+            </li>
+      
+      <li class="nav-item<?php if (strpos($uri, "edit_user") !== false){ echo ' active"'; }  ?>">
+        
+        <?php if ( $this->ionAuth->loggedIn()) { ?>          
+          <a class="nav-link" href="<?php echo site_url('auth/edit_user/'); echo $user->id; ?>">Settings</a>
+        <?php }	?>
+        
+      </li>
+      
+      <li class="nav-item<?php if (strpos($uri, "login") !== false){ echo ' active"'; }  ?>"> 
+         
+        <?php if (! $this->ionAuth->loggedIn()) {?>
+          <a class="nav-link" href="<?php echo site_url('auth/login');?>">Login</a>
+        <?php }
+         
+       else { ?>
+          <a class="nav-link" href="<?php echo site_url('auth/logout');?>">Logout</a>
+         <?php };?> 
+                          
       </li>
     </ul>
 

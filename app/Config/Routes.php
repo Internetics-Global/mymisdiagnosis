@@ -25,6 +25,7 @@ $routes->set404Override();
 $routes->setAutoRoute(true);
 
 
+
 /*
  * --------------------------------------------------------------------
  * Route Definitions
@@ -36,6 +37,7 @@ $routes->setAutoRoute(true);
 
 $routes->get('/', 'Home::index');
 $routes->get('/image', 'ImageUpload::index');
+$routes->get('/', 'SendMail::index');
 
 /*
  * --------------------------------------------------------------------

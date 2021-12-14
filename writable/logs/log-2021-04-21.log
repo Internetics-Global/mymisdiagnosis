@@ -1,7 +1,0 @@
-CRITICAL - 2021-04-21 02:11:35 --> syntax error, unexpected ''" id="img" width="100%" heigh' (T_CONSTANT_ENCAPSED_STRING)
-#0 /home/interne1/public_html/mymisdiagnosis/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('product/cards/e...')
-#1 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('product/cards/e...')
-#2 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
-#3 /home/interne1/public_html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#4 /home/interne1/public_html/mymisdiagnosis/public/index.php(44): CodeIgniter\CodeIgniter->run()
-#5 {main}

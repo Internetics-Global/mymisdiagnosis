@@ -26,6 +26,15 @@ body {
 /**	display:none; **/
 }
 
+
+dl, ol, ul {
+margin-top: 0;
+margin-bottom: 0rem;
+margin:20px;
+}
+
+
+
 .body_inner {
 padding: 20px;
 }
@@ -232,15 +241,15 @@ padding: 10px;
 
 a {
 color: #DADDE4;
-text-decoration: underline;
+text-decoration: none;
 background-color: transparent;
 -webkit-text-decoration-skip: objects;
 }
 
 
 a:hover {
-color: #00000f;
-text-decoration: underline;
+color: #a1a3a6;
+text-decoration: none;
 }
 
 

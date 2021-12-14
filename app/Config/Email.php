@@ -9,12 +9,12 @@ class Email extends BaseConfig
 	/**
 	 * @var string
 	 */
-	public $fromEmail;
+	public $fromEmail = 'comms@mymisdiagnosis.com';
 
 	/**
 	 * @var string
 	 */
-	public $fromName;
+	public $fromName = 'Comms Account';
 
 	/**
 	 * @var string
@@ -33,42 +33,42 @@ class Email extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $protocol = 'mail';
+	public $protocol = 'smtp';
 
 	/**
 	 * The server path to Sendmail.
 	 *
 	 * @var string
 	 */
-	public $mailPath = '/usr/sbin/sendmail';
+	public $mailPath = '/usr/sbin/sendmail -t -i';
 
 	/**
 	 * SMTP Server Address
 	 *
 	 * @var string
 	 */
-	public $SMTPHost;
+	public $SMTPHost = 'smtp.sendgrid.net';
 
 	/**
 	 * SMTP Username
 	 *
 	 * @var string
 	 */
-	public $SMTPUser;
+	public $SMTPUser = 'apikey';
 
 	/**
 	 * SMTP Password
 	 *
 	 * @var string
 	 */
-	public $SMTPPass;
+	public $SMTPPass = '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';
 
 	/**
 	 * SMTP Port
 	 *
 	 * @var integer
 	 */
-	public $SMTPPort = 25;
+	public $SMTPPort = 587;
 
 	/**
 	 * SMTP Timeout (in seconds)
@@ -110,7 +110,7 @@ class Email extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $mailType = 'text';
+	public $mailType = 'html';
 
 	/**
 	 * Character set (utf-8, iso-8859-1, etc.)
@@ -124,7 +124,7 @@ class Email extends BaseConfig
 	 *
 	 * @var boolean
 	 */
-	public $validate = false;
+	public $validate = true;
 
 	/**
 	 * Email Priority. 1 = highest. 5 = lowest. 3 = normal
@@ -166,6 +166,9 @@ class Email extends BaseConfig
 	 *
 	 * @var boolean
 	 */
-	public $DSN = false;
+	public $DSN = true;
 
 }
+
+
+

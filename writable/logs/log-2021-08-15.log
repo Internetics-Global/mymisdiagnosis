@@ -1,6 +1,0 @@
-CRITICAL - 2021-08-15 03:46:33 --> The framework needs the following extension(s) installed and loaded: {0}.
-#0 /Users/clivefrance/Nova Projects/FFC Web Edition/system/CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
-#1 /Users/clivefrance/Nova Projects/FFC Web Edition/system/CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
-#2 /Users/clivefrance/Nova Projects/FFC Web Edition/system/bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
-#3 /Users/clivefrance/Nova Projects/FFC Web Edition/public/index.php(35): require('/Users/clivefra...')
-#4 {main}

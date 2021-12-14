@@ -35,6 +35,16 @@ margin:20px;
 
 
 
+button, input, optgroup, select, textarea {
+
+background-color: #DADDE4;
+color: #3D5161;
+padding: 5px;
+
+}
+
+
+
 .body_inner {
 padding: 20px;
 }
@@ -509,12 +519,26 @@ border: 0px solid;
 	 border-bottom: .5px dotted #DADDE4;
 	 } 
 	  
-	  
+.body_inner_frame {
+
+background: #3D5161;
+border-radius: 10px;
+padding:5px;
+padding-top: 20px;
+
+} 
+
+.p-5 {
+    padding: 2rem!important;
+}
+
   
 .navbar-brand.mx-auto {
 position: absolute;
 right: 20px;
-top: 0px;
+top: 8px;
+background-size: 200px;
+padding-right: 200px;
 }
 
 

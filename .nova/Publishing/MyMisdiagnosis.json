@@ -3,7 +3,8 @@
   "ignoredFilePatterns" : [
     ".htaccess",
     "app\/Config\/App.php",
-    "writable"
+    "writable",
+    ".env"
   ],
   "localPath" : ".",
   "remotePath" : "\/home\/mymisdiagnosis\/public_html",

@@ -32,10 +32,10 @@ class Database extends Config
 	 */
 	public $default = [
 		'DSN'      => '',
-		'hostname' => 'database',
-		'username' => 'interne1_ffcweb',
+		'hostname' => 'localhost',
+		'username' => 'mymisdiagnosis_app',
 		'password' => 'Y^PUcyKV7+ty',
-		'database' => 'interne1_ffcweb',
+		'database' => 'mymisdiagnosis_app',
 		'DBDriver' => 'MySQLi',
 		'DBPrefix' => '',
 		'pConnect' => false,

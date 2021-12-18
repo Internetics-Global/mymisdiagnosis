@@ -6,7 +6,7 @@
     $this->set_css($this->default_theme_path.'/internetics/css/general.css');
     $this->set_css($this->default_theme_path.'/internetics/css/plugins/animate.min.css');
     $this->set_css($this->default_theme_path.'/internetics/css/main.css');
-    $this->set_css($this->default_theme_path.'/internetics/css/internetics.css?v=51');
+    $this->set_css($this->default_theme_path.'/internetics/css/internetics.css?v=73');
     $this->set_css($this->default_theme_path.'/internetics/css/lightbox.css');
 
     $jquery_js = isset($jquery_js) ? $jquery_js : grocery_CRUD::JQUERY;
@@ -207,15 +207,7 @@
                                         <div class="clear"></div>
                                     </a>
                                 <?php } ?>
-                                <?php if(!$unset_print) { ?>
-                                    <a class="btn btn-default btn-outline-dark t5 gc-print" data-url="<?php echo $print_url; ?>" href="javascript:;">
-                                        <i class="el el-print floatL t3"></i>
-                                        <span class="hidden-xs floatL l5">
-                                            <?php echo $this->l('list_print');?>
-                                        </span>
-                                        <div class="clear"></div>
-                                    </a>
-                                <?php }?>
+                                
                             </div>
                             <div class="clear"></div>
                         </div>

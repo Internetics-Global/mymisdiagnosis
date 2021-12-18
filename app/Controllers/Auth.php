@@ -156,6 +156,8 @@ protected function renderPage(string $view, $data = null, bool $returnHtml = tru
 //		echo $viewHtml;
 
 		$this->data['htmltoshow'] = $viewHtml;
+		$this->data['meta_title'] = "myMisdiagnosis.com";
+		$this->data['meta_description'] = "myMisdiagnosis.com";
 
 //		print_r($data['htmltoshow']);
 //		print_r($this->data);

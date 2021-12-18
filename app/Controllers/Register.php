@@ -136,6 +136,8 @@ class Register extends BaseController
 		}
 
 		$data['user'] = $model->where('id', session()->get('id'))->first();
+		$this->data['meta_title'] = "myMisdiagnosis.com";
+		$this->data['meta_description'] = "myMisdiagnosis.com";
 		echo view('templates/header', $data);
 		echo view('profile');
 		echo view('templates/footer');

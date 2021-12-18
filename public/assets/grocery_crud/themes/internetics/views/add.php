@@ -5,7 +5,7 @@
     $this->set_css($this->default_theme_path.'/internetics/css/general.css');
     $this->set_css($this->default_theme_path.'/internetics/css/add-edit-form.css');
     $this->set_css($this->default_theme_path.'/internetics/css/main.css');
-    $this->set_css($this->default_theme_path.'/internetics/css/internetics.css?v=33');
+    $this->set_css($this->default_theme_path.'/internetics/css/internetics.css?v=61');
     $this->set_css($this->default_theme_path.'/internetics/css/lightbox.css');
     $this->set_css($this->default_theme_path.'/internetics/css/print.min.css');
 
@@ -51,30 +51,32 @@ $countfields = 0;
     <div class="gc-container">
         <div class="row">
             <div class="col-md-12">
-                <!-- <div class="table-label">
-                    <div class="floatL l5">
-                       <?php echo $this->l('form_edit'); ?> <?php echo $subject?>
-                    </div>
-                    <div class="clear"></div>
-                </div> -->
                 
-              					
-					
-
-       
-            
                 
                 
                 <div class="form-container table-container">
 	                
-	              <?php
-							
-							
-						?>
 	              
                     <?php echo form_open( $insert_url, 'method="post" id="crudForm"  enctype="multipart/form-data"'); ?>
                     
                 
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
               
               
 					<div id="questions">
@@ -87,12 +89,7 @@ $countfields = 0;
 						
 					$total_panes = 0; foreach($fields as $field) {	$total_panes++;	
 						
-						
-					
-						
-						
-						
-						
+
 						 }	
 						 
 						 	
@@ -101,74 +98,14 @@ $countfields = 0;
 				
                     
 
-<div class="container card_layout">
-                <div class="row card_layout">
-	                <div class="col-12 card_layout"><?php foreach($fields as $field) { if ($field->field_name == 'question_header') { echo $input_fields['question_header']->input; }  } ?>
-	                
-	            </div>   
-                 <div class="row card_layout">
-				 	
-				 	<div class="col-6 card_layout">
-				 		<div class="row">
-					 		<div class="col-12 card_layout"><?php foreach($fields as $field) { if ($field->field_name == 'question_section_1_copy') { echo $input_fields['question_section_1_copy']->input; }  } ?></div>
-					 		<div class="col-12 card_layout"><?php foreach($fields as $field) { if ($field->field_name == 'question_section_2_copy') { echo $input_fields['question_section_2_copy']->input; }  } ?></div>
-    					</div>
-  					</div>
-  					
-  					<div class="col-6 card_layout"><?php foreach($fields as $field) { if ($field->field_name == 'question_image_1') { echo $input_fields['question_image_1']->input; }  } ?>
-  					<?php foreach($fields as $field) { if ($field->field_name == 'question_image_2') { echo $input_fields['question_image_2']->input; }  } ?>
-  					
-  					<?php
-	  					$url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
-	  					if (strpos($url,'/product/cards') !== false) {
-								 
-								 ?><?php
-								 if (empty($_GET)) { ?>
-									
-									
-										
-									<?php }
-									else
-									{	?> 
-                                    <input id="field-related_pack" class="form-control" name="related_pack" type="hidden" value="<?php echo $_GET["pack"]; ?>">
-	                                 <?php }
-	                                 
-	                                 ?>   
-									
-									
-                                
-                                <?php
-								 
-								 
-								 
-							 } 
-	  					
-	  					
-	  					
-	  				?>
-  					
-  					</div>
-  					
 
-  					
-				</div>
-	          </div>   		
 
 
 
 <?php	 
 				
 						 
-					 
-						 					
-//					echo '<BR>Total windows to show: ' . $total_panes . '<BR>';
-
-
-
-
-
-
-	                     
+                     
                      foreach($fields as $field) { 
 	                    
 
@@ -183,47 +120,7 @@ $countfields = 0;
                     ?>
                     
                     
-           <?php if ($this->basic_db_table =='cards') {  ?>
-	           
-	           
-	           <!--  card related logic to go in here -->
-	         
-	          
-	            <!-- start of the item entry panel -->
-                   
-                 
-                   	
-                   	<?php 
-	                   	
-	    //               	if ($field->field_name == 'answer_template') { ?>
-		                   	
-		             
-                   	
-                 
-                                                   
-                          
-                          
-                         
-
-
-                        
-                                     
-                        
-
-   
-   
-   
-   
-   
-                        
-                      
-                    <!-- end of the card item entry panel -->
-	           
-      
-	           
-	           
-	           
-           <?php } else { ?>
+     
                     
                    <!-- start of the regular item entry panel -->
                    
@@ -249,12 +146,7 @@ $countfields = 0;
                     <!-- end of the item entry panel -->
                     
                     
-           <?php 
-	           
-	           
-	           
-	           } ?> 
-           
+          
            
                       
            
@@ -353,17 +245,43 @@ $countfields = 0;
                     
                     
                 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </div>
         </div>
     </div>
 </div>
-<script>
-   window.setTimeout(function() {
-    $(".alert").fadeTo(500, 0).slideUp(500, function(){
-        $(this).remove(); 
-    });
-}, 2000);
-</script>
+
 
 <script>
     var validation_url = '<?php echo $validation_url?>';

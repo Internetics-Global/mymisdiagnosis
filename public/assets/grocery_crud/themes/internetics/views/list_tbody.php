@@ -50,14 +50,7 @@
                          
                          
                          
-                         <?php $url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
-
-
-							 if (strpos($url,'/product/cards') !== false) {} else 
-							 { ?> <a class="btn btn-default btn-outline-dark" href="cards/index.php?pack=<?php echo $row->primary_key_value; ?>"><i class="el el-pencil"></i>Show cards for this pack</a> <?php }       
-
-							?>       
-                   
+                         
                         
                    
      

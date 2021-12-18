@@ -71,6 +71,12 @@ function endsWith( $haystack, $needle ) {
         <a class="nav-link" href="<?php echo site_url();?>">Home</a>
 	  
       </li>
+	 <li class="nav-item">
+	    <a class="nav-link" href="<?php echo site_url();?>/posts">News</a>
+	  </li>
+	 <li class="nav-item<?php if (endsWith($uri, "posts") !== false){ echo ' active"'; }  ?>">
+		<a class="nav-link" href="<?php echo site_url('posteditor/posts');?>">Post editor</a>
+	   </li>
       <li class="nav-item<?php if (endsWith($uri, "packs") !== false){ echo ' active"'; }  ?>">
         <a class="nav-link" href="<?php echo site_url('product/packs');?>">View packs</a>
 	 </li>

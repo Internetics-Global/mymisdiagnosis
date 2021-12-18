@@ -38,6 +38,8 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->get('/image', 'ImageUpload::index');
 $routes->get('/', 'SendMail::index');
+$routes->add('posts/','Post::index/$1');
+$routes->add('posts/(:alphanum)','Post::display/$1');
 
 /*
  * --------------------------------------------------------------------

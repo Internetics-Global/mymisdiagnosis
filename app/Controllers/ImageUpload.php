@@ -15,7 +15,7 @@ class ImageUpload extends Controller
          helper(['form', 'url']);
          
         $database = \Config\Database::connect();
-        $user = $database->table('cards');
+        $user = $database->table('posts');
  
  
  $msg = 'Please select a valid files';
@@ -27,7 +27,7 @@ class ImageUpload extends Controller
                 $file->move(WRITEPATH . 'uploads');
  
               $data = [
-                'question_image_1' =>  $file->getClientName(),
+                'post_image' =>  $file->getClientName(),
  //               'type'  => $file->getClientMimeType()
               ];
  

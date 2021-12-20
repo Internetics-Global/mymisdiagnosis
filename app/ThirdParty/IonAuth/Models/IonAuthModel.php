@@ -887,6 +887,7 @@ class IonAuthModel
 		$query = $this->db->table($this->tables['users'])
 						  ->select($this->identityColumn . ', email, id, password, active, last_login')
 						  ->where($this->identityColumn, $identity)
+						  ->orWhere('email',$identity)
 						  ->limit(1)
 						  ->orderBy('id', 'desc')
 						  ->get();

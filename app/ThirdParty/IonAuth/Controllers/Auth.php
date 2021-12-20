@@ -122,6 +122,8 @@ class Auth extends \CodeIgniter\Controller
 	 * @return string|\CodeIgniter\HTTP\RedirectResponse
 	 */
 	public function login()
+
+
 	{
 		$this->data['title'] = lang('Auth.login_heading');
 
@@ -140,7 +142,7 @@ class Auth extends \CodeIgniter\Controller
 				//if the login is successful
 				//redirect them back to the home page
 				$this->session->setFlashdata('message', $this->ionAuth->messages());
-				return redirect()->to('/product/')->withCookies();
+				return redirect()->to('/posteditor/posts')->withCookies();
 			}
 			else
 			{
@@ -202,7 +204,7 @@ class Auth extends \CodeIgniter\Controller
 		{
 			return redirect()->to('/auth/login');
 		}
-		
+
 		$this->validation->setRule('old', lang('Auth.change_password_validation_old_password_label'), 'required');
 		$this->validation->setRule('new', lang('Auth.change_password_validation_new_password_label'), 'required|min_length[' . $this->configIonAuth->minPasswordLength . ']|matches[new_confirm]');
 		$this->validation->setRule('new_confirm', lang('Auth.change_password_validation_new_password_confirm_label'), 'required');
@@ -552,7 +554,7 @@ class Auth extends \CodeIgniter\Controller
 			$this->validation->setRule('email', lang('Auth.create_user_validation_email_label'), 'trim|required|valid_email|is_unique[' . $tables['users'] . '.email]');
 		}
 		$this->validation->setRule('phone', lang('Auth.create_user_validation_phone_label'), 'trim');
-		$this->validation->setRule('company', lang('Auth.create_user_validation_company_label'), 'trim');
+		$this->validation->setRule('display_name', lang('Auth.create_user_validation_display_name_label'), 'trim');
 		$this->validation->setRule('password', lang('Auth.create_user_validation_password_label'), 'required|min_length[' . $this->configIonAuth->minPasswordLength . ']|matches[password_confirm]');
 		$this->validation->setRule('password_confirm', lang('Auth.create_user_validation_password_confirm_label'), 'required');
 
@@ -565,7 +567,7 @@ class Auth extends \CodeIgniter\Controller
 			$additionalData = [
 				'first_name' => $this->request->getPost('first_name'),
 				'last_name'  => $this->request->getPost('last_name'),
-				'company'    => $this->request->getPost('company'),
+				'display_name'    => $this->request->getPost('display_name'),
 				'phone'      => $this->request->getPost('phone'),
 				'user_folder'      => $this->request->getPost('user_folder'),
 			];
@@ -607,11 +609,11 @@ class Auth extends \CodeIgniter\Controller
 				'type'  => 'email',
 				'value' => set_value('email'),
 			];
-			$this->data['company'] = [
-				'name'  => 'company',
-				'id'    => 'company',
+			$this->data['display_name'] = [
+				'name'  => 'display_name',
+				'id'    => 'display_name',
 				'type'  => 'text',
-				'value' => set_value('company'),
+				'value' => set_value('display_name'),
 			];
 			$this->data['phone'] = [
 				'name'  => 'phone',
@@ -681,8 +683,8 @@ class Auth extends \CodeIgniter\Controller
 			// validate form input
 			$this->validation->setRule('first_name', lang('Auth.edit_user_validation_fname_label'), 'trim|required');
 			$this->validation->setRule('last_name', lang('Auth.edit_user_validation_lname_label'), 'trim|required');
-			$this->validation->setRule('phone', lang('Auth.edit_user_validation_phone_label'), 'trim|required');
-			$this->validation->setRule('company', lang('Auth.edit_user_validation_company_label'), 'trim|required');
+//			$this->validation->setRule('phone', lang('Auth.edit_user_validation_phone_label'), 'trim|required');
+			$this->validation->setRule('display_name', lang('Auth.edit_user_validation_display_name_label'), 'trim|required');
 
 			// do we have a valid request?
 			if ($id !== $this->request->getPost('id', FILTER_VALIDATE_INT))
@@ -703,7 +705,7 @@ class Auth extends \CodeIgniter\Controller
 				$data = [
 					'first_name' => $this->request->getPost('first_name'),
 					'last_name'  => $this->request->getPost('last_name'),
-					'company'    => $this->request->getPost('company'),
+					'display_name'    => $this->request->getPost('display_name'),
 					'phone'      => $this->request->getPost('phone'),
 				];
 
@@ -766,11 +768,11 @@ class Auth extends \CodeIgniter\Controller
 			'type'  => 'text',
 			'value' => set_value('last_name', $user->last_name ?: ''),
 		];
-		$this->data['company'] = [
-			'name'  => 'company',
-			'id'    => 'company',
+		$this->data['display_name'] = [
+			'name'  => 'display_name',
+			'id'    => 'display_name',
 			'type'  => 'text',
-			'value' => set_value('company', empty($user->company) ? '' : $user->company),
+			'value' => set_value('display_name', empty($user->display_name) ? '' : $user->display_name),
 		];
 		$this->data['phone'] = [
 			'name'  => 'phone',

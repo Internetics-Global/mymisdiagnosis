@@ -1,0 +1,6 @@
+_ci_previous_url|s:42:"http://localhost/mymisdiagnosis/auth/login";__ci_last_regenerate|i:1639957901;message|s:90:"	<div class="errors" role="alert">
+		<ul>
+					<li>Incorrect Login</li>
+				</ul>
+	</div>
+";__ci_vars|a:2:{s:7:"message";s:3:"old";s:13:"_ci_old_input";s:3:"old";}_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:3:{s:8:"identity";s:13:"administrator";s:8:"password";s:8:"password";s:6:"submit";s:5:"Login";}}

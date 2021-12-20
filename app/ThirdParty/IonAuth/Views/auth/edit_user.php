@@ -15,15 +15,13 @@
             <?php echo form_input($last_name);?>
       </p>
 
-      <p>
-            <?php echo form_label(lang('Auth.edit_user_company_label'), 'company');?> <br />
-            <?php echo form_input($company);?>
+    <p>
+
+		  <input type="hidden" name="display_name" value="<?php echo $user->display_name; ?>">
+
       </p>
 
-      <p>
-            <?php echo form_label(lang('Auth.edit_user_phone_label'), 'phone');?> <br />
-            <?php echo form_input($phone);?>
-      </p>
+
 
       <p>
             <?php echo form_label(lang('Auth.edit_user_password_label'), 'password');?> <br />

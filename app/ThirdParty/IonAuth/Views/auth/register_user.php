@@ -26,6 +26,8 @@
 	 }
 	 ?>
 
+
+
 	 <p>
 		  <?php echo form_label(lang('Auth.create_user_email_label'), 'email');?> <br />
 		  <?php echo form_input($email);?>

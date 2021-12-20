@@ -9,7 +9,7 @@ use App\Models\InterneticsModel;
 
 
 
-class PostEditor extends BaseController
+class Posteditor extends BaseController
 {
 	
 
@@ -54,7 +54,7 @@ public function index()
 		else {
 			
 			
-			return redirect()->to('/auth/login');
+			return redirect()->to('/posteditor/posts');
 			
 		}
 }
@@ -74,7 +74,7 @@ public function posts()
 	if (! $this->ionAuth->loggedIn()) { return redirect()->to('/auth/login'); } 
 		
 		
-	else if (! $this->ionAuth->isAdmin()) {return redirect()->to('/product/packs');}
+	else if (! $this->ionAuth->isAdmin()) {return redirect()->to('/');}
 	
 	// redirect if not an admin, otherwise show the following content:
 	
@@ -246,8 +246,16 @@ $user = $this->ionAuth->user()->row();
 				
 		//replace the actual file on the server with the new file with _temp removed
 		
-		rename('../' . $file_to_work_on, '../' . $replacement_filename);
-//rename('./upload/1-1000101/card_folder_16/field-post_image_temp.jpg',  './upload/1-1000101/card_folder_16/dodge.png');
+		$uri = current_url(true);
+		if (strpos($uri, "localhost/")) {
+		
+		rename('../' . $file_to_work_on, '../' . $replacement_filename);	
+			
+		} else {
+			
+		rename('.' . $file_to_work_on, '.' . $replacement_filename);	
+			
+		}
 				   
 		// these routines clean up any files with extensions different to our temp file:	
 	     $path_parts = pathinfo('../..' . $replacement_filename);
@@ -258,7 +266,7 @@ $user = $this->ionAuth->user()->row();
 		
 		
 	
-		$path_to_file = '../../mymisdiagnosis/upload/' . $user->id . '-'  .$user->user_folder . '/' . $card_folder . '/' . $path_parts['filename'];
+		$path_to_file = FCPATH . 'upload/' . $user->id . '-'  .$user->user_folder . '/' . $card_folder . '/' . $path_parts['filename'];
 		
 //		$post_array->data['question_header'] = $path_to_file;
 		
@@ -300,9 +308,20 @@ $user = $this->ionAuth->user()->row();
 		
 		// replace the database entry with the new filename (with temp removed as above):
 		$post_array->data['post_thumb'] = $replacement_filename;
+		
+		$uri = current_url(true);
+		if (strpos($uri, "localhost/")) {
+		
+		rename('../' . $file_to_work_on, '../' . $replacement_filename);	
+			
+		} else {
+			
+		rename('.' . $file_to_work_on, '.' . $replacement_filename);	
+			
+		}
 				
 		//replace the actual file on the server with the new file with _temp removed
-		rename('../' . $file_to_work_on, '../' . $replacement_filename);
+		
 				   
 		// these routines clean up any files with extensions different to our temp file:	
 	    $path_parts = pathinfo('../..' . $replacement_filename);
@@ -311,7 +330,7 @@ $user = $this->ionAuth->user()->row();
 		// echo $path_parts['extension'], "\n";
 		// echo $path_parts['filename'], "\n"; // since PHP 5.2.0
 	
-		$path_to_file = '../../mymisdiagnosis/upload/' . $user->id . '-'  .$user->user_folder . '/' . $card_folder . '/' . $path_parts['filename'];
+		$path_to_file = FCPATH . 'upload/' . $user->id . '-'  .$user->user_folder . '/' . $card_folder . '/' . $path_parts['filename'];
 		
 		if ($path_parts['extension'] == 'png') {	
 			if (file_exists($path_to_file . ".jpg")) {    unlink($path_to_file . ".jpg");    }
@@ -357,13 +376,14 @@ function rename_temp_folder($post_array) {
 	
 
     
-    if (file_exists('../mymisdiagnosis/upload/' . $user->id . '-'  .$user->user_folder . '/temp_card_folder')) {
+    if (file_exists(FCPATH . 'upload/' . $user->id . '-'  .$user->user_folder . '/temp_card_folder')) {
+		  
+		  rename(FCPATH . 'upload/' . $user->id . '-'  .$user->user_folder . '/temp_card_folder', FCPATH . 'upload/' . $user->id . '-'  .$user->user_folder . '/' . $card_folder);
 	   
-	   rename('../mymisdiagnosis/upload/' . $user->id . '-'  .$user->user_folder . '/temp_card_folder','../mymisdiagnosis/upload/' . $user->id . '-'  .$user->user_folder . '/' . $card_folder);
-    
-    
-    }
-    
+	   
+	   }
+	   
+	  
    
 
 

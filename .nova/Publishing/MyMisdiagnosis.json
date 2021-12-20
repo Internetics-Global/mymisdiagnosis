@@ -4,7 +4,8 @@
     ".htaccess",
     "app\/Config\/App.php",
     "writable",
-    ".env"
+    ".env",
+    "upload.php"
   ],
   "localPath" : ".",
   "remotePath" : "\/home\/mymisdiagnosis\/public_html",

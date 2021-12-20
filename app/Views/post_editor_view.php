@@ -74,9 +74,20 @@ function endsWith( $haystack, $needle ) {
 	 <li class="nav-item">
 	    <a class="nav-link" href="<?php echo site_url();?>posts">News</a>
 	  </li>
+	  
+	  
+	  
 	 <li class="nav-item<?php if (endsWith($uri, "posts") !== false){ echo ' active"'; }  ?>">
 	    <a class="nav-link" href="<?php echo site_url('posteditor/posts');?>">Post editor</a>
 	  </li>
+	  
+	  
+	  <?php
+		// if($this->ionAuth->inGroup('members')
+		if ($this->ionAuth->isAdmin()) {
+		?>
+		
+		
       <li class="nav-item<?php if (endsWith($uri, "packs") !== false){ echo ' active"'; }  ?>">
         <a class="nav-link" href="<?php echo site_url('product/packs');?>">View packs</a>
 	 </li>
@@ -89,6 +100,10 @@ function endsWith( $haystack, $needle ) {
 	 <li class="nav-item<?php if (endsWith($uri, "cards/add") !== false){ echo ' active"'; }  ?>">
         <a class="nav-link" href="<?php echo site_url('product/cards/add');?>">Add card</a>
 	 </li>
+	 
+	 <?php
+		}
+		?>
 
 	 <li class="nav-item<?php if (strpos($uri, "settings") !== false){ echo ' active"'; }  ?>">
 	   <a class="nav-link" href="<?php echo site_url('auth/edit_user/'); echo $user->id; ?>">Settings</a>   
@@ -171,7 +186,7 @@ function endsWith( $haystack, $needle ) {
 	           
 	        // Check file selected or not
 
-			
+		
 
 	        if(files.length > 0 ){
 		        
@@ -203,6 +218,7 @@ function endsWith( $haystack, $needle ) {
 		           $change_this_id = id_pack_image['value'];
 		           $user_folder = userfolder_pack_image['value'];
 		           $card_folder = cardfolder_pack_image['value'];
+				 
 		          
 		           }
 

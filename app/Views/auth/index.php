@@ -1,3 +1,4 @@
+
 <h1><?php echo lang('Auth.index_heading');?></h1>
 <p><?php echo lang('Auth.index_subheading');?></p>
 

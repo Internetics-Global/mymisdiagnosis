@@ -717,3 +717,76 @@ INFO - 2021-12-20 15:11:45 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2021-12-20 15:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2021-12-20 15:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 WARNING - 2021-12-20 15:11:49 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-20 21:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-20 21:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-20 21:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-20 21:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-20 21:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-20 21:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-20 21:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-20 21:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-20 21:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-20 21:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-20 22:00:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-20 22:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-20 22:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-20 22:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-12-20 22:01:37 --> Invalid file: Views\auth/login.php
+#0 /var/www/html/mymisdiagnosis/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views\\auth/logi...')
+#1 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('Views\\auth/logi...', Array, true)
+#2 /var/www/html/mymisdiagnosis/app/Controllers/Auth.php(180): view('Views\\auth/logi...', Array)
+#3 /var/www/html/mymisdiagnosis/app/ThirdParty/IonAuth/Controllers/Auth.php(175): App\Controllers\Auth->renderPage('Views\\auth/logi...', Array)
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): IonAuth\Controllers\Auth->login()
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-12-20 22:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-20 22:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-12-20 22:03:38 --> Invalid file: Views\auth/login.php
+#0 /var/www/html/mymisdiagnosis/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views\\auth/logi...')
+#1 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('Views\\auth/logi...', Array, true)
+#2 /var/www/html/mymisdiagnosis/app/Controllers/Auth.php(180): view('Views\\auth/logi...', Array)
+#3 /var/www/html/mymisdiagnosis/app/ThirdParty/IonAuth/Controllers/Auth.php(175): App\Controllers\Auth->renderPage('Views\\auth/logi...', Array)
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): IonAuth\Controllers\Auth->login()
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-12-20 22:04:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-20 22:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-20 22:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-12-20 22:04:42 --> Invalid file: \Views\auth/login.php
+#0 /var/www/html/mymisdiagnosis/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\Views\\auth/log...')
+#1 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('\\Views\\auth/log...', Array, true)
+#2 /var/www/html/mymisdiagnosis/app/Controllers/Auth.php(180): view('\\Views\\auth/log...', Array)
+#3 /var/www/html/mymisdiagnosis/app/ThirdParty/IonAuth/Controllers/Auth.php(175): App\Controllers\Auth->renderPage('\\Views\\auth/log...', Array)
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): IonAuth\Controllers\Auth->login()
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-12-20 22:05:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-12-20 22:05:19 --> Invalid file: Views\auth/login.php
+#0 /var/www/html/mymisdiagnosis/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views\\auth/logi...')
+#1 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('Views\\auth/logi...', Array, true)
+#2 /var/www/html/mymisdiagnosis/app/Controllers/Auth.php(180): view('Views\\auth/logi...', Array)
+#3 /var/www/html/mymisdiagnosis/app/ThirdParty/IonAuth/Controllers/Auth.php(175): App\Controllers\Auth->renderPage('Views\\auth/logi...', Array)
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): IonAuth\Controllers\Auth->login()
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-12-20 22:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-12-20 22:07:20 --> Invalid file: /Views/auth/login.php
+#0 /var/www/html/mymisdiagnosis/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Views/auth/log...')
+#1 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('/Views/auth/log...', Array, true)
+#2 /var/www/html/mymisdiagnosis/app/Controllers/Auth.php(180): view('/Views/auth/log...', Array)
+#3 /var/www/html/mymisdiagnosis/app/ThirdParty/IonAuth/Controllers/Auth.php(175): App\Controllers\Auth->renderPage('/Views/auth/log...', Array)
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): IonAuth\Controllers\Auth->login()
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-12-20 22:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-20 22:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

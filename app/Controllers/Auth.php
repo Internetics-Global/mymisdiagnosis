@@ -14,7 +14,7 @@ class Auth extends \IonAuth\Controllers\Auth
      * and references the template at app/views/auth_internetics
      *  
      */
-
+protected $viewsFolder = 'Views\auth';
 
 public function index()
 {
@@ -70,8 +70,9 @@ public function register_user()
 	{
 		$this->validation->setRule('email', lang('Auth.create_user_validation_email_label'), 'trim|required|valid_email|is_unique[' . $tables['users'] . '.email]');
 	}
+	
 	$this->validation->setRule('phone', lang('Auth.create_user_validation_phone_label'), 'trim');
-	$this->validation->setRule('company', lang('Auth.create_user_validation_company_label'), 'trim');
+	$this->validation->setRule('company', lang('Auth.create_user_validation_company_label'), 'required|trim|is_unique[' . $tables['users'] . '.company]');
 	$this->validation->setRule('password', lang('Auth.create_user_validation_password_label'), 'required|min_length[' . $this->configIonAuth->minPasswordLength . ']|matches[password_confirm]');
 	$this->validation->setRule('password_confirm', lang('Auth.create_user_validation_password_confirm_label'), 'required');
 
@@ -94,7 +95,7 @@ public function register_user()
 		// check to see if we are creating the user
 		// redirect them back to the admin page
 		$this->session->setFlashdata('message', $this->ionAuth->messages());
-		return redirect()->to('/auth');
+		return redirect()->to('/auth/register_user');
 	}
 	else
 	{
@@ -156,15 +157,301 @@ public function register_user()
 			'type'  => 'text',
 			'value' => set_value('user_folder'),
 		];
-
+$this->data['message'] = $this->validation->getErrors() ? $this->validation->listErrors($this->validationListTemplate) : $this->session->getFlashdata('message');
 		return $this->renderPage($this->viewsFolder . DIRECTORY_SEPARATOR . 'register_user', $this->data);
+		
+		
+		
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 }
 
 
 
+/**
+	 * Create a new user
+	 *
+	 * @return string|\CodeIgniter\HTTP\RedirectResponse
+	 */
+	public function create_user()
+	{
+		$this->data['title'] = lang('Auth.create_user_heading');
 
+		if (! $this->ionAuth->loggedIn() || ! $this->ionAuth->isAdmin())
+		{
+			return redirect()->to('/auth');
+		}
 
+		$tables                        = $this->configIonAuth->tables;
+		$identityColumn                = $this->configIonAuth->identity;
+		$this->data['identity_column'] = $identityColumn;
+
+		// validate form input
+		$this->validation->setRule('first_name', lang('Auth.create_user_validation_fname_label'), 'trim|required');
+		$this->validation->setRule('last_name', lang('Auth.create_user_validation_lname_label'), 'trim|required');
+		if ($identityColumn !== 'email')
+		{
+			$this->validation->setRule('identity', lang('Auth.create_user_validation_identity_label'), 'trim|required|is_unique[' . $tables['users'] . '.' . $identityColumn . ']');
+			$this->validation->setRule('email', lang('Auth.create_user_validation_email_label'), 'trim|required|valid_email');
+		}
+		else
+		{
+			$this->validation->setRule('email', lang('Auth.create_user_validation_email_label'), 'trim|required|valid_email|is_unique[' . $tables['users'] . '.email]');
+		}
+		$this->validation->setRule('phone', lang('Auth.create_user_validation_phone_label'), 'trim');
+		$this->validation->setRule('company', lang('Auth.create_user_validation_company_label'), 'required|trim|is_unique[' . $tables['users'] . '.company]');
+		$this->validation->setRule('password', lang('Auth.create_user_validation_password_label'), 'required|min_length[' . $this->configIonAuth->minPasswordLength . ']|matches[password_confirm]');
+		$this->validation->setRule('password_confirm', lang('Auth.create_user_validation_password_confirm_label'), 'required');
+
+		if ($this->request->getPost() && $this->validation->withRequest($this->request)->run())
+		{
+			$email    = strtolower($this->request->getPost('email'));
+			$identity = ($identityColumn === 'email') ? $email : $this->request->getPost('identity');
+			$password = $this->request->getPost('password');
+
+			$additionalData = [
+				'first_name' => $this->request->getPost('first_name'),
+				'last_name'  => $this->request->getPost('last_name'),
+				'company'    => $this->request->getPost('company'),
+				'phone'      => $this->request->getPost('phone'),
+				'user_folder'      => $this->request->getPost('user_folder'),
+			];
+		}
+		if ($this->request->getPost() && $this->validation->withRequest($this->request)->run() && $this->ionAuth->register($identity, $password, $email, $additionalData))
+		{
+			// check to see if we are creating the user
+			// redirect them back to the admin page
+			$this->session->setFlashdata('message', $this->ionAuth->messages());
+			return redirect()->to('/auth');
+		}
+		else
+		{
+			// display the create user form
+			// set the flash data error message if there is one
+			$this->data['message'] = $this->validation->getErrors() ? $this->validation->listErrors($this->validationListTemplate) : ($this->ionAuth->errors($this->validationListTemplate) ? $this->ionAuth->errors($this->validationListTemplate) : $this->session->getFlashdata('message'));
+
+			$this->data['first_name'] = [
+				'name'  => 'first_name',
+				'id'    => 'first_name',
+				'type'  => 'text',
+				'value' => set_value('first_name'),
+			];
+			$this->data['last_name'] = [
+				'name'  => 'last_name',
+				'id'    => 'last_name',
+				'type'  => 'text',
+				'value' => set_value('last_name'),
+			];
+			$this->data['identity'] = [
+				'name'  => 'identity',
+				'id'    => 'identity',
+				'type'  => 'text',
+				'value' => set_value('identity'),
+			];
+			$this->data['email'] = [
+				'name'  => 'email',
+				'id'    => 'email',
+				'type'  => 'email',
+				'value' => set_value('email'),
+			];
+			$this->data['company'] = [
+				'name'  => 'company',
+				'id'    => 'company',
+				'type'  => 'text',
+				'value' => set_value('display_name'),
+			];
+			$this->data['phone'] = [
+				'name'  => 'phone',
+				'id'    => 'phone',
+				'type'  => 'text',
+				'value' => set_value('phone'),
+			];
+			$this->data['password'] = [
+				'name'  => 'password',
+				'id'    => 'password',
+				'type'  => 'password',
+				'value' => set_value('password'),
+			];
+			$this->data['password_confirm'] = [
+				'name'  => 'password_confirm',
+				'id'    => 'password_confirm',
+				'type'  => 'password',
+				'value' => set_value('password_confirm'),
+			];
+			$this->data['user_folder'] = [
+				'name'  => 'user_folder',
+				'id'    => 'user_folder',
+				'type'  => 'text',
+				'value' => set_value('user_folder'),
+			];
+
+			return $this->renderPage($this->viewsFolder . DIRECTORY_SEPARATOR . 'create_user', $this->data);
+		}
+	}
+
+	/**
+	 * Redirect a user checking if is admin
+	 *
+	 * @return \CodeIgniter\HTTP\RedirectResponse
+	 */
+	public function redirectUser()
+	{
+		if ($this->ionAuth->isAdmin())
+		{
+			return redirect()->to('/auth');
+		}
+		return redirect()->to('/');
+	}
+
+	/**
+	 * Edit a user
+	 *
+	 * @param integer $id User id
+	 *
+	 * @return string string|\CodeIgniter\HTTP\RedirectResponse
+	 */
+	public function edit_user(int $id)
+	{
+		$this->data['title'] = lang('Auth.edit_user_heading');
+
+		if (! $this->ionAuth->loggedIn() || (! $this->ionAuth->isAdmin() && ! ($this->ionAuth->user()->row()->id == $id)))
+		{
+			return redirect()->to('/auth');
+		}
+
+		$user          = $this->ionAuth->user($id)->row();
+		$groups        = $this->ionAuth->groups()->resultArray();
+		$currentGroups = $this->ionAuth->getUsersGroups($id)->getResult();
+
+		if (! empty($_POST))
+		{
+			// validate form input
+			$this->validation->setRule('first_name', lang('Auth.edit_user_validation_fname_label'), 'trim|required');
+			$this->validation->setRule('last_name', lang('Auth.edit_user_validation_lname_label'), 'trim|required');
+//			$this->validation->setRule('phone', lang('Auth.edit_user_validation_phone_label'), 'trim|required');
+			$this->validation->setRule('company', lang('Auth.edit_user_validation_company_label'), 'trim|required');
+
+			// do we have a valid request?
+			if ($id !== $this->request->getPost('id', FILTER_VALIDATE_INT))
+			{
+				//show_error(lang('Auth.error_security'));
+				throw new \Exception(lang('Auth.error_security'));
+			}
+
+			// update the password if it was posted
+			if ($this->request->getPost('password'))
+			{
+				$this->validation->setRule('password', lang('Auth.edit_user_validation_password_label'), 'required|min_length[' . $this->configIonAuth->minPasswordLength . ']|matches[password_confirm]');
+				$this->validation->setRule('password_confirm', lang('Auth.edit_user_validation_password_confirm_label'), 'required');
+			}
+
+			if ($this->request->getPost() && $this->validation->withRequest($this->request)->run())
+			{
+				$data = [
+					'first_name' => $this->request->getPost('first_name'),
+					'last_name'  => $this->request->getPost('last_name'),
+					'company'    => $this->request->getPost('company'),
+					'phone'      => $this->request->getPost('phone'),
+				];
+
+				// update the password if it was posted
+				if ($this->request->getPost('password'))
+				{
+					$data['password'] = $this->request->getPost('password');
+				}
+
+				// Only allow updating groups if user is admin
+				if ($this->ionAuth->isAdmin())
+				{
+					// Update the groups user belongs to
+					$groupData = $this->request->getPost('groups');
+
+					if (! empty($groupData))
+					{
+						$this->ionAuth->removeFromGroup('', $id);
+
+						foreach ($groupData as $grp)
+						{
+							$this->ionAuth->addToGroup($grp, $id);
+						}
+					}
+				}
+
+				// check to see if we are updating the user
+				if ($this->ionAuth->update($user->id, $data))
+				{
+					$this->session->setFlashdata('message', $this->ionAuth->messages());
+				}
+				else
+				{
+					$this->session->setFlashdata('message', $this->ionAuth->errors($this->validationListTemplate));
+				}
+				// redirect them back to the admin page if admin, or to the base url if non admin
+//				return $this->redirectUser();
+				return redirect()->to('/auth/edit_user/' . $id .'');
+			}
+		}
+
+		// display the edit user form
+
+		// set the flash data error message if there is one
+		$this->data['message'] = $this->validation->getErrors() ? $this->validation->listErrors($this->validationListTemplate) : ($this->ionAuth->errors($this->validationListTemplate) ? $this->ionAuth->errors($this->validationListTemplate) : $this->session->getFlashdata('message'));
+
+		// pass the user to the view
+		$this->data['user']          = $user;
+		$this->data['groups']        = $groups;
+		$this->data['currentGroups'] = $currentGroups;
+
+		$this->data['first_name'] = [
+			'name'  => 'first_name',
+			'id'    => 'first_name',
+			'type'  => 'text',
+			'value' => set_value('first_name', $user->first_name ?: ''),
+		];
+		$this->data['last_name'] = [
+			'name'  => 'last_name',
+			'id'    => 'last_name',
+			'type'  => 'text',
+			'value' => set_value('last_name', $user->last_name ?: ''),
+		];
+		$this->data['company'] = [
+			'name'  => 'company',
+			'id'    => 'company',
+			'type'  => 'text',
+			'value' => set_value('company', empty($user->display_name) ? '' : $user->company),
+		];
+		$this->data['phone'] = [
+			'name'  => 'phone',
+			'id'    => 'phone',
+			'type'  => 'text',
+			'value' => set_value('phone', empty($user->phone) ? '' : $user->phone),
+		];
+		$this->data['password'] = [
+			'name' => 'password',
+			'id'   => 'password',
+			'type' => 'password',
+		];
+		$this->data['password_confirm'] = [
+			'name' => 'password_confirm',
+			'id'   => 'password_confirm',
+			'type' => 'password',
+		];
+		$this->data['ionAuth'] = $this->ionAuth;
+
+		return $this->renderPage($this->viewsFolder . DIRECTORY_SEPARATOR . 'edit_user', $this->data);
+	}
 
 
 

@@ -68,7 +68,7 @@ $this->ionAuth    = new \IonAuth\Libraries\IonAuth();
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo site_url();?>/posts">News</a>
+        <a class="nav-link" href="<?php echo site_url();?>pages">News</a>
       </li>
       
       <li class="nav-item<?php if (strpos($uri, "register_user") !== false){ echo ' active"'; }  ?>">

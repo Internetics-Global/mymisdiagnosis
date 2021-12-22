@@ -72,14 +72,14 @@ function endsWith( $haystack, $needle ) {
 	  
       </li>
 	 <li class="nav-item">
-	    <a class="nav-link" href="<?php echo site_url();?>posts">News</a>
+	    <a class="nav-link" href="<?php echo site_url();?>pages">News</a>
 	  </li>
 	  
 	 <?php
 	 // if($this->ionAuth->inGroup('members')
 	 if ($this->ionAuth->isAdmin()) {
 	 ?>
-	 <li class="nav-item<?php if (endsWith($uri, "posts") !== false){ echo ' active"'; }  ?>">
+	 <li class="nav-item<?php if (endsWith($uri, "pages") !== false){ echo ' active"'; }  ?>">
 		<a class="nav-link" href="<?php echo site_url('posteditor/posts');?>">Post editor</a>
 	   </li>
       <li class="nav-item<?php if (endsWith($uri, "packs") !== false){ echo ' active"'; }  ?>">

@@ -252,7 +252,7 @@ function rename_temp_filenames($post_array) {
 
 // format the slug url
 
-$replacement_slug = preg_replace('/[^A-Za-z0-9 ]/', '-', $post_array->data['slug']);
+$replacement_slug = preg_replace('/[\p{P}\p{Zs}]+/u', '-', $post_array->data['slug']);
 $replacement_slug = strtolower($replacement_slug);
 $post_array->data['slug'] = $replacement_slug;
 

@@ -61,7 +61,7 @@ $uri = current_url(true);
 		    <div class="row no-gutters rounded overflow-hidden flex-md-row">
 			   <div class="card-body home_page_card_1">
 				 
-				   <h4 class="card-title mb-0"><a href="posts/123">How to use this site</a></h4>
+				   <h4 class="card-title mb-0"><a href="pages/how-to-use-this-site">How to use this site</a></h4>
 				 
 			   </div>
 			 </div>
@@ -74,7 +74,7 @@ $uri = current_url(true);
 		    <div class="row no-gutters rounded overflow-hidden flex-md-row">
 			   <div class="card-body home_page_card_2">
 				   
-			   		<h4 class="card-title mb-0"><a href="posts/124">About us</a></h4>
+			   		<h4 class="card-title mb-0"><a href="pages/all-about-misdiagnosis-com">About us</a></h4>
 					   
 			   </div>
 			 </div>
@@ -86,7 +86,7 @@ $uri = current_url(true);
 		    <div class="row no-gutters rounded overflow-hidden flex-md-row">
 			   <div class="card-body home_page_card_3">
 				   
-			   		<h4 class="card-title mb-0"><a href="posts/125">Empowering patients</a></h4>
+			   		<h4 class="card-title mb-0"><a href="pages/empowering-patients">Empowering patients</a></h4>
 					   
 			   </div>
 			 </div>

@@ -16,17 +16,17 @@
 		  <div class="card mb-3">
 		    <div class="row no-gutters border rounded overflow-hidden flex-md-row">
 			   <div class="card-body">
-			   <a href="posts/<?= $value['slug'] ?>"><?php if ($value['post_thumb']) {
+			   <a href="pages/<?= $value['slug'] ?>"><?php if ($value['post_thumb']) {
 							
 						   echo '<img src=" ' . $value['post_thumb']  .  '" class="post_image_alignment">';
 						   
 						 }
 						
 						?></a>
-				<h2 class="card-title mb-0"><a href="posts/<?= $value['slug'] ?>"><?= $value['post_title'] ?></a></h2>
+				<h2 class="card-title mb-0"><a href="pages/<?= $value['slug'] ?>"><?= $value['post_title'] ?></a></h2>
 				<p class="card-text mb-1"><small class="text-muted"><?=$value['date_of_post'] ?></small></p>
 				<p class="card-text"><?= strip_tags(htmlspecialchars_decode(word_limiter($value['post_snippet'], 19)), ENT_HTML5)?></p>
-				<a href="posts/<?= $value['slug'] ?>" class="stretched-link">Continue reading</a>
+				<a href="pages/<?= $value['slug'] ?>" class="stretched-link">Continue reading</a>
 			   </div>
 			 </div>
 		  </div>

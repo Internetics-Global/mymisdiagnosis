@@ -1,3 +1,4 @@
+
 <div class="container">
   <?php
   $blog = $posts;
@@ -9,30 +10,67 @@
 	 <h2>No posts are present </h2>
     </div>
   <?php else : ?>
+  
+  <div class="row mb-2">
     <?php foreach ($blogs_chunk as $key => $items) : ?>
-	 <div class="row mb-2">
+
+
+
+	
+		 
+		 
+		 
 	   <?php foreach ($items as $key => $value) : ?>
-		<div class="col-md-6">
+		<div class="col-md-4">
 		  <div class="card mb-3">
-		    <div class="row no-gutters border rounded overflow-hidden flex-md-row">
-			   <div class="card-body">
-			   <a href="pages/<?= $value['slug'] ?>"><?php if ($value['post_thumb']) {
-							
-						   echo '<img src=" ' . $value['post_thumb']  .  '" class="post_image_alignment">';
-						   
-						 }
-						
-						?></a>
-				<h2 class="card-title mb-0"><a href="pages/<?= $value['slug'] ?>"><?= $value['post_title'] ?></a></h2>
-				<p class="card-text mb-1"><small class="text-muted"><?=$value['date_of_post'] ?></small></p>
-				<p class="card-text"><?= strip_tags(htmlspecialchars_decode(word_limiter($value['post_snippet'], 19)), ENT_HTML5)?></p>
-				<a href="pages/<?= $value['slug'] ?>" class="stretched-link">Continue reading</a>
-			   </div>
-			 </div>
-		  </div>
+		    <div class="row no-gutters rounded overflow-hidden flex-md-row" style="background-image: url(<?php if ($value['post_thumb']) { echo $value['post_thumb']; } ?>); background-size: 550px; background-repeat: no-repeat;">
+			  <div class="card-body listpage">
+			  
+			    <h4 class="card-title mb-0"><a href="pages/<?= $value['slug'] ?>"><?= $value['post_title'] ?></a></h4>
+		    
+			  </div>
+			</div>
+			
+			
+		  </div><!-- end mb3 -->
+			  
+			  <p><?= strip_tags(htmlspecialchars_decode(word_limiter($value['post_snippet'], 19)), ENT_HTML5)?></p> 
+				 <!--<p class="card-text mb-1"><small class="text-muted"><?=$value['date_of_post'] ?></small></p> -->
+						  
+				 <p><a href="pages/<?= $value['slug'] ?>" class="stretched-link">Continue reading</a></p>
 		</div>
 	   <?php endforeach; ?>
-	 </div>
+
+
+
+
+	
     <?php endforeach; ?>
+    
+    </div> <!-- end row mb2 -->
   <?php endif; ?>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 </div>
+
+
+
+
+
+		  
+
+
+		  
+
+			
+			

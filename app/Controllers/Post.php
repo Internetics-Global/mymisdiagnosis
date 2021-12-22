@@ -63,6 +63,7 @@ class Post extends BaseController
 	    echo view('auth_internetics/header', $data);
 	    echo view('post_list', $data);
 	    echo view('auth_internetics/footer');
+	    
     }
 
    
@@ -72,12 +73,16 @@ class Post extends BaseController
     {
 	 $sess = session();
 	 $sess->start();
+	 
+
+	 
 	 if(empty($post_id) || is_null($post_id) || $post_id == 'default')
 	 {
 	   return redirect()->route('');
 	 }
 	 else
 	 {
+		 
 	   $post_model = new PostModel();
 	   list($individualPost,) = $post_model->getIndividualPost($post_id);
 	   if(is_null($individualPost))
@@ -88,6 +93,7 @@ class Post extends BaseController
 	   {
 		   
 		foreach ($individualPost as $key => $post) : 
+		 
 		 $data['title'] = $post['post_title'];
 		 $data['post_user_id'] = $post['post_user_id']; 
 		 $data['post_id'] = $post['post_id'];
@@ -96,10 +102,11 @@ class Post extends BaseController
 		 $data['post_image'] = $post['post_image'];
 		 $data['meta_title'] = $post['meta_title'];
 		 $data['meta_description'] = $post['meta_description'];
+		 $data['slug'] = $post['slug'];
 		endforeach;     
 		   
 		   
-		   
+		  
 		$data['individualPost'] = $individualPost;
 		echo view('auth_internetics/header', $data);
 		echo view('post_individual', $data);

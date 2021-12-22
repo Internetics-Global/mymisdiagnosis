@@ -5,7 +5,9 @@ $user = $this->ionAuth->user()->row();
 
 $uri = current_url(true);
 
-
+$slug2 = url_title($title, '-', true);
+echo $slug2;
+echo "<a href='/" . $slug2 . "'>Link</a>";
 
 // if ($this->ionAuth->loggedIn()) {echo "logged in";}
 

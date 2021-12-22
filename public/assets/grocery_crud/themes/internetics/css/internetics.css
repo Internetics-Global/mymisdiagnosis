@@ -672,19 +672,80 @@ and (max-width: 760px) {
   margin:30px;
   }
   
+
+.card-title > a {
+    font-size: .8em;
+}
+
+  .card-body.home_page_card_1 {
+
+      height: 150px;
+   
+  }
+  
+  .card-body.home_page_card_2 {
+  
+        height: 150px;
+     
+  }
+  
+  .card-body.home_page_card_3 {
+    
+        height: 150px;
+       
+  }
+  
+  .card-title.mb-0 {
+      background-color: rgba(61, 81, 97, 0.5);
+      padding: 10px;
+      border-radius: 5px;
+      border: 0px;
+      margin-top: 70px;
+      bottom: 0p;
+  }
   
 }
 
 
+
+
 @media only screen 
 and (max-width: 480px) {
+  
+
+
+  
  
- .card-title > a {
-  font-size: .5em;
+  
+  .navbar {
+      padding: 0px;
   }
   
+  .col-md-4 {
+      position: relative;
+      width: 100%;
+      min-height: 1px;
+      padding-right: 1px;
+      padding-left: 1px;
+  }
+  
+  .navbar-brand.mx-auto {
+
+      right: 10px;
+      top: 2px;
+
+  }
+ 
+.container {
+padding-right: 1px; 
+padding-left: 1px;
+
+}
+  
   .p-5 {
-      padding: 0rem!important;
+      padding: 1rem!important;
+     
+      }
   }
   
   

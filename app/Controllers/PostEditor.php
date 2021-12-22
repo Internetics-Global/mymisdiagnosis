@@ -95,7 +95,7 @@ public function posts()
 	     $crud->setSubject('Posts');             
      
 
-		$crud->fields(['post_id', 'post_title', 'post_snippet', 'post_body', 'post_thumb', 'post_image', 'date_of_post', 'meta_title', 'meta_description', 'post_user_id']);
+		$crud->fields(['post_id', 'post_title', 'post_snippet', 'post_body', 'post_thumb', 'post_image', 'date_of_post', 'meta_title', 'meta_description', 'slug', 'post_user_id']);
 		
 		$user = $this->ionAuth->user()->row();   			
 							
@@ -111,10 +111,14 @@ public function posts()
 		$crud->callbackEditField('post_image', (array($this, 'upload_images_posts')));
 		$crud->callbackAddField('post_image', (array($this, 'upload_images_posts')));
 		$crud->callbackEditField('post_thumb', (array($this, 'upload_images_posts')));
-		$crud->callbackAddField('post_thumb', (array($this, 'upload_images_posts')));		
+		$crud->callbackAddField('post_thumb', (array($this, 'upload_images_posts')));	
+		
+
 				 		 
-		$crud->callbackBeforeUpdate(array($this, 'rename_temp_filenames'));
-		$crud->callbackBeforeInsert(array($this, 'rename_temp_filenames'));
+$crud->callbackBeforeUpdate(array($this, 'rename_temp_filenames'));
+$crud->callbackBeforeInsert(array($this, 'rename_temp_filenames'));
+
+
 		
 		$crud->callbackAfterInsert(array($this, 'rename_temp_folder'));	
 	 
@@ -140,6 +144,42 @@ public function posts()
     
 }
 	
+
+
+
+function format_slug ($post_array) {
+	
+
+
+
+
+
+
+	$replacement_slug = str_replace('_', '-', $post_array->data['slug']);
+	$post_array->data['slug'] = $replacement_slug;
+		
+		
+	
+    return $post_array;
+
+
+
+
+
+
+
+	
+	}
+
+
+
+
+
+
+
+
+
+
 
 // this sets up the image upload form component, used in conjunction with upload.php which is referenced from the articles_view.php view template
 
@@ -210,7 +250,11 @@ $user = $this->ionAuth->user()->row();
 function rename_temp_filenames($post_array) {
 
 
+// format the slug url
 
+$replacement_slug = preg_replace('/[^A-Za-z0-9 ]/', '-', $post_array->data['slug']);
+$replacement_slug = strtolower($replacement_slug);
+$post_array->data['slug'] = $replacement_slug;
 
 
 

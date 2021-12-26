@@ -1,5 +1,5 @@
-<h1><?php echo lang('Auth.edit_user_heading');?></h1>
-<p><?php echo lang('Auth.edit_user_subheading');?></p>
+<h1>Edit your myMisdiagnosis.com account settings</h1>
+<p>Please enter your information below. Please note that anonymous screen names, and your account email address cannot be changed.</p>
 
 <div id="infoMessage"><?php echo $message;?></div>
 

@@ -1,5 +1,5 @@
-<h1><?php echo lang('Auth.forgot_password_heading');?></h1>
-<p><?php echo sprintf(lang('Auth.forgot_password_subheading'), $identity_label);?></p>
+<h1>Forgot your password?</h1>
+<p>Please enter your registered email address and we will email you a link to reset your password.</p>
 
 <div id="infoMessage"><?php echo $message;?></div>
 

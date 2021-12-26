@@ -1,0 +1,261 @@
+CRITICAL - 2021-12-24 07:35:52 --> Undefined property: App\Controllers\Testemail3::$email
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Testemail3.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/m...', 45, Array)
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Testemail3->index()
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testemail3))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-24 07:39:18 --> Undefined property: App\Controllers\Testemail3::$email
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Testemail3.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/m...', 46, Array)
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Testemail3->index()
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testemail3))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-24 07:40:24 --> Undefined property: App\Controllers\Testemail3::$email
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Testemail3.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/m...', 46, Array)
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Testemail3->index()
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testemail3))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-24 07:42:09 --> syntax error, unexpected 'class' (T_CLASS), expecting '{'
+#0 /var/www/html/mymisdiagnosis/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('testemail3')
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('testemail3')
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-24 07:43:27 --> Undefined property: App\Controllers\Testemail3::$email
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Testemail3.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/m...', 46, Array)
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Testemail3->index()
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testemail3))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-24 07:43:46 --> Undefined property: App\Controllers\Testemail3::$email
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Testemail3.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/m...', 49, Array)
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Testemail3->index()
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testemail3))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-24 07:46:44 --> syntax error, unexpected 'class' (T_CLASS), expecting '{'
+#0 /var/www/html/mymisdiagnosis/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('testemail3')
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('testemail3')
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-24 07:47:00 --> Undefined property: App\Controllers\Testemail3::$email
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Testemail3.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/m...', 51, Array)
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Testemail3->index()
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testemail3))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-24 07:53:47 --> syntax error, unexpected '}', expecting end of file
+#0 /var/www/html/mymisdiagnosis/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('testemail3')
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('testemail3')
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-24 07:59:40 --> syntax error, unexpected '}', expecting end of file
+#0 /var/www/html/mymisdiagnosis/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('contact/sendit')
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('contact/sendit')
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-24 07:59:55 --> Class 'App\Controllers\Model' not found
+#0 /var/www/html/mymisdiagnosis/system/Router/Router.php(562): include_once()
+#1 /var/www/html/mymisdiagnosis/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('contact/sendit')
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('contact/sendit')
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-24 08:00:41 --> Class 'App\Controllers\Model' not found
+#0 /var/www/html/mymisdiagnosis/system/Router/Router.php(562): include_once()
+#1 /var/www/html/mymisdiagnosis/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('contact/sendit')
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('contact/sendit')
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-24 08:01:30 --> Too few arguments to function App\Controllers\Contact::sendit(), 0 passed in /var/www/html/mymisdiagnosis/system/CodeIgniter.php on line 936 and exactly 1 expected
+#0 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Contact->sendit()
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-24 08:05:48 --> Too few arguments to function App\Controllers\Contact::sendit(), 0 passed in /var/www/html/mymisdiagnosis/system/CodeIgniter.php on line 936 and exactly 1 expected
+#0 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Contact->sendit()
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+INFO - 2021-12-24 08:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-12-24 08:06:28 --> Undefined property: App\Controllers\Contact::$data
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Contact.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/m...', 71, Array)
+#1 /var/www/html/mymisdiagnosis/app/Controllers/Contact.php(56): App\Controllers\Contact->sendit(Array)
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Contact->create()
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+INFO - 2021-12-24 08:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-12-24 08:11:53 --> Undefined variable: name
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Contact.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 71, Array)
+#1 /var/www/html/mymisdiagnosis/app/Controllers/Contact.php(56): App\Controllers\Contact->sendit(Array)
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Contact->create()
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-24 08:12:38 --> syntax error, unexpected ';', expecting ')'
+#0 /var/www/html/mymisdiagnosis/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('contact/create')
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('contact/create')
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-24 08:12:41 --> syntax error, unexpected ';', expecting ')'
+#0 /var/www/html/mymisdiagnosis/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('contact')
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('contact')
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-12-24 08:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-12-24 08:13:06 --> Undefined variable: msg
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Contact.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 71, Array)
+#1 /var/www/html/mymisdiagnosis/app/Controllers/Contact.php(56): App\Controllers\Contact->sendit(Array)
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Contact->create()
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-24 08:15:09 --> Trying to get property 'data' of non-object
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Contact.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/html/m...', 71, Array)
+#1 /var/www/html/mymisdiagnosis/app/Controllers/Contact.php(56): App\Controllers\Contact->sendit(Array)
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Contact->create()
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+INFO - 2021-12-24 08:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-12-24 08:15:20 --> Trying to get property 'data' of non-object
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Contact.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/html/m...', 71, Array)
+#1 /var/www/html/mymisdiagnosis/app/Controllers/Contact.php(56): App\Controllers\Contact->sendit(Array)
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Contact->create()
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-24 08:16:53 --> syntax error, unexpected ';', expecting ')'
+#0 /var/www/html/mymisdiagnosis/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('contact/create')
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('contact/create')
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-24 08:16:56 --> syntax error, unexpected ';', expecting ')'
+#0 /var/www/html/mymisdiagnosis/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('contact')
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('contact')
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-12-24 08:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-12-24 08:17:18 --> Trying to get property 'msg' of non-object
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Contact.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/html/m...', 71, Array)
+#1 /var/www/html/mymisdiagnosis/app/Controllers/Contact.php(56): App\Controllers\Contact->sendit(Array)
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Contact->create()
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-24 08:18:04 --> Trying to get property 'name' of non-object
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Contact.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/html/m...', 71, Array)
+#1 /var/www/html/mymisdiagnosis/app/Controllers/Contact.php(56): App\Controllers\Contact->sendit(Array)
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Contact->create()
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-24 08:24:04 --> Undefined index: name
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Contact.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/m...', 71, Array)
+#1 /var/www/html/mymisdiagnosis/app/Controllers/Contact.php(56): App\Controllers\Contact->sendit(Array)
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Contact->create()
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-24 08:35:23 --> Call to undefined method CodeIgniter\Email\Email::replyTo()
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Contact.php(49): App\Controllers\Contact->sendit(Array)
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Contact->create()
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-12-24 08:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-24 08:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-24 08:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-24 08:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-24 08:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-24 08:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-24 08:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-24 08:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-24 08:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-24 08:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-24 08:44:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-24 08:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-24 08:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-24 08:46:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-12-24 08:46:58 --> Too few arguments to function App\Controllers\Contact::sendit(), 0 passed in /var/www/html/mymisdiagnosis/system/CodeIgniter.php on line 936 and exactly 1 expected
+#0 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Contact->sendit()
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+INFO - 2021-12-24 08:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-24 08:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-24 08:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-24 09:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-24 09:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-24 09:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-24 09:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-24 09:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-24 10:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-24 10:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-24 10:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-24 10:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-24 10:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-24 10:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-24 10:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-24 10:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-24 10:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-24 10:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-24 10:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-24 10:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-24 10:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-24 10:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-12-24 10:59:00 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 /var/www/html/mymisdiagnosis/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('contact')
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('contact')
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-24 10:59:47 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 /var/www/html/mymisdiagnosis/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('contact')
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('contact')
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-12-24 11:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-24 11:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-24 11:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

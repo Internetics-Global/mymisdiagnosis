@@ -26,9 +26,17 @@
         <script src="/mymisdiagnosis/public/assets/grocery_crud/themes/internetics/js/datagrid/gcrud.datagrid.js"></script>
         <script src="/mymisdiagnosis/public/assets/grocery_crud/themes/internetics/js/datagrid/list.js"></script>
         <script src="/mymisdiagnosis/public/assets/grocery_crud/themes/internetics/js/lightbox.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js"></script>  
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/additional-methods.min.js"></script>
+
         
         
 </div>
+
+
+<center><div class="final_footer">Copyright myMisdiagnosis.com 2021/2022. All rights reserved.</div></center>
+
 </div>        
         
 </body>

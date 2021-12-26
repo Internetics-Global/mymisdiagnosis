@@ -48,6 +48,13 @@ $routes->add('pages/(:alphanum)','Post::display/$1');
 
 $routes->add('pages/(:any)', 'Post::index/$1');
 
+     
+$routes->get('form', 'Contact::index');
+$routes->post('form-submit', 'Contact::googleCaptachStore');
+
+
+
+
 
 
 

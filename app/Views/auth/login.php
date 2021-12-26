@@ -1,5 +1,5 @@
-<h1><?php echo lang('Auth.login_heading');?></h1>
-<p><?php echo lang('Auth.login_subheading');?></p>
+<h1>Login</h1>
+<p>Please login with your email and password below. Need to register? You can do so by clicking <a href="register_user">here</a>. </p>
 
 <div id="infoMessage"><?php echo $message;?></div>
 

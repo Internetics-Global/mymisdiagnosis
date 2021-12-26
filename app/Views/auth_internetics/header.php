@@ -5,7 +5,13 @@
 <title><?php 
 
 if ($meta_title) {echo $meta_title;} else {echo $title;}
- 
+
+
+$uri = current_url(true);
+$this->ionAuth    = new \IonAuth\Libraries\IonAuth();
+   $user = $this->ionAuth->user()->row(); 
+
+
 
 ?></title>
 
@@ -16,14 +22,21 @@ if ($meta_title) {echo $meta_title;} else {echo $title;}
     <link type="text/css" rel="stylesheet" href="/mymisdiagnosis/public/assets/grocery_crud/themes/internetics/css/general.css"/>
     <link type="text/css" rel="stylesheet" href="/mymisdiagnosis/public/assets/grocery_crud/themes/internetics/css/plugins/animate.min.css"/>
     <link type="text/css" rel="stylesheet" href="/mymisdiagnosis/public/assets/grocery_crud/themes/internetics/css/main.css"/>
-    <link type="text/css" rel="stylesheet" href="/mymisdiagnosis/public/assets/grocery_crud/themes/internetics/css/internetics.css?v=88"/>
+    <link type="text/css" rel="stylesheet" href="/mymisdiagnosis/public/assets/grocery_crud/themes/internetics/css/internetics.css?v=103"/>
     <link type="text/css" rel="stylesheet" href="/mymisdiagnosis/public/assets/grocery_crud/themes/internetics/css/lightbox.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
     
     <link rel="stylesheet" href="https://use.typekit.net/tny7auv.css">
     
+    
+<?php if (strpos($uri, "contact") !== false){ ?>  
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/additional-methods.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 
-
+<?php } ?>
 
 <meta name="description" content="<?php echo $meta_description; ?>">
 
@@ -34,20 +47,6 @@ if ($meta_title) {echo $meta_title;} else {echo $title;}
 </head>
 
 
-<?php
-$uri = current_url(true);
-$this->ionAuth    = new \IonAuth\Libraries\IonAuth();
-   $user = $this->ionAuth->user()->row(); 
-
-
-
-
-
-
-
-
-
-?>
 
 <body>
   
@@ -67,7 +66,7 @@ $this->ionAuth    = new \IonAuth\Libraries\IonAuth();
         <a class="nav-link" href="<?php echo site_url();?>">Home</a>
       </li>
 
-      <li class="nav-item">
+      <li class="nav-item<?php if (strpos($uri, "pages") !== false){ echo ' active"'; }  ?>">
         <a class="nav-link" href="<?php echo site_url();?>pages">News</a>
       </li>
       
@@ -97,6 +96,10 @@ $this->ionAuth    = new \IonAuth\Libraries\IonAuth();
           <a class="nav-link" href="<?php echo site_url('auth/logout');?>">Logout</a>
          <?php };?> 
                           
+      </li>
+      
+      <li class="nav-item<?php if (strpos($uri, "contact") !== false){ echo ' active"'; }  ?>">
+        <a class="nav-link" href="<?php echo site_url();?>contact">Contact us</a>
       </li>
     </ul>
 

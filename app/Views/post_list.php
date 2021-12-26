@@ -1,5 +1,11 @@
 
 <div class="container">
+	
+<h1>The latest from myMisdiagnosis.com</h1>
+	
+	
+	
+	
   <?php
   $blog = $posts;
   $blogs_chunk = array_chunk($blog, 2);

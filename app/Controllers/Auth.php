@@ -48,6 +48,65 @@ public function index()
 
 
 
+
+public function login()
+{
+	$this->data['title'] = lang('Auth.login_heading');
+
+	// validate form input
+	$this->validation->setRule('identity', str_replace(':', '', lang('Auth.login_identity_label')), 'required');
+	$this->validation->setRule('password', str_replace(':', '', lang('Auth.login_password_label')), 'required');
+
+	if ($this->request->getPost() && $this->validation->withRequest($this->request)->run())
+	{
+		// check to see if the user is logging in
+		// check for "remember me"
+		$remember = (bool)$this->request->getVar('remember');
+
+		if ($this->ionAuth->login($this->request->getVar('identity'), $this->request->getVar('password'), $remember))
+		{
+			//if the login is successful
+			//redirect them back to the home page
+			$this->session->setFlashdata('message', $this->ionAuth->messages());
+			return redirect()->to('/')->withCookies();
+		}
+		else
+		{
+			// if the login was un-successful
+			// redirect them back to the login page
+			$this->session->setFlashdata('message', $this->ionAuth->errors($this->validationListTemplate));
+			// use redirects instead of loading views for compatibility with MY_Controller libraries
+			return redirect()->back()->withInput();
+		}
+	}
+	else
+	{
+		// the user is not logging in so display the login page
+		// set the flash data error message if there is one
+		$this->data['message'] = $this->validation->getErrors() ? $this->validation->listErrors($this->validationListTemplate) : $this->session->getFlashdata('message');
+
+		$this->data['identity'] = [
+			'name'  => 'identity',
+			'id'    => 'identity',
+			'type'  => 'text',
+			'value' => set_value('identity'),
+			'class' => 'form-control',
+		];
+
+		$this->data['password'] = [
+			'name' => 'password',
+			'id'   => 'password',
+			'type' => 'password',
+			'class' => 'form-control',
+		];
+
+		return $this->renderPage($this->viewsFolder . DIRECTORY_SEPARATOR . 'login', $this->data);
+	}
+}
+
+
+
+
 public function register_user()
 {
 	$this->data['title'] = lang('Auth.create_user_heading');
@@ -108,54 +167,63 @@ public function register_user()
 			'id'    => 'first_name',
 			'type'  => 'text',
 			'value' => set_value('first_name'),
+			'class' => 'form-control',
 		];
 		$this->data['last_name'] = [
 			'name'  => 'last_name',
 			'id'    => 'last_name',
 			'type'  => 'text',
 			'value' => set_value('last_name'),
+			'class' => 'form-control',
 		];
 		$this->data['identity'] = [
 			'name'  => 'identity',
 			'id'    => 'identity',
 			'type'  => 'text',
 			'value' => set_value('identity'),
+			'class' => 'form-control',
 		];
 		$this->data['email'] = [
 			'name'  => 'email',
 			'id'    => 'email',
 			'type'  => 'email',
 			'value' => set_value('email'),
+			'class' => 'form-control',
 		];
 		$this->data['company'] = [
 			'name'  => 'company',
 			'id'    => 'company',
 			'type'  => 'text',
 			'value' => set_value('company'),
+			'class' => 'form-control',
 		];
 		$this->data['phone'] = [
 			'name'  => 'phone',
 			'id'    => 'phone',
 			'type'  => 'text',
 			'value' => set_value('phone'),
+			'class' => 'form-control',
 		];
 		$this->data['password'] = [
 			'name'  => 'password',
 			'id'    => 'password',
 			'type'  => 'password',
 			'value' => set_value('password'),
+			'class' => 'form-control',
 		];
 		$this->data['password_confirm'] = [
 			'name'  => 'password_confirm',
 			'id'    => 'password_confirm',
 			'type'  => 'password',
 			'value' => set_value('password_confirm'),
+			'class' => 'form-control',
 		];
 		$this->data['user_folder'] = [
 			'name'  => 'user_folder',
 			'id'    => 'user_folder',
 			'type'  => 'text',
 			'value' => set_value('user_folder'),
+			'class' => 'form-control',
 		];
 $this->data['message'] = $this->validation->getErrors() ? $this->validation->listErrors($this->validationListTemplate) : $this->session->getFlashdata('message');
 		return $this->renderPage($this->viewsFolder . DIRECTORY_SEPARATOR . 'register_user', $this->data);
@@ -247,54 +315,63 @@ $this->data['message'] = $this->validation->getErrors() ? $this->validation->lis
 				'id'    => 'first_name',
 				'type'  => 'text',
 				'value' => set_value('first_name'),
+				'class' => 'form-control',
 			];
 			$this->data['last_name'] = [
 				'name'  => 'last_name',
 				'id'    => 'last_name',
 				'type'  => 'text',
 				'value' => set_value('last_name'),
+				'class' => 'form-control',
 			];
 			$this->data['identity'] = [
 				'name'  => 'identity',
 				'id'    => 'identity',
 				'type'  => 'text',
 				'value' => set_value('identity'),
+				'class' => 'form-control',
 			];
 			$this->data['email'] = [
 				'name'  => 'email',
 				'id'    => 'email',
 				'type'  => 'email',
 				'value' => set_value('email'),
+				'class' => 'form-control',
 			];
 			$this->data['company'] = [
 				'name'  => 'company',
 				'id'    => 'company',
 				'type'  => 'text',
 				'value' => set_value('display_name'),
+				'class' => 'form-control',
 			];
 			$this->data['phone'] = [
 				'name'  => 'phone',
 				'id'    => 'phone',
 				'type'  => 'text',
 				'value' => set_value('phone'),
+				'class' => 'form-control',
 			];
 			$this->data['password'] = [
 				'name'  => 'password',
 				'id'    => 'password',
 				'type'  => 'password',
 				'value' => set_value('password'),
+				'class' => 'form-control',
 			];
 			$this->data['password_confirm'] = [
 				'name'  => 'password_confirm',
 				'id'    => 'password_confirm',
 				'type'  => 'password',
 				'value' => set_value('password_confirm'),
+				'class' => 'form-control',
 			];
 			$this->data['user_folder'] = [
 				'name'  => 'user_folder',
 				'id'    => 'user_folder',
 				'type'  => 'text',
 				'value' => set_value('user_folder'),
+				'class' => 'form-control',
 			];
 
 			return $this->renderPage($this->viewsFolder . DIRECTORY_SEPARATOR . 'create_user', $this->data);
@@ -419,34 +496,40 @@ $this->data['message'] = $this->validation->getErrors() ? $this->validation->lis
 			'id'    => 'first_name',
 			'type'  => 'text',
 			'value' => set_value('first_name', $user->first_name ?: ''),
+			'class' => 'form-control',
 		];
 		$this->data['last_name'] = [
 			'name'  => 'last_name',
 			'id'    => 'last_name',
 			'type'  => 'text',
 			'value' => set_value('last_name', $user->last_name ?: ''),
+			'class' => 'form-control',
 		];
 		$this->data['company'] = [
 			'name'  => 'company',
 			'id'    => 'company',
 			'type'  => 'text',
 			'value' => set_value('company', empty($user->display_name) ? '' : $user->company),
+			'class' => 'form-control',
 		];
 		$this->data['phone'] = [
 			'name'  => 'phone',
 			'id'    => 'phone',
 			'type'  => 'text',
 			'value' => set_value('phone', empty($user->phone) ? '' : $user->phone),
+			'class' => 'form-control',
 		];
 		$this->data['password'] = [
 			'name' => 'password',
 			'id'   => 'password',
 			'type' => 'password',
+			'class' => 'form-control',
 		];
 		$this->data['password_confirm'] = [
 			'name' => 'password_confirm',
 			'id'   => 'password_confirm',
 			'type' => 'password',
+			'class' => 'form-control',
 		];
 		$this->data['ionAuth'] = $this->ionAuth;
 

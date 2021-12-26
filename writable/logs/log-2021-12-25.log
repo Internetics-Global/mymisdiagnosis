@@ -1,0 +1,200 @@
+CRITICAL - 2021-12-25 09:38:01 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 /var/www/html/mymisdiagnosis/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('contact')
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('contact')
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-25 09:39:10 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 /var/www/html/mymisdiagnosis/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('contact')
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('contact')
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-12-25 09:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-12-25 09:39:59 --> syntax error, unexpected '}', expecting end of file
+#0 /var/www/html/mymisdiagnosis/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('contact')
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('contact')
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-12-25 09:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 09:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-12-25 09:48:04 --> Undefined variable: secretkey
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Contact.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 53, Array)
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Contact->create()
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-12-25 09:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-12-25 09:48:44 --> Undefined variable: secretkey
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Contact.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 53, Array)
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Contact->create()
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-12-25 09:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 09:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 09:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 09:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 09:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 09:57:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 09:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 09:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 18:49:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 18:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-12-25 18:49:32 --> Undefined variable: save
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Contact.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 105, Array)
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Contact->create()
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-25 18:49:32 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /var/www/html/mymisdiagnosis/system/Format/JSONFormatter.php:42
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Format/JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /var/www/html/mymisdiagnosis/system/API/ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /var/www/html/mymisdiagnosis/system/API/ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /var/www/html/mymisdiagnosis/system/Debug/Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2021-12-25 18:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 18:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 18:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 18:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 18:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 18:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 18:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 18:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 18:58:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 18:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 18:59:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 18:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 19:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 19:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 19:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 19:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 19:02:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 19:02:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-12-25 19:02:09 --> Undefined variable: save
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Contact.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 105, Array)
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Contact->create()
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-25 19:02:09 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /var/www/html/mymisdiagnosis/system/Format/JSONFormatter.php:42
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Format/JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /var/www/html/mymisdiagnosis/system/API/ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /var/www/html/mymisdiagnosis/system/API/ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /var/www/html/mymisdiagnosis/system/Debug/Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2021-12-25 19:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 19:08:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 19:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 19:09:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 19:15:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 19:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 19:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 19:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 19:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 19:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 20:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 20:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-12-25 20:07:12 --> Call to undefined function form_error()
+#0 /var/www/html/mymisdiagnosis/system/View/View.php(220): include()
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('contact', Array, true)
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Contact.php(30): view('contact', Array)
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Contact->index()
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-12-25 20:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-12-25 20:09:31 --> Undefined property: CodeIgniter\View\View::$session
+#0 /var/www/html/mymisdiagnosis/app/Views/contact.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/m...', 33, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('contact', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Contact.php(30): view('contact', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Contact->index()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-12-25 20:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-12-25 20:13:10 --> Undefined property: CodeIgniter\View\View::$session
+#0 /var/www/html/mymisdiagnosis/app/Views/contact.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/m...', 33, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('contact', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Contact.php(30): view('contact', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Contact->index()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-12-25 20:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 20:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 20:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 20:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 20:23:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 20:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 20:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 20:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:15:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:32:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:42:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:45:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-25 23:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

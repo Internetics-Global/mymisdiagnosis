@@ -55,7 +55,7 @@ class Post extends BaseController
 	    $sess = session();
 	    $sess->start();
 	    $post_model = new PostModel();
-	    list($posts) = $post_model->getAllPosts('default');
+	    list($posts) = $post_model->getAllPosts('default','news');
 	    $data['posts'] = $posts;
 	    $data['title'] = 'List of articles'; 
 	    $data['meta_title'] = 'List of articles';
@@ -98,6 +98,8 @@ class Post extends BaseController
 		 $data['post_user_id'] = $post['post_user_id']; 
 		 $data['post_id'] = $post['post_id'];
 		 $data['post_snippet'] = $post['post_snippet'];
+		 $data['post_category'] = $post['post_snippet'];
+		 $data['post_orderby'] = $post['post_orderby'];
 		 $data['post_thumb'] = $post['post_thumb'];
 		 $data['post_image'] = $post['post_image'];
 		 $data['meta_title'] = $post['meta_title'];

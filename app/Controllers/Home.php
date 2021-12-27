@@ -6,6 +6,7 @@ use App\Libraries\InterneticsLibrary;
 
 use App\Models\InterneticsModel;
 
+use App\Models\PostModel;
 
 class Home extends BaseController
 {
@@ -13,6 +14,14 @@ class Home extends BaseController
 	
 	
 	{
+		
+		$sess = session();
+		$sess->start();
+		$post_model = new PostModel();
+		list($posts) = $post_model->getAllPosts('default','front_page');
+		$data['posts'] = $posts;
+		
+		
 		$data['htmltoshow'] = "Welcome to myMisdiagnosis.com";
 		$data['title'] = "The global medical 
 		<span class='mis_blue'>mis</span>diagnosis database";

@@ -1,7 +1,7 @@
 
 <div class="container">
 	
-<h1>The latest from myMisdiagnosis.com</h1>
+<h1>The latest news</h1>
 	
 	
 	

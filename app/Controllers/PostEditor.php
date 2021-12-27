@@ -95,7 +95,7 @@ public function posts()
 	     $crud->setSubject('Posts');             
      
 
-		$crud->fields(['post_id', 'post_title', 'post_snippet', 'post_body', 'post_thumb', 'post_image', 'date_of_post', 'meta_title', 'meta_description', 'slug', 'post_user_id']);
+		$crud->fields(['post_id', 'post_title', 'post_snippet','post_category', 'post_orderby', 'post_body', 'post_thumb', 'post_image', 'date_of_post', 'meta_title', 'meta_description', 'slug', 'post_user_id']);
 		
 		$user = $this->ionAuth->user()->row();   			
 							
@@ -107,6 +107,12 @@ public function posts()
 		
 		$crud->setTexteditor(['post_body','post_snippet']);
 		
+		
+		$crud->fieldType('post_category', 'multiselect', [
+		    'news' => 'Display in news section',
+		    'site_page' => 'General site pages',
+		    'front_page' => 'Display on front page'
+		]);
 				
 		$crud->callbackEditField('post_image', (array($this, 'upload_images_posts')));
 		$crud->callbackAddField('post_image', (array($this, 'upload_images_posts')));
@@ -144,6 +150,71 @@ $crud->callbackBeforeInsert(array($this, 'rename_temp_filenames'));
     
 }
 	
+
+
+
+
+
+
+public function posts_categories()
+
+    {
+	    
+	if (! $this->ionAuth->loggedIn()) { return redirect()->to('/auth/login'); } 
+		
+		
+	else if (! $this->ionAuth->isAdmin()) {return redirect()->to('/');}
+	
+	// redirect if not an admin, otherwise show the following content:
+	
+	else 
+	
+	{
+		
+	    
+	   
+		  $crud = new InterneticsLibrary();
+
+		$crud->setModel(new InterneticsModel($db));
+
+		
+	   
+		$crud->setTheme('internetics');
+		$crud->setTable('posts_categories');
+		$crud->setSubject('Categories for posts');             
+	
+
+		$crud->fields(['category_id', 'category', 'category_display_name']);
+		
+		$user = $this->ionAuth->user()->row();   			
+							
+
+	   $output = $crud->render();
+	   
+	   
+	   
+
+	   return $this->_articlesOutput($output);
+
+	   
+	   
+	   } // end admin only content
+	  
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

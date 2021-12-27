@@ -12,15 +12,15 @@
 				
 				<div class="c_form">
 					<label for="name">Name</label>
-					<input type="text" name="name" class="form-control" id="name" placeholder="Please enter name">
+					<input type="text" name="name" class="form-control" id="name" placeholder="Please enter your name.">
 				</div>
 				<div class="c_form">
 					<label for="email">Email address</label>
-					<input type="text" name="email" class="form-control" id="email" placeholder="Please enter email id">
+					<input type="text" name="email" class="form-control" id="email" placeholder="Please enter your email address.">
 				</div>
 				<div class="c_form">
 					<label for="message">Message</label>
-					<textarea name="message" class="form-control"></textarea>
+					<textarea name="message" class="form-control" placeholder="Please type your message into this box."></textarea>
 				</div>
 				
 				<div class="c_form">

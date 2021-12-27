@@ -14,18 +14,24 @@ class PostModel extends Model
 
     
 
-    public function getAllPosts(string $post_user_id)
+    public function getAllPosts(string $post_user_id, $category)
     {
 	    
 	    
 	   $db = db_connect();
 	   $builder = $db->table('posts');
-	   $builder->orderBy('date_of_post', 'DESC');
+	   $builder->like('post_category', $category);
+	   if ($category == 'front_page'){
+		   $builder->orderBy('post_orderby', 'ASC');		   
+	   } else {
+		   $builder->orderBy('date_of_post', 'DESC');
+	   }
+	  
 	   $post_ids = array();
 	   if ($post_user_id === 'default') {
-		  $query = $builder->select(['post_id', 'post_title', 'post_snippet', 'post_body', 'post_image','post_thumb', 'meta_title', 'meta_description', 'slug', 'post_user_id', 'date_of_post','last_update'])->get();
+		  $query = $builder->select(['post_id', 'post_title', 'post_snippet', 'post_category', 'post_orderby', 'post_body', 'post_image','post_thumb', 'meta_title', 'meta_description', 'slug', 'post_user_id', 'date_of_post','last_update'])->get();
 	   } else {
-		  $query = $builder->select(['post_id', 'post_title', 'post_snippet', 'post_body', 'post_image', 'post_thumb', 'meta_title', 'meta_description', 'slug', 'post_user_id', 'date_of_post','last_update'])->where(['post_user_id' => $post_user_id])->get();
+		  $query = $builder->select(['post_id', 'post_title', 'post_snippet', 'post_category', 'post_orderby', 'post_body', 'post_image', 'post_thumb', 'meta_title', 'meta_description', 'slug', 'post_user_id', 'date_of_post','last_update'])->where(['post_user_id' => $post_user_id])->get();
 	   }
 	   $posts = $query->getResultArray();
 	   if (is_null($posts)) {
@@ -50,7 +56,7 @@ class PostModel extends Model
 	   
 	   $db = db_connect();
 	   $builder = $db->table('posts');
-	   $query = $builder->select(['post_id', 'post_title', 'post_snippet', 'post_body', 'post_image', 'post_thumb', 'meta_title', 'meta_description', 'slug', 'post_user_id', 'date_of_post', 'last_update'])->where(["slug" => $post_id])->get();
+	   $query = $builder->select(['post_id', 'post_title', 'post_snippet', 'post_category', 'post_body', 'post_image', 'post_thumb', 'meta_title', 'meta_description', 'slug', 'post_user_id', 'date_of_post', 'last_update'])->where(["slug" => $post_id])->get();
 	   $result = $builder->countAllResults();
 	   if ($result === 0) {
 		  return null;

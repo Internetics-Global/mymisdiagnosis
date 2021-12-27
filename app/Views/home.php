@@ -23,82 +23,57 @@ $uri = current_url(true);
 
 
 
+<?php
+  $blog = $posts;
+  $blogs_chunk = array_chunk($blog, 2);
+  $badge_class = ["badge-primary", "badge-secondary", "badge-success", "badge-danger", "badge-warning", "badge-info", "badge-dark"];
+  ?>
+  <?php if ($blog === null) : ?>
+    <div class="row mb-2">
+	 <h2>No posts are present </h2>
+    </div>
+  <?php else : ?>
+  
+  <div class="row mb-2">
+    <?php foreach ($blogs_chunk as $key => $items) : ?>
 
+
+
+	
+		 
+		 
+		 
+	   <?php foreach ($items as $key => $value) : ?>
+		<div class="col-md-4">
+		  <div class="card mb-3">
+		    <div class="row no-gutters rounded overflow-hidden flex-md-row" style="background-image: url(<?php if ($value['post_thumb']) { echo $value['post_thumb']; } ?>); background-size: 550px; background-repeat: no-repeat;">
+			  <div class="card-body listpage">
+			  
+			    <h4 class="card-title mb-0"><a href="pages/<?= $value['slug'] ?>"><?= $value['post_title'] ?></a></h4>
+		    
+			  </div>
+			</div>
+			
+			
+		  </div><!-- end mb3 -->
+			  
+			  
+		</div>
+	   <?php endforeach; ?>
+
+
+
+
+	
+    <?php endforeach; ?>
+    
+    </div> <!-- end row mb2 -->
+  <?php endif; ?>
 		
 			
 
 
 
-
-
-
-<div class="col-12">
-		
-	<div class="container">
-
-		 <div class="row mb-2">
-			    
-			    
-			    
-			<!--    <div class="col-md-4">
-					 <div class="card mb-3">
-					   <div class="row no-gutters border rounded overflow-hidden flex-md-row">
-						  <div class="card-body">
-						  <a href="posts/121"><img src=" /mymisdiagnosis/upload/1-1000101/121/field-post_thumb.png" class="post_image_alignment"></a>
-						    <h2 class="card-title mb-0"><a href="posts/121">Here's a thing... Fixation Error</a></h2>
-						    <p class="card-text mb-1"><small class="text-muted">2021-12-18 09:00:00</small></p>
-						    <p class="card-text">
-			    A conversation with a good friend in the medical profession led me to a concept that helps explain…</p>
-						    <a href="posts/121" class="stretched-link">Continue reading</a>
-						  </div>
-						</div>
-					 </div>
-				    </div> -->
-
-
-		<div class="col-md-4">
-		  <div class="card mb-3">
-		    <div class="row no-gutters rounded overflow-hidden flex-md-row">
-			   <div class="card-body home_page_card_1">
-				 
-				   <h4 class="card-title mb-0"><a href="pages/how-to-use-this-site">How to use this site</a></h4>
-				 
-			   </div>
-			 </div>
-		  </div>
-		</div>
-
-
-		<div class="col-md-4">
-		  <div class="card mb-3">
-		    <div class="row no-gutters rounded overflow-hidden flex-md-row">
-			   <div class="card-body home_page_card_2">
-				   
-			   		<h4 class="card-title mb-0"><a href="pages/all-about-misdiagnosis-com">About us</a></h4>
-					   
-			   </div>
-			 </div>
-		  </div>
-		</div>
-		   	    		    
-		<div class="col-md-4">
-		  <div class="card mb-3">
-		    <div class="row no-gutters rounded overflow-hidden flex-md-row">
-			   <div class="card-body home_page_card_3">
-				   
-			   		<h4 class="card-title mb-0"><a href="pages/empowering-patients">Empowering patients</a></h4>
-					   
-			   </div>
-			 </div>
-		  </div>
-		</div>   
-		    
-		    
-		</div>  <!-- end of row mb-2-->
-		
-	</div> <!-- end of container -->
-	  
-</div>  <!-- end of col-12 -->
 
 
 

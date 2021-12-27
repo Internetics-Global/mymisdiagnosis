@@ -1,5 +1,5 @@
 <h1>Signup</h1>
-<p>Please enter your information below. If you're going to be posting, you'll be known by the anonymous nickname you specify below. For privacy and security we recommend you think of a nickname that is unrelated to your real name. Once set, it cannot be changed.</p>
+<p>Please enter your information below. For privacy we recommend you think of a nickname that is unrelated to your real name. Once set, it cannot be changed.</p>
 
 <div id="infoMessage"><?php echo $message;?></div>
 

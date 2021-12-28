@@ -4,7 +4,7 @@
 		</div>
 		
 	</main>
-
+</div>
 
 
 
@@ -32,8 +32,11 @@
 
         
         
-</div>
 
+
+
+
+</div>
 
 <center><div class="final_footer">Copyright myMisdiagnosis.com 2021/2022. All rights reserved.</div></center>
 

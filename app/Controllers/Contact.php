@@ -25,10 +25,13 @@ class Contact extends BaseController
 	    
 		   $data['title'] = 'Contact us'; 
 		   $data['meta_title'] = 'Get in touch with myMisdiagnosis.com';
-		   $data['meta_description'] = 'Get in touch with myMisdiagnosis.com'; 
-		   echo view('auth_internetics/header', $data);
-		   echo view('contact', $data);
-		   echo view('auth_internetics/footer');
+		   $data['meta_description'] = 'Get in touch with myMisdiagnosis.com';
+         $data['type_of_page'] = "";
+		   echo view('auth_internetics/header_open_with_scripts', $data);
+         echo view('auth_internetics/header_with_nav', $data);
+         echo view('auth_internetics/header', $data);
+         echo view('contact', $data);
+         echo view('auth_internetics/footer');
     }
  
     public function create()

@@ -558,14 +558,25 @@ protected function renderPage(string $view, $data = null, bool $returnHtml = tru
 //		return $viewHtml;
 //		echo $viewHtml;
 
-		$this->data['htmltoshow'] = $viewHtml;
-		$this->data['meta_title'] = "myMisdiagnosis.com";
-		$this->data['meta_description'] = "myMisdiagnosis.com";
+		$data['htmltoshow'] = $viewHtml;
+		$data['meta_title'] = "myMisdiagnosis.com";
+		$data['meta_description'] = "myMisdiagnosis.com";
+		$data['type_of_page'] = "auth";
+		
+		
 
 //		print_r($data['htmltoshow']);
 //		print_r($this->data);
 
-			return view('auth_internetics/template', $this->data);
+//			return view('auth_internetics/template', $this->data);
+			
+			echo view('auth_internetics/header_open_with_scripts', $data);
+			echo view('auth_internetics/header_with_nav', $data);
+			echo view('auth_internetics/header', $data);
+			echo view('auth_internetics/template', $data);
+			return view('auth_internetics/footer');
+			
+			
 		}
 		else
 		{

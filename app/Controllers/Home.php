@@ -28,8 +28,8 @@ class Home extends BaseController
 		$data['meta_title'] = "The global misdiagnosis database: myMisdiagnosis.com";
 		$data['meta_description'] = "The global medical 
 		misdiagnosis database";
-		$data['post_image'] = "test";
-		$data['post_body'] = "<p>Whilst most medical diagnoses are accurate, some are not. Medical diagnostic errors happen.
+		$data['type_of_page'] = "home";
+		$data['post_body'] = "<p></p><p>Whilst most medical diagnoses are accurate, some are not. Medical diagnostic errors happen.
 		
 		<p>Reports suggest that up to 1 in 7 medical diagnoses are incorrect. 1 in 3 of incorrect diagnoses 
 		could result in serious injury or death.</p>
@@ -47,6 +47,8 @@ class Home extends BaseController
 		who need it most. Thank you for your interest in myMisdiagnosis.com</p>
 		
 		";
+		echo view('auth_internetics/header_open_with_scripts', $data);
+		echo view('auth_internetics/header_with_nav', $data);
 		echo view('auth_internetics/header', $data);
 		echo view('home', $data);
 		echo view('auth_internetics/footer');

@@ -107,7 +107,7 @@ public function posts()
 		
 		$crud->setTexteditor(['post_body','post_snippet']);
 		
-		
+		$crud->displayAs('post_orderby', 'Order by (homepage and footer only)');
 		$crud->fieldType('post_category', 'multiselect', [
 		    'news' => 'Display in news section',
 		    'site_page' => 'General site pages',

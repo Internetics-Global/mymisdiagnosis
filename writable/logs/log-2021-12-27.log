@@ -371,3 +371,924 @@ INFO - 2021-12-27 14:18:25 --> Session: Class initialized using 'CodeIgniter\Ses
 WARNING - 2021-12-27 14:18:25 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
 INFO - 2021-12-27 14:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 WARNING - 2021-12-27 14:18:27 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 14:34:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:34:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:34:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:36:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:36:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:36:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:37:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:37:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 14:37:02 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2021-12-27 14:37:02 --> Call to undefined function endsWith()
+#0 /var/www/html/mymisdiagnosis/system/View/View.php(220): include()
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('auth_internetic...', Array, true)
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Home.php(50): view('auth_internetic...', Array)
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-12-27 14:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 14:38:14 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 14:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 14:38:59 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 14:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:39:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 14:39:11 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 14:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 14:39:27 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 14:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:39:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 14:40:03 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 14:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 14:40:08 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 14:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 14:40:17 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 14:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 14:40:19 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 14:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 14:40:24 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 14:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 14:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 16:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 16:38:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 16:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 16:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 16:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 16:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 16:40:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 16:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 16:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 16:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 16:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 16:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 16:45:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 16:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 16:45:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 16:45:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 16:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 16:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 16:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 16:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 16:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 16:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 16:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 16:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 16:53:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 16:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 17:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 17:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 17:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 17:03:47 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 17:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 17:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 18:11:28 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 18:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:15:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:15:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:15:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 18:24:06 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 18:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 18:27:57 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 18:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 18:28:02 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2021-12-27 18:28:03 --> Undefined index: post_orderby
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Post.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/m...', 102, Array)
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Post->display('how-to-use-mymi...')
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-12-27 18:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 18:28:15 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 18:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 18:28:17 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2021-12-27 18:28:17 --> Undefined index: post_orderby
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Post.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/m...', 102, Array)
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Post->display('how-to-use-mymi...')
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-12-27 18:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 18:29:04 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 18:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 18:29:07 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 18:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 18:29:09 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 18:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 18:29:11 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 18:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 18:29:12 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 18:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 18:29:14 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 18:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 18:29:16 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 18:29:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 18:29:18 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 18:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 18:29:22 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 18:31:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 18:31:23 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 18:31:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 18:31:25 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 18:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 18:31:28 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 18:31:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:33:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 18:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 20:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 20:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 20:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 20:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 20:34:12 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 20:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 20:34:20 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 20:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 20:34:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 20:34:29 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 20:34:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 20:34:39 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 20:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 20:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 20:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 20:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 20:34:45 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 20:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 20:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 20:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 20:38:30 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 20:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 20:39:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 20:39:08 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 20:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 20:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 20:39:18 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 20:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 20:39:22 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 20:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 20:39:29 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 20:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 20:40:21 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 20:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 20:40:23 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 20:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 20:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 20:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 20:40:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 20:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 20:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 20:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 20:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 20:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 20:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 20:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 20:40:43 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 20:40:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 20:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 20:41:00 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 20:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 20:41:02 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 20:41:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 20:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 20:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 20:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 20:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 20:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 20:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 20:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 20:43:45 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 20:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 20:45:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 21:01:54 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 21:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 21:01:57 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 21:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 21:03:28 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 21:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 21:03:31 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 21:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:13:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:18:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-12-27 21:24:33 --> Invalid file: contact.php
+#0 /var/www/html/mymisdiagnosis/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contact.php')
+#1 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('contact', Array, true)
+#2 /var/www/html/mymisdiagnosis/app/Controllers/Contact.php(30): view('contact', Array)
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Contact->index()
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-12-27 21:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 21:28:20 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 21:28:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:28:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:34:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:37:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-12-27 21:42:22 --> Invalid file: email_listx.php
+#0 /var/www/html/mymisdiagnosis/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('email_listx.php')
+#1 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('email_listx', Array, true)
+#2 /var/www/html/mymisdiagnosis/app/Controllers/Email_list.php(30): view('email_listx', Array)
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Email_list->index()
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Email_list))
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-12-27 21:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:43:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 21:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:01:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 22:06:05 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 22:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-27 22:06:08 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-27 22:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-12-27 22:06:15 --> Invalid file: emaillist.php
+#0 /var/www/html/mymisdiagnosis/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('emaillist.php')
+#1 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('emaillist', Array, true)
+#2 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(30): view('emaillist', Array)
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->index()
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-12-27 22:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:12:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:15:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:17:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:17:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-12-27 22:29:30 --> syntax error, unexpected '||' (T_BOOLEAN_OR)
+#0 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('auth_internetic...', Array, true)
+#2 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(29): view('auth_internetic...', Array)
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->index()
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-12-27 22:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:30:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-12-27 22:30:52 --> mysqli_sql_exception: Column 'name' cannot be null in /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `co...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Contact.php(85): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Contact->create()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 22:30:52 --> Column 'name' cannot be null
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `co...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Contact.php(85): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Contact->create()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-12-27 22:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:31:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-12-27 22:31:55 --> mysqli_sql_exception: Table 'mymisdiagnosis_app.emaillist' doesn't exist in /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(83): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->create()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 22:31:55 --> Table 'mymisdiagnosis_app.emaillist' doesn't exist
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(83): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->create()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-12-27 22:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:37:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-12-27 22:38:02 --> mysqli_sql_exception: Table 'mymisdiagnosis_app.emaillist' doesn't exist in /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(83): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->create()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 22:38:02 --> Table 'mymisdiagnosis_app.emaillist' doesn't exist
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(83): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->create()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-12-27 22:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-12-27 22:41:36 --> mysqli_sql_exception: Table 'mymisdiagnosis_app.emaillist' doesn't exist in /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(83): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->create()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 22:41:36 --> Table 'mymisdiagnosis_app.emaillist' doesn't exist
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(83): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->create()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-12-27 22:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-12-27 22:43:12 --> Undefined variable: save
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 87, Array)
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->create()
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 22:43:12 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /var/www/html/mymisdiagnosis/system/Format/JSONFormatter.php:42
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Format/JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /var/www/html/mymisdiagnosis/system/API/ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /var/www/html/mymisdiagnosis/system/API/ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /var/www/html/mymisdiagnosis/system/Debug/Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2021-12-27 22:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-12-27 22:44:12 --> Undefined variable: data
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 98, Array)
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->create()
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 22:44:12 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /var/www/html/mymisdiagnosis/system/Format/JSONFormatter.php:42
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Format/JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /var/www/html/mymisdiagnosis/system/API/ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /var/www/html/mymisdiagnosis/system/API/ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /var/www/html/mymisdiagnosis/system/Debug/Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2021-12-27 22:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:45:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-12-27 22:45:10 --> Undefined variable: data
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 88, Array)
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->create()
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 22:45:10 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /var/www/html/mymisdiagnosis/system/Format/JSONFormatter.php:42
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Format/JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /var/www/html/mymisdiagnosis/system/API/ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /var/www/html/mymisdiagnosis/system/API/ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /var/www/html/mymisdiagnosis/system/Debug/Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2021-12-27 22:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-12-27 22:46:04 --> mysqli_sql_exception: Table 'mymisdiagnosis_app.emaillist' doesn't exist in /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(83): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->create()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 22:46:04 --> Table 'mymisdiagnosis_app.emaillist' doesn't exist
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(83): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->create()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-12-27 22:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-12-27 22:48:04 --> Undefined variable: data
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 75, Array)
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->create()
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 22:48:04 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /var/www/html/mymisdiagnosis/system/Format/JSONFormatter.php:42
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Format/JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /var/www/html/mymisdiagnosis/system/API/ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /var/www/html/mymisdiagnosis/system/API/ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /var/www/html/mymisdiagnosis/system/Debug/Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2021-12-27 22:48:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-12-27 22:50:59 --> Undefined variable: save
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 79, Array)
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->create()
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 22:50:59 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /var/www/html/mymisdiagnosis/system/Format/JSONFormatter.php:42
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Format/JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /var/www/html/mymisdiagnosis/system/API/ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /var/www/html/mymisdiagnosis/system/API/ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /var/www/html/mymisdiagnosis/system/Debug/Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2021-12-27 22:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:56:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 22:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-12-27 22:59:14 --> mysqli_sql_exception: Table 'mymisdiagnosis_app.emaillist' doesn't exist in /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(83): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->create()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 22:59:14 --> Table 'mymisdiagnosis_app.emaillist' doesn't exist
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(83): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->create()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-12-27 23:04:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 23:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-12-27 23:04:47 --> Undefined variable: save
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 86, Array)
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->create()
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 23:04:47 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /var/www/html/mymisdiagnosis/system/Format/JSONFormatter.php:42
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Format/JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /var/www/html/mymisdiagnosis/system/API/ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /var/www/html/mymisdiagnosis/system/API/ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /var/www/html/mymisdiagnosis/system/Debug/Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2021-12-27 23:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 23:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-12-27 23:06:21 --> mysqli_sql_exception: Table 'mymisdiagnosis_app.emaillist' doesn't exist in /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(82): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->create()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 23:06:21 --> Table 'mymisdiagnosis_app.emaillist' doesn't exist
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(82): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->create()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-12-27 23:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 23:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-12-27 23:07:05 --> mysqli_sql_exception: Table 'mymisdiagnosis_app.emaillist' doesn't exist in /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(82): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->create()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 23:07:05 --> Table 'mymisdiagnosis_app.emaillist' doesn't exist
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(82): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->create()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-12-27 23:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 23:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-12-27 23:07:59 --> mysqli_sql_exception: Table 'mymisdiagnosis_app.emaillist' doesn't exist in /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(82): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->create()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 23:07:59 --> Table 'mymisdiagnosis_app.emaillist' doesn't exist
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(82): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->create()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-12-27 23:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 23:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-12-27 23:09:01 --> mysqli_sql_exception: Table 'mymisdiagnosis_app.emaillist' doesn't exist in /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(82): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->create()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 23:09:01 --> Table 'mymisdiagnosis_app.emaillist' doesn't exist
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(82): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->create()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-12-27 23:09:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 23:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-12-27 23:09:41 --> mysqli_sql_exception: Table 'mymisdiagnosis_app.emaillist' doesn't exist in /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(82): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->create()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 23:09:41 --> Table 'mymisdiagnosis_app.emaillist' doesn't exist
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(82): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->create()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-12-27 23:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 23:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 23:10:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-12-27 23:10:37 --> mysqli_sql_exception: Table 'mymisdiagnosis_app.emaillist' doesn't exist in /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(82): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->create()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 23:10:37 --> Table 'mymisdiagnosis_app.emaillist' doesn't exist
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(82): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->create()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-12-27 23:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-12-27 23:11:43 --> mysqli_sql_exception: Table 'mymisdiagnosis_app.emaillist' doesn't exist in /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(82): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->create()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 23:11:43 --> Table 'mymisdiagnosis_app.emaillist' doesn't exist
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(82): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->create()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-12-27 23:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 23:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-12-27 23:11:58 --> mysqli_sql_exception: Table 'mymisdiagnosis_app.emaillist' doesn't exist in /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(82): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->create()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 23:11:58 --> Table 'mymisdiagnosis_app.emaillist' doesn't exist
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(82): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->create()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-12-27 23:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 23:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 23:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-12-27 23:22:21 --> Undefined variable: data
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 28, Array)
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->index()
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 23:22:50 --> Undefined variable: data
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 27, Array)
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->index()
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 23:24:29 --> Undefined variable: meta_title
+#0 /var/www/html/mymisdiagnosis/app/Views/emaillist.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 9, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('emaillist', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(28): view('emaillist', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->index()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 23:24:52 --> Undefined variable: uri
+#0 /var/www/html/mymisdiagnosis/app/Views/emaillist.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 22, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('emaillist', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(28): view('emaillist', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->index()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-12-27 23:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 23:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-12-27 23:26:38 --> Undefined variable: meta_description
+#0 /var/www/html/mymisdiagnosis/app/Views/emaillist.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 49, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('emaillist', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Emaillist.php(28): view('emaillist', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Emaillist->index()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emaillist))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-12-27 23:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 23:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 23:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 23:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 23:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 23:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 23:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 23:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 23:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 23:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-27 23:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

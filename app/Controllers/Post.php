@@ -59,7 +59,10 @@ class Post extends BaseController
 	    $data['posts'] = $posts;
 	    $data['title'] = 'List of articles'; 
 	    $data['meta_title'] = 'List of articles';
-	    $data['meta_description'] = 'List of articles'; 
+	    $data['meta_description'] = 'List of articles';
+	    $data['type_of_page'] = "";
+	    echo view('auth_internetics/header_open_with_scripts', $data);
+	    echo view('auth_internetics/header_with_nav', $data);
 	    echo view('auth_internetics/header', $data);
 	    echo view('post_list', $data);
 	    echo view('auth_internetics/footer');
@@ -99,17 +102,19 @@ class Post extends BaseController
 		 $data['post_id'] = $post['post_id'];
 		 $data['post_snippet'] = $post['post_snippet'];
 		 $data['post_category'] = $post['post_snippet'];
-		 $data['post_orderby'] = $post['post_orderby'];
 		 $data['post_thumb'] = $post['post_thumb'];
 		 $data['post_image'] = $post['post_image'];
 		 $data['meta_title'] = $post['meta_title'];
 		 $data['meta_description'] = $post['meta_description'];
 		 $data['slug'] = $post['slug'];
+		 $data['type_of_page'] = "";
 		endforeach;     
 		   
 		   
 		  
 		$data['individualPost'] = $individualPost;
+		echo view('auth_internetics/header_open_with_scripts', $data);
+		echo view('auth_internetics/header_with_nav', $data);
 		echo view('auth_internetics/header', $data);
 		echo view('post_individual', $data);
 		echo view('auth_internetics/footer');

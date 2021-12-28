@@ -75,20 +75,17 @@ function endsWith( $haystack, $needle ) {
 	    <a class="nav-link" href="<?php echo site_url();?>pages">News</a>
 	  </li>
 	  
-	  
+	  <?php
+	  // if($this->ionAuth->inGroup('members')
+	  if ($this->ionAuth->isAdmin()) {
+	  ?>
 	  
 	 <li class="nav-item<?php if (endsWith($uri, "posts") !== false){ echo ' active"'; }  ?>">
 	    <a class="nav-link" href="<?php echo site_url('posteditor/posts');?>">Post editor</a>
 	  </li>
-	  
-	  
-	  <?php
-		// if($this->ionAuth->inGroup('members')
-		if ($this->ionAuth->isAdmin()) {
-		?>
 		
 		
-      <li class="nav-item<?php if (endsWith($uri, "packs") !== false){ echo ' active"'; }  ?>">
+<!--      <li class="nav-item<?php if (endsWith($uri, "packs") !== false){ echo ' active"'; }  ?>">
         <a class="nav-link" href="<?php echo site_url('product/packs');?>">View packs</a>
 	 </li>
 	 <li class="nav-item<?php if (endsWith($uri, "packs/add") !== false){ echo ' active"'; }  ?>">
@@ -100,7 +97,7 @@ function endsWith( $haystack, $needle ) {
 	 <li class="nav-item<?php if (endsWith($uri, "cards/add") !== false){ echo ' active"'; }  ?>">
         <a class="nav-link" href="<?php echo site_url('product/cards/add');?>">Add card</a>
 	 </li>
-	 
+-->	 
 	 <?php
 		}
 		?>
@@ -112,6 +109,10 @@ function endsWith( $haystack, $needle ) {
 	 <li class="nav-item<?php if (strpos($uri, "logout") !== false){ echo ' active"'; }  ?>">        
         <a class="nav-link" href="<?php echo site_url('auth/logout');?>">Logout</a>
 	 </li>
+	 
+	 <li class="nav-item<?php if (strpos($uri, "contact") !== false){ echo ' active"'; }  ?>">
+	    <a class="nav-link" href="<?php echo site_url();?>contact">Contact us</a>
+	  </li>
       
     </ul>
 

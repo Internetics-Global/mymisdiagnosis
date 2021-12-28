@@ -1,5 +1,5 @@
 
-<div class="container">
+
 	
 <h1>The latest news</h1>
 	
@@ -67,7 +67,7 @@
   
   
   
-</div>
+
 
 
 

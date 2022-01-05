@@ -10,10 +10,13 @@ use App\Models\PostModel;
 
 class Home extends BaseController
 {
+	
+
+	
 	public function index()
 	
 	
-	{
+	{	helper(['form', 'url']);
 		
 		$sess = session();
 		$sess->start();
@@ -58,6 +61,18 @@ class Home extends BaseController
 
 
 
+    public function getTerm() {
+ 
+	   $data = [];
+	   $db      = \Config\Database::connect();
+	   $builder = $db->table('record_database');   
+	   $query = $builder->like('record_misdiagnosis', $this->request->getVar('term'))
+				->select('record_id, record_misdiagnosis')
+				->limit(10)->get();
+	   $data = $query->getResult();
+ 
+	   echo json_encode($data);
+    }
 
 
 

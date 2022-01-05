@@ -1,5 +1,6 @@
 <?php
 
+
 $uri = current_url(true);
 $this->ionAuth    = new \IonAuth\Libraries\IonAuth();
    $user = $this->ionAuth->user()->row(); 
@@ -13,7 +14,7 @@ $this->ionAuth    = new \IonAuth\Libraries\IonAuth();
   <span class="navbar-toggler-icon"></span>
 </button>
 
-  <a class="navbar-brand mx-auto" href="#">   </a>
+  <a class="navbar-brand mx-auto" href="<?php echo site_url();?>">   </a>
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
@@ -25,24 +26,62 @@ $this->ionAuth    = new \IonAuth\Libraries\IonAuth();
         <a class="nav-link" href="<?php echo site_url();?>pages">News</a>
       </li>
       
-      <?php
-        // if($this->ionAuth->inGroup('members')
-        if ($this->ionAuth->isAdmin()) {
-        ?>
-        
-       <li class="nav-item<?php if (endsWith($uri, "posts") !== false){ echo ' active"'; }  ?>">
-          <a class="nav-link" href="<?php echo site_url('posteditor/posts');?>">Post editor</a>
-        </li>
-        
-        <?php } ?>
+      <li class="nav-item<?php if (strpos($uri, "contact") !== false){ echo ' active"'; }  ?>">
+        <a class="nav-link" href="<?php echo site_url();?>contact">Contact us</a>
+      </li>
       
-      <li class="nav-item<?php if (strpos($uri, "register_user") !== false){ echo ' active"'; }  ?>">
-              
-              <?php if ( $this->ionAuth->loggedIn()) {} else { ?>          
-                <a class="nav-link" href="<?php echo site_url('auth/register_user/'); ?>">Register</a>
-              <?php }	?>
-              
-            </li>
+
+            
+       <li class="nav-item">
+                      
+                             
+                        
+                        
+                        <div class="row spacer"> </div>
+                      
+                      
+                    </li> 
+                    
+        <li class="nav-item<?php if (strpos($uri, "register_user") !== false){ echo ' active"'; }  ?>">
+                      
+                      <?php if ( $this->ionAuth->loggedIn()) {} else { ?>          
+                        <a class="nav-link" href="<?php echo site_url('auth/register_user/'); ?>">Register</a>
+                      <?php }	?>
+                      
+                    </li>            
+            
+       <li class="nav-item<?php if (endsWith($uri, "auth") !== false){ echo ' active"'; }  ?>">
+               
+               <?php if ( $this->ionAuth->loggedIn()) { ?>          
+                 <a class="nav-link" href="<?php echo site_url('auth'); ?>">Members</a>
+               <?php }	?>
+               
+             </li>
+             
+       <?php
+         // if($this->ionAuth->inGroup('members')
+         if ($this->ionAuth->isAdmin()) {
+         ?>
+         
+        <li class="nav-item<?php if (endsWith($uri, "posts") !== false){ echo ' active"'; }  ?>">
+           <a class="nav-link" href="<?php echo site_url('posteditor/posts');?>">Post editor</a>
+         </li>
+         
+         <?php } ?>      
+        
+        
+        <?php
+         // if($this->ionAuth->inGroup('members')
+         if ($this->ionAuth->isAdmin()) {
+         ?>
+         
+        <li class="nav-item<?php if (endsWith($uri, "misdiagnosis") !== false){ echo ' active"'; }  ?>">
+           <a class="nav-link" href="<?php echo site_url('recordeditor/misdiagnosis/');?>">Misdiagnosis data</a>
+         </li>
+         
+         <?php } ?>      
+        
+                 
       
       <li class="nav-item<?php if (strpos($uri, "edit_user") !== false){ echo ' active"'; }  ?>">
         
@@ -64,9 +103,7 @@ $this->ionAuth    = new \IonAuth\Libraries\IonAuth();
                           
       </li>
       
-      <li class="nav-item<?php if (strpos($uri, "contact") !== false){ echo ' active"'; }  ?>">
-        <a class="nav-link" href="<?php echo site_url();?>contact">Contact us</a>
-      </li>
+      
     </ul>
 
   </div>

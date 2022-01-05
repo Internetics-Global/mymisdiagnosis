@@ -1,0 +1,422 @@
+INFO - 2021-12-31 09:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 09:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 09:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 09:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 09:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 09:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-12-31 09:13:07 --> Undefined variable: data
+#0 /var/www/html/mymisdiagnosis/app/Views/post_editor_view.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 61, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('post_editor_vie...', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Posteditor.php(529): view('post_editor_vie...', Array)
+#5 /var/www/html/mymisdiagnosis/app/Controllers/Posteditor.php(144): App\Controllers\Posteditor->_articlesOutput(Object(stdClass))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Posteditor->posts()
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posteditor))
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2021-12-31 09:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 09:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 09:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 09:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 09:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 09:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 09:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 09:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 09:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 09:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 09:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 09:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 09:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 09:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 09:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 09:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 09:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 09:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 09:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 09:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 09:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 09:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-31 09:20:00 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-31 16:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 16:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2021-12-31 16:38:50 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2021-12-31 16:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 16:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 16:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-12-31 16:40:03 --> mysqli_sql_exception: Unknown column 'data_user_id' in 'where clause' in /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2035): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Views/misdiagnosisdata_view.php(36): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#6 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('misdiagnosisdat...', Array, true)
+#8 /var/www/html/mymisdiagnosis/app/Controllers/Misdiagnosisdata.php(529): view('misdiagnosisdat...', Array)
+#9 /var/www/html/mymisdiagnosis/app/Controllers/Misdiagnosisdata.php(144): App\Controllers\Misdiagnosisdata->_articlesOutput(Object(stdClass))
+#10 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Misdiagnosisdata->misdiagnosis()
+#11 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misdiagnosisdata))
+#12 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-12-31 16:40:03 --> Unknown column 'data_user_id' in 'where clause'
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2035): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Views/misdiagnosisdata_view.php(36): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#6 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('misdiagnosisdat...', Array, true)
+#8 /var/www/html/mymisdiagnosis/app/Controllers/Misdiagnosisdata.php(529): view('misdiagnosisdat...', Array)
+#9 /var/www/html/mymisdiagnosis/app/Controllers/Misdiagnosisdata.php(144): App\Controllers\Misdiagnosisdata->_articlesOutput(Object(stdClass))
+#10 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Misdiagnosisdata->misdiagnosis()
+#11 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misdiagnosisdata))
+#12 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#14 {main}
+INFO - 2021-12-31 16:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-12-31 16:41:45 --> mysqli_sql_exception: Unknown column 'data_user_id' in 'where clause' in /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2035): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Views/misdiagnosisdata_view.php(36): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#6 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('misdiagnosisdat...', Array, true)
+#8 /var/www/html/mymisdiagnosis/app/Controllers/Misdiagnosisdata.php(529): view('misdiagnosisdat...', Array)
+#9 /var/www/html/mymisdiagnosis/app/Controllers/Misdiagnosisdata.php(144): App\Controllers\Misdiagnosisdata->_articlesOutput(Object(stdClass))
+#10 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Misdiagnosisdata->misdiagnosis('add')
+#11 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misdiagnosisdata))
+#12 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-12-31 16:41:45 --> Unknown column 'data_user_id' in 'where clause'
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2035): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Views/misdiagnosisdata_view.php(36): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#6 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('misdiagnosisdat...', Array, true)
+#8 /var/www/html/mymisdiagnosis/app/Controllers/Misdiagnosisdata.php(529): view('misdiagnosisdat...', Array)
+#9 /var/www/html/mymisdiagnosis/app/Controllers/Misdiagnosisdata.php(144): App\Controllers\Misdiagnosisdata->_articlesOutput(Object(stdClass))
+#10 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Misdiagnosisdata->misdiagnosis('add')
+#11 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misdiagnosisdata))
+#12 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#14 {main}
+INFO - 2021-12-31 16:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-12-31 16:44:35 --> mysqli_sql_exception: Unknown column 'data_user_id' in 'where clause' in /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2035): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Views/misdiagnosisdata_view.php(36): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#6 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('misdiagnosisdat...', Array, true)
+#8 /var/www/html/mymisdiagnosis/app/Controllers/Misdiagnosisdata.php(529): view('misdiagnosisdat...', Array)
+#9 /var/www/html/mymisdiagnosis/app/Controllers/Misdiagnosisdata.php(144): App\Controllers\Misdiagnosisdata->_articlesOutput(Object(stdClass))
+#10 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Misdiagnosisdata->misdiagnosis('add')
+#11 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misdiagnosisdata))
+#12 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-12-31 16:44:35 --> Unknown column 'data_user_id' in 'where clause'
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2035): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Views/misdiagnosisdata_view.php(36): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#6 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('misdiagnosisdat...', Array, true)
+#8 /var/www/html/mymisdiagnosis/app/Controllers/Misdiagnosisdata.php(529): view('misdiagnosisdat...', Array)
+#9 /var/www/html/mymisdiagnosis/app/Controllers/Misdiagnosisdata.php(144): App\Controllers\Misdiagnosisdata->_articlesOutput(Object(stdClass))
+#10 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Misdiagnosisdata->misdiagnosis('add')
+#11 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misdiagnosisdata))
+#12 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#14 {main}
+INFO - 2021-12-31 16:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 16:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 16:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 16:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 16:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 16:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 16:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-12-31 16:47:12 --> Undefined index: slug
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Misdiagnosisdata.php(326): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/m...', 326, Array)
+#1 [internal function]: App\Controllers\Misdiagnosisdata->rename_temp_filenames(Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(911): call_user_func(Array, Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4557): App\Libraries\grocery_CRUD_Model_Driver->db_insert(Object(stdClass))
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Misdiagnosisdata.php(139): App\Libraries\GroceryCrud->render()
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Misdiagnosisdata->misdiagnosis('insert')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misdiagnosisdata))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-12-31 16:53:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 16:53:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-12-31 16:53:23 --> Undefined index: slug
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Misdiagnosisdata.php(326): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/m...', 326, Array)
+#1 [internal function]: App\Controllers\Misdiagnosisdata->rename_temp_filenames(Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(911): call_user_func(Array, Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4557): App\Libraries\grocery_CRUD_Model_Driver->db_insert(Object(stdClass))
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Misdiagnosisdata.php(139): App\Libraries\GroceryCrud->render()
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Misdiagnosisdata->misdiagnosis('insert')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misdiagnosisdata))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-12-31 16:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 16:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-12-31 16:53:26 --> Undefined index: slug
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Misdiagnosisdata.php(326): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/m...', 326, Array)
+#1 [internal function]: App\Controllers\Misdiagnosisdata->rename_temp_filenames(Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(911): call_user_func(Array, Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4557): App\Libraries\grocery_CRUD_Model_Driver->db_insert(Object(stdClass))
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Misdiagnosisdata.php(139): App\Libraries\GroceryCrud->render()
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Misdiagnosisdata->misdiagnosis('insert')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misdiagnosisdata))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-12-31 16:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 16:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 16:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 16:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-12-31 16:55:48 --> mysqli_sql_exception: Unknown column 'data_incorrect_diagnosis' in 'field list' in /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `mi...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mi...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mi...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mi...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Models/GroceryCrudModel.php(491): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(963): App\Models\GroceryCrudModel->db_insert(Array)
+#6 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4557): App\Libraries\grocery_CRUD_Model_Driver->db_insert(Object(stdClass))
+#7 /var/www/html/mymisdiagnosis/app/Controllers/Misdiagnosisdata.php(139): App\Libraries\GroceryCrud->render()
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Misdiagnosisdata->misdiagnosis('insert')
+#9 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misdiagnosisdata))
+#10 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-31 16:55:48 --> Unknown column 'data_incorrect_diagnosis' in 'field list'
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `mi...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mi...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mi...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mi...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Models/GroceryCrudModel.php(491): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(963): App\Models\GroceryCrudModel->db_insert(Array)
+#6 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4557): App\Libraries\grocery_CRUD_Model_Driver->db_insert(Object(stdClass))
+#7 /var/www/html/mymisdiagnosis/app/Controllers/Misdiagnosisdata.php(139): App\Libraries\GroceryCrud->render()
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Misdiagnosisdata->misdiagnosis('insert')
+#9 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misdiagnosisdata))
+#10 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+INFO - 2021-12-31 17:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 17:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-12-31 17:10:39 --> mysqli_sql_exception: Unknown column 'data_incorrect_diagnosis' in 'field list' in /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `mi...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mi...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mi...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mi...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Models/GroceryCrudModel.php(491): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(963): App\Models\GroceryCrudModel->db_insert(Array)
+#6 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4557): App\Libraries\grocery_CRUD_Model_Driver->db_insert(Object(stdClass))
+#7 /var/www/html/mymisdiagnosis/app/Controllers/Misdiagnosisdata.php(139): App\Libraries\GroceryCrud->render()
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Misdiagnosisdata->misdiagnosis('insert')
+#9 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misdiagnosisdata))
+#10 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-31 17:10:39 --> Unknown column 'data_incorrect_diagnosis' in 'field list'
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `mi...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mi...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mi...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mi...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Models/GroceryCrudModel.php(491): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(963): App\Models\GroceryCrudModel->db_insert(Array)
+#6 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4557): App\Libraries\grocery_CRUD_Model_Driver->db_insert(Object(stdClass))
+#7 /var/www/html/mymisdiagnosis/app/Controllers/Misdiagnosisdata.php(139): App\Libraries\GroceryCrud->render()
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Misdiagnosisdata->misdiagnosis('insert')
+#9 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misdiagnosisdata))
+#10 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+INFO - 2021-12-31 17:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 17:10:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 17:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 17:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-12-31 17:10:45 --> mysqli_sql_exception: Unknown column 'data_incorrect_diagnosis' in 'field list' in /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `mi...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mi...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mi...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mi...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Models/GroceryCrudModel.php(491): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(963): App\Models\GroceryCrudModel->db_insert(Array)
+#6 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4557): App\Libraries\grocery_CRUD_Model_Driver->db_insert(Object(stdClass))
+#7 /var/www/html/mymisdiagnosis/app/Controllers/Misdiagnosisdata.php(139): App\Libraries\GroceryCrud->render()
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Misdiagnosisdata->misdiagnosis('insert')
+#9 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misdiagnosisdata))
+#10 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-31 17:10:45 --> Unknown column 'data_incorrect_diagnosis' in 'field list'
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `mi...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mi...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mi...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mi...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Models/GroceryCrudModel.php(491): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(963): App\Models\GroceryCrudModel->db_insert(Array)
+#6 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4557): App\Libraries\grocery_CRUD_Model_Driver->db_insert(Object(stdClass))
+#7 /var/www/html/mymisdiagnosis/app/Controllers/Misdiagnosisdata.php(139): App\Libraries\GroceryCrud->render()
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Misdiagnosisdata->misdiagnosis('insert')
+#9 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misdiagnosisdata))
+#10 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+INFO - 2021-12-31 17:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 17:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 17:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-12-31 17:11:46 --> mysqli_sql_exception: Unknown column 'data_incorrect_diagnosis' in 'field list' in /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `mi...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mi...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mi...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mi...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Models/GroceryCrudModel.php(491): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(963): App\Models\GroceryCrudModel->db_insert(Array)
+#6 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4557): App\Libraries\grocery_CRUD_Model_Driver->db_insert(Object(stdClass))
+#7 /var/www/html/mymisdiagnosis/app/Controllers/Misdiagnosisdata.php(139): App\Libraries\GroceryCrud->render()
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Misdiagnosisdata->misdiagnosis('insert')
+#9 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misdiagnosisdata))
+#10 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-31 17:11:46 --> Unknown column 'data_incorrect_diagnosis' in 'field list'
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `mi...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mi...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mi...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mi...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Models/GroceryCrudModel.php(491): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(963): App\Models\GroceryCrudModel->db_insert(Array)
+#6 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4557): App\Libraries\grocery_CRUD_Model_Driver->db_insert(Object(stdClass))
+#7 /var/www/html/mymisdiagnosis/app/Controllers/Misdiagnosisdata.php(139): App\Libraries\GroceryCrud->render()
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Misdiagnosisdata->misdiagnosis('insert')
+#9 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misdiagnosisdata))
+#10 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+INFO - 2021-12-31 17:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 17:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 17:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 17:12:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-12-31 17:12:09 --> mysqli_sql_exception: Unknown column 'data_incorrect_diagnosis' in 'field list' in /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `mi...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mi...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mi...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mi...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Models/GroceryCrudModel.php(491): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(963): App\Models\GroceryCrudModel->db_insert(Array)
+#6 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4557): App\Libraries\grocery_CRUD_Model_Driver->db_insert(Object(stdClass))
+#7 /var/www/html/mymisdiagnosis/app/Controllers/Misdiagnosisdata.php(139): App\Libraries\GroceryCrud->render()
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Misdiagnosisdata->misdiagnosis('insert')
+#9 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misdiagnosisdata))
+#10 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-31 17:12:09 --> Unknown column 'data_incorrect_diagnosis' in 'field list'
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `mi...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mi...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mi...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mi...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Models/GroceryCrudModel.php(491): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(963): App\Models\GroceryCrudModel->db_insert(Array)
+#6 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4557): App\Libraries\grocery_CRUD_Model_Driver->db_insert(Object(stdClass))
+#7 /var/www/html/mymisdiagnosis/app/Controllers/Misdiagnosisdata.php(139): App\Libraries\GroceryCrud->render()
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Misdiagnosisdata->misdiagnosis('insert')
+#9 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misdiagnosisdata))
+#10 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+INFO - 2021-12-31 17:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 17:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 17:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-12-31 17:13:49 --> mysqli_sql_exception: Unknown column 'data_incorrect_diagnosis' in 'field list' in /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `mi...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mi...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mi...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mi...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Models/GroceryCrudModel.php(491): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(963): App\Models\GroceryCrudModel->db_insert(Array)
+#6 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4557): App\Libraries\grocery_CRUD_Model_Driver->db_insert(Object(stdClass))
+#7 /var/www/html/mymisdiagnosis/app/Controllers/Misdiagnosisdata.php(110): App\Libraries\GroceryCrud->render()
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Misdiagnosisdata->misdiagnosis('insert')
+#9 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misdiagnosisdata))
+#10 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-31 17:13:49 --> Unknown column 'data_incorrect_diagnosis' in 'field list'
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `mi...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mi...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mi...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mi...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Models/GroceryCrudModel.php(491): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(963): App\Models\GroceryCrudModel->db_insert(Array)
+#6 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4557): App\Libraries\grocery_CRUD_Model_Driver->db_insert(Object(stdClass))
+#7 /var/www/html/mymisdiagnosis/app/Controllers/Misdiagnosisdata.php(110): App\Libraries\GroceryCrud->render()
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Misdiagnosisdata->misdiagnosis('insert')
+#9 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misdiagnosisdata))
+#10 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+INFO - 2021-12-31 17:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 17:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 17:23:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-12-31 17:23:10 --> mysqli_sql_exception: Unknown column 'data_incorrect_diagnosis' in 'field list' in /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `mi...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mi...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mi...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mi...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Models/GroceryCrudModel.php(491): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(963): App\Models\GroceryCrudModel->db_insert(Array)
+#6 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4557): App\Libraries\grocery_CRUD_Model_Driver->db_insert(Object(stdClass))
+#7 /var/www/html/mymisdiagnosis/app/Controllers/Misdiagnosisdata.php(112): App\Libraries\GroceryCrud->render()
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Misdiagnosisdata->misdiagnosis('insert')
+#9 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misdiagnosisdata))
+#10 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-31 17:23:10 --> Unknown column 'data_incorrect_diagnosis' in 'field list'
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `mi...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mi...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mi...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mi...', Array, false)
+#4 /var/www/html/mymisdiagnosis/app/Models/GroceryCrudModel.php(491): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(963): App\Models\GroceryCrudModel->db_insert(Array)
+#6 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4557): App\Libraries\grocery_CRUD_Model_Driver->db_insert(Object(stdClass))
+#7 /var/www/html/mymisdiagnosis/app/Controllers/Misdiagnosisdata.php(112): App\Libraries\GroceryCrud->render()
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Misdiagnosisdata->misdiagnosis('insert')
+#9 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misdiagnosisdata))
+#10 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+INFO - 2021-12-31 17:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 17:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 17:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-12-31 17:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

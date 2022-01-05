@@ -56,68 +56,13 @@ function endsWith( $haystack, $needle ) {
 	
 ?>	
 	
+	<?php
 	
+	echo view('auth_internetics/header_with_nav')
 	
- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <a class="navbar-brand mx-auto" href="#">   </a>
+	?>
+	
 
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-      <li class="nav-item<?php if (endsWith($uri, "home") !== false){ echo ' active"'; }  ?>">
-		 
-        <a class="nav-link" href="<?php echo site_url();?>">Home</a>
-	  
-      </li>
-	 <li class="nav-item">
-	    <a class="nav-link" href="<?php echo site_url();?>pages">News</a>
-	  </li>
-	  
-	  <?php
-	  // if($this->ionAuth->inGroup('members')
-	  if ($this->ionAuth->isAdmin()) {
-	  ?>
-	  
-	 <li class="nav-item<?php if (endsWith($uri, "posts") !== false){ echo ' active"'; }  ?>">
-	    <a class="nav-link" href="<?php echo site_url('posteditor/posts');?>">Post editor</a>
-	  </li>
-		
-		
-<!--      <li class="nav-item<?php if (endsWith($uri, "packs") !== false){ echo ' active"'; }  ?>">
-        <a class="nav-link" href="<?php echo site_url('product/packs');?>">View packs</a>
-	 </li>
-	 <li class="nav-item<?php if (endsWith($uri, "packs/add") !== false){ echo ' active"'; }  ?>">
-        <a class="nav-link" href="<?php echo site_url('product/packs/add');?>">Add pack</a>
-	 </li>
-	 <li class="nav-item<?php if (endsWith($uri, "cards") !== false){ echo ' active"'; }  ?>">
-      	<a class="nav-link" href="<?php echo site_url('product/cards');?>">View cards</a>
-	 </li>
-	 <li class="nav-item<?php if (endsWith($uri, "cards/add") !== false){ echo ' active"'; }  ?>">
-        <a class="nav-link" href="<?php echo site_url('product/cards/add');?>">Add card</a>
-	 </li>
--->	 
-	 <?php
-		}
-		?>
-
-	 <li class="nav-item<?php if (strpos($uri, "settings") !== false){ echo ' active"'; }  ?>">
-	   <a class="nav-link" href="<?php echo site_url('auth/edit_user/'); echo $user->id; ?>">Settings</a>   
-	 </li>
-	   
-	 <li class="nav-item<?php if (strpos($uri, "logout") !== false){ echo ' active"'; }  ?>">        
-        <a class="nav-link" href="<?php echo site_url('auth/logout');?>">Logout</a>
-	 </li>
-	 
-	 <li class="nav-item<?php if (strpos($uri, "contact") !== false){ echo ' active"'; }  ?>">
-	    <a class="nav-link" href="<?php echo site_url();?>contact">Contact us</a>
-	  </li>
-      
-    </ul>
-
-  </div>
-</nav>
   
 
 
@@ -234,7 +179,7 @@ function endsWith( $haystack, $needle ) {
 	
 		           $.ajax({
 	           
-		              url: '/mymisdiagnosis/upload.php',
+		              url: '<?php echo site_url('/')?>upload.php',
 		              type: 'post',
 		              data: fd,
 		              contentType: false,

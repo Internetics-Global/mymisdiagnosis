@@ -20,15 +20,11 @@ public function index()
 {
 	if (! $this->ionAuth->loggedIn())
 	{
-		// redirect them to the login page
+		// if not logged in then redirect them to the login page
 		return redirect()->to('/auth/login');
 	}
-	else if (! $this->ionAuth->isAdmin()) // remove this elseif if you want to enable this for non-admins
-	{
-		// redirect them to the home page because they must be an administrator to view this
-		//show_error('You must be an administrator to view this page.');
-		throw new \Exception('You must be an administrator to view this page.');
-	}
+	
+	
 	else
 	{
 		$this->data['title'] = lang('Auth.index_heading');
@@ -68,7 +64,7 @@ public function login()
 			//if the login is successful
 			//redirect them back to the home page
 			$this->session->setFlashdata('message', $this->ionAuth->messages());
-			return redirect()->to('/')->withCookies();
+			return redirect()->to('/auth')->withCookies();
 		}
 		else
 		{
@@ -559,7 +555,7 @@ protected function renderPage(string $view, $data = null, bool $returnHtml = tru
 //		echo $viewHtml;
 
 		$data['htmltoshow'] = $viewHtml;
-		$data['meta_title'] = "myMisdiagnosis.com";
+		$data['meta_title'] = 'myMisdiagnosis.com authorisation';
 		$data['meta_description'] = "myMisdiagnosis.com";
 		$data['type_of_page'] = "auth";
 		

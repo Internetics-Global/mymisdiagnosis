@@ -45,12 +45,17 @@ $routes->add('pages/','Post::index/$1');
 
 $routes->add('pages/(:alphanum)','Post::display/$1');
 
-
 $routes->add('pages/(:any)', 'Post::index/$1');
 
-     
+$routes->get('/', 'AutocompleteSearch::index');   
 
+$routes->get('record/(:segment)', 'Record::display/$1');
 
+$routes->add('records/','Record::index/$1');
+
+$routes->add('record/(:alphanum)','Record::display/$1');
+
+$routes->add('record/(:any)', 'Record::index/$1');
 
 
 

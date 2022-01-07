@@ -38,35 +38,66 @@ namespace App\Controllers;
 use App\Controllers\BaseController;
 use App\Models\RecordModel;
 
+
 class Record extends BaseController
 {
 
     public function __construct()
     {
-	   $helpers = array('phpjwt', 'form');
+	   $helpers = array('phpjwt', 'form', 'text');
 	   helper($helpers);
     }
     
-    
+     
     // display the list of posts
+    
+   
     
     public function index()
     {
-	    $sess = session();
-	    $sess->start();
-	    $post_model = new RecordModel();
-	    list($posts) = $post_model->getAllPosts('default','');
-	    $data['posts'] = $posts;
-	    $data['title'] = 'List of articles'; 
-	    $data['meta_title'] = 'List of articles';
-	    $data['meta_description'] = 'List of articles';
-	    $data['type_of_page'] = "";
-	    echo view('auth_internetics/header_open_with_scripts', $data);
-	    echo view('auth_internetics/header_with_nav', $data);
-	    echo view('auth_internetics/header', $data);
-	    echo view('record_list', $data);
-	    echo view('auth_internetics/footer');
+	    $request = service('request');
+	    $searchData = $request->getGet(); // OR $this->request->getGet();
+    
+	    $search = "";
+	    if (isset($searchData) && isset($searchData['search'])) {
+		    $search = $searchData['search'];
+	    }
 	    
+
+    
+	    // Get data 
+	    $listings = new RecordModel();
+    
+	    if ($search == '') {
+		    
+		    $paginateData = $listings->orderBy('record_misdiagnosis', 'ASC') 		    
+		    ->paginate(3);
+		   
+		    
+	    } else {
+		    $paginateData = $listings->select('*')
+			    ->orLike('record_misdiagnosis', $search)
+			    ->orLike('record_symptoms', $search)
+			    ->orderBy('record_misdiagnosis', 'ASC')  			
+			    ->paginate(3);
+	    }
+    
+	    $data = [
+		    'listings' => $paginateData,
+		    'pager' => $listings->pager,
+		    'search' => $search
+	    ];
+	    
+	    $data['title'] = 'Search results'; 
+		   $data['meta_title'] = 'Search results';
+		   $data['meta_description'] = 'Misdiagnosis search results';
+		   $data['type_of_page'] = '';
+    
+	    echo view('auth_internetics/header_open_with_scripts', $data);
+		   echo view('auth_internetics/header_with_nav', $data);
+		   echo view('auth_internetics/header', $data);
+		   echo view('record_list', $data);
+		   echo view('auth_internetics/footer');
     }
 
    

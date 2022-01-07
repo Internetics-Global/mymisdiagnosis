@@ -31,9 +31,41 @@ position: relative;
 background-color:#ffffff;
 font-family: europa, Helvetica, Arial, sans-serif;
 color: #3D5161;
-
+min-width: 100px;
+border: 0px solid #ced4da;
 
 }
+
+.pagination a {
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+ }
+
+
+.pagination li.active {
+  background: #96C3C6;
+  color: white;
+ }
+
+ .pagination li.active a {
+  color: white;
+  text-decoration: none;
+ }
+
+
+
+#search.form-control:focus {
+color: none;
+background-color: none;
+border-color: none;
+outline: 0;
+box-shadow: none;
+}
+
+
+
 
 .autocomplete_search_button {
   
@@ -106,9 +138,9 @@ color: #3D5161;
 }
 
 .ui-state-hover, .ui-state-active {
-    color: #ffffff;
+    color: #000;
     text-decoration: none;
-    background-color: #3D5161;
+    background-color: #96C3C6;
     border-radius: 0px;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
@@ -957,6 +989,13 @@ display:none;
 @media only screen 
 and (max-width: 760px) {
   
+  
+ .ui-autocomplete {
+       font-size:1.1rem;
+
+ }
+ 
+  
  #search {
  font-size: 1.2rem;
  padding: 0px;
@@ -973,7 +1012,7 @@ and (max-width: 760px) {
   
   .search_box {
   margin-top: 10px;
-  margin-bottom: -20px;
+  
   }
  
  .card-title > a {

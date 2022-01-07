@@ -43,32 +43,70 @@ class Post extends BaseController
 
     public function __construct()
     {
-	   $helpers = array('phpjwt', 'form');
+	   $helpers = array('phpjwt', 'form', 'text');
 	   helper($helpers);
+	 
     }
     
     
     // display the list of posts
     
-    public function index()
-    {
-	    $sess = session();
-	    $sess->start();
-	    $post_model = new PostModel();
-	    list($posts) = $post_model->getAllPosts('default','news');
-	    $data['posts'] = $posts;
-	    $data['title'] = 'List of articles'; 
-	    $data['meta_title'] = 'List of articles';
-	    $data['meta_description'] = 'List of articles';
-	    $data['type_of_page'] = "";
-	    echo view('auth_internetics/header_open_with_scripts', $data);
-	    echo view('auth_internetics/header_with_nav', $data);
-	    echo view('auth_internetics/header', $data);
-	    echo view('post_list', $data);
-	    echo view('auth_internetics/footer');
-	    
-    }
-
+ 
+   
+   
+   public function index()
+	  {
+		  $request = service('request');
+		  $searchData = $request->getGet(); // OR $this->request->getGet();
+	  
+		  $search = "";
+		  if (isset($searchData) && isset($searchData['search'])) {
+			  $search = $searchData['search'];
+		  }
+		  
+   
+	  
+		  // Get data 
+		  $posts = new PostModel();
+	  
+		  if ($search == '') {
+			  
+			  $paginateData = $posts->orderBy('post_title', 'ASC') 		    
+			  ->paginate(10);
+			 
+			  
+		  } else {
+			  $paginateData = $posts->select('*')
+				  ->orLike('post_title', $search)
+				  ->orLike('post_snippet', $search)
+				  ->orderBy('post_title', 'ASC')  			
+				  ->paginate(10);
+		  }
+	  
+		  $data = [
+			  'posts' => $paginateData,
+			  'pager' => $posts->pager,
+			  'search' => $search
+		  ];
+		  
+		  $data['title'] = 'Search results'; 
+			 $data['meta_title'] = 'Search results';
+			 $data['meta_description'] = 'Misdiagnosis search results';
+			 $data['type_of_page'] = '';
+	  
+		  echo view('auth_internetics/header_open_with_scripts', $data);
+			 echo view('auth_internetics/header_with_nav', $data);
+			 echo view('auth_internetics/header', $data);
+			 echo view('post_list', $data);
+			 echo view('auth_internetics/footer');
+	  }
+   
+   
+   
+   
+   
+   
+   
    
     // display an individual post
 

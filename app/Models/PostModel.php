@@ -6,17 +6,17 @@ use CodeIgniter\Model;
 
 class PostModel extends Model
 {
-    public function __construct()
-    {
-	   $helpers = array('text');
-	   helper($helpers);
-    }
+	
+protected $table                = 'posts';	
+	
+	
+   
 
     
-
+// getAllPosts is no longer used, the work is done in the controller as LoadRecord, as we need to use pagination.
     public function getAllPosts(string $post_user_id, $category)
     {
-	    
+	   
 	    
 	   $db = db_connect();
 	   $builder = $db->table('posts');

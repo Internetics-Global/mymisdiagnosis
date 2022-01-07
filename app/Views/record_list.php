@@ -1,66 +1,60 @@
 
 
 	
-<h1>The latest news</h1>
+<h1><?php echo $title; ?></h1>
 	
 	
 	
 	
-  <?php
-  $blog = $posts;
-  $blogs_chunk = array_chunk($blog, 2);
-  $badge_class = ["badge-primary", "badge-secondary", "badge-success", "badge-danger", "badge-warning", "badge-info", "badge-dark"];
-  ?>
-  <?php if ($blog === null) : ?>
-    <div class="row mb-2">
-	 <h2>No posts are present </h2>
-    </div>
-  <?php else : ?>
-  
-  <div class="row mb-2">
-    <?php foreach ($blogs_chunk as $key => $items) : ?>
+
+ 
 
 
-
-	
 		 
 		 
-		 
-	   <?php foreach ($items as $key => $value) : ?>
-		<div class="col-md-4">
-		  <div class="card mb-3">
-		    <div class="row no-gutters rounded overflow-hidden flex-md-row">
-			  <div class="card-body listpage">
+	<div class="row mb-2"> 
+	   <?php foreach ($listings as $listing)  { ?>
+		<div class="col-md-12">
+		  
+		   
 			  
-			    <h4 class="card-title mb-0"><a href="record/<?= $value['record_id'] ?>"><?= $value['record_id'] ?></a></h4>
-		    
-			  </div>
-			</div>
+			<h3 class="mb-0"><a href="record/<?= $listing['record_id'] ?>"><?= $listing['record_misdiagnosis'] ?></a></h3>
+		    	<p><?= strip_tags(htmlspecialchars_decode(word_limiter($listing['record_notes'], 19)), ENT_HTML5)?></p> 
 			
 			
-		  </div><!-- end mb3 -->
+				
+		
 			  
-			  <p><?= strip_tags(htmlspecialchars_decode(word_limiter($value['record_misdiagnosis'], 19)), ENT_HTML5)?></p> 
+	
 				 
 						  
-				 <p><a href="record/<?= $value['record_id'] ?>" class="stretched-link">Continue reading</a></p>
+				<!-- <p><a href="record/<?= $listing['record_id'] ?>" class="stretched-link">Continue reading</a></p> -->
 		</div>
-	   <?php endforeach; ?>
-
-
-
-
 	
-    <?php endforeach; ?>
+		<?php } ?>
+	
+   
+ 
+ 
     
     </div> <!-- end row mb2 -->
-  <?php endif; ?>
+ 
+  
+
+  <div style='margin-top: 10px;'>
+	 <?= $pager->links() ?>
+  </div>
   
   
-  
-  
-  
-  
+  <?php
+	 if (empty($listings)) { ?>
+	 
+	 
+	 There are no results that match your search.
+	 
+    <?php } 
+	 
+	 ?>
   
   
   

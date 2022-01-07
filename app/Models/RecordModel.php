@@ -6,43 +6,17 @@ use CodeIgniter\Model;
 
 class RecordModel extends Model
 {
-    public function __construct()
-    {
-	   $helpers = array('text');
-	   helper($helpers);
-    }
+	
 
+protected $table = 'record_database';
+	
     
 
-    public function getAllPosts(string $record_user_id, $category)
+// getAllPosts is no longer used, the work is done in the controller as LoadRecord, as we need to use pagination.
+    public function getAllPosts(string $record_user_id, $sort)
     {
 	    
-	    
-	   $db = db_connect();
-	   $builder = $db->table('record_database');
-	   $builder->like('record_category', $category);
-	   if ($category == 'front_page'){
-		   $builder->orderBy('post_orderby', 'ASC');		   
-	   } else {
-		   $builder->orderBy('record_misdiagnosis', 'DESC');
-	   }
-	  
-	   $post_ids = array();
-	   if ($record_user_id === 'default') {
-		  $query = $builder->select(['record_id', 'record_misdiagnosis', 'record_correct_diagnosis', 'record_symptoms', 'record_category', 'record_notes', 'record_image', 'record_approved', 'record_user_id', 'last_update'])->get();
-	   } else {
-		  $query = $builder->select(['record_id', 'record_misdiagnosis', 'record_correct_diagnosis', 'record_symptoms', 'record_category', 'record_notes', 'record_image', 'record_approved', 'record_user_id', 'last_update'])->where(['record_user_id' => $record_user_id])->get();
-	   }
-	   $posts = $query->getResultArray();
-	   if (is_null($posts)) {
-		  return null;
-	   } else {
-		  foreach ($posts as $key => $value) {
-			 array_push($post_ids, $posts[$key]['record_id']);
-		  }
-		  
-		  return array($posts);
-	   }
+	
     }
 
     

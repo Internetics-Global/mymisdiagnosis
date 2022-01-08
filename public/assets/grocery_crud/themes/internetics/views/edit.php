@@ -5,7 +5,7 @@
     $this->set_css($this->default_theme_path.'/internetics/css/general.css');
     $this->set_css($this->default_theme_path.'/internetics/css/add-edit-form.css');
     $this->set_css($this->default_theme_path.'/internetics/css/main.css');
-    $this->set_css($this->default_theme_path.'/internetics/css/internetics.css?v=350');
+    $this->set_css($this->default_theme_path.'/internetics/css/internetics.css?v=357');
     $this->set_css($this->default_theme_path.'/internetics/css/lightbox.css');
     $this->set_css($this->default_theme_path.'/internetics/css/print.min.css');
     $this->set_css($this->default_theme_path.'/internetics/css/dropzone.css');
@@ -332,6 +332,12 @@ if ($this->basic_db_table =='cards') {
         </div>
     </div>
 </div>
+
+
+
+
+
+
 <script>
    window.setTimeout(function() {
     $(".alert").fadeTo(500, 0).slideUp(500, function(){
@@ -341,6 +347,8 @@ if ($this->basic_db_table =='cards') {
 </script>
 
 <script>
+
+
     var validation_url = '<?php echo $validation_url?>';
     var list_url = '<?php echo $list_url?>';
 

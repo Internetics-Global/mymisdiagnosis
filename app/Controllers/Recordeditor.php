@@ -420,7 +420,9 @@ function rename_temp_folder($post_array) {
 		 'record_image'  => 'http://' . $_SERVER['SERVER_NAME'] . $record_image_url_for_emailing,
 		 'link'  => site_url() . 'misdiagnosisdata/misdiagnosis/edit/' . $post_array->insertId
 		 ];
+		 if (! $this->ionAuth->isAdmin()) {
    		$this->sendit($data);	
+	   }
 	
 
     return true;
@@ -454,8 +456,10 @@ function after_edit($post_array) {
 		 'record_image'  => 'http://' . $_SERVER['SERVER_NAME'] . $post_array->data['record_image'],
 		 'link'  => site_url() . 'misdiagnosisdata/misdiagnosis/edit/' . $post_array->data['record_id']
 		 ];
+		   
+		   if (! $this->ionAuth->isAdmin()) {
 		   $this->sendit($data);	
-	
+	   }
 
     return true;
 	

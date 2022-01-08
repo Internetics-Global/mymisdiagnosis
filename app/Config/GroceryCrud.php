@@ -52,7 +52,7 @@ class GroceryCrud
      * Default theme for grocery CRUD. You can choose between 'flexigrid', 'datatables', 'bootstrap', 'bootstrap-v4'
      * @var string
      */
-    public $default_theme = 'flexigrid';
+    public $default_theme = 'internetics';
 
     /**
      * The environment is important so we can have specific configurations for specific environments

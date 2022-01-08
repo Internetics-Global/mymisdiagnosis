@@ -1,5 +1,30 @@
 
-
+<form method="get" action="<?= base_url()?>/records/">
+<div class="search_box">
+<div class="container">
+    <div class="row">
+	   
+	   <div class="col-12" align="center">
+		 
+		  <div id="custom-search-input">
+			 <div class="input-group d-flex justify-content-center">
+				 
+			
+				 
+			<input id="search" name="search" type="text" class="form-control" placeholder="Search" />
+			<input type="image" class="autocomplete_search_button" src="data:image/svg+xml;base64,PHN2ZyBpZD0iaWNuX3NlYXJjaF9saWdodCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMzMuMTMzIiBoZWlnaHQ9IjM1LjEyMSIgdmlld0JveD0iMCAwIDMzLjEzMyAzNS4xMjEiPgogIDxnIGlkPSJFbGxpcHNlXzgiIGRhdGEtbmFtZT0iRWxsaXBzZSA4IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDAuNDE0KSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjM2Q1MTYxIiBzdHJva2Utd2lkdGg9IjIiPgogICAgPGVsbGlwc2UgY3g9IjE1LjUiIGN5PSIxNSIgcng9IjE1LjUiIHJ5PSIxNSIgc3Ryb2tlPSJub25lIi8+CiAgICA8ZWxsaXBzZSBjeD0iMTUuNSIgY3k9IjE1IiByeD0iMTQuNSIgcnk9IjE0IiBmaWxsPSJub25lIi8+CiAgPC9nPgogIDxsaW5lIGlkPSJMaW5lXzE2IiBkYXRhLW5hbWU9IkxpbmUgMTYiIHgyPSI2LjU2NyIgeTI9IjYuNTY3IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNS4xNTIgMjcuMTQpIiBmaWxsPSJub25lIiBzdHJva2U9IiMzZDUxNjEiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIyIi8+Cjwvc3ZnPgo=" alt="submit"/>
+			
+				 
+			 </div>
+		  </div>
+		 
+	   </div>
+	   
+    </div>
+</div>
+</div>
+</form>
+<BR>
 	
 <h1><?php echo $title; ?></h1>
 	
@@ -12,24 +37,55 @@
 
 		 
 		 
-	<div class="row mb-2"> 
+	<!--<div class="row search_results_box_header"> 
+	
+		
+			
+			<div class="col-md-4">
+				<h3 class="search_results_header">Initial misdiagnosis</h3>
+			</div>
+			<div class="col-md-2">
+			<h3 class="search_results_header">>></h3>
+			</div>
+			<div class="col-md-6">
+				<h3 class="search_results_header">Eventual diagnosis</h3>
+			</div>
+			
+		</div> -->	
+	
 	   <?php foreach ($listings as $listing)  { ?>
-		<div class="col-md-12">
+		
+		 <div class="row search_results_box"> 
+			 
+		   <div class="col-md-12">
+								   
+					   <h3><a href="record/<?= $listing['record_id'] ?>"><?= $listing['record_misdiagnosis'] ?></a></h3>
+					</div> 
+			 
+		   <div class="col-md-6">
+		   			  
+			Initial misdiagnosis: <?= $listing['record_misdiagnosis'] ?> 
+		  </div>
 		  
-		   
-			  
-			<h3 class="mb-0"><a href="record/<?= $listing['record_id'] ?>"><?= $listing['record_misdiagnosis'] ?></a></h3>
-		    	<p><?= strip_tags(htmlspecialchars_decode(word_limiter($listing['record_notes'], 19)), ENT_HTML5)?></p> 
+		
+		  
+		  <div class="col-md-6 search-right">
 			
-			
+			 Eventual diagnosis: <?= $listing['record_correct_diagnosis'] ?>
+			 
+		  </div>
+		  
+		  <div class="col-md-12">
+		    	<p><i><?= strip_tags(htmlspecialchars_decode(word_limiter($listing['record_notes'], 19)), ENT_HTML5)?></i><BR><a href="record/<?= $listing['record_id'] ?>">More...</a></p>
+		  </div>
 				
 		
 			  
 	
-				 
+		</div> <!-- end row mb2 -->		 
 						  
-				<!-- <p><a href="record/<?= $listing['record_id'] ?>" class="stretched-link">Continue reading</a></p> -->
-		</div>
+		 
+		
 	
 		<?php } ?>
 	
@@ -37,7 +93,7 @@
  
  
     
-    </div> <!-- end row mb2 -->
+    
  
   
 

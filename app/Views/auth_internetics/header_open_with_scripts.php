@@ -31,7 +31,7 @@ function endsWith( $haystack, $needle ) {
     <link type="text/css" rel="stylesheet" href="/mymisdiagnosis/public/assets/grocery_crud/themes/internetics/css/general.css"/>
     <link type="text/css" rel="stylesheet" href="/mymisdiagnosis/public/assets/grocery_crud/themes/internetics/css/plugins/animate.min.css"/>
     <link type="text/css" rel="stylesheet" href="/mymisdiagnosis/public/assets/grocery_crud/themes/internetics/css/main.css"/>
-    <link type="text/css" rel="stylesheet" href="/mymisdiagnosis/public/assets/grocery_crud/themes/internetics/css/internetics.css?v=265"/>
+    <link type="text/css" rel="stylesheet" href="/mymisdiagnosis/public/assets/grocery_crud/themes/internetics/css/internetics.css?v=267"/>
     <link type="text/css" rel="stylesheet" href="/mymisdiagnosis/public/assets/grocery_crud/themes/internetics/css/lightbox.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
     
@@ -51,9 +51,9 @@ function endsWith( $haystack, $needle ) {
 <?php } ?>
 
 <?php if ((strpos($uri, "edit") !== false) || (strpos($uri, "add") !== false)){ ?>
-    <link type="text/css" rel="stylesheet" href="/mymisdiagnosis/public/assets/grocery_crud/themes//internetics/css/elusive-icons/css/elusive-icons.min.css"/>
-    <link type="text/css" rel="stylesheet" href="/mymisdiagnosis/public/assets/grocery_crud/themes//internetics/css/add-edit-form.css"/>
-    <link type="text/css" rel="stylesheet" href="/mymisdiagnosis/public/assets/grocery_crud/themes//internetics/css/dropzone.css"/>
+    <link type="text/css" rel="stylesheet" href="/mymisdiagnosis/public/assets/grocery_crud/themes/internetics/css/elusive-icons/css/elusive-icons.min.css"/>
+    <link type="text/css" rel="stylesheet" href="/mymisdiagnosis/public/assets/grocery_crud/themes/internetics/css/add-edit-form.css"/>
+    <link type="text/css" rel="stylesheet" href="/mymisdiagnosis/public/assets/grocery_crud/themes/internetics/css/dropzone.css"/>
    
 <?php } ?>
 

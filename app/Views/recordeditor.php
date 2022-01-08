@@ -92,8 +92,7 @@ function endsWith( $haystack, $needle ) {
     <script type="text/javascript">
 
 
-			
-
+	
 
     
 
@@ -108,6 +107,20 @@ function endsWith( $haystack, $needle ) {
 		$('#display_mobility_level').css('display', 'none');  
 		
 		 
+	$("#crudForm").submit(function (e) {
+	
+			  
+			  $('#save-and-go-back-button').html('Processing please wait...');
+			  //disable the submit button
+			  $("#save-and-go-back-button").attr("disabled", true);
+			  $("#cancel-button").attr("disabled", true);
+			  
+	
+			  
+	
+			  return true;
+	
+		   });
 		
 
 	   

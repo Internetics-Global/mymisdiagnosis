@@ -732,6 +732,27 @@ box-shadow: 00px 0px 50px 0px;
 border: none;
 }
 
+.search_results_header {
+margin-bottom: 40px;
+}
+
+.row.search_results_box_header {
+background: #3D5161;
+margin-bottom: 20px;
+padding: 20px;
+}
+
+.row.search_results_box {
+background: #2e4151;
+margin-bottom: 20px;
+padding: 20px;
+}
+
+.search-right {
+  
+  text-align: right;
+  
+}
 
 #final_mobility_level {
 border: 0px solid #454F63;
@@ -995,6 +1016,11 @@ and (max-width: 760px) {
 
  }
  
+ .search-right {
+   
+   text-align: left;
+   
+ }
   
  #search {
  font-size: 1.2rem;

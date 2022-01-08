@@ -88,9 +88,9 @@ class Record extends BaseController
 		    'search' => $search
 	    ];
 	    
-	    $data['title'] = 'Search results'; 
-		   $data['meta_title'] = 'Search results';
-		   $data['meta_description'] = 'Misdiagnosis search results';
+	    $data['title'] = 'Misdiagnosis records'; 
+		   $data['meta_title'] = 'Misdiagnosis records';
+		   $data['meta_description'] = 'Misdiagnosis records';
 		   $data['type_of_page'] = '';
     
 	    echo view('auth_internetics/header_open_with_scripts', $data);

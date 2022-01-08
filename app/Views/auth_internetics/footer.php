@@ -65,7 +65,7 @@
                   success: function(data){
                         response( $.map( data, function( item ) {
                                 return {
-                                 url: 'record/'+item.record_id,
+                                 url: BASE_URL +'/record/'+item.record_id,
                                  value: item.record_misdiagnosis
                                    }
                                  

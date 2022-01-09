@@ -44,18 +44,20 @@
 
 <script>
   var BASE_URL = "<?php echo base_url(); ?>";
+  
+
+     
+  
  
- $(document).ready(function() {
-         
-         
-         
-    $( "#search" ).autocomplete({
-            
-            
-            
-            
  
-           source: function(request, response) {
+
+
+$( function() {
+  
+
+  $( "#search" ).autocomplete({
+    minLength: 1,
+    source: function(request, response) {
                   $.ajax({
                   url: BASE_URL + "/home/getTerm",
                   data: {
@@ -66,7 +68,9 @@
                         response( $.map( data, function( item ) {
                                 return {
                                  url: BASE_URL +'/record/'+item.record_id,
-                                 value: item.record_misdiagnosis
+                                 value: item.record_misdiagnosis,
+                                 desc: item.record_correct_diagnosis,
+                                 
                                    }
                                  
                         
@@ -78,22 +82,24 @@
                   
            });
     },
+    focus: function( event, ui ) {
+      $( "#search" ).val( ui.item.label );
+      return false;
+    },
     select: function( event, ui ) {
-                window.location.href = ui.item.url;
-           },
-    minLength: 1
- 
- 
-   });
- 
- 
- 
- 
-}); //ends document ready
- 
-</script>   
+      $( "#search" ).val( ui.item.label );
+      window.location.href = ui.item.url;
 
-
+      return false;
+    }
+  })
+  .autocomplete( "instance" )._renderItem = function( ul, item ) {
+    return $( "<li>" )
+      .append( "<div class='autocomp-layout1'>Misdiagnosis: " + item.label + "</div><div class='autocomp-layout2'><i>Correct: " + item.desc + "</i></div>" )
+      .appendTo( ul );
+  };
+} );
+</script>
 
 <!-- Default Statcounter code for myMisdiagnosis
 https://www.mymisdiagnosis.com -->

@@ -67,7 +67,10 @@ class Home extends BaseController
 	   $db      = \Config\Database::connect();
 	   $builder = $db->table('record_database');   
 	   $query = $builder->like('record_misdiagnosis', $this->request->getVar('term'))
-				->select('record_id, record_misdiagnosis')
+	   			->orLike('record_misdiagnosis', $this->request->getVar('term'))
+		 		->orLike('record_correct_diagnosis', $this->request->getVar('term'))
+		 		->orLike('record_symptoms', $this->request->getVar('term'))
+				->select('record_id, record_misdiagnosis, record_correct_diagnosis')
 				->limit(10)->get();
 	   $data = $query->getResult();
  

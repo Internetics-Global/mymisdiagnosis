@@ -89,7 +89,11 @@ box-shadow: none;
 
 
 
-
+.autocomp-layout2 {
+ border-bottom: 1px;
+ border-bottom-style: dotted;
+ border-color: #3D5161;
+ }
 
 
 
@@ -290,7 +294,13 @@ margin-right:20px;
 width: 305px;
 }
 
-
+#record_body img {
+vertical-align: middle;
+border-style: none;
+float: left;
+margin-right:20px;
+width: 500px!important;
+}
 
 .card-body.home_page_card_1 {
 background-image: url("../../../../../../public/assets/uploads/files/homepage_box_1.jpg");
@@ -1011,10 +1021,19 @@ display:none;
 and (max-width: 760px) {
   
   
+ #record_body img {
+ 
+   width: 305px!important;
+   }
+  
+  
  .ui-autocomplete {
        font-size:1.1rem;
 
  }
+ 
+ 
+
  
  .search-right {
    
@@ -1102,6 +1121,14 @@ and (max-width: 760px) {
 and (max-width: 480px) {
   
 
+
+#record_body img {
+
+  width: 320px!important;
+  }
+
+
+
 .search_box {
 margin-top: 10px;
 margin-bottom: -20px;
@@ -1146,6 +1173,12 @@ padding-left: 1px;
   
  @media only screen 
  and (max-width: 321px) { 
+   
+   
+   #record_body img {
+   
+     width: 305px!important;
+     }
 
 .navbar-brand.mx-auto {
 

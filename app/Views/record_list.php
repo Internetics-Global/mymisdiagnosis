@@ -1,4 +1,28 @@
 
+<?php
+		
+$this->ionAuth = new \IonAuth\Libraries\IonAuth();
+$user = $this->ionAuth->user()->row(); 
+
+$uri = current_url(true);
+
+if(isset($_GET['search']))
+{
+   
+   $placeholder = $_GET['search'];
+   	if ($placeholder == "") 
+	{
+	   $placeholder = "Search";   
+   	}
+   
+} else 
+{ 
+   $placeholder = "Search"; 
+}
+
+	
+?>	
+
 <form method="get" action="<?= base_url()?>/records/">
 <div class="search_box">
 <div class="container">
@@ -11,7 +35,7 @@
 				 
 			
 				 
-			<input id="search" name="search" type="text" class="form-control" placeholder="Search" />
+			<input id="search" name="search" type="text" class="form-control" placeholder="<?php echo $placeholder; ?>" />
 			<input type="image" class="autocomplete_search_button" src="data:image/svg+xml;base64,PHN2ZyBpZD0iaWNuX3NlYXJjaF9saWdodCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMzMuMTMzIiBoZWlnaHQ9IjM1LjEyMSIgdmlld0JveD0iMCAwIDMzLjEzMyAzNS4xMjEiPgogIDxnIGlkPSJFbGxpcHNlXzgiIGRhdGEtbmFtZT0iRWxsaXBzZSA4IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDAuNDE0KSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjM2Q1MTYxIiBzdHJva2Utd2lkdGg9IjIiPgogICAgPGVsbGlwc2UgY3g9IjE1LjUiIGN5PSIxNSIgcng9IjE1LjUiIHJ5PSIxNSIgc3Ryb2tlPSJub25lIi8+CiAgICA8ZWxsaXBzZSBjeD0iMTUuNSIgY3k9IjE1IiByeD0iMTQuNSIgcnk9IjE0IiBmaWxsPSJub25lIi8+CiAgPC9nPgogIDxsaW5lIGlkPSJMaW5lXzE2IiBkYXRhLW5hbWU9IkxpbmUgMTYiIHgyPSI2LjU2NyIgeTI9IjYuNTY3IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNS4xNTIgMjcuMTQpIiBmaWxsPSJub25lIiBzdHJva2U9IiMzZDUxNjEiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIyIi8+Cjwvc3ZnPgo=" alt="submit"/>
 			
 				 
@@ -27,7 +51,6 @@
 <BR>
 	
 <h1><?php echo $title; ?></h1>
-	
 	
 	
 	

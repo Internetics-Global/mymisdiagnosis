@@ -21,14 +21,15 @@ $this->ionAuth    = new \IonAuth\Libraries\IonAuth();
       <li class="nav-item">
         <a class="nav-link" href="<?php echo site_url();?>">Home</a>
       </li>
-
-      <li class="nav-item<?php if (strpos($uri, "pages") !== false){ echo ' active"'; }  ?>">
-        <a class="nav-link" href="<?php echo site_url();?>pages">News</a>
-      </li>
       
       <li class="nav-item<?php if ((strpos($uri, "records") !== false) || (strpos($uri, "record") !== false) ){ echo ' active"'; }  ?>">
         <a class="nav-link" href="<?php echo site_url();?>records">Search</a>
       </li>
+
+      <li class="nav-item<?php if (strpos($uri, "pages") !== false){ echo ' active"'; }  ?>">
+        <a class="nav-link" href="<?php echo site_url();?>pages">News</a>
+      </li>
+    
       
       <li class="nav-item<?php if (strpos($uri, "contact") !== false){ echo ' active"'; }  ?>">
         <a class="nav-link" href="<?php echo site_url();?>contact">Contact us</a>

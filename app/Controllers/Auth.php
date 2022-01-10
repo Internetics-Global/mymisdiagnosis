@@ -611,7 +611,7 @@ protected function renderPage(string $view, $data = null, bool $returnHtml = tru
 //		echo $viewHtml;
 
 		$data['htmltoshow'] = $viewHtml;
-		$data['meta_title'] = 'myMisdiagnosis.com authorisation';
+		$data['meta_title'] = 'myMisdiagnosis.com Members';
 		$data['meta_description'] = "myMisdiagnosis.com";
 		$data['type_of_page'] = "auth";
 		

@@ -6,7 +6,7 @@
     $this->set_css($this->default_theme_path.'/internetics/css/general.css');
     $this->set_css($this->default_theme_path.'/internetics/css/plugins/animate.min.css');
     $this->set_css($this->default_theme_path.'/internetics/css/main.css');
-    $this->set_css($this->default_theme_path.'/internetics/css/internetics.css?v=350');
+    $this->set_css($this->default_theme_path.'/internetics/css/internetics.css?v=369');
     $this->set_css($this->default_theme_path.'/internetics/css/lightbox.css');
 
     $jquery_js = isset($jquery_js) ? $jquery_js : grocery_CRUD::JQUERY;
@@ -123,7 +123,19 @@
 	 ?>       
         
         
-        
+    <?php
+    
+    if ($this->ionAuth->isAdmin()) { 
+        ?>
+        <div class="admin_user">
+        <?php
+    }
+    else {
+    ?>
+    <div class="regular_user">
+    <?php
+}
+    ?>       
 
  		<div class="row">
         	<div class="table-section">
@@ -412,4 +424,5 @@
             <!-- End of Delete Multiple confirmation dialog -->
 
             </div>
+    </div> <!-- ends admin or regular user css defs -->
         </div>

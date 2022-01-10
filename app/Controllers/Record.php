@@ -76,12 +76,24 @@ class Record extends BaseController
 		    
 	    } else {
 		    $paginateData = $listings->select('*')
-			    ->orLike('record_misdiagnosis', $search)
+		         ->where('record_approved','yes')
+			    ->like('record_misdiagnosis', $search)
 			    ->orLike('record_correct_diagnosis', $search)
 			    ->orLike('record_symptoms', $search)
 			    ->orderBy('record_misdiagnosis', 'ASC')  			
 			    ->paginate(3);
 	    }
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
     
 	    $data = [
 		    'listings' => $paginateData,

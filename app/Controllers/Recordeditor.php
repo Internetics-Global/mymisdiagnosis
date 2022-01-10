@@ -41,22 +41,22 @@ public function index()
 			// redirect them to the login page
 			return redirect()->to('/auth/login');
 		}
-		else if (! $this->ionAuth->isAdmin()) // remove this elseif if you want to enable this for non-admins
-		{
+//		else if (! $this->ionAuth->isAdmin()) // remove this elseif if you want to enable this for non-admins
+//		{
 			// redirect them to the home page because they must be an administrator to view this
 			//show_error('You must be an administrator to view this page.');
 			
 			
 		    return redirect()->to('/');
-			
-		}
+//			
+//		}
 		
-		else {
+//		else {
 			
 			
-			return redirect()->to('/');
+//			return redirect()->to('/');
 			
-		}
+//		}
 }
 
 
@@ -74,13 +74,7 @@ public function misdiagnosis()
 	if (! $this->ionAuth->loggedIn()) { return redirect()->to('/auth/login'); } 
 		
 		
-	else if (! $this->ionAuth->isAdmin()) {return redirect()->to('/');}
 	
-	// redirect if not an admin, otherwise show the following content:
-	
-	else 
-	
-	{
 		
 	    
 	   
@@ -101,13 +95,15 @@ public function misdiagnosis()
 		
 		$user = $this->ionAuth->user()->row();   			
 							
-
+		if (! $this->ionAuth->isAdmin()) {
 		$crud->where('record_user_id', $user->id);
-		$crud->fieldType('record_user_id', 'hidden', $user->id);
+	}
+		$crud->fieldType('record_user_id', 'hidden');
 		
 		if (! $this->ionAuth->isAdmin()) 
-		{ $crud->unsetColumns(['record_user_id', 'last_update', 'record_approved']);
-		  $crud->fieldType('record_approved', 'hidden'); 
+		{ $crud->unsetColumns(['record_user_id', 'last_update', 'record_approved','record_image','record_category','record_notes']);
+		  $crud->fieldType('record_approved', 'hidden');
+		  
 		} 
 		else 
 		{ $crud->unsetColumns(['record_user_id', 'last_update']);
@@ -136,21 +132,27 @@ public function misdiagnosis()
 		    'cat3' => 'Category 3'
 		]);
 		
+		if (! $this->ionAuth->isAdmin()) {
+			$crud->fieldType('record_category', 'hidden');
+		}
+			
 		
 		
+		// $crud->callbackEditField('record_user_id', (array($this, 'record_user_id_callback')));
+		$crud->callbackAddField('record_user_id', (array($this, 'record_user_id_callback')));
 		
-		
-		
-		
+		if (! $this->ionAuth->isAdmin()) {
+		$crud->callbackEditField('record_approved', (array($this, 'default_record_approved')));
+		$crud->callbackAddField('record_approved', (array($this, 'default_record_approved')));
+	}
 		
 				
 		$crud->callbackEditField('record_image', (array($this, 'upload_images_posts')));
 		$crud->callbackAddField('record_image', (array($this, 'upload_images_posts')));
 		
 
-				 		 
-$crud->callbackBeforeUpdate(array($this, 'rename_temp_filenames'));
-$crud->callbackBeforeInsert(array($this, 'rename_temp_filenames'));
+		$crud->callbackBeforeUpdate(array($this, 'rename_temp_filenames'));				 		 
+		$crud->callbackBeforeInsert(array($this, 'rename_temp_filenames'));
 
 
 		
@@ -174,17 +176,48 @@ $crud->callbackBeforeInsert(array($this, 'rename_temp_filenames'));
 
 	   
 	   
-	   } // end admin only content
+	   
 	  
     
 }
 	
 
+function record_user_id_callback ($fieldValue, $primaryKeyValue, $rowData) {
+
+
+$user = $this->ionAuth->user()->row();
+
+
+$code_block = '
+	    
+	<input id="field-record_user_id" type="hidden" name="record_user_id" value="'. $user->id . '">
+	  
+		';
+  
+   
+	return $code_block;	
+	
+}
 
 
 
 
 
+function default_record_approved ($fieldValue, $primaryKeyValue, $rowData) {
+	
+$user = $this->ionAuth->user()->row();
+
+	    $code_block = '
+	    
+	    <input id="field-record_approved" type="hidden" name="record_approved" value="no">
+	  
+		';
+	    
+    
+   
+	return $code_block;
+	
+	}
 
 
 

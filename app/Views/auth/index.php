@@ -1,12 +1,11 @@
 
 <h1>Members area</h1>
-<p>Your are logged into the members area of myMisdiagnosis.com</p>
+<p>You are logged into the members area of myMisdiagnosis.com</p>
 <p><div id="infoMessage"><?php echo $message;?></div></p>
-<p>myMisdiagnosis.com aims to be a publicly accessible resource of misdiagnosis data from around the globe and to present the data in such a way that any aspect of it can be queried. To be able to search a diagnosis, a previous misdiagnosis, or any of the symptoms in between the two, could be potentially life-changing information.</p>
+<p>myMisdiagnosis.com is a publicly accessible resource of misdiagnosis data from around the globe. You, as a patient or carer, may add your own misdiagnosis information to the system, to assist others in a similar position to you and increase awareness.</p>
 	 
-<div class="alert alert-success" role="alert">The site is currently in beta as we start to amass data. You are now registered, and will soon be invited to update the database with information about your own experience. </div>
+<div class="alert alert-success" role="alert">The site is currently in beta as we start to amass data. You may add data by clicking <a href="recordeditor/misdiagnosis">Misdiagnosis Data</a>. </div>
 	 
-<p>We will email you when this process begins. </p>
 
 <?php 
 

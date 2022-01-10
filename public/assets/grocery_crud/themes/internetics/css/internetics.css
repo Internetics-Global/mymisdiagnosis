@@ -97,6 +97,9 @@ box-shadow: none;
 
 
 
+
+
+
 .ui-autocomplete {
   color: #3D5161;
     position: absolute;
@@ -106,7 +109,7 @@ box-shadow: none;
     float: left;
     display: none;
     min-width: 160px;   
-    padding: 4px 0;
+    padding: 2px 0;
     margin: 0 0 10px 25px;
     list-style: none;
     background-color: rgba(214, 222, 229, 0.9);
@@ -127,7 +130,7 @@ box-shadow: none;
     *border-bottom-width: 2px;
     line-height:2.5rem;
     font-size:1.4rem;
-    text-indent:12px
+    text-indent:6px
 }
 
 .ui-menu-item > a.ui-corner-all {
@@ -1028,7 +1031,7 @@ and (max-width: 760px) {
   
   
  .ui-autocomplete {
-       font-size:1.1rem;
+       font-size:1.0rem;
 
  }
  
@@ -1120,7 +1123,12 @@ and (max-width: 760px) {
 @media only screen 
 and (max-width: 480px) {
   
+.ui-autocomplete {
+      font-size:0.9rem;
+      line-height:1.5rem;
 
+
+}
 
 #record_body img {
 
@@ -1174,6 +1182,7 @@ padding-left: 1px;
  @media only screen 
  and (max-width: 321px) { 
    
+ 
    
    #record_body img {
    

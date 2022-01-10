@@ -95,7 +95,7 @@ $( function() {
   })
   .autocomplete( "instance" )._renderItem = function( ul, item ) {
     return $( "<li>" )
-      .append( "<div class='autocomp-layout1'>Misdiagnosis: " + item.label + "</div><div class='autocomp-layout2'><i>Correct: " + item.desc + "</i></div>" )
+      .append( "<div class='autocomp-layout1'><i class='bi bi-exclamation-circle'></i> " + item.label + "</div><div class='autocomp-layout2'><i class='bi bi-check2-circle'> <i>" + item.desc + "</i></div>" )
       .appendTo( ul );
   };
 } );

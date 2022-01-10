@@ -19,6 +19,10 @@
     <?php echo form_label(lang('Auth.login_remember_label'), 'remember');?>
     <?php echo form_checkbox('remember', '1', false, 'id="remember"');?>
   </p>
+  
+  <div class="c_form">
+    <div class="g-recaptcha" id="recaptcha" data-sitekey="6Lc5qcMdAAAAAGfF4AIF4_9KwXu1_fg9XRfM307q" data-callback="recaptchaCallback"></div>
+  </div>
 
 
   <p><?php echo form_submit('submit', lang('Auth.login_submit_btn'));?></p>

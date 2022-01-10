@@ -89,9 +89,9 @@ class Record extends BaseController
 		    'search' => $search
 	    ];
 	    
-	    $data['title'] = 'Misdiagnosis records'; 
-		   $data['meta_title'] = 'Misdiagnosis records';
-		   $data['meta_description'] = 'Misdiagnosis records';
+	    $data['title'] = 'Misdiagnosis records: myMisdiagnosis.com'; 
+		   $data['meta_title'] = 'Misdiagnosis records: myMisdiagnosis.com';
+		   $data['meta_description'] = 'Misdiagnosis records - search our misdiagnosis database at myMisdiagnosis.com';
 		   $data['type_of_page'] = '';
     
 	    echo view('auth_internetics/header_open_with_scripts', $data);
@@ -140,9 +140,9 @@ class Record extends BaseController
 		  $data['record_user_id'] = $post['record_user_id'];
 		  $data['last_update'] = $post['last_update'];
 		  $data['type_of_page'] = "";
-		  $data['meta_title'] = "rec";
-		  $data['meta_description'] = "rec";
-		  $data['post_title'] = "rec";
+		  $data['meta_title'] = $post['record_misdiagnosis'] . ": myMisdiagnosis.com";
+		  $data['meta_description'] = $post['record_correct_diagnosis'] . " is sometimes misdiagnosed as " . $post['record_misdiagnosis'] . ". Find out more at myMisdiagnosis.com";
+		  $data['post_title'] = $post['record_misdiagnosis'] . ": myMisdiagnosis.com" ;
 		endforeach;     
 		   
 		   

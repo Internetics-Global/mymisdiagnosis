@@ -54,6 +54,9 @@
 		 <input type="hidden" name="user_folder" value="<?php echo rand(); ?>" id="user_folder">
 	 </p>
 
+<div class="c_form">
+    <div class="g-recaptcha" id="recaptcha" data-sitekey="6Lc5qcMdAAAAAGfF4AIF4_9KwXu1_fg9XRfM307q" data-callback="recaptchaCallback"></div>
+  </div>
 
 	 <p><?php echo form_submit('submit', lang('Auth.create_user_submit_btn'));?></p>
 

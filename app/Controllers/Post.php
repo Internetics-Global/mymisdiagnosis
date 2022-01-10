@@ -89,9 +89,9 @@ class Post extends BaseController
 			  'search' => $search
 		  ];
 		  
-		  $data['title'] = 'Search results'; 
-			 $data['meta_title'] = 'Search results';
-			 $data['meta_description'] = 'Misdiagnosis search results';
+		  $data['title'] = 'myMisdiagnosis articles: myMisdiagnosis.com'; 
+			 $data['meta_title'] = 'myMisdiagnosis articles: myMisdiagnosis.com';
+			 $data['meta_description'] = 'Misdiagnosis articles at myMisdiagnosis.com';
 			 $data['type_of_page'] = '';
 	  
 		  echo view('auth_internetics/header_open_with_scripts', $data);

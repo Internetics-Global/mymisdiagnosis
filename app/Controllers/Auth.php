@@ -61,6 +61,62 @@ public function login()
 
 		if ($this->ionAuth->login($this->request->getVar('identity'), $this->request->getVar('password'), $remember))
 		{
+			
+			
+			
+			
+			
+			
+			$recaptchaResponse = trim($this->request->getVar('g-recaptcha-response'));
+								   
+		  	// form data
+	   	
+		  	$secret = '6Lc5qcMdAAAAAPl82run23EgjaTc-dwJuV-ajjpa';
+	   	
+		  	$credential = array(
+		    	'secret' => $secret,
+		    	'response' => $recaptchaResponse
+		  	);
+	   	
+		  	$verify = curl_init();
+		  	curl_setopt($verify, CURLOPT_URL, "https://www.google.com/recaptcha/api/siteverify");
+		  	curl_setopt($verify, CURLOPT_POST, true);
+		  	curl_setopt($verify, CURLOPT_POSTFIELDS, http_build_query($credential));
+		  	curl_setopt($verify, CURLOPT_SSL_VERIFYPEER, false);
+		  	curl_setopt($verify, CURLOPT_RETURNTRANSFER, true);
+		  	$response = curl_exec($verify);
+	   	
+		  	$status = json_decode($response, true);
+	   	
+		  	$session = session();
+	   	
+		  	if ($status['success']) {
+	   	
+		    	
+    			echo "yes";
+		    	
+		  	} else {
+	   	
+	   	
+		    	$this->session->setFlashdata('message', ' • Please complete the Recaptcha field below.'); 
+	
+		    	return redirect()->back()->withInput();
+			    
+		  	}  
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 			//if the login is successful
 			//redirect them back to the home page
 			$this->session->setFlashdata('message', $this->ionAuth->messages());

@@ -22,7 +22,7 @@ $this->ionAuth    = new \IonAuth\Libraries\IonAuth();
         <a class="nav-link" href="<?php echo site_url();?>">Home</a>
       </li>
       
-      <li class="nav-item<?php if ((strpos($uri, "records") !== false) ){ echo ' active"'; }  ?>">
+      <li class="nav-item<?php if ((strpos($uri, "records") !== false) || (strpos($uri, "record/") !== false) ){ echo ' active"'; }  ?>">
         <a class="nav-link" href="<?php echo site_url();?>records">Search</a>
       </li>
 

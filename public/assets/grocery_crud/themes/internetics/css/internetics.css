@@ -19,8 +19,16 @@ color:#DADDE4;
 }
 
 
+.ui-helper-hidden-accessible {
+display: none;
+}
+
+
 .sub-nav {
-font-size: .85em;
+font-size: 1.1em;
+
+margin-bottom: -40px;
+
 }
 
 #search {
@@ -909,7 +917,7 @@ color: #DADDE4;
 
 .navbar-collapse {
 margin-left: 20px;
-margin-top: 20px;
+margin-top: -5px;
 }
 
 
@@ -1009,10 +1017,7 @@ and (max-width: 1200px) {
 
 	  
 	  
-	 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
-	 color: #DADDE4!important;
-	 border-bottom: .5px dotted #DADDE4;
-	 } 
+	
 	  
 .body_inner_frame {
 
@@ -1065,7 +1070,19 @@ margin-bottom:10px;
 
 .sub-nav {
 font-size: 1em;
+
+
+margin-bottom: 0px;
+
+
 }
+
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+ color: #DADDE4!important;
+ border-bottom: .5px dotted #DADDE4;
+ width:200px;
+ } 
 
 }
 

@@ -1,10 +1,12 @@
 <?php namespace App\Controllers;
 
-use App\Libraries\GroceryCrud;
+// use App\Libraries\GroceryCrud;
 
-use App\Libraries\InterneticsLibrary;
+// use App\Libraries\InterneticsLibrary;
 
-use App\Models\InterneticsModel;
+// use App\Models\InterneticsModel;
+
+// use App\Models\InterneticsIonAuthModel;
 
 class Auth extends \IonAuth\Controllers\Auth
 {
@@ -15,6 +17,8 @@ class Auth extends \IonAuth\Controllers\Auth
      *  
      */
 protected $viewsFolder = 'Views\auth';
+
+
 
 public function index()
 {
@@ -644,6 +648,160 @@ $this->data['message'] = $this->validation->getErrors() ? $this->validation->lis
 
 
 
+
+
+
+
+
+
+/**
+ * Activate the user
+ *
+ * @param integer $id   The user ID
+ * @param string  $code The activation code
+ *
+ * @return \CodeIgniter\HTTP\RedirectResponse
+ */
+public function activate(int $id, string $code = ''): \CodeIgniter\HTTP\RedirectResponse
+{
+	$activation = false;
+
+	if ($code)
+	{
+		$activation = $this->ionAuth->activate($id, $code);
+	}
+	else if ($this->ionAuth->isAdmin())
+	{
+		$activation = $this->ionAuth->activate($id);
+	}
+
+	if ($activation)
+	{
+		// redirect them to the auth page
+		$this->session->setFlashdata('message', $this->ionAuth->messages());
+		
+		if (! $this->ionAuth->isAdmin())
+		{
+		return redirect()->to('/auth/login');
+		} else {	
+		return redirect()->to('/auth');	
+		}
+	
+	}
+	else
+	{
+		// redirect them to the forgot password page
+		$this->session->setFlashdata('message', $this->ionAuth->errors($this->validationListTemplate));
+		return redirect()->to('/auth/forgot_password');
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+public function delete_user(int $id)
+{
+	
+	
+	
+	if (! $this->ionAuth->isAdmin())
+	{
+		// redirect them to the home page because they must be an administrator to view this
+		throw new \Exception('You must be an administrator to view this page.');
+		// TODO : I think it could be nice to have a dedicated exception like '\IonAuth\Exception\NotAllowed
+	}
+	
+	
+	if ($this->ionAuth->isAdmin()) {
+
+	$this->validation->setRule('confirm', lang('Auth.deactivate_validation_confirm_label'), 'required');
+	$this->validation->setRule('id', lang('Auth.deactivate_validation_user_id_label'), 'required|integer');
+
+	if (! $this->validation->withRequest($this->request)->run())
+	{
+		
+		$this->data['user'] = $this->ionAuth->user($id)->row();
+		return $this->renderPage($this->viewsFolder . DIRECTORY_SEPARATOR . 'delete_user', $this->data);
+	}
+	else
+	{
+		// do we really want to deactivate?
+		if ($this->request->getPost('confirm') === 'yes')
+		{
+			
+			
+			// do we have a valid request?
+			if ($id !== $this->request->getPost('id', FILTER_VALIDATE_INT))
+			{
+				throw new \Exception(lang('Auth.error_security'));
+			}
+
+			// do we have the right userlevel?
+			if ($this->ionAuth->loggedIn() && $this->ionAuth->isAdmin())
+			{
+				
+
+
+
+			$user = $this->ionAuth->user($id)->row();	  
+  				
+			$dir = FCPATH . 'upload/' . $user->id . '-'  .$user->user_folder;	
+			  
+		  
+			  	// remove user's directories, subdirectories and files
+			  	
+					function recursiveRemove($dir) {
+						$structure = glob(rtrim($dir, "/").'/*');
+						if (is_array($structure)) {
+   						foreach($structure as $file) {
+	  						if (is_dir($file)) recursiveRemove($file);
+	  						elseif (is_file($file)) unlink($file);
+   						}
+						}
+						rmdir($dir);
+					}				  
+				  	
+					if (file_exists($dir)) {
+						
+						recursiveRemove("$dir");
+						
+						}
+				  	
+					//delete their records
+					
+					$db = \Config\Database::connect();
+					$builder = $db->table('record_database');
+					$builder->where('record_user_id', $user->id);
+					$builder->delete();
+		
+	
+					// delete the user
+					
+					$message = $this->ionAuth->deleteUser($id) ? $this->ionAuth->messages() : $this->ionAuth->errors($this->validationListTemplate);
+					$this->session->setFlashdata('message', $message);
+				
+			}
+			
+			
+		}
+		
+//		$this->ionAuth->deleteUser($id);
+
+		// redirect them back to the auth page
+		return redirect()->to('/auth');
+	}
+	
+	} //ends ionauth admin check
+}
 
 
 

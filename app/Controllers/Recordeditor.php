@@ -161,7 +161,7 @@ public function misdiagnosis()
 	 
 			 
 
-
+$crud->callbackBeforeDelete(array($this, 'delete_files'));
 
 
 		   
@@ -179,6 +179,44 @@ public function misdiagnosis()
 	   
 	  
     
+}
+
+
+
+
+
+
+function delete_files ($primaryKeyValue) {
+
+
+// $card_folder = '5';
+$user = $this->ionAuth->user()->row();	  
+	  
+	  
+		  // only execute the below if we have a new temp file waiting in the wings:	
+		  
+			  
+			  $card_folder = 'record_image-' . $primaryKeyValue->primaryKeyValue;
+			  $path_to_folder = FCPATH . 'upload/' . $user->id . '-'  .$user->user_folder . '/' . $card_folder;	
+			  
+			  
+// $card_folder = 'record_image-' . $post_array->record_id;
+// $card_folder2 = $row->record_id;
+			  
+//			  $path_to_folder = FCPATH . 'upload/' . $user->id . '-'  .$user->user_folder . '/' . $card_folder2;	
+			  
+			  if (file_exists($path_to_folder)) {		  
+			 
+			   array_map('unlink', glob("$path_to_folder/*.*"));
+			   rmdir($path_to_folder);
+			  			  
+			  }
+		 
+		  
+		  
+		  
+
+	return;
 }
 	
 

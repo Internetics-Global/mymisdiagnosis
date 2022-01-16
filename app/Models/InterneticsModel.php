@@ -148,5 +148,4 @@ class InterneticsModel extends GroceryCrudModel
     
     
     
-    
  }   

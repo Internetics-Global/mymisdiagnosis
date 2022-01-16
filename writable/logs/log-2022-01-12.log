@@ -110,3 +110,841 @@ INFO - 2022-01-12 11:36:29 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2022-01-12 11:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2022-01-12 11:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2022-01-12 11:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:31:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:32:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 12:32:50 --> Argument 1 passed to App\Libraries\GroceryCrud::callbackBeforeDelete() must be callable, array given, called in /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php on line 164
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(164): App\Libraries\GroceryCrud->callbackBeforeDelete(Array)
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis()
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-12 12:33:16 --> Cannot redeclare App\Controllers\Recordeditor::record_user_id_callback()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2022-01-12 12:33:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:33:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 12:33:51 --> Too few arguments to function App\Controllers\Recordeditor::delete_files(), 1 passed and exactly 3 expected
+#0 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#1 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '310')
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-01-12 12:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 12:33:56 --> Too few arguments to function App\Controllers\Recordeditor::delete_files(), 1 passed and exactly 3 expected
+#0 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#1 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '310')
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-01-12 12:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 12:35:31 --> Too few arguments to function App\Controllers\Recordeditor::delete_files(), 1 passed and exactly 3 expected
+#0 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#1 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '310')
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-01-12 12:35:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 12:35:33 --> Too few arguments to function App\Controllers\Recordeditor::delete_files(), 1 passed and exactly 3 expected
+#0 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#1 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '310')
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-01-12 12:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 12:35:46 --> Too few arguments to function App\Controllers\Recordeditor::delete_files(), 1 passed and exactly 3 expected
+#0 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#1 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '310')
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-01-12 12:35:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 12:35:49 --> Too few arguments to function App\Controllers\Recordeditor::delete_files(), 1 passed and exactly 3 expected
+#0 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#1 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '310')
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-01-12 12:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 12:37:55 --> Class 'GroceryCrud\Core\Error\ErrorMessage' not found
+#0 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#1 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '310')
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-01-12 12:37:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 12:37:57 --> Class 'GroceryCrud\Core\Error\ErrorMessage' not found
+#0 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#1 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '310')
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-01-12 12:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:38:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 12:39:05 --> Class 'GroceryCrud\Core\Error\ErrorMessage' not found
+#0 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#1 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '311')
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-01-12 12:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 12:39:07 --> Class 'GroceryCrud\Core\Error\ErrorMessage' not found
+#0 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#1 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '311')
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-01-12 12:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:40:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 12:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 14:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 14:12:16 --> Undefined variable: post_array
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(179): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 179, Array)
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('add')
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2022-01-12 14:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 14:13:07 --> Undefined variable: post_array
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 164, Array)
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('add')
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2022-01-12 14:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 14:13:38 --> Undefined variable: post_array
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(179): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 179, Array)
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('add')
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2022-01-12 14:14:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 14:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 14:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 14:14:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 14:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 14:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 14:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 14:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 14:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 14:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 14:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 14:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 14:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 14:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 14:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 14:19:46 --> syntax error, unexpected ';'
+#0 /var/www/html/mymisdiagnosis/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('recordeditor/mi...')
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('recordeditor/mi...')
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-12 14:20:31 --> syntax error, unexpected ';'
+#0 /var/www/html/mymisdiagnosis/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('recordeditor/mi...')
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('recordeditor/mi...')
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2022-01-12 14:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 14:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 15:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 15:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 15:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 15:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 15:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 15:26:26 --> Undefined variable: post_array
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(235): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 235, Array)
+#1 [internal function]: App\Controllers\Recordeditor->record_user_id_callback('1', '312', Object(stdClass), Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/InterneticsLibrary.php(284): call_user_func(Array, '1', '312', Object(stdClass), Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1832): App\Libraries\InterneticsLibrary->get_edit_input_fields(Object(stdClass))
+#4 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4532): App\Libraries\grocery_CRUD_Layout->showEditForm(Object(stdClass))
+#5 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('edit', '312')
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-01-12 15:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 15:28:01 --> Argument 1 passed to App\Libraries\GroceryCrud::callbackAddField() must be of the type string, array given, called in /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php on line 164
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(164): App\Libraries\GroceryCrud->callbackAddField(Array)
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('edit', '312')
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2022-01-12 15:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 15:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 15:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 15:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 15:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 15:42:20 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /var/www/html/mymisdiagnosis/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('recordeditor/mi...')
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('recordeditor/mi...')
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2022-01-12 15:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 15:48:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 15:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 15:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 15:48:24 --> Undefined property: stdClass::$data
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(199): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/m...', 199, Array)
+#1 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '314')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-01-12 15:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 15:48:29 --> Undefined property: stdClass::$data
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(199): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/m...', 199, Array)
+#1 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '314')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-01-12 15:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 15:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 15:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 15:48:58 --> Undefined property: stdClass::$data
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(199): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/m...', 199, Array)
+#1 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '314')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-01-12 15:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 15:49:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 15:49:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 15:49:27 --> Undefined property: stdClass::$data
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(199): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/m...', 199, Array)
+#1 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '314')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-01-12 15:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 15:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 15:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 15:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 15:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 15:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 15:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 15:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 15:53:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 15:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 15:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 15:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 15:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 15:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 15:53:26 --> rmdir(/var/www/html/mymisdiagnosis/upload/1-1000101/record_image-264): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'rmdir(/var/www/...', '/var/www/html/m...', 206, Array)
+#1 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(206): rmdir('/var/www/html/m...')
+#2 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#4 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#5 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '315')
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-01-12 15:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 15:55:06 --> rmdir(/var/www/html/mymisdiagnosis/upload/1-1000101/record_image-264): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'rmdir(/var/www/...', '/var/www/html/m...', 206, Array)
+#1 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(206): rmdir('/var/www/html/m...')
+#2 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#4 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#5 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '315')
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-01-12 15:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 15:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 15:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 15:55:27 --> rmdir(/var/www/html/mymisdiagnosis/upload/1-1000101/record_image-264): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'rmdir(/var/www/...', '/var/www/html/m...', 206, Array)
+#1 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(206): rmdir('/var/www/html/m...')
+#2 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#4 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#5 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '315')
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-01-12 15:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 15:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 15:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 15:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 15:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 15:59:31 --> Undefined property: stdClass::$data
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(202): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/m...', 202, Array)
+#1 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '315')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-12 16:01:04 --> syntax error, unexpected ';'
+#0 /var/www/html/mymisdiagnosis/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('recordeditor/mi...')
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('recordeditor/mi...')
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2022-01-12 16:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 16:01:35 --> rmdir(/var/www/html/mymisdiagnosis/upload/1-1000101/record_image-264): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'rmdir(/var/www/...', '/var/www/html/m...', 210, Array)
+#1 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(210): rmdir('/var/www/html/m...')
+#2 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#4 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#5 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '315')
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-01-12 16:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 16:01:37 --> rmdir(/var/www/html/mymisdiagnosis/upload/1-1000101/record_image-264): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'rmdir(/var/www/...', '/var/www/html/m...', 210, Array)
+#1 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(210): rmdir('/var/www/html/m...')
+#2 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#4 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#5 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '315')
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-01-12 16:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:02:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:03:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:05:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 16:05:23 --> Undefined property: stdClass::$data
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/m...', 204, Array)
+#1 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '318')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-01-12 16:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 16:09:36 --> Undefined property: stdClass::$insertId
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(203): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/m...', 203, Array)
+#1 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '318')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-01-12 16:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:10:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 16:11:02 --> Undefined property: stdClass::$record_id
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(203): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/m...', 203, Array)
+#1 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '318')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-01-12 16:11:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 16:11:06 --> Undefined property: stdClass::$record_id
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(203): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/m...', 203, Array)
+#1 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '318')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-01-12 16:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 16:11:38 --> Undefined property: stdClass::$record_id
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(203): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/m...', 203, Array)
+#1 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '318')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-12 16:13:02 --> syntax error, unexpected '$path_to_folder' (T_VARIABLE)
+#0 /var/www/html/mymisdiagnosis/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('recordeditor/mi...')
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('recordeditor/mi...')
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2022-01-12 16:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 16:13:26 --> Undefined property: stdClass::$data
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/m...', 204, Array)
+#1 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '318')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-01-12 16:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 16:13:41 --> Undefined property: stdClass::$data
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/m...', 204, Array)
+#1 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '318')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-01-12 16:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 16:13:48 --> Undefined property: stdClass::$data
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/m...', 204, Array)
+#1 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '318')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-01-12 16:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 16:14:30 --> Cannot use object of type stdClass as array
+#0 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#1 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '318')
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-01-12 16:19:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:19:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 16:19:32 --> Object of class stdClass could not be converted to string
+#0 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#1 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '318')
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-01-12 16:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 16:20:21 --> Object of class stdClass could not be converted to string
+#0 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#1 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '318')
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-01-12 16:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 16:20:40 --> Object of class stdClass could not be converted to string
+#0 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#1 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '318')
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-01-12 16:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 16:22:36 --> Too few arguments to function App\Controllers\Recordeditor::delete_files(), 1 passed and exactly 3 expected
+#0 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#1 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '318')
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-01-12 16:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 16:22:57 --> Too few arguments to function App\Controllers\Recordeditor::delete_files(), 1 passed and exactly 3 expected
+#0 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#1 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '318')
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-01-12 16:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 16:23:22 --> Too few arguments to function App\Controllers\Recordeditor::delete_files(), 1 passed and exactly 3 expected
+#0 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#1 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '318')
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-01-12 16:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 16:27:33 --> Object of class stdClass could not be converted to string
+#0 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#1 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '318')
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-01-12 16:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 16:29:36 --> Object of class stdClass could not be converted to string
+#0 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#1 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '319')
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-01-12 16:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 16:31:12 --> Object of class stdClass could not be converted to string
+#0 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#1 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '319')
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-01-12 16:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 16:32:05 --> Object of class stdClass could not be converted to string
+#0 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#1 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '319')
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-01-12 16:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 16:34:23 --> Object of class stdClass could not be converted to string
+#0 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#1 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '319')
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-01-12 16:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 16:35:10 --> Object of class stdClass could not be converted to string
+#0 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#1 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '319')
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-01-12 16:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:38:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:38:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 16:38:35 --> Undefined property: App\Controllers\Recordeditor::$db
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/m...', 204, Array)
+#1 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '320')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-01-12 16:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 16:38:37 --> Undefined property: App\Controllers\Recordeditor::$db
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/m...', 204, Array)
+#1 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '320')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-01-12 16:40:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:40:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 16:40:05 --> Object of class stdClass could not be converted to string
+#0 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#1 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '320')
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-01-12 16:42:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 16:43:00 --> Object of class stdClass could not be converted to string
+#0 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#1 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '320')
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-12 16:43:21 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /var/www/html/mymisdiagnosis/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('recordeditor/mi...')
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('recordeditor/mi...')
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2022-01-12 16:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 16:43:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 16:43:39 --> Object of class stdClass could not be converted to string
+#0 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#1 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '320')
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-01-12 17:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 17:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 17:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 17:15:49 --> Too few arguments to function App\Controllers\Recordeditor::delete_files(), 1 passed and exactly 2 expected
+#0 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#1 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '320')
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-01-12 17:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 17:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-01-12 17:16:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-01-12 17:16:18 --> Too few arguments to function App\Controllers\Recordeditor::delete_files(), 1 passed and exactly 2 expected
+#0 [internal function]: App\Controllers\Recordeditor->delete_files(Object(stdClass))
+#1 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(1245): call_user_func(Array, Object(stdClass))
+#2 /var/www/html/mymisdiagnosis/app/Libraries/GroceryCrud.php(4544): App\Libraries\grocery_CRUD_Model_Driver->db_delete(Object(stdClass))
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Recordeditor.php(170): App\Libraries\GroceryCrud->render()
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Recordeditor->misdiagnosis('delete', '320')
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recordeditor))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}

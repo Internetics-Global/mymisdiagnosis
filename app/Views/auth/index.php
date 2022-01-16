@@ -28,6 +28,7 @@ if (! $this->ionAuth->isAdmin()) // a logged in user, not not admin
 			<th><?php echo lang('Auth.index_groups_th');?></th>
 			<th><?php echo lang('Auth.index_status_th');?></th>
 			<th><?php echo lang('Auth.index_action_th');?></th>
+			<th>Delete</th>
 		</tr>
 		<?php foreach ($users as $user):?>
 			<tr>
@@ -41,6 +42,7 @@ if (! $this->ionAuth->isAdmin()) // a logged in user, not not admin
 				</td>
 				<td><?php echo ($user->active) ? anchor('auth/deactivate/' . $user->id, lang('Auth.index_active_link')) : anchor("auth/activate/". $user->id, lang('Auth.index_inactive_link'));?></td>
 				<td><?php echo anchor('auth/edit_user/' . $user->id, lang('Auth.index_edit_link')) ;?></td>
+				<td><?php echo anchor('auth/delete_user/' . $user->id, 'Delete') ;?></td>
 			</tr>
 		<?php endforeach;?>
 	</table>

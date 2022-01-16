@@ -124,7 +124,6 @@ public function posts()
 $crud->callbackBeforeUpdate(array($this, 'rename_temp_filenames'));
 $crud->callbackBeforeInsert(array($this, 'rename_temp_filenames'));
 
-
 		
 		$crud->callbackAfterInsert(array($this, 'rename_temp_folder'));	
 	 

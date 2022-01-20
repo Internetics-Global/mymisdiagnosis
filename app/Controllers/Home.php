@@ -32,22 +32,24 @@ class Home extends BaseController
 		$data['meta_description'] = "The global medical 
 		misdiagnosis database";
 		$data['type_of_page'] = "home";
-		$data['post_body'] = "<p></p><p>Whilst most medical diagnoses are accurate, some are not. Medical diagnostic errors happen.
+		$data['post_body'] = "
 		
 		<p>Reports suggest that up to 1 in 7 medical diagnoses are incorrect. 1 in 3 of incorrect diagnoses 
 		could result in serious injury or death.</p>
 		
-		<p>myMisdiagnosis is creating a global medical misdiagnosis database resource, with information 
-		supplied  by patients and their carers, who have been subject to an incorrect diagnosis. </p>
+		<p></p><p>So we can safely conlude that whilst most medical diagnoses are accurate, a sigificant number are not. Medical diagnostic errors happen.</p>
+		
+		<p>The myMisdiagnosis project is creating a global medical misdiagnosis database resource, with information 
+		supplied by patients and their carers, whom have been subject to an incorrect diagnosis. </p>
 		
 		<p>Reviewing the incorrect diagnosis, the symptoms the led the practitioner to that conclusion, 
-		and the eventual correct diagnosis - patients or their carers can evaluate their own situation.</p>
+		and the eventual correct diagnosis - recently diagnosed patients or their carers can evaluate their own situation.</p>
 		
 		<p>myMisdiagnosis is currently in a beta phase as we collect data from around the globe, 
 		and we invite patients and carers to contribute their own information to the system. </p>
 		
 		<p>Your experience and knowledge could potentially provide life changing information to those 
-		who need it most. Thank you for your interest in myMisdiagnosis.com</p>
+		who need it most. Thank you for your interest in myMisdiagnosis.com,</p>
 		
 		";
 		echo view('auth_internetics/header_open_with_scripts', $data);

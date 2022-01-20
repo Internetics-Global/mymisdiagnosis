@@ -6,6 +6,8 @@ $user = $this->ionAuth->user()->row();
 
 $uri = current_url(true);
 
+$page_number = str_replace('page=','', $uri->getQuery());
+
 if(isset($_GET['search']))
 {
    
@@ -49,15 +51,26 @@ if(isset($_GET['search']))
 </div>
 </form>
 <BR>
-	
-<h1><?php echo $title; ?></h1>
-	
-	
+
+<?php if ((strpos($uri, "search") !== false)) { ?>
+
+<h1><?php $title; ?></h1> 
+
+<?php } else { 
+
+if ($page_number == '') {$page_number = 1; }
+
+?> 
+
+<h1>Page <?php echo $page_number .' - ' . $title; ?></h1> 
+
+<?php } ?>
 	
 
+	
+	
+	
  
-
-
 		 
 		 
 	<!--<div class="row search_results_box_header"> 

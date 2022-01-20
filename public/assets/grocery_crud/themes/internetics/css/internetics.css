@@ -1013,6 +1013,21 @@ and (max-width: 1200px) {
 
 
 @media only screen 
+and (max-width: 1150px) {
+ 
+ .navbar-brand.mx-auto {
+ position: absolute;
+ top: 18px;
+ background-size: 320px;
+ padding-right:310px;
+ }
+ 
+  
+}
+
+
+
+@media only screen 
   and (max-width: 1100px) {
 
 	  
@@ -1032,12 +1047,7 @@ padding-top: 20px;
     padding: 2rem!important;
 }
 
-.navbar-brand.mx-auto {
-position: absolute;
-top: 18px;
-background-size: 320px;
-padding-right:310px;
-}
+
 
 
 

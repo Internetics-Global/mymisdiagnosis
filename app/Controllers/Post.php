@@ -71,7 +71,7 @@ class Post extends BaseController
 	  
 		  if ($search == '') {
 			  
-			  $paginateData = $posts->orderBy('post_title', 'ASC') 		    
+			  $paginateData = $posts->orderBy('date_of_post', 'DESC') 		    
 			  ->paginate(10);
 			 
 			  
@@ -79,7 +79,7 @@ class Post extends BaseController
 			  $paginateData = $posts->select('*')
 				  ->orLike('post_title', $search)
 				  ->orLike('post_snippet', $search)
-				  ->orderBy('post_title', 'ASC')  			
+				  ->orderBy('date_of_post', 'DESC')  			
 				  ->paginate(10);
 		  }
 	  

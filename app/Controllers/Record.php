@@ -63,7 +63,15 @@ class Record extends BaseController
 		    $search = $searchData['search'];
 	    }
 	    
-
+	    $uri = current_url(true);
+	    $page_number = str_replace('page=','', $uri->getQuery());
+	    if ($page_number == '') {$page_number = 1; }
+	    
+	    
+	    
+	    
+	    
+	    
     
 	    // Get data 
 	    $listings = new RecordModel();
@@ -102,8 +110,21 @@ class Record extends BaseController
 	    ];
 	    
 	    $data['title'] = 'Misdiagnosis records: myMisdiagnosis.com'; 
-		   $data['meta_title'] = 'Misdiagnosis records: myMisdiagnosis.com';
-		   $data['meta_description'] = 'Misdiagnosis records - search our misdiagnosis database at myMisdiagnosis.com';
+	    
+	    
+	    if ((strpos($uri, "search") !== false)) { 
+		   $data['meta_title'] = 'myMisdiagnosis search results';
+	    } else { 
+		   $data['meta_title'] = 'myMisdiagnosis records page ' . $page_number . ': myMisdiagnosis.com';    
+	    }
+	    
+	    
+	    if ((strpos($uri, "search") !== false)) { 
+			  $data['meta_description'] = 'myMisdiagnosis search results';
+		   } else { 
+			  $data['meta_description'] = 'Page ' . $page_number . ' of misdiagnosis records - search the medical misdiagnosis database at myMisdiagnosis.com';    
+		   }
+	    
 		   $data['type_of_page'] = '';
     
 	    echo view('auth_internetics/header_open_with_scripts', $data);

@@ -122,7 +122,7 @@ $uri = current_url(true);
 	   <?php foreach ($items as $key => $value) : ?>
 		<div class="col-md-4">
 		  <div class="card mb-3">
-		    <div class="row no-gutters rounded overflow-hidden flex-md-row" style="background-image: url(<?php if ($value['post_thumb']) { echo $value['post_thumb']; } ?>); background-size: 550px; background-repeat: no-repeat;">
+		    <div class="row no-gutters rounded overflow-hidden flex-md-row" style="background-image: url(<?php if ($value['post_thumb']) { echo $value['post_thumb']; } ?>); background-size: 440px; background-repeat: no-repeat;">
 			  <div class="card-body listpage">
 			  
 			    <h4 class="card-title mb-0"><a href="pages/<?= $value['slug'] ?>"><?= $value['post_title'] ?></a></h4>

@@ -2,7 +2,7 @@
 
 use App\Libraries\GroceryCrud;
 
-use App\Libraries\InterneticsLibrary;
+use App\Libraries\RecordLibrary;
 
 use App\Models\InterneticsModel;
 
@@ -78,7 +78,7 @@ public function misdiagnosis()
 		
 	    
 	   
-	  	$crud = new InterneticsLibrary();
+	  	$crud = new RecordLibrary();
 
 		$crud->setModel(new InterneticsModel($db));
 
@@ -89,7 +89,7 @@ public function misdiagnosis()
 	     $crud->setSubject('Misdiagnosis data');             
      
 
-		$crud->fields(['record_id', 'record_misdiagnosis', 'record_correct_diagnosis', 'record_symptoms', 'record_category', 'record_notes','record_image', 'record_approved', 'record_user_id']);
+		$crud->fields(['record_id', 'record_misdiagnosis', 'record_correct_diagnosis', 'record_symptoms', 'record_category', 'record_notes','record_image', 'record_url_ref', 'record_approved', 'record_user_id']);
 		
 
 		
@@ -101,12 +101,12 @@ public function misdiagnosis()
 		$crud->fieldType('record_user_id', 'hidden');
 		
 		if (! $this->ionAuth->isAdmin()) 
-		{ $crud->unsetColumns(['record_user_id', 'last_update', 'record_approved','record_image','record_category','record_notes']);
+		{ $crud->unsetColumns(['record_user_id', 'last_update', 'record_approved','record_image', 'record_url_ref', 'record_category','record_notes']);
 		  $crud->fieldType('record_approved', 'hidden');
 		  
 		} 
 		else 
-		{ $crud->unsetColumns(['record_user_id', 'last_update']);
+		{ $crud->unsetColumns(['record_user_id', 'record_url_ref', 'last_update']);
 	       $crud->fieldType('record_approved', 'dropdown', [
 			 'yes' => 'Yes',
 			 'no' => 'No'
@@ -124,6 +124,7 @@ public function misdiagnosis()
 		$crud->displayAs('record_category', 'Category');
 		$crud->displayAs('record_notes', 'Additional notes');
 		$crud->displayAs('record_image', 'Associated image');
+		$crud->displayAs('record_url_ref', 'Associated reference/research URL, if applicable');
 		
 //		$crud->displayAs('post_orderby', 'Order by (homepage and footer only)');
 		$crud->fieldType('record_category', 'multiselect', [

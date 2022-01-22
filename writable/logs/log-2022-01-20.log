@@ -298,3 +298,5 @@ INFO - 2022-01-20 11:54:18 --> Session: Class initialized using 'CodeIgniter\Ses
 WARNING - 2022-01-20 11:54:18 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
 INFO - 2022-01-20 11:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 WARNING - 2022-01-20 11:54:27 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-01-20 11:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-01-20 11:55:26 --> Session: Sessions is enabled, and one exists.Please don't $session->start();

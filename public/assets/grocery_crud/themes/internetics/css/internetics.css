@@ -24,6 +24,87 @@ display: none;
 }
 
 
+.gc-container .chosen-container {
+padding-top: 0px;
+width: 100%!important;
+}
+
+
+.chosen-container-multi .chosen-choices li.search-field input[type="text"] {
+margin: 5px 5px 5px 5px;
+padding: 0;
+height: 35px;
+outline: 0;
+border: 0 !important;
+background: transparent !important;
+box-shadow: none;
+color: #495057;
+font-size: .9rem;
+font-family: sans-serif;
+line-height: 1em;
+border-radius: 0;
+width: 100%!important;
+}
+
+
+.chosen-container-multi .chosen-choices {
+
+
+border-radius: 5px;
+background:#dee6eb;
+
+}
+
+
+
+.chosen-container .chosen-results li.active-result {
+display: list-item;
+cursor: pointer;
+font-size: 1.2em;
+line-height: 1.8em;
+}
+
+
+.chosen-container-multi .chosen-choices li.search-choice {
+line-height: 1.2em;
+font-size: 1.2em;
+margin-top: 10px;
+margin-left: 10px;
+
+}
+
+
+.chosen-container-multi .chosen-choices li.search-choice .search-choice-close {
+top: 7px;
+
+}
+
+
+
+.chosen-container-single .chosen-single {
+
+margin-left: 0px;
+height: 3em;
+/* padding-top: 2px; */
+
+}
+
+.chosen-container-single .chosen-single-with-deselect span {
+margin-right: 38px;
+font-size: 1.2em;
+padding-top: 6px;
+}
+
+
+
+.chosen-container-single .chosen-single abbr {
+
+top: 14px;
+
+}
+
+
+
 .sub-nav {
 font-size: 1.1em;
 
@@ -745,9 +826,8 @@ text-decoration: none;
 .form-control {
 font-size: 20px;
 display: block;
-width: 60%;
-min-width: 300px;
-max-width: 600px;
+width: 100%;
+
 /* height: 50%; */
 height: calc(3.25rem + 2px);
 padding: .375rem .75rem;
@@ -948,13 +1028,13 @@ margin-bottom: 7px;
 margin-left: 18px;
 }
 
-.chosen-container * {
+/** .chosen-container * {
 
 width: 200px;
 background: #ffffff;
 }
 
-
+**/
 
 .col-sm {
 

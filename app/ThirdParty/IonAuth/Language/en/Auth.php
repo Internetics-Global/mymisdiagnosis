@@ -61,7 +61,7 @@ return [
 	'create_user_subheading'                        => 'Please enter the user\'s information below.',
 	'create_user_fname_label'                       => 'First Name:',
 	'create_user_lname_label'                       => 'Last Name:',
-	'create_user_company_label'                     => 'Anonymous nickname to be displayed on screen:',
+	'create_user_company_label'                     => 'Anonymous screen name / nickname to be displayed on screen:',
 	'create_user_identity_label'                    => 'Screen name:',
 	'create_user_email_label'                       => 'Email:',
 	'create_user_phone_label'                       => 'Phone:',

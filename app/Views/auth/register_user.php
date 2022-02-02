@@ -1,11 +1,13 @@
 <h1>Signup</h1>
-<p>Please enter your information below. For privacy we recommend you think of a nickname that is unrelated to your real name. Once set, it cannot be changed.</p>
+<p>Please enter your information below. </p>
+	
 
 <div id="infoMessage"><?php echo $message;?></div>
 
-
-
 <form action="register_user" id="ajax_form" method="post" accept-charset="utf-8">
+	<p><B>Your name:</B> </p>
+	
+	<p>We will not refer to your real name publicly within the system, it is for our records only. </p>
 
 	 <p>
 		<?php echo form_label(lang('Auth.create_user_fname_label'), 'first_name');?> <br />
@@ -16,6 +18,10 @@
 		  <?php echo form_label(lang('Auth.create_user_lname_label'), 'last_name');?> <br />
 		  <?php echo form_input($last_name);?>
 	 </p>
+	
+	 
+	 <p><B>Screen name:</B> </p>
+	 <p> For privacy we recommend you think of an anonymous screen name/nickname that is unrelated to your real identity. Any data entered into the system may be publicly credited to your screen name. </p>
 
 	 <?php
 	 if ($identity_column !== 'email') {

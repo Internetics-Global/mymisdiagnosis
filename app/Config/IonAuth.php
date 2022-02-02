@@ -18,6 +18,15 @@ class IonAuth extends \IonAuth\Config\IonAuth
         'mailtype' => 'html',
     ];
     
+    
+    /**
+     * Email templates.
+     * Folder where email templates are stored.
+     * Default: IonAuth\\Views\\auth\\email\\
+     *
+     * @var string
+     */
+    public $emailTemplates = 'Views/auth/email/';
 }
 
 

@@ -37,7 +37,7 @@ $uri = current_url(true);
 					
 						<p>It has been reported that some patients have been misdiagnosed with <?= htmlspecialchars_decode($post['record_misdiagnosis'], ENT_HTML5) ?>, when in fact the correct diagnosis in their specific case was <?= htmlspecialchars_decode($post['record_correct_diagnosis'], ENT_HTML5) ?>.</p>
 							
-					  		<p>A contributor has suggested the list of symptoms specified here.</p> 
+					  	<p>A contributor has suggested the list of symptoms specified here.</p> 
 														   		
 				  		<p>If the symptoms indicated align with any of your symptoms, it may be worth talking to your medical professional to check that <?= htmlspecialchars_decode($post['record_correct_diagnosis'], ENT_HTML5) ?> has been considered or ruled out as an outcome.</p>
 														   		
@@ -65,6 +65,8 @@ $uri = current_url(true);
 			
 			<div class="row mb-2">
 				<div class="col-md-12">
+					
+						
 					
 						<i><?= htmlspecialchars_decode($post['record_notes'], ENT_HTML5) ?></i></p>
 			  			<?php if ($post['record_image']) {

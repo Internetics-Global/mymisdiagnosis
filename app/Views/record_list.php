@@ -93,27 +93,20 @@ if ($page_number == '') {$page_number = 1; }
 		
 		 <div class="row search_results_box"> 
 			 
-		   <div class="col-md-12">
+		   <div class="col-md-10">
 								   
-					   <h3><a href="record/<?= $listing['record_id'] ?>"><?= $listing['record_misdiagnosis'] ?></a></h3>
+					   <h2><a href="record/<?= $listing['record_id'] ?>"><?= $listing['record_misdiagnosis'] ?></a></h2>
+					   <p><?= $listing['record_correct_diagnosis'] ?> is sometimes misdiagnosed as <?= $listing['record_misdiagnosis'] ?></p>
 					</div> 
 			 
-		   <div class="col-md-6">
-		   			  
-			Initial misdiagnosis: <?= $listing['record_misdiagnosis'] ?> 
-		  </div>
+		   
 		  
-		
-		  
-		  <div class="col-md-6 search-right">
+		  <div class="col-md-2">
+			  
 			
-			 Eventual diagnosis: <?= $listing['record_correct_diagnosis'] ?>
-			 
-		  </div>
-		  
-		  <div class="col-md-12">
-		    	<p><i><?= strip_tags(htmlspecialchars_decode(word_limiter($listing['record_notes'], 19)), ENT_HTML5)?></i><BR>
-				    <div class="record_button"><a href="record/<?= $listing['record_id'] ?>">More...</a></div></p>
+		    	<p>
+				   
+				    <div class="record_button"><a href="record/<?= $listing['record_id'] ?>">More...<img src="images/mymisdiagnosis-logo-symb-3-trans.png" width=50 height=50></a></div></p>
 		  </div>
 				
 		

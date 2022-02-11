@@ -27,13 +27,27 @@ display: none;
 
 
 .please_note {
-margin: 20px;
-color: #3D5161;
-background: #b6c2c7;
-border-radius: 5px;
-max-width: 900px;
-padding: 20px;
+
+color: #DADDE4;
+background: #650404;
+border-radius: 10px;
+font-size: 1rem;
+padding: 30px;
+margin-top: 20px;
 }
+
+.please_note p {
+  
+  margin-top:0.5rem;
+  margin-bottom:0.5rem;
+}
+
+
+
+
+
+
+
 
 
 .record_heading {
@@ -57,19 +71,32 @@ margin:15px;
 
 .record_button {
 
-color: #3D5161!important;
-background: #96C3C6;
-border-radius: 5px;
-padding: 10px;
-width: 100px;
+
+width: 50px;
+
 float: right;
-margin-bottom: 5px;
-margin-right: -10px;
+
+}
+
+img.post_button {
+
+width: 50px;
+float: right;
+margin-left: 3px;
+margin-bottom: 3px;
+
+}
+
+.post_button {
+
+width: 50px;
+float: right;
+
 }
 
 .record_button a {
 
-color: #3D5161!important;
+color: #96C3C6!important;
 
 }
 

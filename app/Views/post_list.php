@@ -25,10 +25,17 @@
 			
 		  </div><!-- end mb3 -->
 			  
-			  <p><?= strip_tags(htmlspecialchars_decode(word_limiter($post['post_snippet'], 19)), ENT_HTML5)?></p> 
-				 <!--<p class="card-text mb-1"><small class="text-muted"><?=$post['date_of_post'] ?></small></p> -->
+			  <p><a href="pages/<?= $post['slug'] ?>"><img src="images/mymisdiagnosis-logo-symb-3-trans.png" class="post_button" width=50 height=50></a><?= strip_tags(htmlspecialchars_decode(word_limiter($post['post_snippet'], 19)), ENT_HTML5)?>
+				 <!--<p class="card-text mb-1"><small class="text-muted"><?=$post['date_of_post'] ?></small></p> --></p>
 						  
-				 <p><a href="pages/<?= $post['slug'] ?>" class="stretched-link">Continue reading</a></p>
+			
+								    
+						<!--<p><a href="pages/<?= $post['slug'] ?>"> More...</a></p>-->
+									
+	
+	 <!--<p class="card-text mb-1"><small class="text-muted"><?=$post['date_of_post'] ?></small></p> -->								
+									
+									
 		</div>
 	   <?php } ?>
 

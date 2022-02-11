@@ -38,7 +38,16 @@
 
 </div>
 
-<center><div class="final_footer"><a href="<?php echo site_url();?>pages/website-terms-and-conditions">Terms and Conditions<a/> | <a href="<?php echo site_url();?>pages/privacy-policy-for-mymisdiagnosis-com">Privacy Policy</a> | Copyright Internetics Pty Ltd / myMisdiagnosis.com 2021/2022. All rights reserved.</div></center>
+<center>
+  
+  <div class="please_note">
+  Important: Patients should not use information on this website for self-diagnosis. Always consult your doctor or specialist. Medical professionals have not checked data. 
+  </div>
+  
+  <div class="final_footer">
+  
+  
+  <a href="<?php echo site_url();?>pages/website-terms-and-conditions">Terms and Conditions<a/> | <a href="<?php echo site_url();?>pages/privacy-policy-for-mymisdiagnosis-com">Privacy Policy</a> | Copyright Internetics Pty Ltd / myMisdiagnosis.com 2022. All rights reserved.</div></center>
 
 </div> 
 

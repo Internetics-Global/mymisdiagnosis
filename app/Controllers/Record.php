@@ -109,7 +109,7 @@ class Record extends BaseController
 		    'search' => $search
 	    ];
 	    
-	    $data['title'] = 'Misdiagnosis records: myMisdiagnosis.com'; 
+	    $data['title'] = 'Misdiagnosis records'; 
 	    
 	    
 	    if ((strpos($uri, "search") !== false)) { 

@@ -5,7 +5,7 @@
     $this->set_css($this->default_theme_path.'/internetics/css/general.css');
     $this->set_css($this->default_theme_path.'/internetics/css/add-edit-form.css');
     $this->set_css($this->default_theme_path.'/internetics/css/main.css');
-    $this->set_css($this->default_theme_path.'/internetics/css/internetics.css?v=367');
+    $this->set_css($this->default_theme_path.'/internetics/css/internetics.css?v=369');
     $this->set_css($this->default_theme_path.'/internetics/css/lightbox.css');
     $this->set_css($this->default_theme_path.'/internetics/css/print.min.css');
 
@@ -81,8 +81,7 @@ $countfields = 0;
               
 					<div id="questions">
 						
-					
-						
+				
 						
 						
 					<?php 

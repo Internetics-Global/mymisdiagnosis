@@ -5,7 +5,7 @@
     $this->set_css($this->default_theme_path.'/internetics/css/general.css');
     $this->set_css($this->default_theme_path.'/internetics/css/add-edit-form.css');
     $this->set_css($this->default_theme_path.'/internetics/css/main.css');
-    $this->set_css($this->default_theme_path.'/internetics/css/internetics.css?v=445');
+    $this->set_css($this->default_theme_path.'/internetics/css/internetics.css?v=447');
     $this->set_css($this->default_theme_path.'/internetics/css/lightbox.css');
     $this->set_css($this->default_theme_path.'/internetics/css/print.min.css');
     $this->set_css($this->default_theme_path.'/internetics/css/dropzone.css');
@@ -84,10 +84,8 @@ $countfields = 0;
               
 					<div id="questions">
 						
+						
 					
-						
-						
-						
 					<?php 
 						
 					$total_panes = 0; foreach($fields as $field) {	$total_panes++;	
@@ -104,6 +102,7 @@ if ($this->basic_db_table =='cards') {
 	                   	
 					?>
 				
+                   
                  
 
 <div class="container card_layout">
@@ -148,7 +147,13 @@ if ($this->basic_db_table =='cards') {
 	                    
 
 	                    
-	                    if ($countfields == '0') {echo '<div id="q' . $countfields . '" style="display: block;">';}
+	                    if ($countfields == '0') {echo '
+                      
+	
+                             
+                        
+                      
+                      <div id="q' . $countfields . '" style="display: block;">';}
 	                    else {echo '<div id="q_' . $field->field_name . '" style="display: block;">';}
 	                    
 	                    $countfields = $countfields + 1;

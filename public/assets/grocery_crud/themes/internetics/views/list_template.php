@@ -6,7 +6,7 @@
     $this->set_css($this->default_theme_path.'/internetics/css/general.css');
     $this->set_css($this->default_theme_path.'/internetics/css/plugins/animate.min.css');
     $this->set_css($this->default_theme_path.'/internetics/css/main.css');
-    $this->set_css($this->default_theme_path.'/internetics/css/internetics.css?v=377');
+    $this->set_css($this->default_theme_path.'/internetics/css/internetics.css?v=379');
     $this->set_css($this->default_theme_path.'/internetics/css/lightbox.css');
 
     $jquery_js = isset($jquery_js) ? $jquery_js : grocery_CRUD::JQUERY;

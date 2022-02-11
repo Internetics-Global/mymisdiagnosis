@@ -18,13 +18,86 @@ color:#DADDE4;
 
 }
 
+
+
+
 table p {
 display: none;
 }
 
-table h4 {
-display: none;
+
+.please_note {
+margin: 20px;
+color: #3D5161;
+background: #b6c2c7;
+border-radius: 5px;
+max-width: 900px;
+padding: 20px;
 }
+
+
+.record_heading {
+
+color: #3D5161;
+background: #96C3C6;
+border-radius: 5px;
+
+padding: 20px;
+margin-bottom:30px;
+margin-top:30px;
+}
+
+
+.record_heading h1  {
+  
+font-size: 1.8rem!important;
+margin:15px;
+  
+}
+
+.record_button {
+
+color: #3D5161!important;
+background: #96C3C6;
+border-radius: 5px;
+padding: 10px;
+width: 100px;
+float: right;
+margin-bottom: 5px;
+margin-right: -10px;
+}
+
+.record_button a {
+
+color: #3D5161!important;
+
+}
+
+.record_symptoms {
+
+color: #3D5161;
+background: #96C3C6;
+border-radius: 5px;
+padding: 20px;
+}
+
+
+.record_symptoms_heading {
+
+color: #3D5161;
+background: #CAE1E2;
+border-radius: 5px;
+padding: 15px;
+font-size: 1.5rem!important;
+margin-bottom:20px;
+
+}
+
+.record_symptoms_heading p {
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
 
 .form-control.searchable-input.floatL {
 display: none;
@@ -187,6 +260,19 @@ display:none;
 
 
 
+#post_body a {
+  
+  color: #96C3C6;
+  text-decoration: none; 
+  
+  
+  
+}
+
+.card-title > a {
+color: #ffffff!important;
+
+}
 
 
 .pagination a {
@@ -501,7 +587,19 @@ box-shadow: 0px 0px 15px 1px #222C34;
 font-size: 1.2rem;
 }  
 
+
+
 .card-title.mb-0 {
+background-color: rgba(61, 81, 97, 0.5);
+padding: 10px;
+border-radius: 5px;
+border: 0px;
+margin-top: 0px;
+bottom: 0px;
+}
+
+
+.home.card-title.mb-0 {
 background-color: rgba(61, 81, 97, 0.5);
 padding: 10px;
 border-radius: 5px;
@@ -509,6 +607,9 @@ border: 0px;
 margin-top: 170px;
 bottom: 0px;
 }
+
+
+
 
 
 a {
@@ -578,10 +679,15 @@ width: 100%!important;
 
 
 
+.home.card {
+
+margin-top: 0px;
+
+}
+
 .card {
-
 background-color: #3D5161;
-
+margin-top: 40px;
 }
 
 
@@ -1237,7 +1343,17 @@ margin-bottom: 0px;
 and (max-width: 760px) {
   
   
+  .record_heading {
   
+
+  margin-bottom:20px;
+  }
+  
+  .record_symptoms {
+  
+  margin-top:20px;
+  margin-bottom:20px;
+  }
   
   
  #record_body img {
@@ -1327,8 +1443,17 @@ and (max-width: 760px) {
       padding: 10px;
       border-radius: 5px;
       border: 0px;
-      margin-top: 70px;
+      margin-top: 0px;
       bottom: 0px;
+  }
+  
+  .home.card-title.mb-0 {
+  background-color: rgba(61, 81, 97, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+  border: 0px;
+  margin-top: 0px;
+  bottom: 0px;
   }
   
 }
@@ -1414,7 +1539,7 @@ padding-left: 1px;
 }
   
   .p-5 {
-      padding: 1rem!important;
+      padding: 1.5rem!important;
      
       }
   }

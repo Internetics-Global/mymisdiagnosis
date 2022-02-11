@@ -112,7 +112,8 @@ if ($page_number == '') {$page_number = 1; }
 		  </div>
 		  
 		  <div class="col-md-12">
-		    	<p><i><?= strip_tags(htmlspecialchars_decode(word_limiter($listing['record_notes'], 19)), ENT_HTML5)?></i><BR><a href="record/<?= $listing['record_id'] ?>">More...</a></p>
+		    	<p><i><?= strip_tags(htmlspecialchars_decode(word_limiter($listing['record_notes'], 19)), ENT_HTML5)?></i><BR>
+				    <div class="record_button"><a href="record/<?= $listing['record_id'] ?>">More...</a></div></p>
 		  </div>
 				
 		

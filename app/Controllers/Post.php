@@ -71,7 +71,9 @@ class Post extends BaseController
 	  
 		  if ($search == '') {
 			  
-			  $paginateData = $posts->orderBy('date_of_post', 'DESC') 		    
+			  $paginateData =  $posts->select('*')
+			  ->like('post_category', 'news')
+			  ->orderBy('date_of_post', 'DESC') 		    
 			  ->paginate(10);
 			 
 			  

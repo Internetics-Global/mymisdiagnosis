@@ -118,13 +118,13 @@ public function misdiagnosis()
 		
 //		$crud->setTexteditor(['record_notes']);
 
-		$crud->displayAs('record_misdiagnosis', '<BR><h4>Your original misdiagnosis</h4><p>A short medical definition will suffice. You can provide more detail in the addional notes section below. <BR><i>Eg \'Fibromyalgia\'</i></p>');
-		$crud->displayAs('record_correct_diagnosis', '<h4>The correct diagnosis</h4><p>What was the eventual, correct, diagnosis? Again, a simple medical definition please. <BR><i>Eg \'Lupus\'</i></p> ');
-		$crud->displayAs('record_symptoms', '<h4>Symptom list</h4><p>A comma seperated list of symptoms. <BR><i>Eg \'Shortness of breath, chest or rib soreness, abdominal cramping, nausea, vomiting, bull\'s-eye rash at bite site, neck stiffness, twitching of face or eyelids\'</i></p>');
-		$crud->displayAs('record_category', '<h4>Category</h4><p>Please select the relevent category or categories that you feel this would fall into.</p>');
-		$crud->displayAs('record_notes', '<h4>Additional notes</h4><p>This is where you can detail information that is revelent to this case. <BR><B>Important:</B> please do not name doctors, specialists, medical practices, hospitals etc. A paragraph or two should suffice. </p>');
-		$crud->displayAs('record_image', '<h4>Associated image</h4><p>If an image is relevent, you may add it to the system. Files must be in the jpg, jpeg or png format, and must be no more than 100kb in size. </p>');
-		$crud->displayAs('record_url_ref', '<h4>Associated Reference URL</h4><p>If your data refers to a web page, please enter the full URL in this box</p>');
+		$crud->displayAs('record_misdiagnosis', '<BR><h3>Your original misdiagnosis</h3><p>A short medical definition will suffice. You can provide more detail in the addional notes section below. <BR><i>Eg \'Fibromyalgia\'</i></p>');
+		$crud->displayAs('record_correct_diagnosis', '<h3>The correct diagnosis</h3><p>What was the eventual, correct, diagnosis? Again, a simple medical definition please. <BR><i>Eg \'Lupus\'</i></p> ');
+		$crud->displayAs('record_symptoms', '<h3>Symptom list</h3><p>A comma seperated list of symptoms. <BR><i>Eg \'Shortness of breath, chest or rib soreness, abdominal cramping, nausea, vomiting, bull\'s-eye rash at bite site, neck stiffness, twitching of face or eyelids\'</i></p>');
+		$crud->displayAs('record_category', '<h3>Category</h3><p>Please select the relevent category or categories that you feel this would fall into.</p>');
+		$crud->displayAs('record_notes', '<h3>Additional notes</h3><p>This is where you can detail information that is revelent to this case. <BR><B>Important:</B> please do not name doctors, specialists, medical practices, hospitals etc. A paragraph or two should suffice. </p>');
+		$crud->displayAs('record_image', '<h3>Associated image</h3><p>If an image is relevent, you may add it to the system. Files must be in the jpg, jpeg or png format, and must be no more than 100kb in size. </p>');
+		$crud->displayAs('record_url_ref', '<h3>Associated Reference URL</h3><p>If your data refers to a web page, please enter the full URL in this box</p>');
 		
 //		$crud->displayAs('post_orderby', 'Order by (homepage and footer only)');
 		$crud->fieldType('record_category', 'multiselect', [

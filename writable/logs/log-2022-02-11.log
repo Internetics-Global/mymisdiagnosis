@@ -262,3 +262,11 @@ INFO - 2022-02-11 19:13:47 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2022-02-11 19:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2022-02-11 19:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 WARNING - 2022-02-11 19:15:07 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-11 19:16:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-11 19:16:18 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-11 22:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-11 22:49:37 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-11 22:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-11 22:50:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-11 22:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-11 22:50:22 --> Session: Sessions is enabled, and one exists.Please don't $session->start();

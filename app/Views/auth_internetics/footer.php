@@ -43,9 +43,9 @@
   <div class="please_note">
   <p>Important: Patients should not use information on this website for self-diagnosis. Always consult your doctor or specialist. Medical professionals have not checked data.</p>
     
-  <p>Disclaimer: The information about health provided by the Service is not intended to diagnose, treat, cure or prevent disease. Products, services, information and other content provided by the Service, including information linking to third-party websites are provided for informational purposes only.</p>
+  <p>Disclaimer: The information about health provided by this website is not intended to diagnose, treat, cure or prevent disease. Products, services, information and other content provided by this website, including information linking to third-party websites are provided for informational purposes only.</p>
   
-  <p>Information offered by the Service is not comprehensive and does not cover all diseases, ailments, physical conditions or their treatment.</p>
+  <p>Information offered by this website is not comprehensive and does not cover all diseases, ailments, physical conditions or their treatment.</p>
   
   <p><a href="<?php echo site_url();?>pages/disclaimer">Please read our full Disclaimer notice here</a>.</p>  
     

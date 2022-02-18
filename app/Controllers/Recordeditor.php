@@ -128,9 +128,10 @@ public function misdiagnosis()
 		
 //		$crud->displayAs('post_orderby', 'Order by (homepage and footer only)');
 		$crud->fieldType('record_category', 'multiselect', [
-		    'cat1' => 'Category 1',
-		    'cat2' => 'Category 2',
-		    'cat3' => 'Category 3'
+		    'Cancer' => 'Cancer',
+		    'Vascular' => 'Vascular',
+		    'Infection' => 'Infection',
+		    'Other' => 'Other'
 		]);
 		
 		if (! $this->ionAuth->isAdmin()) {

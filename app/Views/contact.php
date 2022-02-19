@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <h1>Contact us</h1>
-<p>Please complete the form below and we will endeavour to get back to you as quickly as we can.</p>
+<p>Please complete the form below and we will endeavour to get back to you as quickly as we can..</p>
 
 
 	<?= \Config\Services::validation()->listErrors(); ?>

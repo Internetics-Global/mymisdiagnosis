@@ -89,7 +89,7 @@ public function misdiagnosis()
 	     $crud->setSubject('Misdiagnosis data');             
      
 
-		$crud->fields(['record_id', 'record_misdiagnosis', 'record_correct_diagnosis', 'record_symptoms', 'record_category', 'record_notes','record_image', 'record_url_ref', 'record_approved', 'record_user_id']);
+		$crud->fields(['record_id', 'record_misdiagnosis', 'record_correct_diagnosis', 'record_symptoms', 'record_category', 'record_notes','record_image', 'record_url_ref_1', 'record_url_ref_2', 'record_url_ref_3', 'record_url_ref_4', 'record_url_ref_5', 'record_approved', 'record_user_id']);
 		
 
 		
@@ -101,12 +101,12 @@ public function misdiagnosis()
 		$crud->fieldType('record_user_id', 'hidden');
 		
 		if (! $this->ionAuth->isAdmin()) 
-		{ $crud->unsetColumns(['record_user_id', 'last_update', 'record_approved','record_image', 'record_url_ref', 'record_category','record_notes']);
+		{ $crud->unsetColumns(['record_user_id', 'last_update', 'record_approved','record_image', 'record_url_ref_1', 'record_url_ref_2', 'record_url_ref_3', 'record_url_ref_4', 'record_url_ref_5', 'record_category','record_notes']);
 		  $crud->fieldType('record_approved', 'hidden');
 		  
 		} 
 		else 
-		{ $crud->unsetColumns(['record_user_id', 'record_url_ref', 'last_update']);
+		{ $crud->unsetColumns(['record_user_id', 'record_url_ref', 'record_url_ref_1', 'record_url_ref_2', 'record_url_ref_3', 'record_url_ref_4', 'record_url_ref_5', 'last_update']);
 	       $crud->fieldType('record_approved', 'dropdown', [
 			 'yes' => 'Yes',
 			 'no' => 'No'
@@ -124,7 +124,7 @@ public function misdiagnosis()
 		$crud->displayAs('record_category', '<h3>Category</h3><p>Please select the relevent category or categories that you feel this would fall into.</p>');
 		$crud->displayAs('record_notes', '<h3>Additional notes</h3><p>This is where you can detail information that is revelent to this case. <BR><B>Important:</B> please do not name doctors, specialists, medical practices, hospitals etc. A paragraph or two should suffice. </p>');
 		$crud->displayAs('record_image', '<h3>Associated image</h3><p>If an image is relevent, you may add it to the system. Files must be in the jpg, jpeg or png format, and must be no more than 100kb in size. </p>');
-		$crud->displayAs('record_url_ref', '<h3>Associated Reference URL</h3><p>If your data refers to a web page, please enter the full URL in this box</p>');
+		$crud->displayAs('record_url_ref_1', '<h3>Associated Reference URL</h3><p>If your data refers to a web page, please enter the full URL in this box</p>');
 		
 //		$crud->displayAs('post_orderby', 'Order by (homepage and footer only)');
 		$crud->fieldType('record_category', 'multiselect', [
@@ -136,6 +136,10 @@ public function misdiagnosis()
 		
 		if (! $this->ionAuth->isAdmin()) {
 			$crud->fieldType('record_category', 'hidden');
+			$crud->fieldType('record_url_ref_2', 'hidden');
+			$crud->fieldType('record_url_ref_3', 'hidden');
+			$crud->fieldType('record_url_ref_4', 'hidden');
+			$crud->fieldType('record_url_ref_5', 'hidden');
 		}
 			
 		

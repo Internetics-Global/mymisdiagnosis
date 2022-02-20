@@ -95,8 +95,8 @@ if ($page_number == '') {$page_number = 1; }
 			 
 		   <div class="col-md-10">
 								   
-					   <h2><a href="record/<?= $listing['record_id'] ?>"><?= $listing['record_misdiagnosis'] ?></a></h2>
-					   <p><?= $listing['record_correct_diagnosis'] ?> is sometimes misdiagnosed as <?= $listing['record_misdiagnosis'] ?></p>
+					   <h2><a href="record/<?= $listing['record_id'] ?>"><?= ucwords($listing['record_misdiagnosis']); ?></a></h2>
+					   <p><?= ucwords($listing['record_correct_diagnosis']); ?> is sometimes misdiagnosed as <?= ucwords($listing['record_misdiagnosis']); ?></p>
 					</div> 
 			 
 		   

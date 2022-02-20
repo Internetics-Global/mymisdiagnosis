@@ -79,7 +79,7 @@ class Record extends BaseController
 	    if ($search == '') {
 		    
 		    $paginateData = $listings->orderBy('record_misdiagnosis', 'ASC') 		    
-		    ->paginate(3);
+		    ->paginate(10);
 		   
 		    
 	    } else {
@@ -89,7 +89,7 @@ class Record extends BaseController
 			    ->orLike('record_correct_diagnosis', $search)
 			    ->orLike('record_symptoms', $search)
 			    ->orderBy('record_misdiagnosis', 'ASC')  			
-			    ->paginate(3);
+			    ->paginate(10);
 	    }
  
  

@@ -25,7 +25,7 @@ $uri = current_url(true);
 		  
 	 	<div class="record_heading">
 			 
-			 <h1 class="mb-3"><?= $post['record_correct_diagnosis'] ?> is sometimes misdiagnosed as <?= $post['record_misdiagnosis'] ?></h1>
+			 <h1 class="mb-3"><?= ucwords($post['record_correct_diagnosis']); ?> is sometimes misdiagnosed as <?= ucwords($post['record_misdiagnosis']); ?></h1>
 			 
 		</div>
 		
@@ -35,7 +35,7 @@ $uri = current_url(true);
 				<div class="col-md-6">	  
 					
 					
-						<p>It has been reported that some patients have been misdiagnosed with <?= htmlspecialchars_decode($post['record_misdiagnosis'], ENT_HTML5) ?>, when in fact the correct diagnosis in their specific case was <?= htmlspecialchars_decode($post['record_correct_diagnosis'], ENT_HTML5) ?>.</p>
+						<p>It has been reported that some patients have been misdiagnosed with <?= ucwords(htmlspecialchars_decode($post['record_misdiagnosis'], ENT_HTML5)); ?>, when in fact the correct diagnosis in their specific case was <?= ucwords(htmlspecialchars_decode($post['record_correct_diagnosis'], ENT_HTML5)); ?>.</p>
 							
 					  	<p>A contributor has suggested the list of symptoms specified here.</p> 
 														   		
@@ -53,8 +53,11 @@ $uri = current_url(true);
 					   	<div class="record_symptoms_heading">		
 		  				 	<p>Symptoms can include: <BR>
 						</div>
+							
+						<?= ucfirst(strtolower(htmlspecialchars_decode($post['record_symptoms'], ENT_HTML5))) ?>
+							
 						
-	       			   	<?= htmlspecialchars_decode($post['record_symptoms'], ENT_HTML5) ?></p>
+						</p>
 		  			
 			 
 		             </div>
@@ -68,7 +71,7 @@ $uri = current_url(true);
 					
 						
 					
-						<i><?= htmlspecialchars_decode($post['record_notes'], ENT_HTML5) ?></i></p>
+						<i><?= ucfirst(htmlspecialchars_decode($post['record_notes'], ENT_HTML5)); ?></i></p>
 			  			<?php if ($post['record_image']) {
 						    			
 						  			echo '<img src=" ' . $post['record_image']  .  '" class="post_image_alignment">';

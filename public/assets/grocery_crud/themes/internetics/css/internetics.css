@@ -71,10 +71,10 @@ margin:15px;
 
 .record_button {
 
-
-width: 50px;
-
 float: right;
+position:absolute;
+right: 10px;
+bottom: -5px;
 
 }
 
@@ -1066,6 +1066,33 @@ background: #2e4151;
 margin-bottom: 20px;
 padding: 20px;
 }
+
+
+.category_listing {
+column-width: 14em;
+column-gap: 2em;
+column-rule: 1px;
+margin-top: 30px;
+/* height: 200px; */
+}
+
+.category_listing .row.search_results_box {
+background: none;
+margin-bottom: 0px;
+padding: 10px;
+padding-left: 5px;
+padding-right: 5px;
+max-height: 150px;
+min-height: 150px;
+height: 150px;
+}
+
+.category_listing .col-md-12 {
+  
+background: #2e4151;
+
+}
+
 
 .search-right {
   

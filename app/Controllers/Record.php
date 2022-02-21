@@ -78,9 +78,14 @@ class Record extends BaseController
     
 	    if ($search == '') {
 		    
-		    $paginateData = $listings->orderBy('record_misdiagnosis', 'ASC') 		    
-		    ->paginate(10);
 		   
+				    
+				    
+			$query   = $listings->query('SELECT * FROM record_database WHERE record_id IN (SELECT MIN(record_id) FROM record_database GROUP BY record_correct_diagnosis) ORDER BY record_correct_diagnosis ASC');
+			$paginateData = $query->getResultArray();		    
+				    
+		   
+
 		    
 	    } else {
 		    $paginateData = $listings->select('*')

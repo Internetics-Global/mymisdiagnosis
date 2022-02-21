@@ -52,24 +52,111 @@ if(isset($_GET['search']))
 </form>
 <BR>
 
-<?php if ((strpos($uri, "search") !== false)) { ?>
+<?php if ((strpos($uri, "search") !== false)) { 
 
-<h1><?php $title; ?></h1> 
+
+?>
+
+
+	<!-- we will show cats, else we will show results -->
+
+	<h1><?php $title; ?></h1> 
+
+	<?php foreach ($listings as $listing)  { ?>
+			
+			 <div class="row search_results_box"> 
+				 
+			   <div class="col-md-10">
+									   
+						   <h2><a href="record/<?= $listing['record_id'] ?>"><?= ucwords($listing['record_misdiagnosis']); ?></a></h2>
+						   <p><?= ucwords($listing['record_correct_diagnosis']); ?> is sometimes misdiagnosed as <?= ucwords($listing['record_misdiagnosis']); ?></p>
+						</div> 
+				 
+			   
+			  
+			  <div class="col-md-2">
+				  
+				
+				    <p>
+					   
+					    <div class="record_button"><a href="record/<?= $listing['record_id'] ?>">More...<img src="images/mymisdiagnosis-logo-symb-3-trans.png" width=50 height=50></a></div></p>
+			  </div>
+					
+			
+				  
+		
+			</div> <!-- end row mb2 -->		 
+							  
+			
+			
+			
+		
+	<?php 
+
+
+
+} ?>
+	
+
+	
+<div style='margin-top: 10px;'>
+	 <?= $pager->links() ?>
+ </div>
+ 	
+	
+	
+	
+	
+	
 
 <?php } else { 
 
-if ($page_number == '') {$page_number = 1; }
+	if ($page_number == '') {$page_number = 1; }
 
-?> 
+	?> 
 
-<h1>Page <?php echo $page_number .' - ' . $title; ?></h1> 
+	<!-- <h1>Page <?php echo $page_number .' - ' . $title; ?></h1>  -->
+		
+	<h1>A-Z Diagnoses Categories</h1>
+	<p>You can look through this A-Z list of eventual diagnoses, to search for possible misdiagnoses. Or use the search box above to 
+		filter through all the data of misdiagnoses, diagnoses and symptoms.
+	</p>
 
-<?php } ?>
+	<div class="category_listing">
 	
-
+	<?php foreach ($listings as $listing)  { ?>
+				
+				 <div class="row search_results_box"> 
+					 
+				   <div class="col-md-12">
+										   
+							   <p><a href="records?search=<?= ucwords($listing['record_correct_diagnosis']); ?>"><?= ucwords($listing['record_correct_diagnosis']); ?></a>
+							  <!-- <p><?= ucwords($listing['record_correct_diagnosis']); ?> is sometimes misdiagnosed as <?= ucwords($listing['record_misdiagnosis']); ?></p>--><a href="records?search=<?= ucwords($listing['record_correct_diagnosis']); ?>">
+								  
+								  <div class="record_button">
+								  <img src="images/mymisdiagnosis-logo-symb-3-trans.png" width=50 height=50></a></p>
+				   			    	  </div>
+				   </div> 
+					 
+				   
+				  
+				  
+						
+				
+					  
+			
+				</div> <!-- end row mb2 -->		 
+								  
+				
+				
+				
+			
+		<?php } ?>
+		
+	</div>
 	
 	
-	
+	<?php } ?>
  
 		 
 		 
@@ -89,35 +176,7 @@ if ($page_number == '') {$page_number = 1; }
 			
 		</div> -->	
 	
-	   <?php foreach ($listings as $listing)  { ?>
-		
-		 <div class="row search_results_box"> 
-			 
-		   <div class="col-md-10">
-								   
-					   <h2><a href="record/<?= $listing['record_id'] ?>"><?= ucwords($listing['record_misdiagnosis']); ?></a></h2>
-					   <p><?= ucwords($listing['record_correct_diagnosis']); ?> is sometimes misdiagnosed as <?= ucwords($listing['record_misdiagnosis']); ?></p>
-					</div> 
-			 
-		   
-		  
-		  <div class="col-md-2">
-			  
-			
-		    	<p>
-				   
-				    <div class="record_button"><a href="record/<?= $listing['record_id'] ?>">More...<img src="images/mymisdiagnosis-logo-symb-3-trans.png" width=50 height=50></a></div></p>
-		  </div>
-				
-		
-			  
-	
-		</div> <!-- end row mb2 -->		 
-						  
-		 
-		
-	
-		<?php } ?>
+	  
 	
    
  
@@ -127,9 +186,7 @@ if ($page_number == '') {$page_number = 1; }
  
   
 
-  <div style='margin-top: 10px;'>
-	 <?= $pager->links() ?>
-  </div>
+ 
   
   
   <?php

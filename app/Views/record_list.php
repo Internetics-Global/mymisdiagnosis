@@ -55,6 +55,7 @@ if(isset($_GET['search']))
 <?php if ((strpos($uri, "search") !== false)) { 
 
 
+
 ?>
 
 
@@ -103,7 +104,7 @@ if(isset($_GET['search']))
 	 <?= $pager->links() ?>
  </div>
  	
-	
+
 	
 	
 	

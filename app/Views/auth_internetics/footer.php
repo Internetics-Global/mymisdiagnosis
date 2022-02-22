@@ -58,7 +58,23 @@
   
  <a href="<?php echo site_url();?>pages/disclaimer">Disclaimer</a> | <a href="<?php echo site_url();?>pages/website-terms-and-conditions">Terms and Conditions<a/> | <a href="<?php echo site_url();?>pages/privacy-policy-for-mymisdiagnosis-com">Privacy Policy</a> | Copyright Internetics Pty Ltd / myMisdiagnosis.com 2022. All rights reserved.</div></center>
 
-</div> 
+</div>
+
+
+
+<script>
+
+$('.autocomplete_search_button').click(function()
+{
+    if( !$('#search').val() ) {
+      
+       return false;
+    }
+});
+
+</script>
+
+ 
 
 <script>
   var BASE_URL = "<?php echo base_url(); ?>";

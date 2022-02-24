@@ -139,9 +139,11 @@ $( function() {
   };
 } );
 
-</script>
+
 
 <?php } ?>
+
+</script>
 
 <!-- Default Statcounter code for myMisdiagnosis
 https://www.mymisdiagnosis.com -->

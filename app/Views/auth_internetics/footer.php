@@ -74,17 +74,26 @@ $('.autocomplete_search_button').click(function()
 
 </script>
 
- 
+
+
+
+<script src="/mymisdiagnosis/public/assets/grocery_crud/themes/internetics/js/common/common.js"></script>
+
+
 
 <script>
   var BASE_URL = "<?php echo base_url(); ?>";
-  
+</script> 
 
-     
-  
- 
- 
 
+
+<?php 
+
+$uri = current_url(true);
+
+if ((strpos($uri, "records") !== false) || ($type_of_page == 'home') ){ ?>  
+
+<script>
 
 $( function() {
   
@@ -92,48 +101,52 @@ $( function() {
   $( "#search" ).autocomplete({
     minLength: 1,
     source: function(request, response) {
-                  $.ajax({
-                  url: BASE_URL + "/home/getTerm",
-                  data: {
-                                term : request.term
-                   },
-                  dataType: "json",
-                  success: function(data){
-                        response( $.map( data, function( item ) {
-                                return {
-                                 url: BASE_URL +'/record/'+item.record_id,
-                                 value: item.record_misdiagnosis.charAt(0).toUpperCase()+item.record_misdiagnosis.slice(1),
-                                 desc: item.record_correct_diagnosis,
-                                 
-                                   }
-                                 
-                        
-                                    
-                                    
-                                    
-                          }));
-                  },
-                  
-           });
+         $.ajax({
+         url: BASE_URL + "/home/getTerm",
+         data: {
+              term : request.term
+          },
+         dataType: "json",
+         success: function(data){
+            response( $.map( data, function( item ) {
+              return {
+               url: BASE_URL +'/record/'+item.record_id,
+               value: item.record_misdiagnosis.charAt(0).toUpperCase()+item.record_misdiagnosis.slice(1),
+               desc: item.record_correct_diagnosis,
+               
+              }
+               
+            
+               
+               
+               
+           }));
+         },
+         
+     });
     },
     focus: function( event, ui ) {
-      $( "#search" ).val( ui.item.label );
-      return false;
+   $( "#search" ).val( ui.item.label );
+   return false;
     },
     select: function( event, ui ) {
-      $( "#search" ).val( ui.item.label );
-      window.location.href = ui.item.url;
+   $( "#search" ).val( ui.item.label );
+   window.location.href = ui.item.url;
 
-      return false;
+   return false;
     }
   })
   .autocomplete( "instance" )._renderItem = function( ul, item ) {
     return $( "<li>" )
-      .append( "<div class='autocomp-layout1'><i class='bi bi-exclamation-circle'></i> " + item.label + "</div><div class='autocomp-layout2'><i class='bi bi-check2-circle'> <i>" + item.desc + "</i></div>" )
-      .appendTo( ul );
+   .append( "<div class='autocomp-layout1'><i class='bi bi-exclamation-circle'></i> " + item.label + "</div><div class='autocomp-layout2'><i class='bi bi-check2-circle'> <i>" + item.desc + "</i></div>" )
+   .appendTo( ul );
   };
 } );
+
 </script>
+
+<?php } ?>
+
 
 <!-- Default Statcounter code for myMisdiagnosis
 https://www.mymisdiagnosis.com -->

@@ -41,7 +41,7 @@ function endsWith( $haystack, $needle ) {
     
 
 
-<?php if ((strpos($uri, "contact") !== false) || (strpos($uri, "emaillist") !== false) || (strpos($uri, "login") !== false) || (strpos($uri, "register") !== false) || ($type_of_page == 'home') ){ ?>  
+<?php if ((strpos($uri, "contact") !== false) || (strpos($uri, "emaillist") !== false) || (strpos($uri, "login") !== false) || (strpos($uri, "register") !== false) ){ ?>  
     
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js"></script>  

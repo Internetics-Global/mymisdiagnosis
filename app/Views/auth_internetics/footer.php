@@ -74,26 +74,22 @@ $('.autocomplete_search_button').click(function()
 
 </script>
 
-
-
-
-<script src="/mymisdiagnosis/public/assets/grocery_crud/themes/internetics/js/common/common.js"></script>
-
-
+ 
 
 <script>
   var BASE_URL = "<?php echo base_url(); ?>";
-</script> 
+  
 
-
-
+ 
 <?php 
 
 $uri = current_url(true);
 
-if ((strpos($uri, "records") !== false) || ($type_of_page == 'home') ){ ?>  
+if ((strpos($uri, "records") !== false) || ($type_of_page == 'home') ){ 
+  ?>  
 
-<script>
+
+
 
 $( function() {
   
@@ -146,7 +142,6 @@ $( function() {
 </script>
 
 <?php } ?>
-
 
 <!-- Default Statcounter code for myMisdiagnosis
 https://www.mymisdiagnosis.com -->

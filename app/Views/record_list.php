@@ -187,9 +187,7 @@ elseif (strpos($uri, "/diagnosis") !== false)   {
 	
 
 	
-<div style='margin-top: 10px;'>
-	 <?= $pager->links() ?>
- </div>
+
 	 
 
 	

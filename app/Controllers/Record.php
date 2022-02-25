@@ -114,14 +114,17 @@ class Record extends BaseController
 	    if ((strpos($uri, "search") !== false)) { 
 		   $data['meta_title'] = 'myMisdiagnosis search results';
 	    } else { 
-		   $data['meta_title'] = 'myMisdiagnosis records page ' . $page_number . ': myMisdiagnosis.com';    
+		   // $data['meta_title'] = 'myMisdiagnosis records page ' . $page_number . ': myMisdiagnosis.com';
+		   $data['meta_title'] = 'Search all diagnoses and misdiagnoses: myMisdiagnosis.com';       
 	    }
 	    
 	    
 	    if ((strpos($uri, "search") !== false)) { 
 			  $data['meta_description'] = 'myMisdiagnosis search results';
 		   } else { 
-			  $data['meta_description'] = 'Page ' . $page_number . ' of misdiagnosis records - search the medical misdiagnosis database at myMisdiagnosis.com';    
+			  // $data['meta_description'] = 'Page ' . $page_number . ' of misdiagnosis records - search the medical misdiagnosis database at myMisdiagnosis.com';
+			  
+			  $data['meta_description'] = 'All diagnoses and misdiagnoses - search the medical misdiagnosis database at myMisdiagnosis.com';      
 		   }
 	    
 		   $data['type_of_page'] = '';
@@ -179,7 +182,7 @@ class Record extends BaseController
 		  $data['record_user_id'] = $post['record_user_id'];
 		  $data['last_update'] = $post['last_update'];
 		  $data['type_of_page'] = "";
-		  $data['meta_title'] = $post['record_misdiagnosis'] . ": myMisdiagnosis.com";
+		  $data['meta_title'] = $post['record_misdiagnosis'] . " could be a misdiganosis of " . $post['record_correct_diagnosis'] . ": myMisdiagnosis.com";
 		  $data['meta_description'] = $post['record_correct_diagnosis'] . " is sometimes misdiagnosed as " . $post['record_misdiagnosis'] . ". Find out more at myMisdiagnosis.com";
 		  $data['post_title'] = $post['record_misdiagnosis'] . ": myMisdiagnosis.com" ;
 		endforeach;     
@@ -232,7 +235,7 @@ public function diagnosis($correct_diag)
 			    ->where('record_approved','yes')
 			    ->like('record_correct_diagnosis', $correct_diag)
 			    ->orderBy('record_misdiagnosis', 'ASC')  			
-			    ->paginate(10);
+			    ->paginate(1000000);
 	    
  
  
@@ -245,18 +248,20 @@ public function diagnosis($correct_diag)
 	    
 	    $data['title'] = 'Misdiagnosis records'; 
 	    
+	    $correct_diag_adj = preg_replace('/_/', ' ', strtolower(basename($correct_diag)));
+	    $correct_diag_adj = ucwords($correct_diag_adj);
 	    
 	    if ((strpos($uri, "search") !== false)) { 
 		   $data['meta_title'] = 'myMisdiagnosis search results';
 	    } else { 
-		   $data['meta_title'] = 'myMisdiagnosis records page ' . $page_number . ': myMisdiagnosis.com';    
+		   $data['meta_title'] = 'Possible misdiagnosis of ' . $correct_diag_adj. ': myMisdiagnosis.com';    
 	    }
 	    
 	    
 	    if ((strpos($uri, "search") !== false)) { 
 			  $data['meta_description'] = 'myMisdiagnosis search results';
 		   } else { 
-			  $data['meta_description'] = 'Page ' . $page_number . ' of misdiagnosis records - search the medical misdiagnosis database at myMisdiagnosis.com';    
+			  $data['meta_description'] =  $correct_diag_adj. ' possible misdiagnosis records - search the medical misdiagnosis database at myMisdiagnosis.com';    
 		   }
 	    
 		   $data['type_of_page'] = '';

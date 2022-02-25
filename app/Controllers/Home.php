@@ -30,8 +30,7 @@ class Home extends BaseController
 		$data['title'] = "The global medical 
 		<span class='mis_blue'>mis</span>diagnosis database";
 		$data['meta_title'] = "The global misdiagnosis database: myMisdiagnosis.com";
-		$data['meta_description'] = "The global medical 
-		misdiagnosis database";
+		$data['meta_description'] = "Search for the possibility of misdiagnosis at the world's largest database of publicly accessible, freely available medical misdiagnoses data.";
 		$data['type_of_page'] = "home";
 		$data['post_body'] = "
 		

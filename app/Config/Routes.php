@@ -59,11 +59,9 @@ $routes->get('/', 'AutocompleteSearch::index');
 
 $routes->get('records/','Record::index/$1');
 
-$routes->get('record/(:segment)', 'Record::display/$1');
+$routes->get('misdiagnosis/(:segment)', 'Record::display/$1');
 
-$routes->get('record/(:any)/(:segment)', 'Record::display/$2/$1');
-
-
+$routes->get('misdiagnosis/(:any)/(:segment)', 'Record::display/$2/$1');
 
 $routes->get('diagnosis/(:segment)','Record::diagnosis/$1');
 

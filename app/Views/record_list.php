@@ -157,7 +157,7 @@ elseif (strpos($uri, "/diagnosis") !== false)   {
 				 
 			   <div class="col-md-10">
 									   
-						   <h2><a href="../record/<?= $urlsegment_misdiagnosis ?>/<?= $listing['record_id'] ?>"><?= ucwords($listing['record_misdiagnosis']); ?></a></h2>
+						   <h2><a href="../misdiagnosis/<?= $urlsegment_misdiagnosis ?>/<?= $listing['record_id'] ?>"><?= ucwords($listing['record_misdiagnosis']); ?></a></h2>
 						   <p><?= ucwords($listing['record_correct_diagnosis']); ?> is sometimes misdiagnosed as <?= ucwords($listing['record_misdiagnosis']); ?></p>
 						</div> 
 				 
@@ -169,7 +169,7 @@ elseif (strpos($uri, "/diagnosis") !== false)   {
 				    <p>
 					   
 					    <div class="record_button">
-						    <a href="../record/<?= $urlsegment_misdiagnosis ?>/<?= $listing['record_id'] ?>">More...<img src="../images/mymisdiagnosis-logo-symb-3-trans.png" width=50 height=50></a></div></p>
+						    <a href="../misdiagnosis/<?= $urlsegment_misdiagnosis ?>/<?= $listing['record_id'] ?>">More...<img src="../images/mymisdiagnosis-logo-symb-3-trans.png" width=50 height=50></a></div></p>
 			  </div>
 				  
 		

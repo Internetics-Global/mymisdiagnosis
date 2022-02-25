@@ -35,19 +35,12 @@ function endsWith( $haystack, $needle ) {
     <link type="text/css" rel="stylesheet" href="/mymisdiagnosis/public/assets/grocery_crud/themes/internetics/css/lightbox.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
     
-    <link rel="stylesheet" href="https://use.typekit.net/tny7auv.css">
-    
-
-    
-
-
-<?php if ((strpos($uri, "contact") !== false) || (strpos($uri, "emaillist") !== false) || (strpos($uri, "login") !== false) || (strpos($uri, "register") !== false) ){ ?>  
-    
+    <link rel="stylesheet" href="https://use.typekit.net/tny7auv.css"> 
+<?php if ((strpos($uri, "contact") !== false) || (strpos($uri, "emaillist") !== false) || (strpos($uri, "login") !== false) || (strpos($uri, "register") !== false) ){ ?>   
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js"></script>  
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/additional-methods.min.js"></script>
     <script src='https://www.google.com/recaptcha/api.js'></script>
-
 <?php } ?>
 
 <?php if ((strpos($uri, "edit") !== false) || (strpos($uri, "add") !== false)){ ?>
@@ -56,17 +49,6 @@ function endsWith( $haystack, $needle ) {
     <link type="text/css" rel="stylesheet" href="/mymisdiagnosis/public/assets/grocery_crud/themes/internetics/css/dropzone.css"/>
    
 <?php } ?>
-
-
-
-
-
-
-
-
-
-
-
 <meta name="description" content="<?php echo $meta_description; ?>">
 
 

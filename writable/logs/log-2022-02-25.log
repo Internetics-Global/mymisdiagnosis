@@ -1,0 +1,1483 @@
+INFO - 2022-02-25 11:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 11:42:20 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 11:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 11:42:23 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 11:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:42:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 11:42:33 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 11:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 11:43:27 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 11:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 11:43:32 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 11:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 11:43:50 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 11:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:43:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 11:43:54 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 11:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:44:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 11:44:37 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 11:44:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:44:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:44:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 11:44:52 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 11:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 11:44:55 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 11:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 11:44:58 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 11:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 11:45:03 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 11:45:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 11:45:05 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 11:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 11:45:50 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 11:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:45:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 11:45:57 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 11:46:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 11:46:25 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 11:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 11:46:30 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 11:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:46:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 11:46:35 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 11:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 11:47:56 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 11:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 11:47:58 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 11:48:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 11:48:01 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 11:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 11:48:05 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 11:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 11:48:06 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 11:48:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 11:48:47 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 11:48:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 11:48:50 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 11:48:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 11:48:52 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 11:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 11:50:53 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 11:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 11:50:58 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 11:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 11:51:08 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 11:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 11:51:14 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 11:53:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 11:53:50 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 11:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 11:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 11:54:21 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 11:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 11:59:26 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2022-02-25 11:59:26 --> Undefined variable: meta_title
+#0 /var/www/html/mymisdiagnosis/app/Views/auth_internetics/header_open_with_scripts.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 7, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('auth_internetic...', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(190): view('auth_internetic...', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->display('something')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-02-25 11:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 11:59:55 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2022-02-25 11:59:55 --> Undefined variable: meta_title
+#0 /var/www/html/mymisdiagnosis/app/Views/auth_internetics/header_open_with_scripts.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 7, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('auth_internetic...', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(190): view('auth_internetic...', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->display('something')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-02-25 12:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 12:00:33 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2022-02-25 12:00:33 --> Undefined variable: meta_title
+#0 /var/www/html/mymisdiagnosis/app/Views/auth_internetics/header_open_with_scripts.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 7, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('auth_internetic...', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(190): view('auth_internetic...', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->display('something')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-02-25 12:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 12:07:55 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 12:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 12:08:00 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2022-02-25 12:08:00 --> Undefined variable: meta_title
+#0 /var/www/html/mymisdiagnosis/app/Views/auth_internetics/header_open_with_scripts.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 7, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('auth_internetic...', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(190): view('auth_internetic...', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->display('x')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-02-25 12:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 12:08:24 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2022-02-25 12:08:24 --> Undefined variable: meta_title
+#0 /var/www/html/mymisdiagnosis/app/Views/auth_internetics/header_open_with_scripts.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 7, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('auth_internetic...', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(190): view('auth_internetic...', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->display('x')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-02-25 12:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 12:09:00 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 12:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 12:09:22 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 13:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 13:39:35 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 13:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 13:40:05 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 13:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 13:40:17 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 13:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 13:41:20 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 13:43:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 13:43:20 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 13:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 13:45:00 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 13:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 13:46:41 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 13:46:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 13:46:45 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 13:46:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-25 13:46:53 --> Class 'App\Controllers\Pages' not found
+#0 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(969): CodeIgniter\CodeIgniter->createController()
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-02-25 13:47:17 --> Class 'Home' not found
+#0 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(969): CodeIgniter\CodeIgniter->createController()
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-02-25 13:47:48 --> Class 'index' not found
+#0 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(969): CodeIgniter\CodeIgniter->createController()
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-02-25 13:48:13 --> Class '' not found
+#0 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(969): CodeIgniter\CodeIgniter->createController()
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-02-25 13:49:04 --> Class '\App\Controllers\Pages' not found
+#0 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(969): CodeIgniter\CodeIgniter->createController()
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-02-25 13:49:35 --> Class 'Home' not found
+#0 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(969): CodeIgniter\CodeIgniter->createController()
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-02-25 13:49:55 --> Class '/' not found
+#0 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(969): CodeIgniter\CodeIgniter->createController()
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-02-25 13:50:03 --> Class '' not found
+#0 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(969): CodeIgniter\CodeIgniter->createController()
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-02-25 13:50:20 --> Class 'Post' not found
+#0 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(969): CodeIgniter\CodeIgniter->createController()
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#3 {main}
+INFO - 2022-02-25 13:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 13:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 13:54:08 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 13:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 13:54:09 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 13:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 13:54:17 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2022-02-25 13:54:17 --> Undefined variable: meta_title
+#0 /var/www/html/mymisdiagnosis/app/Views/auth_internetics/header_open_with_scripts.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 7, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('auth_internetic...', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(190): view('auth_internetic...', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->display('this')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-02-25 13:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 13:54:51 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2022-02-25 13:54:51 --> Undefined variable: meta_title
+#0 /var/www/html/mymisdiagnosis/app/Views/auth_internetics/header_open_with_scripts.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 7, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('auth_internetic...', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(190): view('auth_internetic...', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->display('this')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-25 13:55:00 --> preg_match(): Compilation failed: unmatched closing parenthesis at offset 12
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', '/var/www/html/m...', 409, Array)
+#1 /var/www/html/mymisdiagnosis/system/Router/Router.php(409): preg_match('#^record/(.*))$...', 'record/this/579', Array)
+#2 /var/www/html/mymisdiagnosis/system/Router/Router.php(152): CodeIgniter\Router\Router->checkRoutes('record/this/579')
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('record/this/579')
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2022-02-25 13:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 13:55:20 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2022-02-25 13:55:20 --> Undefined variable: meta_title
+#0 /var/www/html/mymisdiagnosis/app/Views/auth_internetics/header_open_with_scripts.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 7, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('auth_internetic...', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(190): view('auth_internetic...', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->display('this', '579')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-02-25 13:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 13:55:33 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2022-02-25 13:55:33 --> Undefined variable: meta_title
+#0 /var/www/html/mymisdiagnosis/app/Views/auth_internetics/header_open_with_scripts.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 7, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('auth_internetic...', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(190): view('auth_internetic...', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->display('this')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-02-25 13:55:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 13:55:42 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2022-02-25 13:55:42 --> Undefined variable: meta_title
+#0 /var/www/html/mymisdiagnosis/app/Views/auth_internetics/header_open_with_scripts.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 7, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('auth_internetic...', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(190): view('auth_internetic...', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->display('this')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-02-25 14:07:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 14:07:43 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 14:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 14:08:46 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2022-02-25 14:08:46 --> Undefined variable: meta_title
+#0 /var/www/html/mymisdiagnosis/app/Views/auth_internetics/header_open_with_scripts.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 7, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('auth_internetic...', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(190): view('auth_internetic...', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->display('this')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-25 14:12:01 --> syntax error, unexpected '.'
+#0 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#3 {main}
+INFO - 2022-02-25 14:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 14:12:17 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2022-02-25 14:12:17 --> Undefined variable: meta_title
+#0 /var/www/html/mymisdiagnosis/app/Views/auth_internetics/header_open_with_scripts.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 7, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('auth_internetic...', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(190): view('auth_internetic...', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->display('this')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-25 14:12:28 --> preg_match(): Compilation failed: quantifier does not follow a repeatable item at offset 9
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', '/var/www/html/m...', 409, Array)
+#1 /var/www/html/mymisdiagnosis/system/Router/Router.php(409): preg_match('#^record/(*)/([...', 'record/this/579', Array)
+#2 /var/www/html/mymisdiagnosis/system/Router/Router.php(152): CodeIgniter\Router\Router->checkRoutes('record/this/579')
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('record/this/579')
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2022-02-25 14:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 14:15:39 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2022-02-25 14:15:39 --> Undefined variable: meta_title
+#0 /var/www/html/mymisdiagnosis/app/Views/auth_internetics/header_open_with_scripts.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 7, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('auth_internetic...', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(190): view('auth_internetic...', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->display('this')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-02-25 15:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 15:24:31 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2022-02-25 15:24:31 --> Undefined variable: meta_title
+#0 /var/www/html/mymisdiagnosis/app/Views/auth_internetics/header_open_with_scripts.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 7, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('auth_internetic...', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(190): view('auth_internetic...', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->display('this', '579')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-02-25 15:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 15:24:50 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2022-02-25 15:24:50 --> Undefined variable: meta_title
+#0 /var/www/html/mymisdiagnosis/app/Views/auth_internetics/header_open_with_scripts.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 7, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('auth_internetic...', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(190): view('auth_internetic...', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->display('this', '579')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-02-25 15:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 15:27:17 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2022-02-25 15:27:17 --> Undefined variable: meta_title
+#0 /var/www/html/mymisdiagnosis/app/Views/auth_internetics/header_open_with_scripts.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 7, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('auth_internetic...', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(190): view('auth_internetic...', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->display('this')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-02-25 15:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 15:27:19 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2022-02-25 15:27:19 --> Undefined variable: meta_title
+#0 /var/www/html/mymisdiagnosis/app/Views/auth_internetics/header_open_with_scripts.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 7, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('auth_internetic...', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(190): view('auth_internetic...', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->display('this')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-02-25 15:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 15:30:15 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2022-02-25 15:30:15 --> Undefined variable: meta_title
+#0 /var/www/html/mymisdiagnosis/app/Views/auth_internetics/header_open_with_scripts.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 7, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('auth_internetic...', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(190): view('auth_internetic...', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->display('this')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-02-25 15:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 15:30:25 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2022-02-25 15:30:25 --> Undefined variable: meta_title
+#0 /var/www/html/mymisdiagnosis/app/Views/auth_internetics/header_open_with_scripts.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 7, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('auth_internetic...', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(190): view('auth_internetic...', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->display('this', 'this')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-02-25 15:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 15:30:30 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2022-02-25 15:30:30 --> Undefined variable: meta_title
+#0 /var/www/html/mymisdiagnosis/app/Views/auth_internetics/header_open_with_scripts.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 7, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('auth_internetic...', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(190): view('auth_internetic...', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->display('this', 'this')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-02-25 15:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 15:30:49 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 15:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 15:30:58 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 15:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 15:31:26 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 15:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 15:31:30 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 15:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 15:31:40 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 15:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 15:31:41 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 15:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 15:31:50 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 15:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 15:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 15:49:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 15:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 15:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 15:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 15:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 15:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 15:57:33 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 15:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 15:59:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 15:59:09 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 15:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 15:59:15 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 16:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 16:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 16:00:48 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 16:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 16:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 16:04:45 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 16:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 16:04:49 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 16:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 16:04:55 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 16:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 16:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 16:06:16 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 16:27:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 16:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 16:29:31 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 16:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 16:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 16:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 16:33:20 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 16:33:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 16:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 16:33:45 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 16:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 16:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 16:37:58 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 16:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 16:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 16:38:07 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 16:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 16:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 16:39:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 16:39:54 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 16:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 16:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 16:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 16:42:37 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 16:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 16:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 16:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 16:44:46 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 16:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 16:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 16:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 16:46:42 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 16:47:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 16:47:37 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 16:48:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 16:50:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 16:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 16:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 16:50:50 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 16:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 16:50:57 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 16:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 16:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 16:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 16:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 16:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 16:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 16:52:08 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 16:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 16:52:15 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 16:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 17:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 17:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 17:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 17:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 17:14:56 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 17:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 17:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 17:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 17:16:16 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 17:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 17:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 17:18:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 17:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 17:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 17:22:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 17:22:02 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 17:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 17:22:58 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 17:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 17:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 17:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 17:28:33 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 17:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 17:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 17:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 17:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 17:39:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 17:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 17:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 17:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 17:40:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 17:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 17:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 17:41:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 17:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 17:42:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-25 17:42:25 --> preg_match(): Compilation failed: missing closing parenthesis at offset 14
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', '/var/www/html/m...', 409, Array)
+#1 /var/www/html/mymisdiagnosis/system/Router/Router.php(409): preg_match('#^category/(.*$...', 'category/sdasas...', Array)
+#2 /var/www/html/mymisdiagnosis/system/Router/Router.php(152): CodeIgniter\Router\Router->checkRoutes('category/sdasas...')
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('category/sdasas...')
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2022-02-25 17:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 17:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 17:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 17:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 17:45:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 17:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 17:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 17:45:21 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 19:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:16:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:16:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:25:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-25 19:25:34 --> Call to a member function links() on null
+#0 /var/www/html/mymisdiagnosis/system/View/View.php(220): include()
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('record_list', Array, true)
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(289): view('record_list', Array)
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->category('search=Gastroen...')
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-02-25 19:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-25 19:26:01 --> Call to a member function links() on null
+#0 /var/www/html/mymisdiagnosis/system/View/View.php(220): include()
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('record_list', Array, true)
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(289): view('record_list', Array)
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->category('search=Gastroen...')
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-02-25 19:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-25 19:26:04 --> Call to a member function links() on null
+#0 /var/www/html/mymisdiagnosis/system/View/View.php(220): include()
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('record_list', Array, true)
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(289): view('record_list', Array)
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->category('search=Gastroen...')
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-02-25 19:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:45:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:54:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 19:56:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2022-02-25 19:56:32 --> mysqli_sql_exception: Unknown column '$woof' in 'field list' in /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT $woof FR...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT $woof FR...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT $woof FR...')
+#3 /var/www/html/mymisdiagnosis/system/BaseModel.php(1772): CodeIgniter\Database\BaseConnection->query('SELECT $woof FR...')
+#4 /var/www/html/mymisdiagnosis/system/Model.php(832): CodeIgniter\BaseModel->__call('query', Array)
+#5 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(240): CodeIgniter\Model->__call('query', Array)
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->diagnosis('ganglion')
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-25 19:56:32 --> Unknown column '$woof' in 'field list'
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT $woof FR...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT $woof FR...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT $woof FR...')
+#3 /var/www/html/mymisdiagnosis/system/BaseModel.php(1772): CodeIgniter\Database\BaseConnection->query('SELECT $woof FR...')
+#4 /var/www/html/mymisdiagnosis/system/Model.php(832): CodeIgniter\BaseModel->__call('query', Array)
+#5 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(240): CodeIgniter\Model->__call('query', Array)
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->diagnosis('ganglion')
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-02-25 19:56:49 --> mysqli_sql_exception: Unknown column 'ganglion' in 'field list' in /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT ganglion...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT ganglion...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT ganglion...')
+#3 /var/www/html/mymisdiagnosis/system/BaseModel.php(1772): CodeIgniter\Database\BaseConnection->query('SELECT ganglion...')
+#4 /var/www/html/mymisdiagnosis/system/Model.php(832): CodeIgniter\BaseModel->__call('query', Array)
+#5 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(240): CodeIgniter\Model->__call('query', Array)
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->diagnosis('ganglion')
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-25 19:56:49 --> Unknown column 'ganglion' in 'field list'
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT ganglion...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT ganglion...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT ganglion...')
+#3 /var/www/html/mymisdiagnosis/system/BaseModel.php(1772): CodeIgniter\Database\BaseConnection->query('SELECT ganglion...')
+#4 /var/www/html/mymisdiagnosis/system/Model.php(832): CodeIgniter\BaseModel->__call('query', Array)
+#5 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(240): CodeIgniter\Model->__call('query', Array)
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->diagnosis('ganglion')
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-02-25 19:58:28 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE record_misdiagnosis = ganglion ORDER BY record_misdiagnosis ASC' at line 1 in /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT $woof FR...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT $woof FR...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT $woof FR...')
+#3 /var/www/html/mymisdiagnosis/system/BaseModel.php(1772): CodeIgniter\Database\BaseConnection->query('SELECT $woof FR...')
+#4 /var/www/html/mymisdiagnosis/system/Model.php(832): CodeIgniter\BaseModel->__call('query', Array)
+#5 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(240): CodeIgniter\Model->__call('query', Array)
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->diagnosis('ganglion')
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-25 19:58:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE record_misdiagnosis = ganglion ORDER BY record_misdiagnosis ASC' at line 1
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT $woof FR...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT $woof FR...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT $woof FR...')
+#3 /var/www/html/mymisdiagnosis/system/BaseModel.php(1772): CodeIgniter\Database\BaseConnection->query('SELECT $woof FR...')
+#4 /var/www/html/mymisdiagnosis/system/Model.php(832): CodeIgniter\BaseModel->__call('query', Array)
+#5 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(240): CodeIgniter\Model->__call('query', Array)
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->diagnosis('ganglion')
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-02-25 19:59:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE record_misdiagnosis = ganglion ORDER BY record_misdiagnosis ASC' at line 1 in /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM r...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 /var/www/html/mymisdiagnosis/system/BaseModel.php(1772): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 /var/www/html/mymisdiagnosis/system/Model.php(832): CodeIgniter\BaseModel->__call('query', Array)
+#5 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(240): CodeIgniter\Model->__call('query', Array)
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->diagnosis('ganglion')
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-25 19:59:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE record_misdiagnosis = ganglion ORDER BY record_misdiagnosis ASC' at line 1
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM r...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 /var/www/html/mymisdiagnosis/system/BaseModel.php(1772): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 /var/www/html/mymisdiagnosis/system/Model.php(832): CodeIgniter\BaseModel->__call('query', Array)
+#5 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(240): CodeIgniter\Model->__call('query', Array)
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->diagnosis('ganglion')
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-02-25 19:59:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE record_misdiagnosis = ganglion ORDER BY record_misdiagnosis ASC' at line 1 in /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM r...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 /var/www/html/mymisdiagnosis/system/BaseModel.php(1772): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 /var/www/html/mymisdiagnosis/system/Model.php(832): CodeIgniter\BaseModel->__call('query', Array)
+#5 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(240): CodeIgniter\Model->__call('query', Array)
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->diagnosis('ganglion')
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-25 19:59:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE record_misdiagnosis = ganglion ORDER BY record_misdiagnosis ASC' at line 1
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM r...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 /var/www/html/mymisdiagnosis/system/BaseModel.php(1772): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 /var/www/html/mymisdiagnosis/system/Model.php(832): CodeIgniter\BaseModel->__call('query', Array)
+#5 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(240): CodeIgniter\Model->__call('query', Array)
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->diagnosis('ganglion')
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-02-25 20:01:13 --> mysqli_sql_exception: Unknown column 'ganglion' in 'where clause' in /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM r...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 /var/www/html/mymisdiagnosis/system/BaseModel.php(1772): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 /var/www/html/mymisdiagnosis/system/Model.php(832): CodeIgniter\BaseModel->__call('query', Array)
+#5 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(240): CodeIgniter\Model->__call('query', Array)
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->diagnosis('ganglion')
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-25 20:01:13 --> Unknown column 'ganglion' in 'where clause'
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM r...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 /var/www/html/mymisdiagnosis/system/BaseModel.php(1772): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 /var/www/html/mymisdiagnosis/system/Model.php(832): CodeIgniter\BaseModel->__call('query', Array)
+#5 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(240): CodeIgniter\Model->__call('query', Array)
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->diagnosis('ganglion')
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-02-25 20:02:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND record_id IN (SELECT MIN(record_id) FROM record_database GROUP BY record_mis' at line 1 in /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM r...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 /var/www/html/mymisdiagnosis/system/BaseModel.php(1772): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 /var/www/html/mymisdiagnosis/system/Model.php(832): CodeIgniter\BaseModel->__call('query', Array)
+#5 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(240): CodeIgniter\Model->__call('query', Array)
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->diagnosis('ganglion')
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-25 20:02:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND record_id IN (SELECT MIN(record_id) FROM record_database GROUP BY record_mis' at line 1
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM r...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 /var/www/html/mymisdiagnosis/system/BaseModel.php(1772): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 /var/www/html/mymisdiagnosis/system/Model.php(832): CodeIgniter\BaseModel->__call('query', Array)
+#5 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(240): CodeIgniter\Model->__call('query', Array)
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->diagnosis('ganglion')
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-25 20:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-25 20:05:08 --> Undefined variable: woof
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(240): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 240, Array)
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->diagnosis('ganglion')
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-25 20:05:31 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE record_id IN (SELECT MIN(record_id) FROM record_database GROUP BY record_m' at line 1 in /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM r...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 /var/www/html/mymisdiagnosis/system/BaseModel.php(1772): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 /var/www/html/mymisdiagnosis/system/Model.php(832): CodeIgniter\BaseModel->__call('query', Array)
+#5 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(240): CodeIgniter\Model->__call('query', Array)
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->diagnosis('ganglion')
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-25 20:05:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE record_id IN (SELECT MIN(record_id) FROM record_database GROUP BY record_m' at line 1
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM r...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 /var/www/html/mymisdiagnosis/system/BaseModel.php(1772): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 /var/www/html/mymisdiagnosis/system/Model.php(832): CodeIgniter\BaseModel->__call('query', Array)
+#5 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(240): CodeIgniter\Model->__call('query', Array)
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->diagnosis('ganglion')
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-02-25 20:06:08 --> mysqli_sql_exception: Unknown column 'ganglion' in 'where clause' in /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM r...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 /var/www/html/mymisdiagnosis/system/BaseModel.php(1772): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 /var/www/html/mymisdiagnosis/system/Model.php(832): CodeIgniter\BaseModel->__call('query', Array)
+#5 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(240): CodeIgniter\Model->__call('query', Array)
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->diagnosis('ganglion')
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-25 20:06:08 --> Unknown column 'ganglion' in 'where clause'
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM r...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 /var/www/html/mymisdiagnosis/system/BaseModel.php(1772): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 /var/www/html/mymisdiagnosis/system/Model.php(832): CodeIgniter\BaseModel->__call('query', Array)
+#5 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(240): CodeIgniter\Model->__call('query', Array)
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->diagnosis('ganglion')
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-02-25 20:07:32 --> mysqli_sql_exception: Unknown column 'ganglion' in 'where clause' in /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM r...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 /var/www/html/mymisdiagnosis/system/BaseModel.php(1772): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 /var/www/html/mymisdiagnosis/system/Model.php(832): CodeIgniter\BaseModel->__call('query', Array)
+#5 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(240): CodeIgniter\Model->__call('query', Array)
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->diagnosis('ganglion')
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-25 20:07:32 --> Unknown column 'ganglion' in 'where clause'
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM r...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 /var/www/html/mymisdiagnosis/system/BaseModel.php(1772): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 /var/www/html/mymisdiagnosis/system/Model.php(832): CodeIgniter\BaseModel->__call('query', Array)
+#5 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(240): CodeIgniter\Model->__call('query', Array)
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->diagnosis('ganglion')
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-02-25 20:08:54 --> mysqli_sql_exception: Unknown column 'ganglion' in 'where clause' in /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM r...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 /var/www/html/mymisdiagnosis/system/BaseModel.php(1772): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 /var/www/html/mymisdiagnosis/system/Model.php(832): CodeIgniter\BaseModel->__call('query', Array)
+#5 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(240): CodeIgniter\Model->__call('query', Array)
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->diagnosis('ganglion')
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-25 20:08:54 --> Unknown column 'ganglion' in 'where clause'
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM r...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 /var/www/html/mymisdiagnosis/system/BaseModel.php(1772): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 /var/www/html/mymisdiagnosis/system/Model.php(832): CodeIgniter\BaseModel->__call('query', Array)
+#5 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(240): CodeIgniter\Model->__call('query', Array)
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->diagnosis('ganglion')
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-25 20:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:11:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-25 20:20:15 --> syntax error, unexpected ';', expecting ')'
+#0 /var/www/html/mymisdiagnosis/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/html/m...')
+#1 /var/www/html/mymisdiagnosis/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-02-25 20:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2022-02-25 20:22:17 --> mysqli_sql_exception: Unknown column 'record_record_correct_diagnosis' in 'where clause' in /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /var/www/html/mymisdiagnosis/system/Model.php(570): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 /var/www/html/mymisdiagnosis/system/BaseModel.php(1140): CodeIgniter\Model->countAllResults(false)
+#6 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(240): CodeIgniter\BaseModel->paginate(10)
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->diagnosis('Ganglion Cyst')
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#9 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-02-25 20:22:17 --> Unknown column 'record_record_correct_diagnosis' in 'where clause'
+#0 /var/www/html/mymisdiagnosis/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /var/www/html/mymisdiagnosis/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /var/www/html/mymisdiagnosis/system/Database/BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /var/www/html/mymisdiagnosis/system/Model.php(570): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 /var/www/html/mymisdiagnosis/system/BaseModel.php(1140): CodeIgniter\Model->countAllResults(false)
+#6 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(240): CodeIgniter\BaseModel->paginate(10)
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->diagnosis('Ganglion Cyst')
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#9 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+INFO - 2022-02-25 20:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-25 20:29:16 --> Call to a member function links() on null
+#0 /var/www/html/mymisdiagnosis/system/View/View.php(220): include()
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('record_list', Array, true)
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(132): view('record_list', Array)
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->index('$1')
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-02-25 20:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:29:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 20:29:58 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 20:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:31:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 20:52:22 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 20:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 20:54:31 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 20:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 20:59:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 20:59:40 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 20:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 20:59:43 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 20:59:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:01:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:01:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-25 21:08:52 --> Undefined property: CodeIgniter\View\View::$uri
+#0 /var/www/html/mymisdiagnosis/app/Views/record_list.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/m...', 136, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('record_list', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(267): view('record_list', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->diagnosis('Ganglion Cyst')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-02-25 21:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-25 21:09:16 --> Call to undefined method CodeIgniter\HTTP\URI::total_segments()
+#0 /var/www/html/mymisdiagnosis/system/View/View.php(220): include()
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('record_list', Array, true)
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(267): view('record_list', Array)
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->diagnosis('Ganglion Cyst')
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-02-25 21:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-25 21:09:27 --> Call to undefined method CodeIgniter\HTTP\URI::totalSegments()
+#0 /var/www/html/mymisdiagnosis/system/View/View.php(220): include()
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('record_list', Array, true)
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(267): view('record_list', Array)
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->diagnosis('Ganglion Cyst')
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-02-25 21:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-25 21:10:56 --> Call to undefined method CodeIgniter\HTTP\URI::totalSegments()
+#0 /var/www/html/mymisdiagnosis/system/View/View.php(220): include()
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('record_list', Array, true)
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(267): view('record_list', Array)
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->diagnosis('Ganglion Cyst')
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-02-25 21:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-25 21:10:59 --> Call to undefined method CodeIgniter\HTTP\URI::totalSegments()
+#0 /var/www/html/mymisdiagnosis/system/View/View.php(220): include()
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('record_list', Array, true)
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(267): view('record_list', Array)
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->diagnosis('Ganglion Cyst')
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-02-25 21:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:17:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:20:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 21:22:59 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 21:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:24:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:24:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 21:24:38 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 21:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 21:24:40 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 21:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:24:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 21:24:47 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 21:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 21:25:03 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 21:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:26:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-25 21:31:11 --> Call to undefined function lcwords()
+#0 /var/www/html/mymisdiagnosis/system/View/View.php(220): include()
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('record_list', Array, true)
+#3 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(132): view('record_list', Array)
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->index('$1')
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-02-25 21:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:33:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 21:33:59 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 21:34:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 21:34:01 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 21:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 21:34:07 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 21:34:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:36:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 21:36:07 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 21:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:43:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 21:43:39 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 21:43:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 21:43:43 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 21:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 21:43:49 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 21:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 21:43:54 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 21:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 21:43:59 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 21:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 21:44:03 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 21:44:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 21:44:07 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 21:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 21:44:11 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 21:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 21:44:15 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 21:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:45:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 21:45:26 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 21:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 21:45:48 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 21:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 21:45:51 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 21:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:54:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 21:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-25 22:00:44 --> Undefined variable: listing
+#0 /var/www/html/mymisdiagnosis/app/Views/record_list.php(214): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 214, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('record_list', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(132): view('record_list', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->index('$1')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-02-25 22:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-25 22:00:52 --> Undefined variable: listing
+#0 /var/www/html/mymisdiagnosis/app/Views/record_list.php(214): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 214, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('record_list', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(132): view('record_list', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->index('$1')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-02-25 22:01:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-25 22:01:02 --> Undefined variable: listing
+#0 /var/www/html/mymisdiagnosis/app/Views/record_list.php(214): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 214, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('record_list', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(132): view('record_list', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->index('$1')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-02-25 22:01:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:01:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 22:01:46 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 22:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-25 22:03:14 --> syntax error, unexpected ';', expecting ')'
+#0 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('record_list', Array, true)
+#2 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(267): view('record_list', Array)
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->diagnosis('ganglion cyst')
+#4 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2022-02-25 22:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-25 22:04:22 --> preg_replace(): No ending delimiter '%' found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace():...', '/var/www/html/m...', 131, Array)
+#1 /var/www/html/mymisdiagnosis/app/Views/record_list.php(131): preg_replace('%20', '-', 'ganglion%20cyst')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#3 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('record_list', Array, true)
+#5 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(267): view('record_list', Array)
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->diagnosis('ganglion cyst')
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-25 22:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-25 22:04:36 --> preg_replace(): No ending delimiter '/' found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace():...', '/var/www/html/m...', 131, Array)
+#1 /var/www/html/mymisdiagnosis/app/Views/record_list.php(131): preg_replace('/%20', '-', 'ganglion%20cyst')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#3 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('record_list', Array, true)
+#5 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(267): view('record_list', Array)
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->diagnosis('ganglion cyst')
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-25 22:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-25 22:06:08 --> Undefined variable: urlsegment_misdiagnosis
+#0 /var/www/html/mymisdiagnosis/app/Views/record_list.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 158, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('record_list', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(267): view('record_list', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->diagnosis('ganglion cyst')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-02-25 22:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:09:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:18:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:18:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:18:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-25 22:18:55 --> preg_replace(): No ending delimiter '_' found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace():...', '/var/www/html/m...', 226, Array)
+#1 /var/www/html/mymisdiagnosis/app/Views/record_list.php(226): preg_replace('_', '/%20/u', 'abdominal aorti...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#3 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('record_list', Array, true)
+#5 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(132): view('record_list', Array)
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->index('$1')
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-25 22:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-25 22:20:30 --> preg_replace(): Empty regular expression
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace():...', '/var/www/html/m...', 226, Array)
+#1 /var/www/html/mymisdiagnosis/app/Views/record_list.php(226): preg_replace(' ', '_', 'abdominal aorti...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#3 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('record_list', Array, true)
+#5 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(132): view('record_list', Array)
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->index('$1')
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-25 22:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-25 22:20:34 --> preg_replace(): Empty regular expression
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace():...', '/var/www/html/m...', 226, Array)
+#1 /var/www/html/mymisdiagnosis/app/Views/record_list.php(226): preg_replace(' ', '_', 'abdominal aorti...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#3 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('record_list', Array, true)
+#5 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(132): view('record_list', Array)
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->index('$1')
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-25 22:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-25 22:21:33 --> preg_replace(): No ending delimiter '%' found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace():...', '/var/www/html/m...', 226, Array)
+#1 /var/www/html/mymisdiagnosis/app/Views/record_list.php(226): preg_replace('%20', '_', 'abdominal aorti...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#3 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('record_list', Array, true)
+#5 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(132): view('record_list', Array)
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->index('$1')
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-25 22:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:22:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-25 22:25:25 --> Undefined variable: url_end_segment_diagnosis
+#0 /var/www/html/mymisdiagnosis/app/Views/record_list.php(232): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 232, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('record_list', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(132): view('record_list', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->index('$1')
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-02-25 22:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:26:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 22:28:50 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 22:30:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-25 22:30:47 --> preg_replace(): No ending delimiter '_' found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace():...', '/var/www/html/m...', 131, Array)
+#1 /var/www/html/mymisdiagnosis/app/Views/record_list.php(131): preg_replace('_', ' ', 'parkinson%27s_d...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#3 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('record_list', Array, true)
+#5 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(267): view('record_list', Array)
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->diagnosis('parkinson's_dis...')
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#8 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-25 22:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 22:31:47 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 22:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:32:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:33:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 22:33:29 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 22:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 22:33:36 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 22:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:33:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:33:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 22:33:55 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 22:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 22:34:04 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 22:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-02-25 22:34:06 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-02-25 22:34:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-25 22:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -99,12 +99,6 @@ class Record extends BaseController
  
  
  
-
- 
- 
- 
- 
- 
  
  
     
@@ -139,6 +133,13 @@ class Record extends BaseController
 		   echo view('auth_internetics/footer');
     }
 
+   
+   
+   
+   
+   
+   
+   
    
     // display an individual post
 
@@ -198,6 +199,94 @@ class Record extends BaseController
    
    
     }
+
+
+
+
+
+
+
+
+
+
+public function diagnosis($correct_diag)
+    {
+	    $request = service('request');
+	    $searchData = $request->getGet(); // OR $this->request->getGet();
+    
+	    $search = "";
+	    if (isset($searchData) && isset($searchData['search'])) {
+		    $search = $searchData['search'];
+	    }
+	    
+	    $uri = current_url(true);
+	    $page_number = str_replace('page=','', $uri->getQuery());
+	    if ($page_number == '') {$page_number = 1; }
+
+    
+	    // Get data 
+	    $listings = new RecordModel();
+    
+	    
+		    $paginateData = $listings->select('*')
+			    ->where('record_approved','yes')
+			    ->like('record_correct_diagnosis', $correct_diag)
+			    ->orderBy('record_misdiagnosis', 'ASC')  			
+			    ->paginate(10);
+	    
+ 
+ 
+    
+	    $data = [
+		    'listings' => $paginateData,
+		    'pager' => $listings->pager,
+		    'search' => $search
+	    ];
+	    
+	    $data['title'] = 'Misdiagnosis records'; 
+	    
+	    
+	    if ((strpos($uri, "search") !== false)) { 
+		   $data['meta_title'] = 'myMisdiagnosis search results';
+	    } else { 
+		   $data['meta_title'] = 'myMisdiagnosis records page ' . $page_number . ': myMisdiagnosis.com';    
+	    }
+	    
+	    
+	    if ((strpos($uri, "search") !== false)) { 
+			  $data['meta_description'] = 'myMisdiagnosis search results';
+		   } else { 
+			  $data['meta_description'] = 'Page ' . $page_number . ' of misdiagnosis records - search the medical misdiagnosis database at myMisdiagnosis.com';    
+		   }
+	    
+		   $data['type_of_page'] = '';
+    
+	    echo view('auth_internetics/header_open_with_scripts', $data);
+		   echo view('auth_internetics/header_with_nav', $data);
+		   echo view('auth_internetics/header', $data);
+		   echo view('record_list', $data);
+		   echo view('auth_internetics/footer');
+    }
+
+   
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

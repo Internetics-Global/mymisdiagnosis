@@ -35,31 +35,53 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 
+// $routes->set404Override('Post::index/$1');
+
 $routes->get('/', 'Home::index');
 $routes->get('/image', 'ImageUpload::index');
 $routes->get('/', 'SendMail::index');
 
-$routes->get('pages/(:segment)', 'Post::display/$1');
-
 $routes->add('pages/','Post::index/$1');
 
-$routes->add('pages/(:alphanum)','Post::display/$1');
+$routes->get('pages/(:segment)', 'Post::display/$1');
+
+// $routes->add('pages/(:alphanum)','Post::display/$1');
+
+// $routes->get('pages', 'Post::index');
 
 // $routes->add('pages/(:any)', 'Post::index/$1');
 
+
+
 $routes->get('/', 'AutocompleteSearch::index');   
+
+
+
+$routes->get('records/','Record::index/$1');
 
 $routes->get('record/(:segment)', 'Record::display/$1');
 
-$routes->add('records/','Record::index/$1');
-
-$routes->add('record/(:alphanum)','Record::display/$1');
-
-$routes->add('record/(:any)', 'Record::index/$1');
+$routes->get('record/(:any)/(:segment)', 'Record::display/$2/$1');
 
 
-$routes->get('records', 'Record::index');
-$routes->get('pages', 'Post::index');
+
+$routes->get('diagnosis/(:segment)','Record::diagnosis/$1');
+
+
+
+//$routes->get('record/(:segment)/(:segment)', 'Record::display/$1');
+
+
+
+
+
+
+//$routes->add('record/(:any)', 'Record::index/$1');
+
+// $routes->add('record/(:alphanum)','Record::display/$1');
+
+//$routes->get('records', 'Record::index');
+
 
 
 

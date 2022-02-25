@@ -64,12 +64,18 @@ if(isset($_GET['search']))
 	<h1><?php $title; ?></h1> 
 
 	<?php foreach ($listings as $listing)  { ?>
+	
+	
+	<?php
+						
+	$urlsegment_misdiagnosis = preg_replace('/[\p{P}\p{Zs}]+/u', '-', strtolower($listing['record_misdiagnosis']));
+	?>	
 			
 			 <div class="row search_results_box"> 
 				 
 			   <div class="col-md-10">
 									   
-						   <h2><a href="record/<?= $listing['record_id'] ?>"><?= ucwords($listing['record_misdiagnosis']); ?></a></h2>
+						   <h2><a href="record/<?= $urlsegment_misdiagnosis ?>/<?= $listing['record_id'] ?>"><?= ucwords($listing['record_misdiagnosis']); ?></a></h2>
 						   <p><?= ucwords($listing['record_correct_diagnosis']); ?> is sometimes misdiagnosed as <?= ucwords($listing['record_misdiagnosis']); ?></p>
 						</div> 
 				 
@@ -77,13 +83,12 @@ if(isset($_GET['search']))
 			  
 			  <div class="col-md-2">
 				  
-				
+			
 				    <p>
 					   
-					    <div class="record_button"><a href="record/<?= $listing['record_id'] ?>">More...<img src="images/mymisdiagnosis-logo-symb-3-trans.png" width=50 height=50></a></div></p>
+					    <div class="record_button">
+						    <a href="record/<?= $urlsegment_misdiagnosis ?>/<?= $listing['record_id'] ?>">More...<img src="images/mymisdiagnosis-logo-symb-3-trans.png" width=50 height=50></a></div></p>
 			  </div>
-					
-			
 				  
 		
 			</div> <!-- end row mb2 -->		 
@@ -110,7 +115,96 @@ if(isset($_GET['search']))
 	
 	
 
-<?php } else { 
+<?php } 
+
+
+
+
+elseif (strpos($uri, "/diagnosis") !== false)   { 
+
+
+
+?>
+
+<?php
+						
+	$url_adj_diagnosis = preg_replace('/_/', ' ', strtolower(basename($uri)));
+	// echo $url_end_segment_diagnosis;
+
+?>
+
+
+	<!-- we will show cats, else we will show results -->
+
+
+	<h1><?php echo ucwords(urldecode($url_adj_diagnosis)); ?></h1>
+	<p>The following is a list of potential misdiagnoses for <?php echo ucwords(urldecode($url_adj_diagnosis)); ?>.
+	</p>
+	
+	<BR>
+		
+		
+	
+
+	<?php foreach ($listings as $listing)  { ?>
+	
+	
+	<?php					
+	$urlsegment_misdiagnosis = preg_replace('/[\p{P}\p{Zs}]+/u', '-', strtolower($listing['record_misdiagnosis']));
+	?>	
+			
+			 <div class="row search_results_box"> 
+				 
+			   <div class="col-md-10">
+									   
+						   <h2><a href="../record/<?= $urlsegment_misdiagnosis ?>/<?= $listing['record_id'] ?>"><?= ucwords($listing['record_misdiagnosis']); ?></a></h2>
+						   <p><?= ucwords($listing['record_correct_diagnosis']); ?> is sometimes misdiagnosed as <?= ucwords($listing['record_misdiagnosis']); ?></p>
+						</div> 
+				 
+			   
+			  
+			  <div class="col-md-2">
+				  
+			
+				    <p>
+					   
+					    <div class="record_button">
+						    <a href="../record/<?= $urlsegment_misdiagnosis ?>/<?= $listing['record_id'] ?>">More...<img src="../images/mymisdiagnosis-logo-symb-3-trans.png" width=50 height=50></a></div></p>
+			  </div>
+				  
+		
+			</div> <!-- end row mb2 -->		 
+							  
+			
+			
+			
+		
+	<?php 
+
+
+
+} ?>
+	
+
+	
+<div style='margin-top: 10px;'>
+	 <?= $pager->links() ?>
+ </div>
+	 
+
+	
+
+
+
+<?php } 
+
+
+
+
+
+
+
+else { 
 
 	if ($page_number == '') {$page_number = 1; }
 
@@ -118,7 +212,7 @@ if(isset($_GET['search']))
 
 	<!-- <h1>Page <?php echo $page_number .' - ' . $title; ?></h1>  -->
 		
-	<h1>A-Z Diagnoses Categories</h1>
+	<h1>A-Z Diagnosis Category List</h1>
 	<p>You can look through this A-Z list of eventual diagnoses, to search for possible misdiagnoses. Or use the search box above to 
 		filter through all the data of misdiagnoses, diagnoses and symptoms.
 	</p>
@@ -126,13 +220,24 @@ if(isset($_GET['search']))
 	<div class="category_listing">
 	
 	<?php foreach ($listings as $listing)  { ?>
+	
+	<?php
+							
+		$url_end_segment_diagnosis = preg_replace('/ /', '_', strtolower(basename($listing['record_correct_diagnosis'])));
+		// echo $url_end_segment_diagnosis;
+	
+	?>
+	
+	
 				
 				 <div class="row search_results_box"> 
 					 
 				   <div class="col-md-12">
 										   
-							   <p><a href="records?search=<?= ucwords($listing['record_correct_diagnosis']); ?>"><?= ucwords($listing['record_correct_diagnosis']); ?></a>
-							  <!-- <p><?= ucwords($listing['record_correct_diagnosis']); ?> is sometimes misdiagnosed as <?= ucwords($listing['record_misdiagnosis']); ?></p>--><a href="records?search=<?= ucwords($listing['record_correct_diagnosis']); ?>">
+							   <p><a href="diagnosis/<?= strtolower($url_end_segment_diagnosis); ?>"><?= ucwords($listing['record_correct_diagnosis']); ?></a>
+							  <!-- <p><?= ucwords($listing['record_correct_diagnosis']); ?> is sometimes misdiagnosed as <?= ucwords($listing['record_misdiagnosis']); ?></p>-->
+								  
+								  <a href="diagnosis/<?= strtolower($url_end_segment_diagnosis); ?>">
 								  
 								  <div class="record_button">
 								  <img src="images/mymisdiagnosis-logo-symb-3-trans.png" width=50 height=50></a></p>

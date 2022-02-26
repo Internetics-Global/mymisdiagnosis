@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: /auth/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.mymisdiagnosis.com/sitemap.xml

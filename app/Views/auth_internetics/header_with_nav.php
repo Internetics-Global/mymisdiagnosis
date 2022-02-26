@@ -37,7 +37,7 @@ $this->ionAuth    = new \IonAuth\Libraries\IonAuth();
                         
       <li class="nav-item<?php if (strpos($uri, "register_user") !== false){ echo ' active"'; }  ?>">                     
               <?php if ( $this->ionAuth->loggedIn()) {} else { ?>          
-                <a class="nav-link" href="<?php echo site_url('auth/register_user/'); ?>">Register</a>
+                <a class="nav-link" href="<?php echo site_url('auth/register_user'); ?>">Register</a>
               <?php }	?>                      
       </li> 
                                 

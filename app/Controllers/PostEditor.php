@@ -105,7 +105,7 @@ public function posts()
 		$crud->unsetColumns(['post_user_id', 'last_update']);
 				
 		
-		$crud->setTexteditor(['post_body','post_snippet']);
+//		$crud->setTexteditor(['post_body','post_snippet']);
 		
 		$crud->displayAs('post_orderby', 'Order by (homepage and footer only)');
 		$crud->fieldType('post_category', 'multiselect', [

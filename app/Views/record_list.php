@@ -177,7 +177,7 @@ elseif (strpos($uri, "/diagnosis") !== false)   {
 							  
 			
 			
-			
+		
 		
 	<?php 
 
@@ -186,8 +186,9 @@ elseif (strpos($uri, "/diagnosis") !== false)   {
 } ?>
 	
 
-	
-
+<BR>	
+<p><center>Click <a href='<?php echo site_url();?>records'>here</a> to return to the <a href='<?php echo site_url();?>records'>A-Z list of diagnoses and misdiagnoses</a>.</center>
+</p>	
 	 
 
 	

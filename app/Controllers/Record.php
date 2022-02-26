@@ -182,7 +182,7 @@ class Record extends BaseController
 		  $data['record_user_id'] = $post['record_user_id'];
 		  $data['last_update'] = $post['last_update'];
 		  $data['type_of_page'] = "";
-		  $data['meta_title'] = $post['record_misdiagnosis'] . " could be a misdiganosis of " . $post['record_correct_diagnosis'] . ": myMisdiagnosis.com";
+		  $data['meta_title'] = $post['record_misdiagnosis'] . ": myMisdiagnosis.com";
 		  $data['meta_description'] = $post['record_correct_diagnosis'] . " is sometimes misdiagnosed as " . $post['record_misdiagnosis'] . ". Find out more at myMisdiagnosis.com";
 		  $data['post_title'] = $post['record_misdiagnosis'] . ": myMisdiagnosis.com" ;
 		endforeach;     
@@ -254,7 +254,7 @@ public function diagnosis($correct_diag)
 	    if ((strpos($uri, "search") !== false)) { 
 		   $data['meta_title'] = 'myMisdiagnosis search results';
 	    } else { 
-		   $data['meta_title'] = 'Possible misdiagnosis of ' . $correct_diag_adj. ': myMisdiagnosis.com';    
+		   $data['meta_title'] = $correct_diag_adj. ' misdiagnosis: myMisdiagnosis.com';    
 	    }
 	    
 	    

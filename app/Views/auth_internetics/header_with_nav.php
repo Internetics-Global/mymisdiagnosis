@@ -14,7 +14,7 @@ $this->ionAuth    = new \IonAuth\Libraries\IonAuth();
   <span class="navbar-toggler-icon"></span>
 </button>
 
-  <a class="navbar-brand mx-auto" href="<?php echo site_url();?>">   </a>
+  <a class="navbar-brand mx-auto" href="<?php echo site_url();?>" alt="Home">   </a>
 
   <div class="collapse flex-md-column navbar-collapse" id="navbarTogglerDemo03">
     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">

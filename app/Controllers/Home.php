@@ -34,7 +34,9 @@ class Home extends BaseController
 		$data['type_of_page'] = "home";
 		$data['post_body'] = "
 		
-		<p>The myMisdiagnosis.com project is a global medical misdiagnosis database resource, with information supplied by patients and their carers who have been subject to an incorrect diagnosis.  </p>
+		<p>The myMisdiagnosis.com project is a global medical misdiagnosis database resource, with information supplied by patients and their carers who have been subject to an incorrect diagnosis. </p>
+		
+		<p>Search using the search box above, or head over to the <a href='https://www.mymisdiagnosis.com/records'>A-Z list of diagnoses</a>, and search for possible misdiagnoses. </p>
 		
 		<p>Reports indicate that up to <a href='https://www.mymisdiagnosis.com/pages/up-to-1-in-7-medical-diagnoses-could-be-wrong'>1 in 7 medical diagnoses are incorrect</a>. Additionally it is reported that up to <a href='https://www.mymisdiagnosis.com/pages/1-in-3-incorrect-diagnoses-could-result-in-serious-injury-or-death'>1 in 3 of incorrect diagnoses</a> 
 		could result in serious injury or death.</p>

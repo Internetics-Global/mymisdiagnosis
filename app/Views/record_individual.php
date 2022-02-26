@@ -95,7 +95,7 @@ $uri = current_url(true);
 			
 			
 			
-			
+			<p><center>Click <a href='<?php echo site_url();?>records'>here</a> to go to the <a href='<?php echo site_url();?>records'>A-Z list of diagnoses and misdiagnoses</a>.</center>
 			
 			
 			

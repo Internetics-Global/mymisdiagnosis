@@ -1065,6 +1065,7 @@ padding: 20px;
 background: #2e4151;
 margin-bottom: 20px;
 padding: 20px;
+border-radius: 8px;
 }
 
 
@@ -1093,6 +1094,7 @@ break-inside: avoid-column;
 .category_listing .col-md-12 {
   
 background: #2e4151;
+border-radius: 8px;
 
 }
 

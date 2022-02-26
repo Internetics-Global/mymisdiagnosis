@@ -1085,6 +1085,9 @@ padding-right: 5px;
 max-height: 150px;
 min-height: 150px;
 height: 150px;
+overflow: hidden; /* fix for Firefox */
+break-inside: avoid-column;
+-webkit-column-break-inside: avoid;
 }
 
 .category_listing .col-md-12 {

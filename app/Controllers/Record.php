@@ -234,17 +234,24 @@ public function diagnosis($correct_diag)
 		    $paginateData = $listings->select('*')
 			    ->where('record_approved','yes')
 			    ->like('record_correct_diagnosis', $correct_diag)
-			    ->orderBy('record_misdiagnosis', 'ASC')  			
+			    ->orderBy('record_misdiagnosis', 'ASC') 			
 			    ->paginate(1000000);
 	    
  
- 
+
+
     
 	    $data = [
 		    'listings' => $paginateData,
 		    'pager' => $listings->pager,
 		    'search' => $search
 	    ];
+	    
+	  
+	    
+	   
+	    
+	 
 	    
 	    $data['title'] = 'Misdiagnosis records'; 
 	    
@@ -265,6 +272,18 @@ public function diagnosis($correct_diag)
 		   }
 	    
 		   $data['type_of_page'] = '';
+		   
+		   
+if (count($paginateData) == 1)
+{	
+	$urlsegment_misdiagnosis = preg_replace('/[\p{P}\p{Zs}]+/u', '-', strtolower($data['listings'][0]['record_misdiagnosis']));
+	// echo $urlsegment_misdiagnosis;
+	// echo $data['listings'][0]['record_id'];
+	return redirect()->to('/misdiagnosis/' .$urlsegment_misdiagnosis. '/' . $data['listings'][0]['record_id']);
+}		   
+		   
+		   
+		   
     
 	    echo view('auth_internetics/header_open_with_scripts', $data);
 		   echo view('auth_internetics/header_with_nav', $data);

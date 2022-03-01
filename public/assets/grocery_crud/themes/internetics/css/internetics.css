@@ -18,7 +18,15 @@ color:#DADDE4;
 
 }
 
+.container {
+max-width: 1400px;
+}
 
+.small, small {
+font-size: 80%;
+font-weight: 400;
+color: #b6b6b6;
+}  
 
 
 table p {
@@ -52,8 +60,8 @@ margin-top: 20px;
 
 .record_heading {
 
-color: #3D5161;
-background: #96C3C6;
+color: #ffffff;
+background: #2e4151;
 border-radius: 5px;
 
 padding: 20px;
@@ -64,7 +72,7 @@ margin-top:30px;
 
 .record_heading h1  {
   
-font-size: 1.8rem!important;
+font-size: 2.5rem!important;
 margin:15px;
   
 }
@@ -102,8 +110,8 @@ color: #96C3C6!important;
 
 .record_symptoms {
 
-color: #3D5161;
-background: #96C3C6;
+color: #ffffff;
+background: #2e4151;
 border-radius: 5px;
 padding: 20px;
 }
@@ -111,8 +119,8 @@ padding: 20px;
 
 .record_symptoms_heading {
 
-color: #3D5161;
-background: #CAE1E2;
+color: #ffffff;
+background: #374a59;
 border-radius: 5px;
 padding: 15px;
 font-size: 1.5rem!important;
@@ -123,6 +131,16 @@ margin-bottom:20px;
 .record_symptoms_heading p {
 margin-top: 0px;
 margin-bottom: 0px;
+}
+
+
+.record_symptoms_body {
+
+padding: 12px;
+padding-top: 0px;
+padding-bottom: 0px;
+
+
 }
 
 
@@ -338,7 +356,7 @@ box-shadow: none;
     position: relative;
     top: 0px;
     left: 0px;
-    width: 120px!important;
+    width: 85px!important;
     height: 80px!important;
     background:#96C3C6;
     padding:20px;
@@ -550,6 +568,11 @@ border-top: 1px dashed #96C3C6;
 }
 
 .search_box {
+margin-top: 30px;
+margin-bottom: 20px;
+}
+
+.homesearchbox.search_box {
 margin-top: 100px;
 margin-bottom: 80px;
 }
@@ -561,6 +584,7 @@ border-style: none;
 float: left;
 margin-right:20px;
 width: 305px;
+border-radius: 5px;
 }
 
 #record_body img {
@@ -577,7 +601,7 @@ background-size: 500px;
 background-repeat: no-repeat;
 height:250px;
 border: 0px;
-border-radius: 8px;
+border-radius: 5px;
 box-shadow: 0px 0px 15px 1px #222C34;
 }
 
@@ -587,7 +611,7 @@ background-size: 500px;
 background-repeat: no-repeat;
 height:250px;
 border: 0px;
-border-radius: 8px;
+border-radius: 5px;
 box-shadow: 0px 0px 15px 1px #222C34;
 }
 
@@ -597,7 +621,7 @@ background-size: 500px;
 background-repeat: no-repeat;
 height:250px;
 border: 0px;
-border-radius: 8px;
+border-radius: 5px;
 box-shadow: 0px 0px 15px 1px #222C34;
 }
 
@@ -605,7 +629,7 @@ box-shadow: 0px 0px 15px 1px #222C34;
 
 height:250px;
 border: 0px;
-border-radius: 8px;
+border-radius: 5px;
 box-shadow: 0px 0px 15px 1px #222C34;
 
 }
@@ -651,7 +675,7 @@ margin-top: 0px;
 font-size: 4.5rem!important;
 font-weight: 600;
 margin-top: 70px;
-margin-bottom: 90px;
+margin-bottom: 70px;
 }
 
 .h1, h1 {
@@ -714,7 +738,9 @@ margin-top: 0px;
 
 .card {
 background-color: #3D5161;
-margin-top: 40px;
+margin-top: 10px;
+border: 0px;
+max-width: 450px;
 }
 
 
@@ -980,7 +1006,18 @@ color: #ffffff;
 text-decoration: none;
 }
 
+.record_footer a {
+color: #96C3C6;
+text-decoration: none;
+background-color: transparent;
+-webkit-text-decoration-skip: objects;
+}
 
+
+.record_footer a:hover {
+color: #96C3C6;
+text-decoration: none;
+}
 
 
 
@@ -1065,7 +1102,7 @@ padding: 20px;
 background: #2e4151;
 margin-bottom: 20px;
 padding: 20px;
-border-radius: 8px;
+border-radius: 5px;
 }
 
 
@@ -1094,7 +1131,7 @@ break-inside: avoid-column;
 .category_listing .col-md-12 {
   
 background: #2e4151;
-border-radius: 8px;
+border-radius: 5px;
 
 }
 
@@ -1401,6 +1438,12 @@ margin-bottom: 0px;
 @media only screen 
 and (max-width: 760px) {
   
+  .record_heading h1  {
+    
+  font-size: 1.8rem!important;
+  margin:15px;
+    
+  }
   
   .record_heading {
   
@@ -1438,15 +1481,20 @@ and (max-width: 760px) {
  #search {
  font-size: 1.2rem;
  padding: 0px;
- height: 50px;
+ height: 60px;
  padding-left: 20px;
  position: relative;
  }
  
  .autocomplete_search_button {
- width: 60px!important;
- height: 50px!important;
- padding: 10px;
+ width: 65px!important;
+ height: 60px!important;
+ padding: 14px;
+ }
+ 
+ .homesearchbox.search_box {
+ margin-top: 40px;
+ margin-bottom: 40px;
  }
   
   .search_box {
@@ -1461,7 +1509,7 @@ and (max-width: 760px) {
   .homepageh1 h1 {
   font-size: 2rem!important;
   font-weight: 600;
-  margin:30px;
+  margin:10px!important;
   }
   
 
@@ -1493,7 +1541,7 @@ and (max-width: 760px) {
          
     }
   
-  
+
 
   
   

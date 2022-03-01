@@ -12,7 +12,7 @@ $uri = current_url(true);
 
 <div class="container">
 	
-	
+
 
 	
 	
@@ -51,15 +51,21 @@ $uri = current_url(true);
 	
 					   
 					   	<div class="record_symptoms_heading">		
-		  				 	<p>Symptoms can include: <BR>
+		  				 	<p>Symptoms can include: </p>
 						</div>
-							
-						<?= ucfirst(strtolower(htmlspecialchars_decode($post['record_symptoms'], ENT_HTML5))) ?>
-							
 						
-						</p>
+						<div class="record_symptoms_body">
+							
+							<p><?= ucfirst(strtolower(htmlspecialchars_decode($post['record_symptoms'], ENT_HTML5))) ?></p>
+							
+						</div>
+						
 		  			
-			 
+			 		 	<small>Symptoms are a guideline only and may apply to either the diagnosis or the reported misdiagnosis, or both. Consult your specialist for further information.</small>
+						 
+						
+							 
+							 
 		             </div>
 				   
 				   
@@ -95,7 +101,7 @@ $uri = current_url(true);
 			
 			
 			
-			<p><center>Click <a href='<?php echo site_url();?>records'>here</a> to go to the <a href='<?php echo site_url();?>records'>A-Z list of diagnoses and misdiagnoses</a>.</center>
+			<div class="record_footer"><p><center>Click <a href='<?php echo site_url();?>records'>here</a> to go to the <a href='<?php echo site_url();?>records'>A-Z list of diagnoses and misdiagnoses</a>.</center></p></div>
 			
 			
 			

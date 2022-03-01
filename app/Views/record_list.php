@@ -38,7 +38,7 @@ if(isset($_GET['search']))
 			
 				 
 			<input id="search" name="search" type="text" class="form-control" placeholder="<?php echo $placeholder; ?>" />
-			<input type="image" class="autocomplete_search_button" src="data:image/svg+xml;base64,PHN2ZyBpZD0iaWNuX3NlYXJjaF9saWdodCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMzMuMTMzIiBoZWlnaHQ9IjM1LjEyMSIgdmlld0JveD0iMCAwIDMzLjEzMyAzNS4xMjEiPgogIDxnIGlkPSJFbGxpcHNlXzgiIGRhdGEtbmFtZT0iRWxsaXBzZSA4IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDAuNDE0KSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjM2Q1MTYxIiBzdHJva2Utd2lkdGg9IjIiPgogICAgPGVsbGlwc2UgY3g9IjE1LjUiIGN5PSIxNSIgcng9IjE1LjUiIHJ5PSIxNSIgc3Ryb2tlPSJub25lIi8+CiAgICA8ZWxsaXBzZSBjeD0iMTUuNSIgY3k9IjE1IiByeD0iMTQuNSIgcnk9IjE0IiBmaWxsPSJub25lIi8+CiAgPC9nPgogIDxsaW5lIGlkPSJMaW5lXzE2IiBkYXRhLW5hbWU9IkxpbmUgMTYiIHgyPSI2LjU2NyIgeTI9IjYuNTY3IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNS4xNTIgMjcuMTQpIiBmaWxsPSJub25lIiBzdHJva2U9IiMzZDUxNjEiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIyIi8+Cjwvc3ZnPgo=" alt="submit"/>
+			<input type="image" class="autocomplete_search_button" src="/images/logo-tra.png" alt="submit"/>
 			
 				 
 			 </div>
@@ -87,7 +87,7 @@ if(isset($_GET['search']))
 				    <p>
 					   
 					    <div class="record_button">
-						    <a href="misdiagnosis/<?= $urlsegment_misdiagnosis ?>/<?= $listing['record_id'] ?>">More...<img src="images/mymisdiagnosis-logo-symb-3-trans.png" width=50 height=50></a></div></p>
+						    <a href="misdiagnosis/<?= $urlsegment_misdiagnosis ?>/<?= $listing['record_id'] ?>"><img src="images/mymisdiagnosis-logo-symb-3-trans.png" width=50 height=50></a></div></p>
 			  </div>
 				  
 		
@@ -169,7 +169,7 @@ elseif (strpos($uri, "/diagnosis") !== false)   {
 				    <p>
 					   
 					    <div class="record_button">
-						    <a href="../misdiagnosis/<?= $urlsegment_misdiagnosis ?>/<?= $listing['record_id'] ?>">More...<img src="../images/mymisdiagnosis-logo-symb-3-trans.png" width=50 height=50></a></div></p>
+						    <a href="../misdiagnosis/<?= $urlsegment_misdiagnosis ?>/<?= $listing['record_id'] ?>"><img src="../images/mymisdiagnosis-logo-symb-3-trans.png" width=50 height=50></a></div></p>
 			  </div>
 				  
 		
@@ -187,9 +187,10 @@ elseif (strpos($uri, "/diagnosis") !== false)   {
 	
 
 <BR>	
+<div class="record_footer">
 <p><center>Click <a href='<?php echo site_url();?>records'>here</a> to return to the <a href='<?php echo site_url();?>records'>A-Z list of diagnoses and misdiagnoses</a>.</center>
 </p>	
-	 
+</div>	 
 
 	
 
@@ -297,8 +298,11 @@ else {
   <?php
 	 if (empty($listings)) { ?>
 	 
-	 
-	 There are no results that match your search.
+	<div class="record_footer"> 
+	 <h1>There are no results that match your search.</h1>
+	<p>You can use the search bar to search for diagnoses, misdiagnoses or symptoms. As you type the system will make suggestions for you.</p>
+	<p>You can also search the <a href='<?php echo site_url();?>records'>A-Z of diagnoses</a>, by clicking <a href='<?php echo site_url();?>records'>here</a>.</p>	
+	</div> 
 	 
     <?php } 
 	 

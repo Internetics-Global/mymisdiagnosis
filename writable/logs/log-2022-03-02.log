@@ -284,3 +284,47 @@ INFO - 2022-03-02 11:19:03 --> Session: Class initialized using 'CodeIgniter\Ses
 WARNING - 2022-03-02 11:19:03 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
 INFO - 2022-03-02 11:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 WARNING - 2022-03-02 11:19:48 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-03-02 11:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-03-02 11:21:37 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-03-02 12:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-03-02 12:25:49 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-03-02 12:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-03-02 12:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-03-02 12:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-03-02 12:25:58 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-03-02 12:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-03-02 12:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-03-02 12:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-03-02 12:28:48 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-03-02 12:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-03-02 12:28:53 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-03-02 12:30:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-03-02 12:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-03-02 12:30:34 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-03-02 12:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-03-02 12:31:30 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-03-02 12:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-03-02 12:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-03-02 12:32:03 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-03-02 12:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-03-02 12:33:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-03-02 13:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-03-02 13:18:42 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-03-02 13:19:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-03-02 13:19:54 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-03-02 13:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-03-02 13:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-03-02 13:21:12 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2022-03-02 13:21:12 --> A non-numeric value encountered
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Record.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/m...', 188, Array)
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Record->display('373', 'diverticulitis')
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Record))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2022-03-02 13:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-03-02 13:21:40 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-03-02 13:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-03-02 13:22:39 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-03-02 13:23:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-03-02 13:23:12 --> Session: Sessions is enabled, and one exists.Please don't $session->start();

@@ -178,6 +178,7 @@ class Record extends BaseController
 		  $data['record_category'] = $post['record_category'];
 		  $data['record_notes'] = $post['record_notes'];
 		  $data['record_image'] = $post['record_image'];
+
 		  $data['record_approved'] = $post['record_approved'];
 		  $data['record_user_id'] = $post['record_user_id'];
 		  $data['last_update'] = $post['last_update'];

@@ -65,7 +65,7 @@ background: #2e4151;
 border-radius: 5px;
 
 padding: 20px;
-margin-bottom:30px;
+margin-bottom:20px;
 margin-top:30px;
 }
 
@@ -114,15 +114,16 @@ color: #ffffff;
 background: #2e4151;
 border-radius: 5px;
 padding: 20px;
+margin-top:10px;
+
 }
 
 
 .record_symptoms_heading {
 
 color: #ffffff;
-background: #374a59;
 border-radius: 5px;
-padding: 15px;
+padding: 0px;
 font-size: 1.5rem!important;
 margin-bottom:20px;
 
@@ -131,6 +132,7 @@ margin-bottom:20px;
 .record_symptoms_heading p {
 margin-top: 0px;
 margin-bottom: 0px;
+font-weight: 600;
 }
 
 
@@ -141,6 +143,61 @@ padding-top: 0px;
 padding-bottom: 0px;
 
 
+}
+
+
+
+.record_reference {
+
+color: #ffffff;
+background: #2e4151;
+border-radius: 5px;
+padding: 20px;
+margin-top:30px;
+padding-bottom:40px;
+
+}
+
+
+.record_reference_heading {
+
+color: #ffffff;
+border-radius: 5px;
+padding: 0px;
+font-size: 1.5rem!important;
+margin-bottom:20px;
+
+}
+
+.record_reference_heading p {
+margin-top: 0px;
+margin-bottom: 0px;
+font-weight: 600;
+}
+
+
+.record_reference_body {
+
+padding: 12px;
+padding-top: 0px;
+padding-bottom: 0px;
+
+
+}
+
+
+
+
+
+
+.record_main_body {
+
+padding: 12px;
+padding-left: 25px;
+padding-top: 0px;
+padding-bottom: 0px;
+border-left: 3px solid #96C3C6;
+margin:10px;
 }
 
 
@@ -721,7 +778,7 @@ width:100%!important;
 
 
 .post_image_alignment {
-float: left;
+float: none !important;
 margin-right: 20px;
 margin-bottom: 30px;
 margin-top: 10px;

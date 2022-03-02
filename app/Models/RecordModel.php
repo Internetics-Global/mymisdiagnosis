@@ -30,7 +30,7 @@ protected $table = 'record_database';
 	   
 	   $db = db_connect();
 	   $builder = $db->table('record_database');
-	   $query = $builder->select(['record_id', 'record_misdiagnosis', 'record_correct_diagnosis', 'record_symptoms', 'record_category', 'record_notes', 'record_image', 'record_approved', 'record_user_id', 'last_update'])
+	   $query = $builder->select(['record_id', 'record_misdiagnosis', 'record_correct_diagnosis', 'record_symptoms', 'record_category', 'record_notes', 'record_image', 'record_url_ref_1', 'record_url_ref_2', 'record_url_ref_3', 'record_url_ref_4', 'record_approved', 'record_user_id', 'last_update'])
 	   ->where('record_approved', 'yes')
 	   ->where(["record_id" => $record_id])
 	   ->get();

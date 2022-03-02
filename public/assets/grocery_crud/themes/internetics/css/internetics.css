@@ -139,8 +139,11 @@ font-weight: 600;
 .record_symptoms_body {
 
 padding: 12px;
+padding-left: 15px;
 padding-top: 0px;
 padding-bottom: 0px;
+border-left: 3px solid #96C3C6;
+margin:10px;
 
 
 }
@@ -179,8 +182,11 @@ font-weight: 600;
 .record_reference_body {
 
 padding: 12px;
+padding-left: 15px;
 padding-top: 0px;
 padding-bottom: 0px;
+border-left: 3px solid #96C3C6;
+margin:10px;
 
 
 }

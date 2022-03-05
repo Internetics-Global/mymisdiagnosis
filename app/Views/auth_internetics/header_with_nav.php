@@ -9,6 +9,21 @@ $this->ionAuth    = new \IonAuth\Libraries\IonAuth();
 ?>   
 
 
+
+
+<?php if (isset($post_category)) { 
+  
+          if (strpos($post_category, 'site_page') !== false) { $site_page = "site_page";} 
+          else if (strpos($post_category, 'news') !== false) { $site_page = "news";} 
+          
+          
+          // echo $site_page;
+
+} else { $site_page = "na";} ?>
+
+
+
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
   <span class="navbar-toggler-icon"></span>
@@ -26,13 +41,18 @@ $this->ionAuth    = new \IonAuth\Libraries\IonAuth();
         <a class="nav-link" href="<?php echo site_url();?>records">Search</a>
       </li>
 
-      <li class="nav-item<?php if (strpos($uri, "pages") !== false){ echo ' active"'; }  ?>">
+      <li class="nav-item<?php if (($site_page == "news") || (uri_string() == "pages")){ echo ' active"'; }  ?>">
         <a class="nav-link" href="<?php echo site_url();?>pages">News</a>
       </li>
-    
       
-      <li class="nav-item<?php if (strpos($uri, "contact") !== false){ echo ' active"'; }  ?>">
-        <a class="nav-link" href="<?php echo site_url();?>contact">Contact us</a>
+      
+      <li class="nav-item dropdown<?php if ((strpos($uri, "contact") !== false) || ($site_page == "site_page" )) { echo ' active"'; }  ?>">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+        <div class="dropdown-menu dropdown-menu-right">
+          <a class="dropdown-item" href="https://www.mymisdiagnosis.com/pages/how-to-use-mymisdiagnosis-com">How to use the site</a>
+          <a class="dropdown-item" href="https://www.mymisdiagnosis.com/pages/all-about-mymisdiagnosis-com">About Us</a>
+          <a class="dropdown-item" href="<?php echo site_url();?>contact"">Contact Us</a>
+        </div>
       </li>
                         
       <li class="nav-item<?php if (strpos($uri, "register_user") !== false){ echo ' active"'; }  ?>">                     

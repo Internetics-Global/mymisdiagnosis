@@ -34,7 +34,7 @@ class Home extends BaseController
 		$data['type_of_page'] = "home";
 		$data['post_body'] = "
 		
-		<p>The myMisdiagnosis.com project is a global medical misdiagnosis database resource, with information supplied by patients and their carers who have been subject to an incorrect diagnosis. </p>
+		<p>The myMisdiagnosis.com project is a global medical misdiagnosis database resource, designed to help patients and carers explore the possibilities for misdiagnosis, and to increase awareness about the issue of medical diagnostic error in general.
 		
 		<p>Search using the search box above, or head over to the <a href='https://www.mymisdiagnosis.com/records'>A-Z list of diagnoses</a>, and search for possible misdiagnoses. </p>
 		
@@ -45,9 +45,8 @@ class Home extends BaseController
 		
 		<p>Reviewing the incorrect diagnosis, the symptoms that led the practitioner to that conclusion, and the correct eventual diagnosis - patients or their carers can evaluate their situation and raise suggestions or foster discussion with their doctors or specialists.</p>
 		
-		<p>myMisdiagnosis is currently in a launch phase as we collect data from around the globe, and we invite patients and carers to contribute their information and outcomes to the system. </p>
+		<p>myMisdiagnosis is currently in a launch phase as we collect and research data from around the globe, and we invite patients and carers to contribute their information and outcomes to the system. </p>
 		
-		<p>Their experience and knowledge could potentially provide life-changing information to those who need it most.</p>
 		
 		";
 		echo view('auth_internetics/header_open_with_scripts', $data);

@@ -141,7 +141,7 @@ class Post extends BaseController
 		 $data['post_user_id'] = $post['post_user_id']; 
 		 $data['post_id'] = $post['post_id'];
 		 $data['post_snippet'] = $post['post_snippet'];
-		 $data['post_category'] = $post['post_snippet'];
+		 $data['post_category'] = $post['post_category'];
 		 $data['post_thumb'] = $post['post_thumb'];
 		 $data['post_image'] = $post['post_image'];
 		 $data['meta_title'] = $post['meta_title'];

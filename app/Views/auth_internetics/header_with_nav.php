@@ -46,7 +46,7 @@ $this->ionAuth    = new \IonAuth\Libraries\IonAuth();
       </li>
       
       
-      <li class="nav-item dropdown<?php if ((strpos($uri, "contact") !== false) || ($site_page == "site_page" )) { echo ' active"'; }  ?>">
+      <li class="nav-item dropdown<?php if (($site_page == "site_page" ) || (strpos($uri, "contact") !== false)) { echo ' active"'; }  ?>">
         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
         <div class="dropdown-menu dropdown-menu-right">
           <a class="dropdown-item" href="https://www.mymisdiagnosis.com/pages/how-to-use-mymisdiagnosis-com">How to use the site</a>

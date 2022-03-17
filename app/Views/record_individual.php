@@ -34,10 +34,12 @@ $uri = current_url(true);
 			<div class="row mb-2">	 
 				<div class="col-md-6">
 					
-						<p>It has been reported that some patients have been misdiagnosed with <?= ucwords(htmlspecialchars_decode($post['record_misdiagnosis'], ENT_HTML5)); ?>, when in fact the correct diagnosis in their specific case was <?= ucwords(htmlspecialchars_decode($post['record_correct_diagnosis'], ENT_HTML5)); ?>.</p>
+					<article>
+					
+						<p>It has been reported that some patients have been misdiagnosed with <?= ucwords(htmlspecialchars_decode($post['record_misdiagnosis'], ENT_HTML5)); ?>, when in fact the correct diagnosis in their specific case was <?= ucwords(htmlspecialchars_decode($post['record_correct_diagnosis'], ENT_HTML5)); ?>.</p>	
 						
 						<div class="record_main_body">
-					
+						
 						<p><?= ucfirst(htmlspecialchars_decode($post['record_notes'], ENT_HTML5)); ?></i></p>
 						
 						</div>
@@ -47,13 +49,11 @@ $uri = current_url(true);
 								  
 								}
 							    
-						?>  
-			
-							
-														   		
-
+						?>  								   		
 													   		
 				  		<i>Always consult your doctor or health professional, and do not self diagnose.</i>
+						  
+					</article>	
 							    
 				</div>
 				<div class="col-md-6">	    

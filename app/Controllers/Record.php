@@ -183,9 +183,9 @@ class Record extends BaseController
 		  $data['record_user_id'] = $post['record_user_id'];
 		  $data['last_update'] = $post['last_update'];
 		  $data['type_of_page'] = "";
-		  $data['meta_title'] = $post['record_correct_diagnosis'] . " - " . $post['record_misdiagnosis'] . ": myMisdiagnosis.com";
+		  $data['meta_title'] = $post['record_correct_diagnosis'] . " diagnosis - " . $post['record_misdiagnosis'] . " misdiagnosis";
 		  $data['meta_description'] = $post['record_correct_diagnosis'] . " is sometimes misdiagnosed as " . $post['record_misdiagnosis'] . ". Find out more at myMisdiagnosis.com";
-		  $data['post_title'] = $post['record_correct_diagnosis'] . " - " .  $post['record_misdiagnosis'] . ": myMisdiagnosis.com" ;
+		  $data['post_title'] = $post['record_correct_diagnosis'] . " diagnosis - " .  $post['record_misdiagnosis'] . " misdiagnosis" ;
 		endforeach;     
 		   
 		   

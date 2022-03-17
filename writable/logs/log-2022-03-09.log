@@ -1,0 +1,27 @@
+INFO - 2022-03-09 07:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-03-09 07:44:57 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-03-09 07:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-03-09 07:45:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-03-09 07:45:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-03-09 07:45:07 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-03-09 07:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-03-09 07:49:00 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-03-09 11:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-03-09 11:41:33 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-03-09 11:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-03-09 11:42:53 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-03-09 11:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-03-09 11:43:09 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-03-09 11:43:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-03-09 11:43:30 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-03-09 11:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-03-09 11:44:36 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-03-09 11:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-03-09 11:45:35 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-03-09 11:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-03-09 14:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-03-09 14:47:20 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-03-09 14:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-03-09 14:48:22 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-03-09 14:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-03-09 14:52:07 --> Session: Sessions is enabled, and one exists.Please don't $session->start();

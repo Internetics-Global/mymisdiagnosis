@@ -82,6 +82,7 @@ background-color: #6D8395;
 .dropdown-item {
  
  text-align: right!important;
+ padding: .45rem 1.5rem;
 
  }
 
@@ -551,7 +552,7 @@ body {
 
 p {
 margin-top: 1rem;
-margin-bottom: 1rem;
+margin-bottom: 1.4rem;
 }
 
 .h4, h4 {
@@ -665,10 +666,28 @@ margin-bottom: 20px;
 }
 
 .homesearchbox.search_box {
-margin-top: 100px;
+margin-top: 60px;
 margin-bottom: 80px;
 }
 
+
+.col-md-4.media-kit {
+background: none;
+padding: 20px;
+margin: 0px;
+margin-right: auto;
+margin-left: auto;
+margin-top: auto;
+margin-bottom: auto;
+}
+
+.person {
+display: block;
+float: left;
+margin-bottom: 20px;
+text-align: top;
+margin-top: 20px;
+}
 
 #post_body img {
 vertical-align: middle;
@@ -677,6 +696,10 @@ float: left;
 margin-right:20px;
 width: 305px;
 border-radius: 5px;
+}
+
+.no_img_wrap {
+float: none!important;
 }
 
 #record_body img {
@@ -923,6 +946,15 @@ background-color: #2c3034;
 
 background-color: #3D5161;
 
+}
+
+
+
+.dropdown-divider {
+height: 0;
+margin: .5rem 0;
+overflow: hidden;
+border-top: 1px dashed #3D5161;
 }
 
 
@@ -1228,6 +1260,8 @@ border-radius: 5px;
 }
 
 
+
+
 .search-right {
   
   text-align: right;
@@ -1409,6 +1443,196 @@ border: 0px solid;
 	display:none;
 	
 	}
+
+
+
+li h1 {
+font-size: 1.6rem;
+}
+
+ li {display: block; }
+.privacy_policy #l1 {padding-left: 0pt;counter-reset: c1 1; }
+.privacy_policy #l1> li>*:first-child:before {counter-increment: c1; content: counter(c1, decimal)". ";  }
+.privacy_policy #l1> li:first-child>*:first-child:before {counter-increment: c1 0;  }
+.privacy_policy #l2 {padding-left: 0pt;counter-reset: c2 1; }
+.privacy_policy #l2> li>*:first-child:before {counter-increment: c2; content: "("counter(c2, lower-latin)") ";  }
+.privacy_policy #l2> li:first-child>*:first-child:before {counter-increment: c2 0;  }
+.privacy_policy #l3 {padding-left: 0pt;counter-reset: c2 1; }
+.privacy_policy #l3> li>*:first-child:before {counter-increment: c2; content: "("counter(c2, lower-latin)") ";  }
+.privacy_policy #l3> li:first-child>*:first-child:before {counter-increment: c2 0;  }
+.privacy_policy #l4 {padding-left: 0pt;counter-reset: c2 1; }
+.privacy_policy #l4> li>*:first-child:before {counter-increment: c2; content: "("counter(c2, lower-latin)") ";  }
+.privacy_policy #l4> li:first-child>*:first-child:before {counter-increment: c2 0;  }
+.privacy_policy #l5 {padding-left: 0pt;counter-reset: c2 1; }
+.privacy_policy #l5> li>*:first-child:before {counter-increment: c2; content: "("counter(c2, lower-latin)") ";  }
+.privacy_policy #l5> li:first-child>*:first-child:before {counter-increment: c2 0;  }
+.privacy_policy #l6 {padding-left: 0pt;counter-reset: c2 1; }
+.privacy_policy #l6> li>*:first-child:before {counter-increment: c2; content: "("counter(c2, lower-latin)") ";  }
+.privacy_policy #l6> li:first-child>*:first-child:before {counter-increment: c2 0;  }
+.privacy_policy #l7 {padding-left: 0pt;counter-reset: c2 1; }
+.privacy_policy #l7> li>*:first-child:before {counter-increment: c2; content: "("counter(c2, lower-latin)") ";  }
+.privacy_policy #l7> li:first-child>*:first-child:before {counter-increment: c2 0;  }
+
+
+
+
+
+ 
+
+.terms_and_conditions #l1 {padding-left: 0pt;counter-reset: c1 1; }
+.terms_and_conditions #l1> li>*:first-child:before {counter-increment: c1; content: counter(c1, decimal)". ";  }
+.terms_and_conditions #l1> li:first-child>*:first-child:before {counter-increment: c1 0;  }
+.terms_and_conditions #l2 {padding-left: 0pt;counter-reset: c2 1; }
+.terms_and_conditions #l2> li>*:first-child:before {counter-increment: c2; content: counter(c1, decimal)"."counter(c2, decimal)". ";  }
+.terms_and_conditions #l2> li:first-child>*:first-child:before {counter-increment: c2 0;  }
+.terms_and_conditions #l3 {padding-left: 0pt;counter-reset: c3 1; }
+.terms_and_conditions #l3> li>*:first-child:before {counter-increment: c3; content: "("counter(c3, lower-latin)") ";  }
+.terms_and_conditions #l3> li:first-child>*:first-child:before {counter-increment: c3 0;  }
+.terms_and_conditions #l4 {padding-left: 0pt;counter-reset: c3 1; }
+.terms_and_conditions #l4> li>*:first-child:before {counter-increment: c3; content: "("counter(c3, lower-latin)") ";  }
+.terms_and_conditions #l4> li:first-child>*:first-child:before {counter-increment: c3 0;  }
+.terms_and_conditions #l5 {padding-left: 0pt;counter-reset: c3 1; }
+.terms_and_conditions #l5> li>*:first-child:before {counter-increment: c3; content: "("counter(c3, lower-latin)") ";  }
+.terms_and_conditions #l5> li:first-child>*:first-child:before {counter-increment: c3 0;  }
+.terms_and_conditions #l6 {padding-left: 0pt;counter-reset: c2 1; }
+.terms_and_conditions #l6> li>*:first-child:before {counter-increment: c2; content: counter(c1, decimal)"."counter(c2, decimal)". ";  }
+.terms_and_conditions #l6> li:first-child>*:first-child:before {counter-increment: c2 0;  }
+.terms_and_conditions #l7 {padding-left: 0pt;counter-reset: c3 1; }
+.terms_and_conditions #l7> li>*:first-child:before {counter-increment: c3; content: "("counter(c3, lower-latin)") ";  }
+.terms_and_conditions #l7> li:first-child>*:first-child:before {counter-increment: c3 0;  }
+.terms_and_conditions #l8 {padding-left: 0pt;counter-reset: c3 1; }
+.terms_and_conditions #l8> li>*:first-child:before {counter-increment: c3; content: "("counter(c3, lower-latin)") ";  }
+.terms_and_conditions #l8> li:first-child>*:first-child:before {counter-increment: c3 0;  }
+.terms_and_conditions #l9 {padding-left: 0pt;counter-reset: c4 1; }
+.terms_and_conditions #l9> li>*:first-child:before {counter-increment: c4; content: "("counter(c4, lower-roman)") ";  }
+.terms_and_conditions #l9> li:first-child>*:first-child:before {counter-increment: c4 0;  }
+.terms_and_conditions #l10 {padding-left: 0pt;counter-reset: c3 1; }
+.terms_and_conditions #l10> li>*:first-child:before {counter-increment: c3; content: "("counter(c3, lower-latin)") ";  }
+.terms_and_conditions #l10> li:first-child>*:first-child:before {counter-increment: c3 0;  }
+.terms_and_conditions #l11 {padding-left: 0pt;counter-reset: c4 1; }
+.terms_and_conditions #l11> li>*:first-child:before {counter-increment: c4; content: "("counter(c4, lower-roman)") ";  }
+.terms_and_conditions #l11> li:first-child>*:first-child:before {counter-increment: c4 0;  }
+.terms_and_conditions #l12 {padding-left: 0pt;counter-reset: c4 1; }
+.terms_and_conditions #l12> li>*:first-child:before {counter-increment: c4; content: "("counter(c4, lower-roman)") ";  }
+.terms_and_conditions #l12> li:first-child>*:first-child:before {counter-increment: c4 0;  }
+.terms_and_conditions #l13 {padding-left: 0pt;counter-reset: c4 1; }
+.terms_and_conditions #l13> li>*:first-child:before {counter-increment: c4; content: "("counter(c4, lower-roman)") ";  }
+.terms_and_conditions #l13> li:first-child>*:first-child:before {counter-increment: c4 0;  }
+.terms_and_conditions #l14 {padding-left: 0pt;counter-reset: c3 1; }
+.terms_and_conditions #l14> li>*:first-child:before {counter-increment: c3; content: "("counter(c3, lower-latin)") ";  }
+.terms_and_conditions #l14> li:first-child>*:first-child:before {counter-increment: c3 0;  }
+.terms_and_conditions #l15 {padding-left: 0pt;counter-reset: c3 1; }
+.terms_and_conditions #l15> li>*:first-child:before {counter-increment: c3; content: "("counter(c3, lower-latin)") ";  }
+.terms_and_conditions #l15> li:first-child>*:first-child:before {counter-increment: c3 0;  }
+.terms_and_conditions #l16 {padding-left: 0pt;counter-reset: c2 1; }
+.terms_and_conditions #l16> li>*:first-child:before {counter-increment: c2; content: counter(c1, decimal)"."counter(c2, decimal)". "; }
+.terms_and_conditions #l16> li:first-child>*:first-child:before {counter-increment: c2 0;  }
+.terms_and_conditions #l17 {padding-left: 0pt;counter-reset: c3 1; }
+.terms_and_conditions #l17> li>*:first-child:before {counter-increment: c3; content: "("counter(c3, lower-latin)") ";  }
+.terms_and_conditions #l17> li:first-child>*:first-child:before {counter-increment: c3 0;  }
+.terms_and_conditions #l18 {padding-left: 0pt;counter-reset: c4 1; }
+.terms_and_conditions #l18> li>*:first-child:before {counter-increment: c4; content: "("counter(c4, lower-roman)") ";  }
+.terms_and_conditions #l18> li:first-child>*:first-child:before {counter-increment: c4 0;  }
+.terms_and_conditions #l19 {padding-left: 0pt;counter-reset: c3 1; }
+.terms_and_conditions #l19> li>*:first-child:before {counter-increment: c3; content: "("counter(c3, lower-latin)") ";  }
+.terms_and_conditions #l19> li:first-child>*:first-child:before {counter-increment: c3 0;  }
+.terms_and_conditions #l20 {padding-left: 0pt;counter-reset: c4 1; }
+.terms_and_conditions #l20> li>*:first-child:before {counter-increment: c4; content: "("counter(c4, lower-roman)") ";  }
+.terms_and_conditions #l20> li:first-child>*:first-child:before {counter-increment: c4 0;  }
+.terms_and_conditions #l21 {padding-left: 0pt;counter-reset: c2 1; }
+.terms_and_conditions #l21> li>*:first-child:before {counter-increment: c2; content: counter(c1, decimal)"."counter(c2, decimal)". "; }
+.terms_and_conditions #l21> li:first-child>*:first-child:before {counter-increment: c2 0;  }
+.terms_and_conditions #l22 {padding-left: 0pt;counter-reset: c3 1; }
+.terms_and_conditions #l22> li>*:first-child:before {counter-increment: c3; content: "("counter(c3, lower-latin)") ";  }
+.terms_and_conditions #l22> li:first-child>*:first-child:before {counter-increment: c3 0;  }
+.terms_and_conditions #l23 {padding-left: 0pt;counter-reset: c4 1; }
+.terms_and_conditions #l23> li>*:first-child:before {counter-increment: c4; content: "("counter(c4, lower-roman)") ";  }
+.terms_and_conditions #l23> li:first-child>*:first-child:before {counter-increment: c4 0;  }
+.terms_and_conditions #l24 {padding-left: 0pt;counter-reset: c4 1; }
+.terms_and_conditions #l24> li>*:first-child:before {counter-increment: c4; content: "("counter(c4, lower-roman)") ";  }
+.terms_and_conditions #l24> li:first-child>*:first-child:before {counter-increment: c4 0;  }
+.terms_and_conditions #l25 {padding-left: 0pt;counter-reset: c3 1; }
+.terms_and_conditions #l25> li>*:first-child:before {counter-increment: c3; content: "("counter(c3, lower-latin)") ";  }
+.terms_and_conditions #l25> li:first-child>*:first-child:before {counter-increment: c3 0;  }
+.terms_and_conditions #l26 {padding-left: 0pt;counter-reset: c4 1; }
+.terms_and_conditions #l26> li>*:first-child:before {counter-increment: c4; content: "("counter(c4, lower-roman)") ";  }
+.terms_and_conditions #l26> li:first-child>*:first-child:before {counter-increment: c4 0;  }
+.terms_and_conditions #l27 {padding-left: 0pt;counter-reset: c2 1; }
+.terms_and_conditions #l27> li>*:first-child:before {counter-increment: c2; content: counter(c1, decimal)"."counter(c2, decimal)". "; }
+.terms_and_conditions #l27> li:first-child>*:first-child:before {counter-increment: c2 0;  }
+.terms_and_conditions #l28 {padding-left: 0pt;counter-reset: c3 1; }
+.terms_and_conditions #l28> li>*:first-child:before {counter-increment: c3; content: "("counter(c3, lower-latin)") ";  }
+.terms_and_conditions #l28> li:first-child>*:first-child:before {counter-increment: c3 0;  }
+.terms_and_conditions #l29 {padding-left: 0pt;counter-reset: c3 1; }
+.terms_and_conditions #l29> li>*:first-child:before {counter-increment: c3; content: "("counter(c3, lower-latin)") ";  }
+.terms_and_conditions #l29> li:first-child>*:first-child:before {counter-increment: c3 0;  }
+.terms_and_conditions #l30 {padding-left: 0pt;counter-reset: c4 1; }
+.terms_and_conditions #l30> li>*:first-child:before {counter-increment: c4; content: "("counter(c4, lower-roman)") ";  }
+.terms_and_conditions #l30> li:first-child>*:first-child:before {counter-increment: c4 0;  }
+.terms_and_conditions #l31 {padding-left: 0pt;counter-reset: c3 1; }
+.terms_and_conditions #l31> li>*:first-child:before {counter-increment: c3; content: "("counter(c3, lower-latin)") ";  }
+.terms_and_conditions #l31> li:first-child>*:first-child:before {counter-increment: c3 0;  }
+.terms_and_conditions #l32 {padding-left: 0pt;counter-reset: c4 1; }
+.terms_and_conditions #l32> li>*:first-child:before {counter-increment: c4; content: "("counter(c4, lower-roman)") ";  }
+.terms_and_conditions #l32> li:first-child>*:first-child:before {counter-increment: c4 0;  }
+.terms_and_conditions #l33 {padding-left: 0pt;counter-reset: c3 1; }
+.terms_and_conditions #l33> li>*:first-child:before {counter-increment: c3; content: "("counter(c3, lower-latin)") ";  }
+.terms_and_conditions #l33> li:first-child>*:first-child:before {counter-increment: c3 0;  }
+.terms_and_conditions #l34 {padding-left: 0pt;counter-reset: c3 1; }
+.terms_and_conditions #l34> li>*:first-child:before {counter-increment: c3; content: "("counter(c3, lower-latin)") ";  }
+.terms_and_conditions #l34> li:first-child>*:first-child:before {counter-increment: c3 0;  }
+.terms_and_conditions #l35 {padding-left: 0pt;counter-reset: c2 1; }
+.terms_and_conditions #l35> li>*:first-child:before {counter-increment: c2; content: counter(c1, decimal)"."counter(c2, decimal)". "; }
+.terms_and_conditions #l35> li:first-child>*:first-child:before {counter-increment: c2 0;  }
+.terms_and_conditions #l36 {padding-left: 0pt;counter-reset: c3 1; }
+.terms_and_conditions #l36> li>*:first-child:before {counter-increment: c3; content: "("counter(c3, lower-latin)") ";  }
+.terms_and_conditions #l36> li:first-child>*:first-child:before {counter-increment: c3 0;  }
+.terms_and_conditions #l37 {padding-left: 0pt;counter-reset: c4 1; }
+.terms_and_conditions #l37> li>*:first-child:before {counter-increment: c4; content: "("counter(c4, lower-roman)") ";  }
+.terms_and_conditions #l37> li:first-child>*:first-child:before {counter-increment: c4 0;  }
+.terms_and_conditions #l38 {padding-left: 0pt;counter-reset: c3 1; }
+.terms_and_conditions #l38> li>*:first-child:before {counter-increment: c3; content: "("counter(c3, lower-latin)") ";  }
+.terms_and_conditions #l38> li:first-child>*:first-child:before {counter-increment: c3 0;  }
+.terms_and_conditions #l39 {padding-left: 0pt;counter-reset: c4 1; }
+.terms_and_conditions #l39> li>*:first-child:before {counter-increment: c4; content: "("counter(c4, lower-roman)") ";  }
+.terms_and_conditions #l39> li:first-child>*:first-child:before {counter-increment: c4 0;  }
+.terms_and_conditions #l40 {padding-left: 0pt;counter-reset: d1 1; }
+.terms_and_conditions #l40> li>*:first-child:before {counter-increment: d1; content: "("counter(d1, lower-latin)") ";  }
+.terms_and_conditions #l40> li:first-child>*:first-child:before {counter-increment: d1 0;  }
+.terms_and_conditions #l41 {padding-left: 0pt;counter-reset: e1 1; }
+.terms_and_conditions #l41> li>*:first-child:before {counter-increment: e1; content: "("counter(e1, lower-latin)") ";  }
+.terms_and_conditions #l41> li:first-child>*:first-child:before {counter-increment: e1 0;  }
+.terms_and_conditions #l42 {padding-left: 0pt;counter-reset: f1 1; }
+.terms_and_conditions #l42> li>*:first-child:before {counter-increment: f1; content: "("counter(f1, lower-latin)") ";  }
+.terms_and_conditions #l42> li:first-child>*:first-child:before {counter-increment: f1 0;  }
+.terms_and_conditions #l43 {padding-left: 0pt;counter-reset: g1 1; }
+.terms_and_conditions #l43> li>*:first-child:before {counter-increment: g1; content: "("counter(g1, lower-latin)") ";  }
+.terms_and_conditions #l43> li:first-child>*:first-child:before {counter-increment: g1 0;  }
+.terms_and_conditions #l44 {padding-left: 0pt;counter-reset: c2 1; }
+.terms_and_conditions #l44> li>*:first-child:before {counter-increment: c2; content: counter(c1, decimal)"."counter(c2, decimal)". "; }
+.terms_and_conditions #l44> li:first-child>*:first-child:before {counter-increment: c2 0;  }
+.terms_and_conditions #l45 {padding-left: 0pt;counter-reset: h1 1; }
+.terms_and_conditions #l45> li>*:first-child:before {counter-increment: h1; content: "("counter(h1, lower-latin)") ";  }
+.terms_and_conditions #l45> li:first-child>*:first-child:before {counter-increment: h1 0;  }
+.terms_and_conditions #l46 {padding-left: 0pt;counter-reset: h2 1; }
+.terms_and_conditions #l46> li>*:first-child:before {counter-increment: h2; content: "("counter(h2, lower-roman)") ";  }
+.terms_and_conditions #l46> li:first-child>*:first-child:before {counter-increment: h2 0;  }
+.terms_and_conditions #l47 {padding-left: 0pt;counter-reset: i1 1; }
+.terms_and_conditions #l47> li>*:first-child:before {counter-increment: i1; content: "("counter(i1, lower-latin)") ";  }
+.terms_and_conditions #l47> li:first-child>*:first-child:before {counter-increment: i1 0;  }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1686,6 +1910,14 @@ and (max-width: 760px) {
 
 @media only screen 
 and (max-width: 480px) {
+  
+  
+.person img {
+float: none!important;
+margin-top: 0px;
+margin-bottom: 0px;
+width: 300px!important;
+}
   
   
 .gc-container .col-md-12, .gc-container .col-sm-12 {

@@ -45,7 +45,7 @@ class Home extends BaseController
 		
 		<p>Reviewing the incorrect diagnosis, the symptoms that led the practitioner to that conclusion, and the correct eventual diagnosis - patients or their carers can evaluate their situation and raise suggestions or foster discussion with their doctors or specialists.</p>
 		
-		<p>myMisdiagnosis is currently in a launch phase as we collect and research data from around the globe, and we invite patients and carers to contribute their information and outcomes to the system. </p>
+		<!--<p>myMisdiagnosis is currently in a launch phase as we collect and research data from around the globe, and we invite patients and carers to contribute their information and outcomes to the system. </p> -->
 		
 		
 		";

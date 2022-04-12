@@ -150,7 +150,7 @@ class Contact extends BaseController
 //	$email->setCC('another@another-example.com');
 //	$email->setBCC('them@their-example.com');
 	
-	$email->setSubject('This is a message from: '. $data['name']);
+	$email->setSubject('This is a message from: '. $data['name'] . ' at ' . $data['email']);
 	$email->setMessage($data['message']);
 	
 	$email->send();

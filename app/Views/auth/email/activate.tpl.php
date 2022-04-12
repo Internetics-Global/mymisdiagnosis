@@ -36,7 +36,7 @@
 <tr>
 	   <td align="center">
 		  <p>
-		  <img alt="myMisdiagnosis full logo" src="https://www.mymisdiagnosis.com/images/mymisdiagnosis-logo-email-2.png" width="400px" align="middle">
+		  <img alt="myMisdiagnosis full logo" src="https://www.mymisdiagnosis.com/images/mymisdiagnosis-col-email.png" width="400px" align="middle">
 		  </p>
 	   </td>
 </tr>

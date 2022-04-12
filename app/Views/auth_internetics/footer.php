@@ -41,11 +41,10 @@
 <footer>
   
     <div class="please_note">
-    <p>Important: Patients should not use information on this website for self-diagnosis. Always consult your doctor or specialist. Medical professionals have not checked data.</p>
-      
-    <p>Disclaimer: The information about health provided by this website is not intended to diagnose, treat, cure or prevent disease. Products, services, information and other content provided by this website, including information linking to third-party websites are provided for informational purposes only.</p>
-    
-    <p>Information offered by this website is not comprehensive and does not cover all diseases, ailments, physical conditions or their treatment.</p>
+    <h3>Important disclaimers:</h3>
+    <p>The information, data and other content provided on this page is of a general nature and provided for general informational purposes only. It does not constitute medical advice, diagnosis, or treatment and must not be relied upon as such. </p>
+    <p>To the full extent permitted by law, we exclude all liability for any loss or damage howsoever arising suffered by you as a result of your reliance on the content we make available on myMisdiagnosis. </p>
+    <p>This website contains third party content that has not been verified by us. This data is provided for your convenience only and we do not verify, and do not endorse or accept responsibility for, any third party data or resources we make available to you on myMisdiagnosis. </p>
     
     <p><a href="<?php echo site_url();?>pages/disclaimer">Please read our full Disclaimer notice here</a>.</p>  
       
@@ -56,7 +55,8 @@
     
     <div class="final_footer">
     
-   <a href="<?php echo site_url();?>pages/disclaimer">Disclaimer</a> | <a href="<?php echo site_url();?>pages/website-terms-and-conditions">Terms and Conditions<a/> | <a href="<?php echo site_url();?>pages/privacy-policy-for-mymisdiagnosis-com">Privacy Policy</a> | Copyright Internetics Pty Ltd / myMisdiagnosis.com 2022. All rights reserved.</div></center>
+   <a href="https://www.instagram.com/mymisdiagnosis/" target="_new"><i class="bi bi-instagram"></i></a> | 
+   <a href="https://www.facebook.com/mymisdiagnosiscom/" target="_new"><i class="bi bi-facebook"></i></a> | <a href="<?php echo site_url();?>pages/disclaimer">Disclaimer</a> | <a href="<?php echo site_url();?>pages/website-terms-and-conditions">Terms and Conditions<a/> | <a href="<?php echo site_url();?>pages/privacy-policy-for-mymisdiagnosis-com">Privacy Policy</a> | Copyright Internetics Pty Ltd / myMisdiagnosis.com 2022. All rights reserved.</div></center>
 
    </div>
 
@@ -161,7 +161,11 @@ class="statcounter"
 src="https://c.statcounter.com/12695048/0/60cd7286/1/"
 alt="Web Analytics"
 referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
-<!-- End of Statcounter Code -->      
+<!-- End of Statcounter Code -->    
+  
+  <i class="fab fa-facebook-f"></i>
+
+
         
 </body>
 </html>

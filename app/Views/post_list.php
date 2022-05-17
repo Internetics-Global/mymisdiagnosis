@@ -49,7 +49,7 @@
 
     
    <div style='margin-top: 10px;'>
-	    <?= $pager->links() ?>
+	  <!--  <?= $pager->links() ?> -->
 	</div>
 	
 	

@@ -25,7 +25,7 @@ if(isset($_GET['search']))
 	
 ?>	
 
-<form method="get" action="<?= base_url()?>/records/">
+<form method="get" action="<?= base_url()?>/diagnosis/">
 <div class="search_box">
 <div class="container">
     <div class="row">
@@ -120,7 +120,7 @@ if(isset($_GET['search']))
 
 
 
-elseif (strpos($uri, "/diagnosis") !== false)   { 
+elseif (strpos($uri, "/diagnosis/") !== false)   { 
 
 
 
@@ -188,7 +188,7 @@ elseif (strpos($uri, "/diagnosis") !== false)   {
 
 <BR>	
 <div class="record_footer">
-<p><center>Click <a href='<?php echo site_url();?>records'>here</a> to return to the <a href='<?php echo site_url();?>records'>A-Z list of diagnoses and misdiagnoses</a>.</center>
+<p><center>Click <a href='<?php echo site_url();?>diagnosis'>here</a> to return to the <a href='<?php echo site_url();?>diagnosis'>A-Z list of diagnoses and misdiagnoses</a>.</center>
 </p>	
 </div>	 
 
@@ -301,7 +301,7 @@ else {
 	<div class="record_footer"> 
 	 <h1>There are no results that match your search.</h1>
 	<p>You can use the search bar to search for diagnoses, misdiagnoses or symptoms. As you type the system will make suggestions for you.</p>
-	<p>You can also search the <a href='<?php echo site_url();?>records'>A-Z of diagnoses</a>, by clicking <a href='<?php echo site_url();?>records'>here</a>.</p>	
+	<p>You can also search the <a href='<?php echo site_url();?>diagnosis'>A-Z of diagnoses</a>, by clicking <a href='<?php echo site_url();?>diagnosis'>here</a>.</p>	
 	</div> 
 	 
     <?php } 

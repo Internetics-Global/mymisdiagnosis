@@ -1,0 +1,2 @@
+INFO - 2022-04-13 16:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-04-13 16:53:43 --> Session: Sessions is enabled, and one exists.Please don't $session->start();

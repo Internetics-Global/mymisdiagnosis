@@ -37,36 +37,38 @@ $this->ionAuth    = new \IonAuth\Libraries\IonAuth();
         <a class="nav-link" href="<?php echo site_url();?>">Home</a>
       </li>
       
-      <li class="nav-item<?php if ((strpos($uri, "records") !== false) || (strpos($uri, "record/") !== false) ){ echo ' active"'; }  ?>">
-        <a class="nav-link" href="<?php echo site_url();?>records">Search</a>
+     
+      
+      <li class="nav-item<?php if ((strpos($uri, "/diagnosis") !== false) || (strpos($uri, "diagnosis/") !== false) ){ echo ' active'; }  ?>">
+        <a class="nav-link" href="<?php echo site_url();?>diagnosis">Diagnosis A-Z</a>
       </li>
 
-      <li class="nav-item<?php if (($site_page == "news") || (uri_string() == "pages")){ echo ' active"'; }  ?>">
+      <li class="nav-item<?php if (($site_page == "news") || (uri_string() == "pages")){ echo ' active'; }  ?>">
         <a class="nav-link" href="<?php echo site_url();?>pages">News</a>
       </li>
       
       
-      <li class="nav-item dropdown<?php if (($site_page == "site_page" ) || (strpos($uri, "contact") !== false)) { echo ' active"'; }  ?>">
+      <li class="nav-item dropdown<?php if (($site_page == "site_page" ) || (strpos($uri, "contact") !== false)) { echo ' active'; }  ?>">
         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
         <div class="dropdown-menu dropdown-menu-right">
           <a class="dropdown-item" href="https://www.mymisdiagnosis.com/pages/how-to-use-mymisdiagnosis-com">How to use the site</a>          
-          <a class="dropdown-item" href="<?php echo site_url();?>contact"">Contact Us</a>
+          <a class="dropdown-item" href="<?php echo site_url();?>contact">Contact Us</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="https://www.mymisdiagnosis.com/pages/media-kit">Media Kit</a>
           <a class="dropdown-item" href="https://www.mymisdiagnosis.com/pages/all-about-mymisdiagnosis-com">About Us</a>
           <a class="dropdown-item" href="https://www.mymisdiagnosis.com/pages/the-story-behind-mymisdiagnosis">The story</a>
-          <a class="dropdown-item" href="https://www.facebook.com/mymisdiagnosiscom/" target="_new"><i class="bi bi-facebook"></i></a> 
-          <a class="dropdown-item" href="https://www.instagram.com/mymisdiagnosis/" target="_new"><i class="bi bi-instagram"></i></a> 
+          <a class="dropdown-item" href="https://www.facebook.com/mymisdiagnosiscom" target="_new"><i class="bi bi-facebook"></i> Facebook</a> 
+          <a class="dropdown-item" href="https://www.instagram.com/mymisdiagnosis" target="_new"><i class="bi bi-instagram"></i> Instagram</a> 
         </div>
       </li>
                         
-      <li class="nav-item<?php if (strpos($uri, "register_user") !== false){ echo ' active"'; }  ?>">                     
+      <li class="nav-item<?php if (strpos($uri, "register_user") !== false){ echo ' active'; }  ?>">                     
               <?php if ( $this->ionAuth->loggedIn()) {} else { ?>          
                 <a class="nav-link" href="<?php echo site_url('auth/register_user'); ?>">Register</a>
               <?php }	?>                      
       </li> 
                                 
-      <li class="nav-item<?php if (strpos($uri, "login") !== false){ echo ' active"'; }  ?>">                  
+      <li class="nav-item<?php if (strpos($uri, "login") !== false){ echo ' active'; }  ?>">                  
               <?php if (! $this->ionAuth->loggedIn()) {?>
                 <a class="nav-link" href="<?php echo site_url('auth/login');?>">Login</a>
               <?php } ?>
@@ -74,13 +76,16 @@ $this->ionAuth    = new \IonAuth\Libraries\IonAuth();
               
     </ul>
     
+    
+    <?php if ( $this->ionAuth->loggedIn()) { ?> 
+    
     <ul class="navbar-nav ml-auto mt-2 mt-lg-0 sub-nav">    
 
       <li class="nav-item">
            <div class="row spacer"> </div>
       </li>                      
             
-      <li class="nav-item<?php if (endsWith($uri, "auth") !== false){ echo ' active"'; }  ?>">              
+      <li class="nav-item<?php if (endsWith($uri, "auth") !== false){ echo ' active'; }  ?>">              
              <?php if ( $this->ionAuth->loggedIn()) { ?>          
                <a class="nav-link" href="<?php echo site_url('auth'); ?>">Members</a>
              <?php }	?>               
@@ -91,7 +96,7 @@ $this->ionAuth    = new \IonAuth\Libraries\IonAuth();
        if ($this->ionAuth->isAdmin()) {
        ?>
        
-      <li class="nav-item<?php if (endsWith($uri, "posts") !== false){ echo ' active"'; }  ?>">
+      <li class="nav-item<?php if (endsWith($uri, "posts") !== false){ echo ' active'; }  ?>">
          <a class="nav-link" href="<?php echo site_url('posteditor/posts');?>">Post editor</a>
       </li>
        
@@ -99,25 +104,30 @@ $this->ionAuth    = new \IonAuth\Libraries\IonAuth();
                 
     <?php if ( $this->ionAuth->loggedIn()) { ?>
      
-     <li class="nav-item<?php if (endsWith($uri, "misdiagnosis") !== false){ echo ' active"'; }  ?>">
+     <li class="nav-item<?php if (endsWith($uri, "misdiagnosis") !== false){ echo ' active'; }  ?>">
        <a class="nav-link" href="<?php echo site_url('recordeditor/misdiagnosis/');?>">Misdiagnosis data</a>
      </li>
    
     <?php } ?>  
                 
-      <li class="nav-item<?php if (strpos($uri, "edit_user") !== false){ echo ' active"'; }  ?>">                    
+      <li class="nav-item<?php if (strpos($uri, "edit_user") !== false){ echo ' active'; }  ?>">                    
             <?php if ( $this->ionAuth->loggedIn()) { ?>          
               <a class="nav-link" href="<?php echo site_url('auth/edit_user/'); echo $user->id; ?>">Settings</a>
             <?php }	?>                     
       </li>  
         
-     <li class="nav-item<?php if (strpos($uri, "login") !== false){ echo ' active"'; }  ?>"> 
+     <li class="nav-item<?php if (strpos($uri, "login") !== false){ echo ' active'; }  ?>"> 
                       
            <?php if ($this->ionAuth->loggedIn()) {?>
              <a class="nav-link" href="<?php echo site_url('auth/logout');?>">Logout</a>
             <?php };?>                                       
      </li>          
     </ul>
+    
+    <?php }	?>
+    
+    
+    
   </div>  
 </nav>
 

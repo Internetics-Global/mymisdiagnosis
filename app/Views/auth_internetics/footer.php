@@ -55,10 +55,14 @@
     
     <div class="final_footer">
     
-   <a href="https://www.instagram.com/mymisdiagnosis/" target="_new"><i class="bi bi-instagram"></i></a> | 
-   <a href="https://www.facebook.com/mymisdiagnosiscom/" target="_new"><i class="bi bi-facebook"></i></a> | <a href="<?php echo site_url();?>pages/disclaimer">Disclaimer</a> | <a href="<?php echo site_url();?>pages/website-terms-and-conditions">Terms and Conditions<a/> | <a href="<?php echo site_url();?>pages/privacy-policy-for-mymisdiagnosis-com">Privacy Policy</a> | Copyright Internetics Pty Ltd / myMisdiagnosis.com 2022. All rights reserved.</div></center>
+   <a href="https://www.instagram.com/mymisdiagnosis" target="_new"><i class="bi bi-instagram"></i> Instagram</a> | 
+   <a href="https://www.facebook.com/mymisdiagnosiscom" target="_new"><i class="bi bi-facebook"></i> Facebook</a> | <a href="<?php echo site_url();?>pages/disclaimer">Disclaimer</a> | <a href="<?php echo site_url();?>pages/website-terms-and-conditions">Terms and Conditions</a> | <a href="<?php echo site_url();?>pages/privacy-policy-for-mymisdiagnosis-com">Privacy Policy</a> | Copyright Internetics Pty Ltd / myMisdiagnosis.com 2022. All rights reserved.
+ 
+ </div>
 
-   </div>
+</center>
+
+  
 
 </footer>
 
@@ -85,7 +89,7 @@ $('.autocomplete_search_button').click(function()
 
 $uri = current_url(true);
 
-if ((strpos($uri, "records") !== false) || (strpos($uri, "/diagnosis") !== false) ||($type_of_page == 'home') ){ 
+if ((strpos($uri, "records") !== false) || (strpos($uri, "/diagnosis") !== false) || (strpos($uri, "/diagnosis") !== false) ||($type_of_page == 'home') ){ 
   ?>  
 
 
@@ -165,7 +169,7 @@ referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
   
   <i class="fab fa-facebook-f"></i>
 
-
+</div>
         
 </body>
 </html>

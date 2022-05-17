@@ -29,23 +29,23 @@ class Home extends BaseController
 		$data['htmltoshow'] = "Welcome to myMisdiagnosis.com";
 		$data['title'] = "The global medical 
 		<span class='mis_blue'>mis</span>diagnosis database";
-		$data['meta_title'] = "The global misdiagnosis database: myMisdiagnosis.com";
+		$data['meta_title'] = "myMisdiagnosis - The Global Misdiagnosis Database";
 		$data['meta_description'] = "Search for the possibility of misdiagnosis at the world's largest database of publicly accessible, freely available medical misdiagnoses data.";
 		$data['type_of_page'] = "home";
 		$data['post_body'] = "
 		
-		<p>The myMisdiagnosis.com project is a global medical misdiagnosis database resource, designed to help patients and carers explore the possibilities for misdiagnosis, and to increase awareness about the issue of medical diagnostic error in general.
+		<p>The myMisdiagnosis.com project is a global medical <a href='https://www.mymisdiagnosis.com/diagnosis'>misdiagnosis database</a> resource, designed to help patients and carers explore the possibilities for misdiagnosis, and to increase awareness about the issue of medical diagnostic error in general.
 		
-		<p>Search using the search box above, or head over to the <a href='https://www.mymisdiagnosis.com/records'>A-Z list of diagnoses</a>, and search for possible misdiagnoses. </p>
+		<p>Search using the search box above, or head over to the <a href='https://www.mymisdiagnosis.com/diagnosis'>A-Z list of diagnoses</a>, and search for possible misdiagnoses. </p>
 		
 		<p>Reports indicate that up to <a href='https://www.mymisdiagnosis.com/pages/up-to-1-in-7-medical-diagnoses-could-be-wrong'>1 in 7 medical diagnoses are incorrect</a>. Additionally it is reported that up to <a href='https://www.mymisdiagnosis.com/pages/1-in-3-incorrect-diagnoses-could-result-in-serious-injury-or-death'>1 in 3 of incorrect diagnoses</a> 
 		could result in serious injury or death.</p>
 		
 		<p>So we can conclude that whilst most medical diagnoses are accurate, a significant number are not. Medical diagnostic errors happen.</p>
 		
-		<p>Reviewing the incorrect diagnosis, the symptoms that led the practitioner to that conclusion, and the correct eventual diagnosis - patients or their carers can evaluate their situation and raise suggestions or foster discussion with their doctors or specialists.</p>
+		<p>Reviewing the <a href='https://www.mymisdiagnosis.com/diagnosis'>incorrect diagnosis</a>, the symptoms that led the practitioner to that conclusion, and the <a href='https://www.mymisdiagnosis.com/diagnosis'>correct eventual diagnosis</a> - patients or their carers can evaluate their situation and raise suggestions or foster discussion with their doctors or specialists.</p>
 		
-		<!--<p>myMisdiagnosis is currently in a launch phase as we collect and research data from around the globe, and we invite patients and carers to contribute their information and outcomes to the system. </p> -->
+		<!--<p>myMisdiagnosis is currently in a soft launch phase as we collect and research data from around the globe, and we invite patients and carers to contribute their information and outcomes to the system. </p> -->
 		
 		
 		";

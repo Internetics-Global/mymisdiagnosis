@@ -1,4 +1,4 @@
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,8 +31,7 @@ function endsWith( $haystack, $needle ) {
     <link type="text/css" rel="stylesheet" href="<?php echo site_url();?>public/assets/grocery_crud/themes/internetics/css/general.css"/>
     <link type="text/css" rel="stylesheet" href="<?php echo site_url();?>public/assets/grocery_crud/themes/internetics/css/plugins/animate.min.css"/>
     <link type="text/css" rel="stylesheet" href="<?php echo site_url();?>public/assets/grocery_crud/themes/internetics/css/main.css"/>
-    <link type="text/css" rel="stylesheet" href="<?php echo site_url();?>public/assets/grocery_crud/themes/internetics/css/internetics.css?v=517
-    "/>
+    <link type="text/css" rel="stylesheet" href="<?php echo site_url();?>public/assets/grocery_crud/themes/internetics/css/internetics.css?v=517"/>
     <link type="text/css" rel="stylesheet" href="<?php echo site_url();?>public/assets/grocery_crud/themes/internetics/css/lightbox.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
     

@@ -235,12 +235,11 @@ else {
 				   <div class="col-md-12">
 										   
 							   <p><a href="diagnosis/<?= strtolower($url_end_segment_diagnosis); ?>"><?= ucwords($listing['record_correct_diagnosis']); ?></a>
-							  <!-- <p><?= ucwords($listing['record_correct_diagnosis']); ?> is sometimes misdiagnosed as <?= ucwords($listing['record_misdiagnosis']); ?></p>-->
+							  
 								  
-								  <a href="diagnosis/<?= strtolower($url_end_segment_diagnosis); ?>">
 								  
 								  <div class="record_button">
-								  <img src="images/mymisdiagnosis-logo-symb-3-trans.png" width=50 height=50></a></p>
+								 <a href="diagnosis/<?= strtolower($url_end_segment_diagnosis); ?>"> <img src="images/mymisdiagnosis-logo-symb-3-trans.png" width=50 height=50></a></p>
 				   			    	  </div>
 				   </div> 
 					 

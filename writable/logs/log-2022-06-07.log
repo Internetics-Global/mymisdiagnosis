@@ -1,0 +1,138 @@
+INFO - 2022-06-07 11:34:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-06-07 11:34:29 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-06-07 11:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-06-07 11:35:02 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-06-07 11:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-07 11:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-06-07 11:35:14 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-06-07 11:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-06-07 11:36:02 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2022-06-07 11:36:02 --> Undefined variable: listings
+#0 /var/www/html/mymisdiagnosis/app/Views/home.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 69, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('home', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Home.php(55): view('home', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-06-07 11:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-06-07 11:38:26 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2022-06-07 11:38:26 --> Undefined variable: listings
+#0 /var/www/html/mymisdiagnosis/app/Views/home.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 69, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('home', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Home.php(57): view('home', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-06-07 11:39:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-06-07 11:39:08 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2022-06-07 11:39:08 --> Undefined variable: listings
+#0 /var/www/html/mymisdiagnosis/app/Views/home.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 69, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('home', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Home.php(59): view('home', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 11:40:23 --> Undefined variable: search
+#0 /var/www/html/mymisdiagnosis/app/Controllers/Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 29, Array)
+#1 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#2 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2022-06-07 11:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-06-07 11:41:33 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2022-06-07 11:41:33 --> Undefined variable: listings
+#0 /var/www/html/mymisdiagnosis/app/Views/home.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 69, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('home', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Home.php(77): view('home', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-06-07 11:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-06-07 11:42:08 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2022-06-07 11:42:08 --> Undefined variable: listings
+#0 /var/www/html/mymisdiagnosis/app/Views/home.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 69, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('home', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Home.php(55): view('home', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-06-07 11:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-06-07 11:42:25 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2022-06-07 11:42:25 --> Undefined variable: listings
+#0 /var/www/html/mymisdiagnosis/app/Views/home.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 69, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('home', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Home.php(55): view('home', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-06-07 11:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-06-07 11:42:49 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2022-06-07 11:42:49 --> Undefined variable: listings
+#0 /var/www/html/mymisdiagnosis/app/Views/home.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 69, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('home', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Home.php(55): view('home', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-06-07 11:42:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-07 11:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-06-07 11:42:53 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2022-06-07 11:42:53 --> Undefined variable: listings
+#0 /var/www/html/mymisdiagnosis/app/Views/home.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 69, Array)
+#1 /var/www/html/mymisdiagnosis/system/View/View.php(220): include('/var/www/html/m...')
+#2 /var/www/html/mymisdiagnosis/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/mymisdiagnosis/system/Common.php(1217): CodeIgniter\View\View->render('home', Array, true)
+#4 /var/www/html/mymisdiagnosis/app/Controllers/Home.php(55): view('home', Array)
+#5 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/html/mymisdiagnosis/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/mymisdiagnosis/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-06-07 11:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-06-07 11:43:06 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-06-07 11:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-07 11:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-06-07 11:44:44 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-06-07 11:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-06-07 11:44:51 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-06-07 11:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-07 11:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-06-07 11:48:03 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-06-07 11:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-06-07 11:54:17 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-06-07 11:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-06-07 11:54:45 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2022-06-07 11:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-07 12:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-07 12:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-07 12:05:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2022-06-07 12:05:41 --> Session: Sessions is enabled, and one exists.Please don't $session->start();

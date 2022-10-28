@@ -275,13 +275,13 @@ public function diagnosis($correct_diag)
 		   $data['type_of_page'] = '';
 		   
 		   
-if (count($paginateData) == 1)
-{	
-	$urlsegment_misdiagnosis = preg_replace('/[\p{P}\p{Zs}]+/u', '-', strtolower($data['listings'][0]['record_misdiagnosis']));
-	// echo $urlsegment_misdiagnosis;
-	// echo $data['listings'][0]['record_id'];
-	return redirect()->to('/misdiagnosis/' .$urlsegment_misdiagnosis. '/' . $data['listings'][0]['record_id']);
-}		   
+// if (count($paginateData) == 1)
+// {	
+// 	$urlsegment_misdiagnosis = preg_replace('/[\p{P}\p{Zs}]+/u', '-', strtolower($data['listings'][0]['record_misdiagnosis']));
+// 	// echo $urlsegment_misdiagnosis;
+// 	// echo $data['listings'][0]['record_id'];
+// 	return redirect()->to('/misdiagnosis/' .$urlsegment_misdiagnosis. '/' . $data['listings'][0]['record_id']);
+// }		   
 		   
 		   
 		   

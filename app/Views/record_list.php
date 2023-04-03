@@ -25,7 +25,7 @@ if(isset($_GET['search']))
 	
 ?>	
 
-<form method="get" action="<?= base_url()?>/diagnosis/">
+<form method="get" action="<?= base_url()?>/search/">
 <div class="search_box">
 <div class="container">
     <div class="row">
@@ -235,11 +235,12 @@ else {
 				   <div class="col-md-12">
 										   
 							   <p><a href="diagnosis/<?= strtolower($url_end_segment_diagnosis); ?>"><?= ucwords($listing['record_correct_diagnosis']); ?></a>
-							  
+							  <!-- <p><?= ucwords($listing['record_correct_diagnosis']); ?> is sometimes misdiagnosed as <?= ucwords($listing['record_misdiagnosis']); ?></p>-->
 								  
+								  <a href="diagnosis/<?= strtolower($url_end_segment_diagnosis); ?>">
 								  
 								  <div class="record_button">
-								 <a href="diagnosis/<?= strtolower($url_end_segment_diagnosis); ?>"> <img src="images/mymisdiagnosis-logo-symb-3-trans.png" width=50 height=50></a></p>
+								  <img src="images/mymisdiagnosis-logo-symb-3-trans.png" width=50 height=50></a></p>
 				   			    	  </div>
 				   </div> 
 					 

@@ -67,6 +67,8 @@ $routes->get('misdiagnosis/(:any)/(:segment)', 'Record::display/$2/$1');
 
 $routes->get('diagnosis/(:segment)','Record::diagnosis/$1');
 
+$routes->get('search/','Record::index/$1');
+
 
 
 //$routes->get('record/(:segment)/(:segment)', 'Record::display/$1');

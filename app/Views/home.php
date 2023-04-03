@@ -15,7 +15,7 @@ $uri = current_url(true);
 
 
 
-<form method="get" action="<?= base_url()?>/diagnosis/">
+<form method="get" action="<?= base_url()?>/search/">
 <div class="homesearchbox search_box">
 <div class="container">
     <div class="row">

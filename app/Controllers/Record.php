@@ -275,13 +275,13 @@ public function diagnosis($correct_diag)
 		   $data['type_of_page'] = '';
 		   
 		   
-// if (count($paginateData) == 1)
-// {	
-// 	$urlsegment_misdiagnosis = preg_replace('/[\p{P}\p{Zs}]+/u', '-', strtolower($data['listings'][0]['record_misdiagnosis']));
-// 	// echo $urlsegment_misdiagnosis;
-// 	// echo $data['listings'][0]['record_id'];
-// 	return redirect()->to('/misdiagnosis/' .$urlsegment_misdiagnosis. '/' . $data['listings'][0]['record_id']);
-// }		   
+if (count($paginateData) == 1)
+{	
+	$urlsegment_misdiagnosis = preg_replace('/[\p{P}\p{Zs}]+/u', '-', strtolower($data['listings'][0]['record_misdiagnosis']));
+	// echo $urlsegment_misdiagnosis;
+	// echo $data['listings'][0]['record_id'];
+	return redirect()->to('/misdiagnosis/' .$urlsegment_misdiagnosis. '/' . $data['listings'][0]['record_id']);
+}		   
 		   
 		   
 		   
@@ -305,6 +305,90 @@ public function diagnosis($correct_diag)
 
 
 
+public function search($correct_diag)
+		{
+			$request = service('request');
+			$searchData = $request->getGet(); // OR $this->request->getGet();
+		
+			$search = "";
+			if (isset($searchData) && isset($searchData['search'])) {
+				$search = $searchData['search'];
+			}
+			
+			$uri = current_url(true);
+			$page_number = str_replace('page=','', $uri->getQuery());
+			if ($page_number == '') {$page_number = 1; }
+	
+		
+			// Get data 
+			$listings = new RecordModel();
+		
+			
+				$paginateData = $listings->select('*')
+					->where('record_approved','yes')
+					->like('record_correct_diagnosis', $correct_diag)
+					->orderBy('record_misdiagnosis', 'ASC') 			
+					->paginate(1000000);
+			
+	 
+	
+	
+		
+			$data = [
+				'listings' => $paginateData,
+				'pager' => $listings->pager,
+				'search' => $search
+			];
+			
+		  
+			
+		   
+			
+		 
+			
+			$data['title'] = 'Misdiagnosis records'; 
+			
+			$correct_diag_adj = preg_replace('/_/', ' ', strtolower(basename($correct_diag)));
+			$correct_diag_adj = ucwords($correct_diag_adj);
+			
+			if ((strpos($uri, "search") !== false)) { 
+			   $data['meta_title'] = 'myMisdiagnosis search results';
+			} else { 
+			   $data['meta_title'] = $correct_diag_adj. ' misdiagnosis: myMisdiagnosis.com';    
+			}
+			
+			
+			if ((strpos($uri, "search") !== false)) { 
+				  $data['meta_description'] = 'myMisdiagnosis search results';
+			   } else { 
+				  $data['meta_description'] =  $correct_diag_adj. ' possible misdiagnosis records - search the medical misdiagnosis database at myMisdiagnosis.com';    
+			   }
+			
+			   $data['type_of_page'] = '';
+			   
+			   
+	if (count($paginateData) == 1)
+	{	
+		$urlsegment_misdiagnosis = preg_replace('/[\p{P}\p{Zs}]+/u', '-', strtolower($data['listings'][0]['record_misdiagnosis']));
+		// echo $urlsegment_misdiagnosis;
+		// echo $data['listings'][0]['record_id'];
+		return redirect()->to('/misdiagnosis/' .$urlsegment_misdiagnosis. '/' . $data['listings'][0]['record_id']);
+	}		   
+			   
+			   
+			   
+		
+			echo view('auth_internetics/header_open_with_scripts', $data);
+			   echo view('auth_internetics/header_with_nav', $data);
+			   echo view('auth_internetics/header', $data);
+			   echo view('record_list', $data);
+			   echo view('auth_internetics/footer');
+		}
+	
+	   
+	   
+	   
+	
 
 
 

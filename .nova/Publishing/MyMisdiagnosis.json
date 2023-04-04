@@ -5,7 +5,8 @@
     "app\/Config\/App.php",
     "writable",
     ".env",
-    "upload.php"
+    "upload.php",
+    "app\/Config\/Database.php"
   ],
   "localPath" : ".",
   "remotePath" : "\/home\/mymisdiagnosis\/public_html",

@@ -1,7 +1,10 @@
 {
   "index.ignored_file_patterns" : [
     "\/writable",
-    "\/writable\/"
+    "\/writable\/",
+    "writable\/",
+    ".nova",
+    "app\/Config\/Database.php"
   ],
   "workspace.name" : "mymisdiagnosis"
 }

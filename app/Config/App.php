@@ -23,9 +23,7 @@ class App extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $baseURL = 'http://localhost/mymisdiagnosis/';
-	
-
+	public $baseURL = 'https://www.mymisdiagnosis.com/';
 
 	/**
 	 * --------------------------------------------------------------------------
@@ -110,7 +108,7 @@ class App extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $appTimezone = 'Australia/Brisbane';
+	public $appTimezone = 'America/Chicago';
 
 	/**
 	 * --------------------------------------------------------------------------

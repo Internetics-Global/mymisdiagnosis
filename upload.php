@@ -102,8 +102,7 @@ if(isset($_FILES['file']['name'])){
 	
 	
 	
-	
-	echo '/mymisdiagnosis/' . $response;
+	echo '/' . $response;
 	
 	exit;
 }

@@ -17,7 +17,7 @@ $uri = current_url(true);
 	   <div id="post_body">
 		  <?php if ($post['post_image']) {
 			  
-			echo '<img src=" ' . $post['post_image']  .  '" class="post_image_alignment">';
+			echo '<img src=" ' . site_url() . $post['post_image']  .  '" class="post_image_alignment">';
 			
 		   }
 		  

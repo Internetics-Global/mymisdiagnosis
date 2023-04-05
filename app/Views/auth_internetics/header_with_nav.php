@@ -51,12 +51,12 @@ $this->ionAuth    = new \IonAuth\Libraries\IonAuth();
       <li class="nav-item dropdown<?php if (($site_page == "site_page" ) || (strpos($uri, "contact") !== false)) { echo ' active'; }  ?>">
         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
         <div class="dropdown-menu dropdown-menu-right">
-          <a class="dropdown-item" href="https://www.mymisdiagnosis.com/pages/how-to-use-mymisdiagnosis-com">How to use the site</a>          
+          <a class="dropdown-item" href="<?php echo site_url();?>pages/how-to-use-mymisdiagnosis-com">How to use the site</a>          
           <a class="dropdown-item" href="<?php echo site_url();?>contact">Contact Us</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="https://www.mymisdiagnosis.com/pages/media-kit">Media Kit</a>
-          <a class="dropdown-item" href="https://www.mymisdiagnosis.com/pages/all-about-mymisdiagnosis-com">About Us</a>
-          <a class="dropdown-item" href="https://www.mymisdiagnosis.com/pages/the-story-behind-mymisdiagnosis">The story</a>
+          <a class="dropdown-item" href="<?php echo site_url();?>pages/media-kit">Media Kit</a>
+          <a class="dropdown-item" href="<?php echo site_url();?>pages/all-about-mymisdiagnosis-com">About Us</a>
+          <a class="dropdown-item" href="<?php echo site_url();?>pages/the-story-behind-mymisdiagnosis">The story</a>
           <a class="dropdown-item" href="https://www.facebook.com/mymisdiagnosiscom" target="_new"><i class="bi bi-facebook"></i> Facebook</a> 
           <a class="dropdown-item" href="https://www.instagram.com/mymisdiagnosis" target="_new"><i class="bi bi-instagram"></i> Instagram</a> 
         </div>

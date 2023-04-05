@@ -49,6 +49,22 @@ class Home extends BaseController
 		
 		
 		";
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		echo view('auth_internetics/header_open_with_scripts', $data);
 		echo view('auth_internetics/header_with_nav', $data);
 		echo view('auth_internetics/header', $data);

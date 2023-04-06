@@ -1230,6 +1230,25 @@ border-radius: 5px;
 }
 
 
+
+.home_category_listing {
+column-width: 8em;
+column-gap: 1em;
+column-rule: 1px;
+margin-top: 0px;
+/* height: 200px; */
+}
+
+.home_category_listing p {
+margin-top:0px;
+margin-bottom:0px;
+font-size: 14px;
+}
+
+
+
+
+
 .category_listing {
 column-width: 14em;
 column-gap: 2em;
@@ -1297,7 +1316,6 @@ border-color: #DADDE4;
 font-weight: 600;
 padding-right: 50px;
 background-image: url("../../../../../../images/full-logo.png");
-
 
 padding-right: 390px;
 background-size: 380px;

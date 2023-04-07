@@ -29,11 +29,11 @@ function endsWith( $haystack, $needle ) {
     <link type="text/css" rel="stylesheet" href="<?php echo site_url();?>public/assets/grocery_crud/themes/internetics/css/common.css"/>
     <link type="text/css" rel="stylesheet" href="<?php echo site_url();?>public/assets/grocery_crud/themes/internetics/css/list.css"/>
     <link type="text/css" rel="stylesheet" href="<?php echo site_url();?>public/assets/grocery_crud/themes/internetics/css/general.css"/>
-    <link type="text/css" rel="stylesheet" href="<?php echo site_url();?>public/assets/grocery_crud/themes/internetics/css/plugins/animate.min.css"/>
-    <link type="text/css" rel="stylesheet" href="<?php echo site_url();?>public/assets/grocery_crud/themes/internetics/css/main.css"/>
-    <link type="text/css" rel="stylesheet" href="<?php echo site_url();?>public/assets/grocery_crud/themes/internetics/css/internetics.css?v=539"/>
-    <link type="text/css" rel="stylesheet" href="<?php echo site_url();?>public/assets/grocery_crud/themes/internetics/css/lightbox.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <!--  <link type="text/css" rel="stylesheet" href="<?php echo site_url();?>public/assets/grocery_crud/themes/internetics/css/plugins/animate.min.css"/> -->
+    <!--<link type="text/css" rel="stylesheet" href="<?php echo site_url();?>public/assets/grocery_crud/themes/internetics/css/main.css"/> -->
+    <link type="text/css" rel="stylesheet" href="<?php echo site_url();?>public/assets/grocery_crud/themes/internetics/css/internetics.css?v=541"/>
+    <!-- <link type="text/css" rel="stylesheet" href="<?php echo site_url();?>public/assets/grocery_crud/themes/internetics/css/lightbox.css"/> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
     
     <link rel="stylesheet" href="https://use.typekit.net/tny7auv.css"> 
 <?php if ((strpos($uri, "contact") !== false) || (strpos($uri, "emaillist") !== false) || (strpos($uri, "login") !== false) || (strpos($uri, "register") !== false) ){ ?>   

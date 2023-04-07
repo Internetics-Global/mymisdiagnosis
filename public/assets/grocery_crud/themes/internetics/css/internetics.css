@@ -1242,7 +1242,7 @@ margin-top: 0px;
 .home_category_listing p {
 margin-top:0px;
 margin-bottom:0px;
-font-size: 14px;
+font-size: 16px;
 }
 
 
@@ -1315,7 +1315,7 @@ border-color: #DADDE4;
 .navbar-brand.mx-auto {
 font-weight: 600;
 padding-right: 50px;
-background-image: url("../../../../../../images/full-logo.png");
+background-image: url("https://www.mymisdiagnosis.com/images/full-logo.png");
 
 padding-right: 390px;
 background-size: 380px;

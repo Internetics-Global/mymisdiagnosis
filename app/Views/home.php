@@ -28,7 +28,7 @@ $uri = current_url(true);
 			
 				 
 			<input id="search" name="search" type="text" class="form-control" placeholder="Type something..." />
-			<input type="image" class="autocomplete_search_button" src="./images/logo-tra.png" alt="submit"/>
+			<input type="image" class="autocomplete_search_button" src="<?php echo site_url(); ?>images/logo-tra.png" alt="submit"/>
 			
 				 
 			 </div>

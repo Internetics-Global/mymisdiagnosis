@@ -72,6 +72,7 @@ class Home extends BaseController
 		echo view('auth_internetics/header', $data);
 		echo view('home', $data);
 		echo view('auth_internetics/footer');
+		
 		return;
 	}
 

@@ -95,7 +95,7 @@ $uri = current_url(true);
 						   
 						 
 					    
-					   <?php if ($post['record_url_ref_1']) { echo '<a href=" ' . $post['record_url_ref_1']  .  '" rel="nofollow" target="_new" >' .parse_url($post['record_url_ref_1'], PHP_URL_HOST) . '</a><BR>';}
+					   <?php if ($post['record_url_ref_1']) { echo '<a href=" ' . $post['record_url_ref_1']  .  '" target="_new" >' .parse_url($post['record_url_ref_1'], PHP_URL_HOST) . '</a><BR>';}
 					   
 						    // if ($post['record_url_ref_2']) { echo '<a href=" ' . $post['record_url_ref_2']  .  '" rel="nofollow" target="_new" >' . parse_url($post['record_url_ref_2'], PHP_URL_HOST) . '</a><BR>';}
 						    
